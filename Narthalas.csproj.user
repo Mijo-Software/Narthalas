@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AboutBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BrethinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DoriathForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EssinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GilatharForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LamathForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LassathForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MirathForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NarthalasForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="OstiathForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TarmenelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
