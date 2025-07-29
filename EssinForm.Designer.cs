@@ -33,39 +33,39 @@
             kryptonPanel = new Krypton.Toolkit.KryptonPanel();
             tabControlEssin = new TabControl();
             tabPageMethodLetters = new TabPage();
-            groupBox8 = new GroupBox();
-            kryptonListBox1 = new Krypton.Toolkit.KryptonListBox();
-            kryptonButton20 = new Krypton.Toolkit.KryptonButton();
-            kryptonTextBox5 = new Krypton.Toolkit.KryptonTextBox();
-            kryptonLabel8 = new Krypton.Toolkit.KryptonLabel();
-            kryptonLabel9 = new Krypton.Toolkit.KryptonLabel();
-            kryptonTextBox4 = new Krypton.Toolkit.KryptonTextBox();
-            groupBox7 = new GroupBox();
-            kryptonRadioButton5 = new Krypton.Toolkit.KryptonRadioButton();
-            kryptonRadioButton4 = new Krypton.Toolkit.KryptonRadioButton();
-            kryptonRadioButton3 = new Krypton.Toolkit.KryptonRadioButton();
-            groupBox6 = new GroupBox();
-            kryptonButton22 = new Krypton.Toolkit.KryptonButton();
-            kryptonButton21 = new Krypton.Toolkit.KryptonButton();
-            checkBox1 = new CheckBox();
-            kryptonTextBox6 = new Krypton.Toolkit.KryptonTextBox();
-            groupBox5 = new GroupBox();
-            kryptonLabel4 = new Krypton.Toolkit.KryptonLabel();
-            kryptonTextBox2 = new Krypton.Toolkit.KryptonTextBox();
-            kryptonLabel3 = new Krypton.Toolkit.KryptonLabel();
-            kryptonTextBox3 = new Krypton.Toolkit.KryptonTextBox();
-            groupBox4 = new GroupBox();
-            kryptonLabel5 = new Krypton.Toolkit.KryptonLabel();
-            kryptonLabel6 = new Krypton.Toolkit.KryptonLabel();
-            kryptonNumericUpDown2 = new Krypton.Toolkit.KryptonNumericUpDown();
-            kryptonNumericUpDown3 = new Krypton.Toolkit.KryptonNumericUpDown();
-            kryptonNumericUpDown4 = new Krypton.Toolkit.KryptonNumericUpDown();
-            kryptonRadioButton1 = new Krypton.Toolkit.KryptonRadioButton();
-            kryptonRadioButton2 = new Krypton.Toolkit.KryptonRadioButton();
-            groupBox3 = new GroupBox();
-            kryptonButton15 = new Krypton.Toolkit.KryptonButton();
-            kryptonLabel2 = new Krypton.Toolkit.KryptonLabel();
-            kryptonButton16 = new Krypton.Toolkit.KryptonButton();
+            groupBoxLettersPredefinedStyles = new GroupBox();
+            kryptonListBoxLettersPredefinedStyles = new Krypton.Toolkit.KryptonListBox();
+            kryptonButtonkryptonLabelApplyLettersPredefinedStyles = new Krypton.Toolkit.KryptonButton();
+            kryptonTextBoxLettersPredefinedStylesConsonants = new Krypton.Toolkit.KryptonTextBox();
+            kryptonLabelLettersPredefinedStylesConsonants = new Krypton.Toolkit.KryptonLabel();
+            kryptonLabelLettersPredefinedStylesVowels = new Krypton.Toolkit.KryptonLabel();
+            kryptonTextBoxkryptonLabelLettersPredefinedStylesVowels = new Krypton.Toolkit.KryptonTextBox();
+            groupBoxStarting = new GroupBox();
+            kryptonRadioButtonStarting = new Krypton.Toolkit.KryptonRadioButton();
+            kryptonRadioButtonStartingWithConsonant = new Krypton.Toolkit.KryptonRadioButton();
+            kryptonRadioButtonStartingRandom = new Krypton.Toolkit.KryptonRadioButton();
+            groupBoxIndividualPattern = new GroupBox();
+            kryptonButtonkryptonButtonIndividualPatternSetVowel = new Krypton.Toolkit.KryptonButton();
+            kryptonButtonIndividualPatternSetConsonant = new Krypton.Toolkit.KryptonButton();
+            checkBoxUseIndividualPattern = new CheckBox();
+            kryptonTextBoxIndividualPattern = new Krypton.Toolkit.KryptonTextBox();
+            groupBoxLetterSet = new GroupBox();
+            kryptonLabelLetterSetConsonants = new Krypton.Toolkit.KryptonLabel();
+            kryptonTextBoxLetterSetVowels = new Krypton.Toolkit.KryptonTextBox();
+            kryptonLabelLetterSetVowels = new Krypton.Toolkit.KryptonLabel();
+            kryptonTextBoxLetterSetConsonants = new Krypton.Toolkit.KryptonTextBox();
+            groupBoxWordLength = new GroupBox();
+            kryptonLabelWordLengthVariableMaximum = new Krypton.Toolkit.KryptonLabel();
+            kryptonLabelWordLengthVariableMinimum = new Krypton.Toolkit.KryptonLabel();
+            kryptonNumericUpDownWordLengthVariableMaximum = new Krypton.Toolkit.KryptonNumericUpDown();
+            kryptonNumericUpDownWordLengthVariableMinimum = new Krypton.Toolkit.KryptonNumericUpDown();
+            kryptonNumericUpDownWordlLengthFix = new Krypton.Toolkit.KryptonNumericUpDown();
+            kryptonRadioButtonWordLengthVariable = new Krypton.Toolkit.KryptonRadioButton();
+            kryptonRadioButtonWordLengthFix = new Krypton.Toolkit.KryptonRadioButton();
+            groupBoxLetterOutput = new GroupBox();
+            kryptonButtonSaveLettersResultsToClipboard = new Krypton.Toolkit.KryptonButton();
+            kryptonLabelSetLettersNumberNames = new Krypton.Toolkit.KryptonLabel();
+            kryptonButtonDeleteLettersResultsToClipboard = new Krypton.Toolkit.KryptonButton();
             kryptonButtonLettersOutputOptions = new Krypton.Toolkit.KryptonButton();
             contextMenuStripResultOptions = new ContextMenuStrip(components);
             toolStripMenuItemOutputOptionsEntriesLineByLine = new ToolStripMenuItem();
@@ -80,19 +80,19 @@
             toolStripMenuItemOutputOptionsEnclosedWithQuotes = new ToolStripMenuItem();
             kryptonTextBoxLettersResults = new Krypton.Toolkit.KryptonTextBox();
             kryptonNumericUpDownSetLettersNumberNames = new Krypton.Toolkit.KryptonNumericUpDown();
-            kryptonButton18 = new Krypton.Toolkit.KryptonButton();
+            kryptonButtonCopyLettersResultsToClipboard = new Krypton.Toolkit.KryptonButton();
             kryptonButtonStartLettersOutput = new Krypton.Toolkit.KryptonButton();
             tabPageMethodSyllables = new TabPage();
             groupBox2 = new GroupBox();
-            kryptonButton14 = new Krypton.Toolkit.KryptonButton();
-            kryptonLabel1 = new Krypton.Toolkit.KryptonLabel();
-            kryptonButton11 = new Krypton.Toolkit.KryptonButton();
+            kryptonButtonSaveSyllablesResultsToClipboard = new Krypton.Toolkit.KryptonButton();
+            kryptonLabelSetSyllablesNumberNames = new Krypton.Toolkit.KryptonLabel();
+            kryptonButtonDeleteSyllablesResultsToClipboard = new Krypton.Toolkit.KryptonButton();
             kryptonButtonSyllablesOutputOptions = new Krypton.Toolkit.KryptonButton();
             kryptonTextBoxSyllablesResults = new Krypton.Toolkit.KryptonTextBox();
             kryptonNumericUpDownSetSyllablesNumberNames = new Krypton.Toolkit.KryptonNumericUpDown();
-            kryptonButton10 = new Krypton.Toolkit.KryptonButton();
+            kryptonButtonCopySyllablesResultsToClipboard = new Krypton.Toolkit.KryptonButton();
             kryptonButtonStartSyllablesOutput = new Krypton.Toolkit.KryptonButton();
-            groupBox1 = new GroupBox();
+            groupBoxSyllablesPredefinedStyles = new GroupBox();
             kryptonButton13 = new Krypton.Toolkit.KryptonButton();
             kryptonButton12 = new Krypton.Toolkit.KryptonButton();
             kryptonButton6 = new Krypton.Toolkit.KryptonButton();
@@ -140,16 +140,16 @@
             kryptonPanel.SuspendLayout();
             tabControlEssin.SuspendLayout();
             tabPageMethodLetters.SuspendLayout();
-            groupBox8.SuspendLayout();
-            groupBox7.SuspendLayout();
-            groupBox6.SuspendLayout();
-            groupBox5.SuspendLayout();
-            groupBox4.SuspendLayout();
-            groupBox3.SuspendLayout();
+            groupBoxLettersPredefinedStyles.SuspendLayout();
+            groupBoxStarting.SuspendLayout();
+            groupBoxIndividualPattern.SuspendLayout();
+            groupBoxLetterSet.SuspendLayout();
+            groupBoxWordLength.SuspendLayout();
+            groupBoxLetterOutput.SuspendLayout();
             contextMenuStripResultOptions.SuspendLayout();
             tabPageMethodSyllables.SuspendLayout();
             groupBox2.SuspendLayout();
-            groupBox1.SuspendLayout();
+            groupBoxSyllablesPredefinedStyles.SuspendLayout();
             groupBoxSyllableMiddle.SuspendLayout();
             groupBoxSyllableMiddleRepitition.SuspendLayout();
             groupBoxSyllableEnd.SuspendLayout();
@@ -187,12 +187,12 @@
             // 
             // tabPageMethodLetters
             // 
-            tabPageMethodLetters.Controls.Add(groupBox8);
-            tabPageMethodLetters.Controls.Add(groupBox7);
-            tabPageMethodLetters.Controls.Add(groupBox6);
-            tabPageMethodLetters.Controls.Add(groupBox5);
-            tabPageMethodLetters.Controls.Add(groupBox4);
-            tabPageMethodLetters.Controls.Add(groupBox3);
+            tabPageMethodLetters.Controls.Add(groupBoxLettersPredefinedStyles);
+            tabPageMethodLetters.Controls.Add(groupBoxStarting);
+            tabPageMethodLetters.Controls.Add(groupBoxIndividualPattern);
+            tabPageMethodLetters.Controls.Add(groupBoxLetterSet);
+            tabPageMethodLetters.Controls.Add(groupBoxWordLength);
+            tabPageMethodLetters.Controls.Add(groupBoxLetterOutput);
             tabPageMethodLetters.Location = new Point(4, 24);
             tabPageMethodLetters.Name = "tabPageMethodLetters";
             tabPageMethodLetters.Padding = new Padding(3);
@@ -202,448 +202,450 @@
             tabPageMethodLetters.ToolTipText = "CV-basiert";
             tabPageMethodLetters.UseVisualStyleBackColor = true;
             // 
-            // groupBox8
-            // 
-            groupBox8.Controls.Add(kryptonListBox1);
-            groupBox8.Controls.Add(kryptonButton20);
-            groupBox8.Controls.Add(kryptonTextBox5);
-            groupBox8.Controls.Add(kryptonLabel8);
-            groupBox8.Controls.Add(kryptonLabel9);
-            groupBox8.Controls.Add(kryptonTextBox4);
-            groupBox8.Location = new Point(6, 174);
-            groupBox8.Name = "groupBox8";
-            groupBox8.Size = new Size(247, 206);
-            groupBox8.TabIndex = 23;
-            groupBox8.TabStop = false;
-            groupBox8.Text = "Vordefinierte Sprachstile";
-            groupBox8.Enter += SetStatusBar_Enter;
-            groupBox8.Leave += SetStatusBar_Enter;
-            // 
-            // kryptonListBox1
-            // 
-            kryptonListBox1.HorizontalScrollbar = true;
-            kryptonListBox1.Items.AddRange(new object[] { "1", "2", "3", "4" });
-            kryptonListBox1.Location = new Point(6, 21);
-            kryptonListBox1.Name = "kryptonListBox1";
-            kryptonListBox1.Size = new Size(123, 173);
-            kryptonListBox1.Sorted = true;
-            kryptonListBox1.TabIndex = 7;
-            kryptonListBox1.Enter += SetStatusBar_Enter;
-            kryptonListBox1.Leave += SetStatusBar_Enter;
-            kryptonListBox1.MouseEnter += SetStatusBar_Enter;
-            kryptonListBox1.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonButton20
-            // 
-            kryptonButton20.Location = new Point(135, 170);
-            kryptonButton20.Name = "kryptonButton20";
-            kryptonButton20.Size = new Size(106, 24);
-            kryptonButton20.TabIndex = 16;
-            kryptonButton20.Values.DropDownArrowColor = Color.Empty;
-            kryptonButton20.Values.Image = Properties.Resources.o_collection_office_ok_16;
-            kryptonButton20.Values.Text = "Anwenden";
-            kryptonButton20.Enter += SetStatusBar_Enter;
-            kryptonButton20.Leave += SetStatusBar_Enter;
-            kryptonButton20.MouseEnter += SetStatusBar_Enter;
-            kryptonButton20.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonTextBox5
-            // 
-            kryptonTextBox5.Location = new Point(135, 50);
-            kryptonTextBox5.Name = "kryptonTextBox5";
-            kryptonTextBox5.Size = new Size(106, 23);
-            kryptonTextBox5.TabIndex = 19;
-            kryptonTextBox5.Text = "kryptonTextBox5";
-            kryptonTextBox5.Enter += SetStatusBar_Enter;
-            kryptonTextBox5.Leave += SetStatusBar_Enter;
-            kryptonTextBox5.MouseEnter += SetStatusBar_Enter;
-            kryptonTextBox5.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonLabel8
-            // 
-            kryptonLabel8.Location = new Point(135, 24);
-            kryptonLabel8.Name = "kryptonLabel8";
-            kryptonLabel8.Size = new Size(82, 20);
-            kryptonLabel8.TabIndex = 20;
-            kryptonLabel8.Values.Text = "Konsonanten";
-            kryptonLabel8.Enter += SetStatusBar_Enter;
-            kryptonLabel8.Leave += SetStatusBar_Enter;
-            kryptonLabel8.MouseEnter += SetStatusBar_Enter;
-            kryptonLabel8.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonLabel9
-            // 
-            kryptonLabel9.Location = new Point(135, 80);
-            kryptonLabel9.Name = "kryptonLabel9";
-            kryptonLabel9.Size = new Size(47, 20);
-            kryptonLabel9.TabIndex = 18;
-            kryptonLabel9.Values.Text = "Vokale";
-            kryptonLabel9.Enter += SetStatusBar_Enter;
-            kryptonLabel9.Leave += SetStatusBar_Enter;
-            kryptonLabel9.MouseEnter += SetStatusBar_Enter;
-            kryptonLabel9.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonTextBox4
-            // 
-            kryptonTextBox4.Location = new Point(135, 106);
-            kryptonTextBox4.Name = "kryptonTextBox4";
-            kryptonTextBox4.Size = new Size(106, 23);
-            kryptonTextBox4.TabIndex = 17;
-            kryptonTextBox4.Text = "kryptonTextBox4";
-            kryptonTextBox4.Enter += SetStatusBar_Enter;
-            kryptonTextBox4.Leave += SetStatusBar_Enter;
-            kryptonTextBox4.MouseEnter += SetStatusBar_Enter;
-            kryptonTextBox4.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // groupBox7
-            // 
-            groupBox7.Controls.Add(kryptonRadioButton5);
-            groupBox7.Controls.Add(kryptonRadioButton4);
-            groupBox7.Controls.Add(kryptonRadioButton3);
-            groupBox7.Location = new Point(355, 6);
-            groupBox7.Name = "groupBox7";
-            groupBox7.Size = new Size(103, 162);
-            groupBox7.TabIndex = 22;
-            groupBox7.TabStop = false;
-            groupBox7.Text = "Beginn mit ...";
-            groupBox7.Enter += SetStatusBar_Enter;
-            groupBox7.Leave += SetStatusBar_Enter;
-            // 
-            // kryptonRadioButton5
-            // 
-            kryptonRadioButton5.Location = new Point(6, 77);
-            kryptonRadioButton5.Name = "kryptonRadioButton5";
-            kryptonRadioButton5.Size = new Size(53, 20);
-            kryptonRadioButton5.TabIndex = 2;
-            kryptonRadioButton5.Values.Text = "Vokal";
-            kryptonRadioButton5.Enter += SetStatusBar_Enter;
-            kryptonRadioButton5.Leave += SetStatusBar_Enter;
-            kryptonRadioButton5.MouseEnter += SetStatusBar_Enter;
-            kryptonRadioButton5.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonRadioButton4
-            // 
-            kryptonRadioButton4.Location = new Point(6, 50);
-            kryptonRadioButton4.Name = "kryptonRadioButton4";
-            kryptonRadioButton4.Size = new Size(81, 20);
-            kryptonRadioButton4.TabIndex = 1;
-            kryptonRadioButton4.Values.Text = "Konsonant";
-            kryptonRadioButton4.Enter += SetStatusBar_Enter;
-            kryptonRadioButton4.Leave += SetStatusBar_Enter;
-            kryptonRadioButton4.MouseEnter += SetStatusBar_Enter;
-            kryptonRadioButton4.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonRadioButton3
-            // 
-            kryptonRadioButton3.Location = new Point(6, 22);
-            kryptonRadioButton3.Name = "kryptonRadioButton3";
-            kryptonRadioButton3.Size = new Size(61, 20);
-            kryptonRadioButton3.TabIndex = 0;
-            kryptonRadioButton3.Values.Text = "zufällig";
-            kryptonRadioButton3.Enter += SetStatusBar_Enter;
-            kryptonRadioButton3.Leave += SetStatusBar_Enter;
-            kryptonRadioButton3.MouseEnter += SetStatusBar_Enter;
-            kryptonRadioButton3.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // groupBox6
-            // 
-            groupBox6.Controls.Add(kryptonButton22);
-            groupBox6.Controls.Add(kryptonButton21);
-            groupBox6.Controls.Add(checkBox1);
-            groupBox6.Controls.Add(kryptonTextBox6);
-            groupBox6.Location = new Point(464, 6);
-            groupBox6.Name = "groupBox6";
-            groupBox6.Size = new Size(171, 162);
-            groupBox6.TabIndex = 21;
-            groupBox6.TabStop = false;
-            groupBox6.Text = "Individuelles Muster";
-            groupBox6.Enter += SetStatusBar_Enter;
-            groupBox6.Leave += SetStatusBar_Enter;
-            // 
-            // kryptonButton22
-            // 
-            kryptonButton22.Location = new Point(36, 74);
-            kryptonButton22.Name = "kryptonButton22";
-            kryptonButton22.Size = new Size(24, 23);
-            kryptonButton22.TabIndex = 23;
-            kryptonButton22.Values.DropDownArrowColor = Color.Empty;
-            kryptonButton22.Values.Text = "V";
-            kryptonButton22.Enter += SetStatusBar_Enter;
-            kryptonButton22.Leave += SetStatusBar_Enter;
-            kryptonButton22.MouseEnter += SetStatusBar_Enter;
-            kryptonButton22.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonButton21
-            // 
-            kryptonButton21.Location = new Point(6, 74);
-            kryptonButton21.Name = "kryptonButton21";
-            kryptonButton21.Size = new Size(24, 23);
-            kryptonButton21.TabIndex = 22;
-            kryptonButton21.Values.DropDownArrowColor = Color.Empty;
-            kryptonButton21.Values.Text = "C";
-            kryptonButton21.Enter += SetStatusBar_Enter;
-            kryptonButton21.Leave += SetStatusBar_Enter;
-            kryptonButton21.MouseEnter += SetStatusBar_Enter;
-            kryptonButton21.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // checkBox1
-            // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(6, 20);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(81, 19);
-            checkBox1.TabIndex = 21;
-            checkBox1.Text = "anwenden";
-            checkBox1.UseVisualStyleBackColor = true;
-            checkBox1.Enter += SetStatusBar_Enter;
-            checkBox1.Leave += SetStatusBar_Enter;
-            checkBox1.MouseEnter += SetStatusBar_Enter;
-            checkBox1.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonTextBox6
-            // 
-            kryptonTextBox6.Location = new Point(6, 45);
-            kryptonTextBox6.Name = "kryptonTextBox6";
-            kryptonTextBox6.Size = new Size(81, 23);
-            kryptonTextBox6.TabIndex = 20;
-            kryptonTextBox6.Text = "kryptonTextBox6";
-            kryptonTextBox6.Enter += SetStatusBar_Enter;
-            kryptonTextBox6.Leave += SetStatusBar_Enter;
-            kryptonTextBox6.MouseEnter += SetStatusBar_Enter;
-            kryptonTextBox6.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // groupBox5
-            // 
-            groupBox5.Controls.Add(kryptonLabel4);
-            groupBox5.Controls.Add(kryptonTextBox2);
-            groupBox5.Controls.Add(kryptonLabel3);
-            groupBox5.Controls.Add(kryptonTextBox3);
-            groupBox5.Location = new Point(8, 6);
-            groupBox5.Name = "groupBox5";
-            groupBox5.Size = new Size(141, 162);
-            groupBox5.TabIndex = 14;
-            groupBox5.TabStop = false;
-            groupBox5.Text = "Buchstaben-Set";
-            groupBox5.Enter += SetStatusBar_Enter;
-            groupBox5.Leave += SetStatusBar_Enter;
-            // 
-            // kryptonLabel4
-            // 
-            kryptonLabel4.Location = new Point(6, 22);
-            kryptonLabel4.Name = "kryptonLabel4";
-            kryptonLabel4.Size = new Size(82, 20);
-            kryptonLabel4.TabIndex = 12;
-            kryptonLabel4.Values.Text = "Konsonanten";
-            kryptonLabel4.Enter += SetStatusBar_Enter;
-            kryptonLabel4.Leave += SetStatusBar_Enter;
-            kryptonLabel4.MouseEnter += SetStatusBar_Enter;
-            kryptonLabel4.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonTextBox2
-            // 
-            kryptonTextBox2.Location = new Point(6, 104);
-            kryptonTextBox2.Name = "kryptonTextBox2";
-            kryptonTextBox2.Size = new Size(123, 23);
-            kryptonTextBox2.TabIndex = 9;
-            kryptonTextBox2.Text = "kryptonTextBox2";
-            kryptonTextBox2.Enter += SetStatusBar_Enter;
-            kryptonTextBox2.Leave += SetStatusBar_Enter;
-            kryptonTextBox2.MouseEnter += SetStatusBar_Enter;
-            kryptonTextBox2.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonLabel3
-            // 
-            kryptonLabel3.Location = new Point(6, 78);
-            kryptonLabel3.Name = "kryptonLabel3";
-            kryptonLabel3.Size = new Size(47, 20);
-            kryptonLabel3.TabIndex = 10;
-            kryptonLabel3.Values.Text = "Vokale";
-            kryptonLabel3.Enter += SetStatusBar_Enter;
-            kryptonLabel3.Leave += SetStatusBar_Enter;
-            kryptonLabel3.MouseEnter += SetStatusBar_Enter;
-            kryptonLabel3.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonTextBox3
-            // 
-            kryptonTextBox3.Location = new Point(6, 48);
-            kryptonTextBox3.Name = "kryptonTextBox3";
-            kryptonTextBox3.Size = new Size(123, 23);
-            kryptonTextBox3.TabIndex = 11;
-            kryptonTextBox3.Text = "kryptonTextBox3";
-            kryptonTextBox3.Enter += SetStatusBar_Enter;
-            kryptonTextBox3.Leave += SetStatusBar_Enter;
-            kryptonTextBox3.MouseEnter += SetStatusBar_Enter;
-            kryptonTextBox3.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // groupBox4
-            // 
-            groupBox4.Controls.Add(kryptonLabel5);
-            groupBox4.Controls.Add(kryptonLabel6);
-            groupBox4.Controls.Add(kryptonNumericUpDown2);
-            groupBox4.Controls.Add(kryptonNumericUpDown3);
-            groupBox4.Controls.Add(kryptonNumericUpDown4);
-            groupBox4.Controls.Add(kryptonRadioButton1);
-            groupBox4.Controls.Add(kryptonRadioButton2);
-            groupBox4.Location = new Point(155, 6);
-            groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(194, 162);
-            groupBox4.TabIndex = 13;
-            groupBox4.TabStop = false;
-            groupBox4.Text = "Wortlängen";
-            groupBox4.Enter += SetStatusBar_Enter;
-            groupBox4.Leave += SetStatusBar_Enter;
-            // 
-            // kryptonLabel5
-            // 
-            kryptonLabel5.Location = new Point(126, 78);
-            kryptonLabel5.Name = "kryptonLabel5";
-            kryptonLabel5.Size = new Size(65, 20);
-            kryptonLabel5.TabIndex = 6;
-            kryptonLabel5.Values.Text = "Maximum";
-            kryptonLabel5.Enter += SetStatusBar_Enter;
-            kryptonLabel5.Leave += SetStatusBar_Enter;
-            kryptonLabel5.MouseEnter += SetStatusBar_Enter;
-            kryptonLabel5.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonLabel6
-            // 
-            kryptonLabel6.Location = new Point(126, 48);
-            kryptonLabel6.Name = "kryptonLabel6";
-            kryptonLabel6.Size = new Size(63, 20);
-            kryptonLabel6.TabIndex = 5;
-            kryptonLabel6.Values.Text = "Minimum";
-            kryptonLabel6.Enter += SetStatusBar_Enter;
-            kryptonLabel6.Leave += SetStatusBar_Enter;
-            kryptonLabel6.MouseEnter += SetStatusBar_Enter;
-            kryptonLabel6.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonNumericUpDown2
-            // 
-            kryptonNumericUpDown2.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-            kryptonNumericUpDown2.Location = new Point(74, 76);
-            kryptonNumericUpDown2.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-            kryptonNumericUpDown2.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
-            kryptonNumericUpDown2.Name = "kryptonNumericUpDown2";
-            kryptonNumericUpDown2.Size = new Size(46, 22);
-            kryptonNumericUpDown2.TabIndex = 4;
-            kryptonNumericUpDown2.Value = new decimal(new int[] { 1, 0, 0, 0 });
-            kryptonNumericUpDown2.Enter += SetStatusBar_Enter;
-            kryptonNumericUpDown2.Leave += SetStatusBar_Enter;
-            kryptonNumericUpDown2.MouseEnter += SetStatusBar_Enter;
-            kryptonNumericUpDown2.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonNumericUpDown3
-            // 
-            kryptonNumericUpDown3.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-            kryptonNumericUpDown3.Location = new Point(74, 48);
-            kryptonNumericUpDown3.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-            kryptonNumericUpDown3.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
-            kryptonNumericUpDown3.Name = "kryptonNumericUpDown3";
-            kryptonNumericUpDown3.Size = new Size(46, 22);
-            kryptonNumericUpDown3.TabIndex = 3;
-            kryptonNumericUpDown3.Value = new decimal(new int[] { 1, 0, 0, 0 });
-            kryptonNumericUpDown3.Enter += SetStatusBar_Enter;
-            kryptonNumericUpDown3.Leave += SetStatusBar_Enter;
-            kryptonNumericUpDown3.MouseEnter += SetStatusBar_Enter;
-            kryptonNumericUpDown3.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonNumericUpDown4
-            // 
-            kryptonNumericUpDown4.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-            kryptonNumericUpDown4.Location = new Point(74, 20);
-            kryptonNumericUpDown4.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-            kryptonNumericUpDown4.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
-            kryptonNumericUpDown4.Name = "kryptonNumericUpDown4";
-            kryptonNumericUpDown4.Size = new Size(46, 22);
-            kryptonNumericUpDown4.TabIndex = 2;
-            kryptonNumericUpDown4.Value = new decimal(new int[] { 1, 0, 0, 0 });
-            kryptonNumericUpDown4.Enter += SetStatusBar_Enter;
-            kryptonNumericUpDown4.Leave += SetStatusBar_Enter;
-            kryptonNumericUpDown4.MouseEnter += SetStatusBar_Enter;
-            kryptonNumericUpDown4.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonRadioButton1
-            // 
-            kryptonRadioButton1.Location = new Point(6, 50);
-            kryptonRadioButton1.Name = "kryptonRadioButton1";
-            kryptonRadioButton1.Size = new Size(65, 20);
-            kryptonRadioButton1.TabIndex = 1;
-            kryptonRadioButton1.Values.Text = "variabel";
-            kryptonRadioButton1.Enter += SetStatusBar_Enter;
-            kryptonRadioButton1.Leave += SetStatusBar_Enter;
-            kryptonRadioButton1.MouseEnter += SetStatusBar_Enter;
-            kryptonRadioButton1.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonRadioButton2
-            // 
-            kryptonRadioButton2.Location = new Point(6, 22);
-            kryptonRadioButton2.Name = "kryptonRadioButton2";
-            kryptonRadioButton2.Size = new Size(42, 20);
-            kryptonRadioButton2.TabIndex = 0;
-            kryptonRadioButton2.Values.Text = "fest";
-            kryptonRadioButton2.Enter += SetStatusBar_Enter;
-            kryptonRadioButton2.Leave += SetStatusBar_Enter;
-            kryptonRadioButton2.MouseEnter += SetStatusBar_Enter;
-            kryptonRadioButton2.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // groupBox3
-            // 
-            groupBox3.Controls.Add(kryptonButton15);
-            groupBox3.Controls.Add(kryptonLabel2);
-            groupBox3.Controls.Add(kryptonButton16);
-            groupBox3.Controls.Add(kryptonButtonLettersOutputOptions);
-            groupBox3.Controls.Add(kryptonTextBoxLettersResults);
-            groupBox3.Controls.Add(kryptonNumericUpDownSetLettersNumberNames);
-            groupBox3.Controls.Add(kryptonButton18);
-            groupBox3.Controls.Add(kryptonButtonStartLettersOutput);
-            groupBox3.Location = new Point(261, 174);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(376, 204);
-            groupBox3.TabIndex = 6;
-            groupBox3.TabStop = false;
-            groupBox3.Text = "Ausgabe";
-            groupBox3.Enter += SetStatusBar_Enter;
-            groupBox3.Leave += SetStatusBar_Enter;
-            // 
-            // kryptonButton15
-            // 
-            kryptonButton15.Location = new Point(6, 138);
-            kryptonButton15.Name = "kryptonButton15";
-            kryptonButton15.Size = new Size(158, 24);
-            kryptonButton15.TabIndex = 9;
-            kryptonButton15.Values.DropDownArrowColor = Color.Empty;
-            kryptonButton15.Values.Image = Properties.Resources.o_collection_office_floppy_disk_16;
-            kryptonButton15.Values.Text = "Liste speichern";
-            kryptonButton15.Enter += SetStatusBar_Enter;
-            kryptonButton15.Leave += SetStatusBar_Enter;
-            kryptonButton15.MouseEnter += SetStatusBar_Enter;
-            kryptonButton15.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonLabel2
-            // 
-            kryptonLabel2.Location = new Point(6, 21);
-            kryptonLabel2.Name = "kryptonLabel2";
-            kryptonLabel2.Size = new Size(101, 20);
-            kryptonLabel2.TabIndex = 8;
-            kryptonLabel2.Values.Text = "Wiederholungen";
-            kryptonLabel2.Enter += SetStatusBar_Enter;
-            kryptonLabel2.Leave += SetStatusBar_Enter;
-            kryptonLabel2.MouseEnter += SetStatusBar_Enter;
-            kryptonLabel2.MouseLeave += ClearStatusBar_Leave;
-            // 
-            // kryptonButton16
-            // 
-            kryptonButton16.Location = new Point(6, 168);
-            kryptonButton16.Name = "kryptonButton16";
-            kryptonButton16.Size = new Size(158, 26);
-            kryptonButton16.TabIndex = 7;
-            kryptonButton16.Values.DropDownArrowColor = Color.Empty;
-            kryptonButton16.Values.Image = Properties.Resources.o_collection_office_delete_16;
-            kryptonButton16.Values.Text = "Liste löschen";
-            kryptonButton16.Enter += SetStatusBar_Enter;
-            kryptonButton16.Leave += SetStatusBar_Enter;
-            kryptonButton16.MouseEnter += SetStatusBar_Enter;
-            kryptonButton16.MouseLeave += ClearStatusBar_Leave;
+            // groupBoxLettersPredefinedStyles
+            // 
+            groupBoxLettersPredefinedStyles.Controls.Add(kryptonListBoxLettersPredefinedStyles);
+            groupBoxLettersPredefinedStyles.Controls.Add(kryptonButtonkryptonLabelApplyLettersPredefinedStyles);
+            groupBoxLettersPredefinedStyles.Controls.Add(kryptonTextBoxLettersPredefinedStylesConsonants);
+            groupBoxLettersPredefinedStyles.Controls.Add(kryptonLabelLettersPredefinedStylesConsonants);
+            groupBoxLettersPredefinedStyles.Controls.Add(kryptonLabelLettersPredefinedStylesVowels);
+            groupBoxLettersPredefinedStyles.Controls.Add(kryptonTextBoxkryptonLabelLettersPredefinedStylesVowels);
+            groupBoxLettersPredefinedStyles.Location = new Point(6, 174);
+            groupBoxLettersPredefinedStyles.Name = "groupBoxLettersPredefinedStyles";
+            groupBoxLettersPredefinedStyles.Size = new Size(247, 206);
+            groupBoxLettersPredefinedStyles.TabIndex = 23;
+            groupBoxLettersPredefinedStyles.TabStop = false;
+            groupBoxLettersPredefinedStyles.Text = "Vordefinierte Sprachstile";
+            groupBoxLettersPredefinedStyles.Enter += SetStatusBar_Enter;
+            groupBoxLettersPredefinedStyles.Leave += SetStatusBar_Enter;
+            // 
+            // kryptonListBoxLettersPredefinedStyles
+            // 
+            kryptonListBoxLettersPredefinedStyles.HorizontalScrollbar = true;
+            kryptonListBoxLettersPredefinedStyles.Items.AddRange(new object[] { "1", "2", "3", "4" });
+            kryptonListBoxLettersPredefinedStyles.Location = new Point(6, 21);
+            kryptonListBoxLettersPredefinedStyles.Name = "kryptonListBoxLettersPredefinedStyles";
+            kryptonListBoxLettersPredefinedStyles.Size = new Size(123, 173);
+            kryptonListBoxLettersPredefinedStyles.Sorted = true;
+            kryptonListBoxLettersPredefinedStyles.TabIndex = 7;
+            kryptonListBoxLettersPredefinedStyles.Enter += SetStatusBar_Enter;
+            kryptonListBoxLettersPredefinedStyles.Leave += SetStatusBar_Enter;
+            kryptonListBoxLettersPredefinedStyles.MouseEnter += SetStatusBar_Enter;
+            kryptonListBoxLettersPredefinedStyles.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonButtonkryptonLabelApplyLettersPredefinedStyles
+            // 
+            kryptonButtonkryptonLabelApplyLettersPredefinedStyles.Location = new Point(135, 170);
+            kryptonButtonkryptonLabelApplyLettersPredefinedStyles.Name = "kryptonButtonkryptonLabelApplyLettersPredefinedStyles";
+            kryptonButtonkryptonLabelApplyLettersPredefinedStyles.Size = new Size(106, 24);
+            kryptonButtonkryptonLabelApplyLettersPredefinedStyles.TabIndex = 16;
+            kryptonButtonkryptonLabelApplyLettersPredefinedStyles.Values.DropDownArrowColor = Color.Empty;
+            kryptonButtonkryptonLabelApplyLettersPredefinedStyles.Values.Image = Properties.Resources.o_collection_office_ok_16;
+            kryptonButtonkryptonLabelApplyLettersPredefinedStyles.Values.Text = "Anwenden";
+            kryptonButtonkryptonLabelApplyLettersPredefinedStyles.Enter += SetStatusBar_Enter;
+            kryptonButtonkryptonLabelApplyLettersPredefinedStyles.Leave += SetStatusBar_Enter;
+            kryptonButtonkryptonLabelApplyLettersPredefinedStyles.MouseEnter += SetStatusBar_Enter;
+            kryptonButtonkryptonLabelApplyLettersPredefinedStyles.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonTextBoxLettersPredefinedStylesConsonants
+            // 
+            kryptonTextBoxLettersPredefinedStylesConsonants.Location = new Point(135, 50);
+            kryptonTextBoxLettersPredefinedStylesConsonants.Name = "kryptonTextBoxLettersPredefinedStylesConsonants";
+            kryptonTextBoxLettersPredefinedStylesConsonants.Size = new Size(106, 23);
+            kryptonTextBoxLettersPredefinedStylesConsonants.TabIndex = 19;
+            kryptonTextBoxLettersPredefinedStylesConsonants.Text = "kryptonTextBox5";
+            kryptonTextBoxLettersPredefinedStylesConsonants.Enter += SetStatusBar_Enter;
+            kryptonTextBoxLettersPredefinedStylesConsonants.Leave += SetStatusBar_Enter;
+            kryptonTextBoxLettersPredefinedStylesConsonants.MouseEnter += SetStatusBar_Enter;
+            kryptonTextBoxLettersPredefinedStylesConsonants.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonLabelLettersPredefinedStylesConsonants
+            // 
+            kryptonLabelLettersPredefinedStylesConsonants.Location = new Point(135, 24);
+            kryptonLabelLettersPredefinedStylesConsonants.Name = "kryptonLabelLettersPredefinedStylesConsonants";
+            kryptonLabelLettersPredefinedStylesConsonants.Size = new Size(82, 20);
+            kryptonLabelLettersPredefinedStylesConsonants.TabIndex = 20;
+            kryptonLabelLettersPredefinedStylesConsonants.Values.Text = "Konsonanten";
+            kryptonLabelLettersPredefinedStylesConsonants.Enter += SetStatusBar_Enter;
+            kryptonLabelLettersPredefinedStylesConsonants.Leave += SetStatusBar_Enter;
+            kryptonLabelLettersPredefinedStylesConsonants.MouseEnter += SetStatusBar_Enter;
+            kryptonLabelLettersPredefinedStylesConsonants.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonLabelLettersPredefinedStylesVowels
+            // 
+            kryptonLabelLettersPredefinedStylesVowels.Location = new Point(135, 80);
+            kryptonLabelLettersPredefinedStylesVowels.Name = "kryptonLabelLettersPredefinedStylesVowels";
+            kryptonLabelLettersPredefinedStylesVowels.Size = new Size(47, 20);
+            kryptonLabelLettersPredefinedStylesVowels.TabIndex = 18;
+            kryptonLabelLettersPredefinedStylesVowels.Values.Text = "Vokale";
+            kryptonLabelLettersPredefinedStylesVowels.Enter += SetStatusBar_Enter;
+            kryptonLabelLettersPredefinedStylesVowels.Leave += SetStatusBar_Enter;
+            kryptonLabelLettersPredefinedStylesVowels.MouseEnter += SetStatusBar_Enter;
+            kryptonLabelLettersPredefinedStylesVowels.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonTextBoxkryptonLabelLettersPredefinedStylesVowels
+            // 
+            kryptonTextBoxkryptonLabelLettersPredefinedStylesVowels.Location = new Point(135, 106);
+            kryptonTextBoxkryptonLabelLettersPredefinedStylesVowels.Name = "kryptonTextBoxkryptonLabelLettersPredefinedStylesVowels";
+            kryptonTextBoxkryptonLabelLettersPredefinedStylesVowels.Size = new Size(106, 23);
+            kryptonTextBoxkryptonLabelLettersPredefinedStylesVowels.TabIndex = 17;
+            kryptonTextBoxkryptonLabelLettersPredefinedStylesVowels.Text = "kryptonTextBox4";
+            kryptonTextBoxkryptonLabelLettersPredefinedStylesVowels.Enter += SetStatusBar_Enter;
+            kryptonTextBoxkryptonLabelLettersPredefinedStylesVowels.Leave += SetStatusBar_Enter;
+            kryptonTextBoxkryptonLabelLettersPredefinedStylesVowels.MouseEnter += SetStatusBar_Enter;
+            kryptonTextBoxkryptonLabelLettersPredefinedStylesVowels.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // groupBoxStarting
+            // 
+            groupBoxStarting.Controls.Add(kryptonRadioButtonStarting);
+            groupBoxStarting.Controls.Add(kryptonRadioButtonStartingWithConsonant);
+            groupBoxStarting.Controls.Add(kryptonRadioButtonStartingRandom);
+            groupBoxStarting.Location = new Point(355, 6);
+            groupBoxStarting.Name = "groupBoxStarting";
+            groupBoxStarting.Size = new Size(103, 162);
+            groupBoxStarting.TabIndex = 22;
+            groupBoxStarting.TabStop = false;
+            groupBoxStarting.Text = "Beginn mit ...";
+            groupBoxStarting.Enter += SetStatusBar_Enter;
+            groupBoxStarting.Leave += SetStatusBar_Enter;
+            // 
+            // kryptonRadioButtonStarting
+            // 
+            kryptonRadioButtonStarting.Location = new Point(6, 77);
+            kryptonRadioButtonStarting.Name = "kryptonRadioButtonStarting";
+            kryptonRadioButtonStarting.Size = new Size(53, 20);
+            kryptonRadioButtonStarting.TabIndex = 2;
+            kryptonRadioButtonStarting.Values.Text = "Vokal";
+            kryptonRadioButtonStarting.Enter += SetStatusBar_Enter;
+            kryptonRadioButtonStarting.Leave += SetStatusBar_Enter;
+            kryptonRadioButtonStarting.MouseEnter += SetStatusBar_Enter;
+            kryptonRadioButtonStarting.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonRadioButtonStartingWithConsonant
+            // 
+            kryptonRadioButtonStartingWithConsonant.Location = new Point(6, 50);
+            kryptonRadioButtonStartingWithConsonant.Name = "kryptonRadioButtonStartingWithConsonant";
+            kryptonRadioButtonStartingWithConsonant.Size = new Size(81, 20);
+            kryptonRadioButtonStartingWithConsonant.TabIndex = 1;
+            kryptonRadioButtonStartingWithConsonant.Values.Text = "Konsonant";
+            kryptonRadioButtonStartingWithConsonant.Enter += SetStatusBar_Enter;
+            kryptonRadioButtonStartingWithConsonant.Leave += SetStatusBar_Enter;
+            kryptonRadioButtonStartingWithConsonant.MouseEnter += SetStatusBar_Enter;
+            kryptonRadioButtonStartingWithConsonant.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonRadioButtonStartingRandom
+            // 
+            kryptonRadioButtonStartingRandom.Location = new Point(6, 22);
+            kryptonRadioButtonStartingRandom.Name = "kryptonRadioButtonStartingRandom";
+            kryptonRadioButtonStartingRandom.Size = new Size(61, 20);
+            kryptonRadioButtonStartingRandom.TabIndex = 0;
+            kryptonRadioButtonStartingRandom.Values.Text = "zufällig";
+            kryptonRadioButtonStartingRandom.Enter += SetStatusBar_Enter;
+            kryptonRadioButtonStartingRandom.Leave += SetStatusBar_Enter;
+            kryptonRadioButtonStartingRandom.MouseEnter += SetStatusBar_Enter;
+            kryptonRadioButtonStartingRandom.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // groupBoxIndividualPattern
+            // 
+            groupBoxIndividualPattern.Controls.Add(kryptonButtonkryptonButtonIndividualPatternSetVowel);
+            groupBoxIndividualPattern.Controls.Add(kryptonButtonIndividualPatternSetConsonant);
+            groupBoxIndividualPattern.Controls.Add(checkBoxUseIndividualPattern);
+            groupBoxIndividualPattern.Controls.Add(kryptonTextBoxIndividualPattern);
+            groupBoxIndividualPattern.Location = new Point(464, 6);
+            groupBoxIndividualPattern.Name = "groupBoxIndividualPattern";
+            groupBoxIndividualPattern.Size = new Size(171, 162);
+            groupBoxIndividualPattern.TabIndex = 21;
+            groupBoxIndividualPattern.TabStop = false;
+            groupBoxIndividualPattern.Text = "Individuelles Muster";
+            groupBoxIndividualPattern.Enter += SetStatusBar_Enter;
+            groupBoxIndividualPattern.Leave += SetStatusBar_Enter;
+            // 
+            // kryptonButtonkryptonButtonIndividualPatternSetVowel
+            // 
+            kryptonButtonkryptonButtonIndividualPatternSetVowel.Location = new Point(36, 74);
+            kryptonButtonkryptonButtonIndividualPatternSetVowel.Name = "kryptonButtonkryptonButtonIndividualPatternSetVowel";
+            kryptonButtonkryptonButtonIndividualPatternSetVowel.Size = new Size(24, 23);
+            kryptonButtonkryptonButtonIndividualPatternSetVowel.TabIndex = 23;
+            kryptonButtonkryptonButtonIndividualPatternSetVowel.Values.DropDownArrowColor = Color.Empty;
+            kryptonButtonkryptonButtonIndividualPatternSetVowel.Values.Text = "V";
+            kryptonButtonkryptonButtonIndividualPatternSetVowel.Enter += SetStatusBar_Enter;
+            kryptonButtonkryptonButtonIndividualPatternSetVowel.Leave += SetStatusBar_Enter;
+            kryptonButtonkryptonButtonIndividualPatternSetVowel.MouseEnter += SetStatusBar_Enter;
+            kryptonButtonkryptonButtonIndividualPatternSetVowel.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonButtonIndividualPatternSetConsonant
+            // 
+            kryptonButtonIndividualPatternSetConsonant.Location = new Point(6, 74);
+            kryptonButtonIndividualPatternSetConsonant.Name = "kryptonButtonIndividualPatternSetConsonant";
+            kryptonButtonIndividualPatternSetConsonant.Size = new Size(24, 23);
+            kryptonButtonIndividualPatternSetConsonant.TabIndex = 22;
+            kryptonButtonIndividualPatternSetConsonant.Values.DropDownArrowColor = Color.Empty;
+            kryptonButtonIndividualPatternSetConsonant.Values.Text = "C";
+            kryptonButtonIndividualPatternSetConsonant.Enter += SetStatusBar_Enter;
+            kryptonButtonIndividualPatternSetConsonant.Leave += SetStatusBar_Enter;
+            kryptonButtonIndividualPatternSetConsonant.MouseEnter += SetStatusBar_Enter;
+            kryptonButtonIndividualPatternSetConsonant.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // checkBoxUseIndividualPattern
+            // 
+            checkBoxUseIndividualPattern.AutoSize = true;
+            checkBoxUseIndividualPattern.Location = new Point(6, 20);
+            checkBoxUseIndividualPattern.Name = "checkBoxUseIndividualPattern";
+            checkBoxUseIndividualPattern.Size = new Size(81, 19);
+            checkBoxUseIndividualPattern.TabIndex = 21;
+            checkBoxUseIndividualPattern.Text = "anwenden";
+            checkBoxUseIndividualPattern.UseVisualStyleBackColor = true;
+            checkBoxUseIndividualPattern.Enter += SetStatusBar_Enter;
+            checkBoxUseIndividualPattern.Leave += SetStatusBar_Enter;
+            checkBoxUseIndividualPattern.MouseEnter += SetStatusBar_Enter;
+            checkBoxUseIndividualPattern.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonTextBoxIndividualPattern
+            // 
+            kryptonTextBoxIndividualPattern.Location = new Point(6, 45);
+            kryptonTextBoxIndividualPattern.Name = "kryptonTextBoxIndividualPattern";
+            kryptonTextBoxIndividualPattern.Size = new Size(81, 23);
+            kryptonTextBoxIndividualPattern.TabIndex = 20;
+            kryptonTextBoxIndividualPattern.Text = "kryptonTextBox6";
+            kryptonTextBoxIndividualPattern.Enter += SetStatusBar_Enter;
+            kryptonTextBoxIndividualPattern.Leave += SetStatusBar_Enter;
+            kryptonTextBoxIndividualPattern.MouseEnter += SetStatusBar_Enter;
+            kryptonTextBoxIndividualPattern.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // groupBoxLetterSet
+            // 
+            groupBoxLetterSet.Controls.Add(kryptonLabelLetterSetConsonants);
+            groupBoxLetterSet.Controls.Add(kryptonTextBoxLetterSetVowels);
+            groupBoxLetterSet.Controls.Add(kryptonLabelLetterSetVowels);
+            groupBoxLetterSet.Controls.Add(kryptonTextBoxLetterSetConsonants);
+            groupBoxLetterSet.Location = new Point(8, 6);
+            groupBoxLetterSet.Name = "groupBoxLetterSet";
+            groupBoxLetterSet.Size = new Size(141, 162);
+            groupBoxLetterSet.TabIndex = 14;
+            groupBoxLetterSet.TabStop = false;
+            groupBoxLetterSet.Text = "Buchstaben-Set";
+            groupBoxLetterSet.Enter += SetStatusBar_Enter;
+            groupBoxLetterSet.Leave += SetStatusBar_Enter;
+            // 
+            // kryptonLabelLetterSetConsonants
+            // 
+            kryptonLabelLetterSetConsonants.Location = new Point(6, 22);
+            kryptonLabelLetterSetConsonants.Name = "kryptonLabelLetterSetConsonants";
+            kryptonLabelLetterSetConsonants.Size = new Size(82, 20);
+            kryptonLabelLetterSetConsonants.TabIndex = 12;
+            kryptonLabelLetterSetConsonants.Values.Text = "Konsonanten";
+            kryptonLabelLetterSetConsonants.Enter += SetStatusBar_Enter;
+            kryptonLabelLetterSetConsonants.Leave += SetStatusBar_Enter;
+            kryptonLabelLetterSetConsonants.MouseEnter += SetStatusBar_Enter;
+            kryptonLabelLetterSetConsonants.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonTextBoxLetterSetVowels
+            // 
+            kryptonTextBoxLetterSetVowels.Location = new Point(6, 104);
+            kryptonTextBoxLetterSetVowels.Name = "kryptonTextBoxLetterSetVowels";
+            kryptonTextBoxLetterSetVowels.Size = new Size(123, 23);
+            kryptonTextBoxLetterSetVowels.TabIndex = 9;
+            kryptonTextBoxLetterSetVowels.Text = "kryptonTextBox2";
+            kryptonTextBoxLetterSetVowels.Enter += SetStatusBar_Enter;
+            kryptonTextBoxLetterSetVowels.Leave += SetStatusBar_Enter;
+            kryptonTextBoxLetterSetVowels.MouseEnter += SetStatusBar_Enter;
+            kryptonTextBoxLetterSetVowels.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonLabelLetterSetVowels
+            // 
+            kryptonLabelLetterSetVowels.Location = new Point(6, 78);
+            kryptonLabelLetterSetVowels.Name = "kryptonLabelLetterSetVowels";
+            kryptonLabelLetterSetVowels.Size = new Size(47, 20);
+            kryptonLabelLetterSetVowels.TabIndex = 10;
+            kryptonLabelLetterSetVowels.Values.Text = "Vokale";
+            kryptonLabelLetterSetVowels.Enter += SetStatusBar_Enter;
+            kryptonLabelLetterSetVowels.Leave += SetStatusBar_Enter;
+            kryptonLabelLetterSetVowels.MouseEnter += SetStatusBar_Enter;
+            kryptonLabelLetterSetVowels.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonTextBoxLetterSetConsonants
+            // 
+            kryptonTextBoxLetterSetConsonants.Location = new Point(6, 48);
+            kryptonTextBoxLetterSetConsonants.Name = "kryptonTextBoxLetterSetConsonants";
+            kryptonTextBoxLetterSetConsonants.Size = new Size(123, 23);
+            kryptonTextBoxLetterSetConsonants.TabIndex = 11;
+            kryptonTextBoxLetterSetConsonants.Text = "kryptonTextBox3";
+            kryptonTextBoxLetterSetConsonants.Enter += SetStatusBar_Enter;
+            kryptonTextBoxLetterSetConsonants.Leave += SetStatusBar_Enter;
+            kryptonTextBoxLetterSetConsonants.MouseEnter += SetStatusBar_Enter;
+            kryptonTextBoxLetterSetConsonants.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // groupBoxWordLength
+            // 
+            groupBoxWordLength.Controls.Add(kryptonLabelWordLengthVariableMaximum);
+            groupBoxWordLength.Controls.Add(kryptonLabelWordLengthVariableMinimum);
+            groupBoxWordLength.Controls.Add(kryptonNumericUpDownWordLengthVariableMaximum);
+            groupBoxWordLength.Controls.Add(kryptonNumericUpDownWordLengthVariableMinimum);
+            groupBoxWordLength.Controls.Add(kryptonNumericUpDownWordlLengthFix);
+            groupBoxWordLength.Controls.Add(kryptonRadioButtonWordLengthVariable);
+            groupBoxWordLength.Controls.Add(kryptonRadioButtonWordLengthFix);
+            groupBoxWordLength.Location = new Point(155, 6);
+            groupBoxWordLength.Name = "groupBoxWordLength";
+            groupBoxWordLength.Size = new Size(194, 162);
+            groupBoxWordLength.TabIndex = 13;
+            groupBoxWordLength.TabStop = false;
+            groupBoxWordLength.Text = "Wortlängen";
+            groupBoxWordLength.Enter += SetStatusBar_Enter;
+            groupBoxWordLength.Leave += SetStatusBar_Enter;
+            // 
+            // kryptonLabelWordLengthVariableMaximum
+            // 
+            kryptonLabelWordLengthVariableMaximum.Location = new Point(126, 78);
+            kryptonLabelWordLengthVariableMaximum.Name = "kryptonLabelWordLengthVariableMaximum";
+            kryptonLabelWordLengthVariableMaximum.Size = new Size(65, 20);
+            kryptonLabelWordLengthVariableMaximum.TabIndex = 6;
+            kryptonLabelWordLengthVariableMaximum.Values.Text = "Maximum";
+            kryptonLabelWordLengthVariableMaximum.Enter += SetStatusBar_Enter;
+            kryptonLabelWordLengthVariableMaximum.Leave += SetStatusBar_Enter;
+            kryptonLabelWordLengthVariableMaximum.MouseEnter += SetStatusBar_Enter;
+            kryptonLabelWordLengthVariableMaximum.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonLabelWordLengthVariableMinimum
+            // 
+            kryptonLabelWordLengthVariableMinimum.Location = new Point(126, 48);
+            kryptonLabelWordLengthVariableMinimum.Name = "kryptonLabelWordLengthVariableMinimum";
+            kryptonLabelWordLengthVariableMinimum.Size = new Size(63, 20);
+            kryptonLabelWordLengthVariableMinimum.TabIndex = 5;
+            kryptonLabelWordLengthVariableMinimum.Values.Text = "Minimum";
+            kryptonLabelWordLengthVariableMinimum.Enter += SetStatusBar_Enter;
+            kryptonLabelWordLengthVariableMinimum.Leave += SetStatusBar_Enter;
+            kryptonLabelWordLengthVariableMinimum.MouseEnter += SetStatusBar_Enter;
+            kryptonLabelWordLengthVariableMinimum.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonNumericUpDownWordLengthVariableMaximum
+            // 
+            kryptonNumericUpDownWordLengthVariableMaximum.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+            kryptonNumericUpDownWordLengthVariableMaximum.Location = new Point(74, 76);
+            kryptonNumericUpDownWordLengthVariableMaximum.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+            kryptonNumericUpDownWordLengthVariableMaximum.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            kryptonNumericUpDownWordLengthVariableMaximum.Name = "kryptonNumericUpDownWordLengthVariableMaximum";
+            kryptonNumericUpDownWordLengthVariableMaximum.Size = new Size(46, 22);
+            kryptonNumericUpDownWordLengthVariableMaximum.TabIndex = 4;
+            kryptonNumericUpDownWordLengthVariableMaximum.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            kryptonNumericUpDownWordLengthVariableMaximum.Enter += SetStatusBar_Enter;
+            kryptonNumericUpDownWordLengthVariableMaximum.Leave += SetStatusBar_Enter;
+            kryptonNumericUpDownWordLengthVariableMaximum.MouseEnter += SetStatusBar_Enter;
+            kryptonNumericUpDownWordLengthVariableMaximum.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonNumericUpDownWordLengthVariableMinimum
+            // 
+            kryptonNumericUpDownWordLengthVariableMinimum.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+            kryptonNumericUpDownWordLengthVariableMinimum.Location = new Point(74, 48);
+            kryptonNumericUpDownWordLengthVariableMinimum.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+            kryptonNumericUpDownWordLengthVariableMinimum.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            kryptonNumericUpDownWordLengthVariableMinimum.Name = "kryptonNumericUpDownWordLengthVariableMinimum";
+            kryptonNumericUpDownWordLengthVariableMinimum.Size = new Size(46, 22);
+            kryptonNumericUpDownWordLengthVariableMinimum.TabIndex = 3;
+            kryptonNumericUpDownWordLengthVariableMinimum.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            kryptonNumericUpDownWordLengthVariableMinimum.Enter += SetStatusBar_Enter;
+            kryptonNumericUpDownWordLengthVariableMinimum.Leave += SetStatusBar_Enter;
+            kryptonNumericUpDownWordLengthVariableMinimum.MouseEnter += SetStatusBar_Enter;
+            kryptonNumericUpDownWordLengthVariableMinimum.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonNumericUpDownWordlLengthFix
+            // 
+            kryptonNumericUpDownWordlLengthFix.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+            kryptonNumericUpDownWordlLengthFix.Location = new Point(74, 20);
+            kryptonNumericUpDownWordlLengthFix.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+            kryptonNumericUpDownWordlLengthFix.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            kryptonNumericUpDownWordlLengthFix.Name = "kryptonNumericUpDownWordlLengthFix";
+            kryptonNumericUpDownWordlLengthFix.Size = new Size(46, 22);
+            kryptonNumericUpDownWordlLengthFix.TabIndex = 2;
+            kryptonNumericUpDownWordlLengthFix.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            kryptonNumericUpDownWordlLengthFix.Enter += SetStatusBar_Enter;
+            kryptonNumericUpDownWordlLengthFix.Leave += SetStatusBar_Enter;
+            kryptonNumericUpDownWordlLengthFix.MouseEnter += SetStatusBar_Enter;
+            kryptonNumericUpDownWordlLengthFix.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonRadioButtonWordLengthVariable
+            // 
+            kryptonRadioButtonWordLengthVariable.Location = new Point(6, 50);
+            kryptonRadioButtonWordLengthVariable.Name = "kryptonRadioButtonWordLengthVariable";
+            kryptonRadioButtonWordLengthVariable.Size = new Size(65, 20);
+            kryptonRadioButtonWordLengthVariable.TabIndex = 1;
+            kryptonRadioButtonWordLengthVariable.Values.Text = "variabel";
+            kryptonRadioButtonWordLengthVariable.Enter += SetStatusBar_Enter;
+            kryptonRadioButtonWordLengthVariable.Leave += SetStatusBar_Enter;
+            kryptonRadioButtonWordLengthVariable.MouseEnter += SetStatusBar_Enter;
+            kryptonRadioButtonWordLengthVariable.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonRadioButtonWordLengthFix
+            // 
+            kryptonRadioButtonWordLengthFix.Location = new Point(6, 22);
+            kryptonRadioButtonWordLengthFix.Name = "kryptonRadioButtonWordLengthFix";
+            kryptonRadioButtonWordLengthFix.Size = new Size(42, 20);
+            kryptonRadioButtonWordLengthFix.TabIndex = 0;
+            kryptonRadioButtonWordLengthFix.Values.Text = "fest";
+            kryptonRadioButtonWordLengthFix.Enter += SetStatusBar_Enter;
+            kryptonRadioButtonWordLengthFix.Leave += SetStatusBar_Enter;
+            kryptonRadioButtonWordLengthFix.MouseEnter += SetStatusBar_Enter;
+            kryptonRadioButtonWordLengthFix.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // groupBoxLetterOutput
+            // 
+            groupBoxLetterOutput.Controls.Add(kryptonButtonSaveLettersResultsToClipboard);
+            groupBoxLetterOutput.Controls.Add(kryptonLabelSetLettersNumberNames);
+            groupBoxLetterOutput.Controls.Add(kryptonButtonDeleteLettersResultsToClipboard);
+            groupBoxLetterOutput.Controls.Add(kryptonButtonLettersOutputOptions);
+            groupBoxLetterOutput.Controls.Add(kryptonTextBoxLettersResults);
+            groupBoxLetterOutput.Controls.Add(kryptonNumericUpDownSetLettersNumberNames);
+            groupBoxLetterOutput.Controls.Add(kryptonButtonCopyLettersResultsToClipboard);
+            groupBoxLetterOutput.Controls.Add(kryptonButtonStartLettersOutput);
+            groupBoxLetterOutput.Location = new Point(261, 174);
+            groupBoxLetterOutput.Name = "groupBoxLetterOutput";
+            groupBoxLetterOutput.Size = new Size(376, 204);
+            groupBoxLetterOutput.TabIndex = 6;
+            groupBoxLetterOutput.TabStop = false;
+            groupBoxLetterOutput.Text = "Ausgabe";
+            groupBoxLetterOutput.Enter += SetStatusBar_Enter;
+            groupBoxLetterOutput.Leave += SetStatusBar_Enter;
+            // 
+            // kryptonButtonSaveLettersResultsToClipboard
+            // 
+            kryptonButtonSaveLettersResultsToClipboard.Location = new Point(6, 138);
+            kryptonButtonSaveLettersResultsToClipboard.Name = "kryptonButtonSaveLettersResultsToClipboard";
+            kryptonButtonSaveLettersResultsToClipboard.Size = new Size(158, 24);
+            kryptonButtonSaveLettersResultsToClipboard.TabIndex = 9;
+            kryptonButtonSaveLettersResultsToClipboard.Values.DropDownArrowColor = Color.Empty;
+            kryptonButtonSaveLettersResultsToClipboard.Values.Image = Properties.Resources.o_collection_office_floppy_disk_16;
+            kryptonButtonSaveLettersResultsToClipboard.Values.Text = "Liste speichern";
+            kryptonButtonSaveLettersResultsToClipboard.Click += KryptonButtonSaveLettersResultsToClipboard_Click;
+            kryptonButtonSaveLettersResultsToClipboard.Enter += SetStatusBar_Enter;
+            kryptonButtonSaveLettersResultsToClipboard.Leave += SetStatusBar_Enter;
+            kryptonButtonSaveLettersResultsToClipboard.MouseEnter += SetStatusBar_Enter;
+            kryptonButtonSaveLettersResultsToClipboard.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonLabelSetLettersNumberNames
+            // 
+            kryptonLabelSetLettersNumberNames.Location = new Point(6, 21);
+            kryptonLabelSetLettersNumberNames.Name = "kryptonLabelSetLettersNumberNames";
+            kryptonLabelSetLettersNumberNames.Size = new Size(101, 20);
+            kryptonLabelSetLettersNumberNames.TabIndex = 8;
+            kryptonLabelSetLettersNumberNames.Values.Text = "Wiederholungen";
+            kryptonLabelSetLettersNumberNames.Enter += SetStatusBar_Enter;
+            kryptonLabelSetLettersNumberNames.Leave += SetStatusBar_Enter;
+            kryptonLabelSetLettersNumberNames.MouseEnter += SetStatusBar_Enter;
+            kryptonLabelSetLettersNumberNames.MouseLeave += ClearStatusBar_Leave;
+            // 
+            // kryptonButtonDeleteLettersResultsToClipboard
+            // 
+            kryptonButtonDeleteLettersResultsToClipboard.Location = new Point(6, 168);
+            kryptonButtonDeleteLettersResultsToClipboard.Name = "kryptonButtonDeleteLettersResultsToClipboard";
+            kryptonButtonDeleteLettersResultsToClipboard.Size = new Size(158, 26);
+            kryptonButtonDeleteLettersResultsToClipboard.TabIndex = 7;
+            kryptonButtonDeleteLettersResultsToClipboard.Values.DropDownArrowColor = Color.Empty;
+            kryptonButtonDeleteLettersResultsToClipboard.Values.Image = Properties.Resources.o_collection_office_delete_16;
+            kryptonButtonDeleteLettersResultsToClipboard.Values.Text = "Liste löschen";
+            kryptonButtonDeleteLettersResultsToClipboard.Click += KryptonButtonDeleteLettersResultsToClipboard_Click;
+            kryptonButtonDeleteLettersResultsToClipboard.Enter += SetStatusBar_Enter;
+            kryptonButtonDeleteLettersResultsToClipboard.Leave += SetStatusBar_Enter;
+            kryptonButtonDeleteLettersResultsToClipboard.MouseEnter += SetStatusBar_Enter;
+            kryptonButtonDeleteLettersResultsToClipboard.MouseLeave += ClearStatusBar_Leave;
             // 
             // kryptonButtonLettersOutputOptions
             // 
@@ -775,19 +777,20 @@
             kryptonNumericUpDownSetLettersNumberNames.MouseEnter += SetStatusBar_Enter;
             kryptonNumericUpDownSetLettersNumberNames.MouseLeave += ClearStatusBar_Leave;
             // 
-            // kryptonButton18
+            // kryptonButtonCopyLettersResultsToClipboard
             // 
-            kryptonButton18.Location = new Point(6, 108);
-            kryptonButton18.Name = "kryptonButton18";
-            kryptonButton18.Size = new Size(158, 24);
-            kryptonButton18.TabIndex = 1;
-            kryptonButton18.Values.DropDownArrowColor = Color.Empty;
-            kryptonButton18.Values.Image = Properties.Resources.o_collection_office_copy_16;
-            kryptonButton18.Values.Text = "Liste kopieren";
-            kryptonButton18.Enter += SetStatusBar_Enter;
-            kryptonButton18.Leave += SetStatusBar_Enter;
-            kryptonButton18.MouseEnter += SetStatusBar_Enter;
-            kryptonButton18.MouseLeave += ClearStatusBar_Leave;
+            kryptonButtonCopyLettersResultsToClipboard.Location = new Point(6, 108);
+            kryptonButtonCopyLettersResultsToClipboard.Name = "kryptonButtonCopyLettersResultsToClipboard";
+            kryptonButtonCopyLettersResultsToClipboard.Size = new Size(158, 24);
+            kryptonButtonCopyLettersResultsToClipboard.TabIndex = 1;
+            kryptonButtonCopyLettersResultsToClipboard.Values.DropDownArrowColor = Color.Empty;
+            kryptonButtonCopyLettersResultsToClipboard.Values.Image = Properties.Resources.o_collection_office_copy_16;
+            kryptonButtonCopyLettersResultsToClipboard.Values.Text = "Liste kopieren";
+            kryptonButtonCopyLettersResultsToClipboard.Click += KryptonButtonCopyLettersResultsToClipboard_Click;
+            kryptonButtonCopyLettersResultsToClipboard.Enter += SetStatusBar_Enter;
+            kryptonButtonCopyLettersResultsToClipboard.Leave += SetStatusBar_Enter;
+            kryptonButtonCopyLettersResultsToClipboard.MouseEnter += SetStatusBar_Enter;
+            kryptonButtonCopyLettersResultsToClipboard.MouseLeave += ClearStatusBar_Leave;
             // 
             // kryptonButtonStartLettersOutput
             // 
@@ -807,7 +810,7 @@
             // tabPageMethodSyllables
             // 
             tabPageMethodSyllables.Controls.Add(groupBox2);
-            tabPageMethodSyllables.Controls.Add(groupBox1);
+            tabPageMethodSyllables.Controls.Add(groupBoxSyllablesPredefinedStyles);
             tabPageMethodSyllables.Controls.Add(groupBoxSyllableMiddle);
             tabPageMethodSyllables.Controls.Add(groupBoxSyllableEnd);
             tabPageMethodSyllables.Controls.Add(groupBoxSyllableBegin);
@@ -822,13 +825,13 @@
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(kryptonButton14);
-            groupBox2.Controls.Add(kryptonLabel1);
-            groupBox2.Controls.Add(kryptonButton11);
+            groupBox2.Controls.Add(kryptonButtonSaveSyllablesResultsToClipboard);
+            groupBox2.Controls.Add(kryptonLabelSetSyllablesNumberNames);
+            groupBox2.Controls.Add(kryptonButtonDeleteSyllablesResultsToClipboard);
             groupBox2.Controls.Add(kryptonButtonSyllablesOutputOptions);
             groupBox2.Controls.Add(kryptonTextBoxSyllablesResults);
             groupBox2.Controls.Add(kryptonNumericUpDownSetSyllablesNumberNames);
-            groupBox2.Controls.Add(kryptonButton10);
+            groupBox2.Controls.Add(kryptonButtonCopySyllablesResultsToClipboard);
             groupBox2.Controls.Add(kryptonButtonStartSyllablesOutput);
             groupBox2.Location = new Point(261, 174);
             groupBox2.Name = "groupBox2";
@@ -839,45 +842,47 @@
             groupBox2.Enter += SetStatusBar_Enter;
             groupBox2.Leave += ClearStatusBar_Leave;
             // 
-            // kryptonButton14
+            // kryptonButtonSaveSyllablesResultsToClipboard
             // 
-            kryptonButton14.Location = new Point(6, 138);
-            kryptonButton14.Name = "kryptonButton14";
-            kryptonButton14.Size = new Size(158, 24);
-            kryptonButton14.TabIndex = 9;
-            kryptonButton14.Values.DropDownArrowColor = Color.Empty;
-            kryptonButton14.Values.Image = Properties.Resources.o_collection_office_floppy_disk_16;
-            kryptonButton14.Values.Text = "Liste speichern";
-            kryptonButton14.Enter += SetStatusBar_Enter;
-            kryptonButton14.Leave += ClearStatusBar_Leave;
-            kryptonButton14.MouseEnter += SetStatusBar_Enter;
-            kryptonButton14.MouseLeave += ClearStatusBar_Leave;
+            kryptonButtonSaveSyllablesResultsToClipboard.Location = new Point(6, 138);
+            kryptonButtonSaveSyllablesResultsToClipboard.Name = "kryptonButtonSaveSyllablesResultsToClipboard";
+            kryptonButtonSaveSyllablesResultsToClipboard.Size = new Size(158, 24);
+            kryptonButtonSaveSyllablesResultsToClipboard.TabIndex = 9;
+            kryptonButtonSaveSyllablesResultsToClipboard.Values.DropDownArrowColor = Color.Empty;
+            kryptonButtonSaveSyllablesResultsToClipboard.Values.Image = Properties.Resources.o_collection_office_floppy_disk_16;
+            kryptonButtonSaveSyllablesResultsToClipboard.Values.Text = "Liste speichern";
+            kryptonButtonSaveSyllablesResultsToClipboard.Click += KryptonButtonSaveSyllablesResultsToClipboard_Click;
+            kryptonButtonSaveSyllablesResultsToClipboard.Enter += SetStatusBar_Enter;
+            kryptonButtonSaveSyllablesResultsToClipboard.Leave += ClearStatusBar_Leave;
+            kryptonButtonSaveSyllablesResultsToClipboard.MouseEnter += SetStatusBar_Enter;
+            kryptonButtonSaveSyllablesResultsToClipboard.MouseLeave += ClearStatusBar_Leave;
             // 
-            // kryptonLabel1
+            // kryptonLabelSetSyllablesNumberNames
             // 
-            kryptonLabel1.Location = new Point(6, 21);
-            kryptonLabel1.Name = "kryptonLabel1";
-            kryptonLabel1.Size = new Size(101, 20);
-            kryptonLabel1.TabIndex = 8;
-            kryptonLabel1.Values.Text = "Wiederholungen";
-            kryptonLabel1.Enter += SetStatusBar_Enter;
-            kryptonLabel1.Leave += ClearStatusBar_Leave;
-            kryptonLabel1.MouseEnter += SetStatusBar_Enter;
-            kryptonLabel1.MouseLeave += ClearStatusBar_Leave;
+            kryptonLabelSetSyllablesNumberNames.Location = new Point(6, 21);
+            kryptonLabelSetSyllablesNumberNames.Name = "kryptonLabelSetSyllablesNumberNames";
+            kryptonLabelSetSyllablesNumberNames.Size = new Size(101, 20);
+            kryptonLabelSetSyllablesNumberNames.TabIndex = 8;
+            kryptonLabelSetSyllablesNumberNames.Values.Text = "Wiederholungen";
+            kryptonLabelSetSyllablesNumberNames.Enter += SetStatusBar_Enter;
+            kryptonLabelSetSyllablesNumberNames.Leave += ClearStatusBar_Leave;
+            kryptonLabelSetSyllablesNumberNames.MouseEnter += SetStatusBar_Enter;
+            kryptonLabelSetSyllablesNumberNames.MouseLeave += ClearStatusBar_Leave;
             // 
-            // kryptonButton11
+            // kryptonButtonDeleteSyllablesResultsToClipboard
             // 
-            kryptonButton11.Location = new Point(6, 168);
-            kryptonButton11.Name = "kryptonButton11";
-            kryptonButton11.Size = new Size(158, 26);
-            kryptonButton11.TabIndex = 7;
-            kryptonButton11.Values.DropDownArrowColor = Color.Empty;
-            kryptonButton11.Values.Image = Properties.Resources.o_collection_office_delete_16;
-            kryptonButton11.Values.Text = "Liste löschen";
-            kryptonButton11.Enter += SetStatusBar_Enter;
-            kryptonButton11.Leave += ClearStatusBar_Leave;
-            kryptonButton11.MouseEnter += SetStatusBar_Enter;
-            kryptonButton11.MouseLeave += ClearStatusBar_Leave;
+            kryptonButtonDeleteSyllablesResultsToClipboard.Location = new Point(6, 168);
+            kryptonButtonDeleteSyllablesResultsToClipboard.Name = "kryptonButtonDeleteSyllablesResultsToClipboard";
+            kryptonButtonDeleteSyllablesResultsToClipboard.Size = new Size(158, 26);
+            kryptonButtonDeleteSyllablesResultsToClipboard.TabIndex = 7;
+            kryptonButtonDeleteSyllablesResultsToClipboard.Values.DropDownArrowColor = Color.Empty;
+            kryptonButtonDeleteSyllablesResultsToClipboard.Values.Image = Properties.Resources.o_collection_office_delete_16;
+            kryptonButtonDeleteSyllablesResultsToClipboard.Values.Text = "Liste löschen";
+            kryptonButtonDeleteSyllablesResultsToClipboard.Click += KryptonButtonDeleteSyllablesResultsToClipboard_Click;
+            kryptonButtonDeleteSyllablesResultsToClipboard.Enter += SetStatusBar_Enter;
+            kryptonButtonDeleteSyllablesResultsToClipboard.Leave += ClearStatusBar_Leave;
+            kryptonButtonDeleteSyllablesResultsToClipboard.MouseEnter += SetStatusBar_Enter;
+            kryptonButtonDeleteSyllablesResultsToClipboard.MouseLeave += ClearStatusBar_Leave;
             // 
             // kryptonButtonSyllablesOutputOptions
             // 
@@ -925,19 +930,20 @@
             kryptonNumericUpDownSetSyllablesNumberNames.MouseEnter += SetStatusBar_Enter;
             kryptonNumericUpDownSetSyllablesNumberNames.MouseLeave += ClearStatusBar_Leave;
             // 
-            // kryptonButton10
+            // kryptonButtonCopySyllablesResultsToClipboard
             // 
-            kryptonButton10.Location = new Point(6, 108);
-            kryptonButton10.Name = "kryptonButton10";
-            kryptonButton10.Size = new Size(158, 24);
-            kryptonButton10.TabIndex = 1;
-            kryptonButton10.Values.DropDownArrowColor = Color.Empty;
-            kryptonButton10.Values.Image = Properties.Resources.o_collection_office_copy_16;
-            kryptonButton10.Values.Text = "Liste kopieren";
-            kryptonButton10.Enter += SetStatusBar_Enter;
-            kryptonButton10.Leave += ClearStatusBar_Leave;
-            kryptonButton10.MouseEnter += SetStatusBar_Enter;
-            kryptonButton10.MouseLeave += ClearStatusBar_Leave;
+            kryptonButtonCopySyllablesResultsToClipboard.Location = new Point(6, 108);
+            kryptonButtonCopySyllablesResultsToClipboard.Name = "kryptonButtonCopySyllablesResultsToClipboard";
+            kryptonButtonCopySyllablesResultsToClipboard.Size = new Size(158, 24);
+            kryptonButtonCopySyllablesResultsToClipboard.TabIndex = 1;
+            kryptonButtonCopySyllablesResultsToClipboard.Values.DropDownArrowColor = Color.Empty;
+            kryptonButtonCopySyllablesResultsToClipboard.Values.Image = Properties.Resources.o_collection_office_copy_16;
+            kryptonButtonCopySyllablesResultsToClipboard.Values.Text = "Liste kopieren";
+            kryptonButtonCopySyllablesResultsToClipboard.Click += KryptonButtonCopySyllablesResultsToClipboard_Click;
+            kryptonButtonCopySyllablesResultsToClipboard.Enter += SetStatusBar_Enter;
+            kryptonButtonCopySyllablesResultsToClipboard.Leave += ClearStatusBar_Leave;
+            kryptonButtonCopySyllablesResultsToClipboard.MouseEnter += SetStatusBar_Enter;
+            kryptonButtonCopySyllablesResultsToClipboard.MouseLeave += ClearStatusBar_Leave;
             // 
             // kryptonButtonStartSyllablesOutput
             // 
@@ -954,23 +960,23 @@
             kryptonButtonStartSyllablesOutput.MouseEnter += SetStatusBar_Enter;
             kryptonButtonStartSyllablesOutput.MouseLeave += ClearStatusBar_Leave;
             // 
-            // groupBox1
+            // groupBoxSyllablesPredefinedStyles
             // 
-            groupBox1.Controls.Add(kryptonButton13);
-            groupBox1.Controls.Add(kryptonButton12);
-            groupBox1.Controls.Add(kryptonButton6);
-            groupBox1.Controls.Add(kryptonButton5);
-            groupBox1.Controls.Add(kryptonButton4);
-            groupBox1.Controls.Add(kryptonButton3);
-            groupBox1.Controls.Add(kryptonCheckedListBox1);
-            groupBox1.Location = new Point(6, 174);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(245, 206);
-            groupBox1.TabIndex = 4;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Sprachstile";
-            groupBox1.Enter += SetStatusBar_Enter;
-            groupBox1.Leave += ClearStatusBar_Leave;
+            groupBoxSyllablesPredefinedStyles.Controls.Add(kryptonButton13);
+            groupBoxSyllablesPredefinedStyles.Controls.Add(kryptonButton12);
+            groupBoxSyllablesPredefinedStyles.Controls.Add(kryptonButton6);
+            groupBoxSyllablesPredefinedStyles.Controls.Add(kryptonButton5);
+            groupBoxSyllablesPredefinedStyles.Controls.Add(kryptonButton4);
+            groupBoxSyllablesPredefinedStyles.Controls.Add(kryptonButton3);
+            groupBoxSyllablesPredefinedStyles.Controls.Add(kryptonCheckedListBox1);
+            groupBoxSyllablesPredefinedStyles.Location = new Point(6, 174);
+            groupBoxSyllablesPredefinedStyles.Name = "groupBoxSyllablesPredefinedStyles";
+            groupBoxSyllablesPredefinedStyles.Size = new Size(245, 206);
+            groupBoxSyllablesPredefinedStyles.TabIndex = 4;
+            groupBoxSyllablesPredefinedStyles.TabStop = false;
+            groupBoxSyllablesPredefinedStyles.Text = "Sprachstile";
+            groupBoxSyllablesPredefinedStyles.Enter += SetStatusBar_Enter;
+            groupBoxSyllablesPredefinedStyles.Leave += ClearStatusBar_Leave;
             // 
             // kryptonButton13
             // 
@@ -1585,23 +1591,23 @@
             kryptonPanel.ResumeLayout(false);
             tabControlEssin.ResumeLayout(false);
             tabPageMethodLetters.ResumeLayout(false);
-            groupBox8.ResumeLayout(false);
-            groupBox8.PerformLayout();
-            groupBox7.ResumeLayout(false);
-            groupBox7.PerformLayout();
-            groupBox6.ResumeLayout(false);
-            groupBox6.PerformLayout();
-            groupBox5.ResumeLayout(false);
-            groupBox5.PerformLayout();
-            groupBox4.ResumeLayout(false);
-            groupBox4.PerformLayout();
-            groupBox3.ResumeLayout(false);
-            groupBox3.PerformLayout();
+            groupBoxLettersPredefinedStyles.ResumeLayout(false);
+            groupBoxLettersPredefinedStyles.PerformLayout();
+            groupBoxStarting.ResumeLayout(false);
+            groupBoxStarting.PerformLayout();
+            groupBoxIndividualPattern.ResumeLayout(false);
+            groupBoxIndividualPattern.PerformLayout();
+            groupBoxLetterSet.ResumeLayout(false);
+            groupBoxLetterSet.PerformLayout();
+            groupBoxWordLength.ResumeLayout(false);
+            groupBoxWordLength.PerformLayout();
+            groupBoxLetterOutput.ResumeLayout(false);
+            groupBoxLetterOutput.PerformLayout();
             contextMenuStripResultOptions.ResumeLayout(false);
             tabPageMethodSyllables.ResumeLayout(false);
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
-            groupBox1.ResumeLayout(false);
+            groupBoxSyllablesPredefinedStyles.ResumeLayout(false);
             groupBoxSyllableMiddle.ResumeLayout(false);
             groupBoxSyllableMiddle.PerformLayout();
             groupBoxSyllableMiddleRepitition.ResumeLayout(false);
@@ -1649,7 +1655,7 @@
         private Krypton.Toolkit.KryptonLabel kryptonLabelSyllableMiddleVariableMin;
         private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownSyllableMiddleVariableMax;
         private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownSyllableMiddleVariableMin;
-        private GroupBox groupBox1;
+        private GroupBox groupBoxSyllablesPredefinedStyles;
         private Krypton.Toolkit.KryptonCheckedListBox kryptonCheckedListBox1;
         private Krypton.Toolkit.KryptonButton kryptonButton4;
         private Krypton.Toolkit.KryptonButton kryptonButton3;
@@ -1666,7 +1672,7 @@
         private Krypton.Toolkit.KryptonButton kryptonButton7;
         private GroupBox groupBox2;
         private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownSetSyllablesNumberNames;
-        private Krypton.Toolkit.KryptonButton kryptonButton10;
+        private Krypton.Toolkit.KryptonButton kryptonButtonCopySyllablesResultsToClipboard;
         private Krypton.Toolkit.KryptonTextBox kryptonTextBoxSyllablesResults;
         private Krypton.Toolkit.KryptonButton kryptonButtonSyllablesOutputOptions;
         private ContextMenuStrip contextMenuStripResultOptions;
@@ -1679,54 +1685,54 @@
         private ToolStripMenuItem toolStripMenuItemOutputOptionsSeparatorIsPipe;
         private ToolStripSeparator toolStripSeparator2;
         private ToolStripMenuItem toolStripMenuItemOutputOptionsEnclosedWithQuotes;
-		private Krypton.Toolkit.KryptonButton kryptonButton11;
+		private Krypton.Toolkit.KryptonButton kryptonButtonDeleteSyllablesResultsToClipboard;
 		private ToolStripStatusLabel toolStripStatusLabelInfo;
 		private ToolStripProgressBar toolStripProgressBar;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel1;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelSetSyllablesNumberNames;
 		private ToolStripSeparator toolStripSeparator3;
 		private Krypton.Toolkit.KryptonButton kryptonButton12;
 		private Krypton.Toolkit.KryptonButton kryptonButton13;
-		private Krypton.Toolkit.KryptonButton kryptonButton14;
-		private GroupBox groupBox3;
-		private Krypton.Toolkit.KryptonButton kryptonButton15;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel2;
-		private Krypton.Toolkit.KryptonButton kryptonButton16;
+		private Krypton.Toolkit.KryptonButton kryptonButtonSaveSyllablesResultsToClipboard;
+		private GroupBox groupBoxLetterOutput;
+		private Krypton.Toolkit.KryptonButton kryptonButtonSaveLettersResultsToClipboard;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelSetLettersNumberNames;
+		private Krypton.Toolkit.KryptonButton kryptonButtonDeleteLettersResultsToClipboard;
 		private Krypton.Toolkit.KryptonButton kryptonButtonLettersOutputOptions;
 		private Krypton.Toolkit.KryptonTextBox kryptonTextBoxLettersResults;
 		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownSetLettersNumberNames;
-		private Krypton.Toolkit.KryptonButton kryptonButton18;
+		private Krypton.Toolkit.KryptonButton kryptonButtonCopyLettersResultsToClipboard;
 		private Krypton.Toolkit.KryptonButton kryptonButtonStartLettersOutput;
-        private Krypton.Toolkit.KryptonListBox kryptonListBox1;
-        private Krypton.Toolkit.KryptonLabel kryptonLabel4;
-        private Krypton.Toolkit.KryptonTextBox kryptonTextBox3;
-        private Krypton.Toolkit.KryptonLabel kryptonLabel3;
-        private Krypton.Toolkit.KryptonTextBox kryptonTextBox2;
-        private GroupBox groupBox5;
-        private GroupBox groupBox4;
-        private Krypton.Toolkit.KryptonLabel kryptonLabel5;
-        private Krypton.Toolkit.KryptonLabel kryptonLabel6;
-        private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown2;
-        private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown3;
-        private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown4;
-        private Krypton.Toolkit.KryptonRadioButton kryptonRadioButton1;
-        private Krypton.Toolkit.KryptonRadioButton kryptonRadioButton2;
-        private Krypton.Toolkit.KryptonButton kryptonButton20;
-        private Krypton.Toolkit.KryptonLabel kryptonLabel8;
-        private Krypton.Toolkit.KryptonTextBox kryptonTextBox4;
-        private Krypton.Toolkit.KryptonLabel kryptonLabel9;
-        private Krypton.Toolkit.KryptonTextBox kryptonTextBox5;
-        private GroupBox groupBox6;
-        private Krypton.Toolkit.KryptonButton kryptonButton21;
-        private CheckBox checkBox1;
-        private Krypton.Toolkit.KryptonTextBox kryptonTextBox6;
-        private Krypton.Toolkit.KryptonButton kryptonButton22;
-        private GroupBox groupBox7;
-        private Krypton.Toolkit.KryptonRadioButton kryptonRadioButton3;
+        private Krypton.Toolkit.KryptonListBox kryptonListBoxLettersPredefinedStyles;
+        private Krypton.Toolkit.KryptonLabel kryptonLabelLetterSetConsonants;
+        private Krypton.Toolkit.KryptonTextBox kryptonTextBoxLetterSetConsonants;
+        private Krypton.Toolkit.KryptonLabel kryptonLabelLetterSetVowels;
+        private Krypton.Toolkit.KryptonTextBox kryptonTextBoxLetterSetVowels;
+        private GroupBox groupBoxLetterSet;
+        private GroupBox groupBoxWordLength;
+        private Krypton.Toolkit.KryptonLabel kryptonLabelWordLengthVariableMaximum;
+        private Krypton.Toolkit.KryptonLabel kryptonLabelWordLengthVariableMinimum;
+        private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownWordLengthVariableMaximum;
+        private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownWordLengthVariableMinimum;
+        private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownWordlLengthFix;
+        private Krypton.Toolkit.KryptonRadioButton kryptonRadioButtonWordLengthVariable;
+        private Krypton.Toolkit.KryptonRadioButton kryptonRadioButtonWordLengthFix;
+        private Krypton.Toolkit.KryptonButton kryptonButtonkryptonLabelApplyLettersPredefinedStyles;
+        private Krypton.Toolkit.KryptonLabel kryptonLabelLettersPredefinedStylesConsonants;
+        private Krypton.Toolkit.KryptonTextBox kryptonTextBoxkryptonLabelLettersPredefinedStylesVowels;
+        private Krypton.Toolkit.KryptonLabel kryptonLabelLettersPredefinedStylesVowels;
+        private Krypton.Toolkit.KryptonTextBox kryptonTextBoxLettersPredefinedStylesConsonants;
+        private GroupBox groupBoxIndividualPattern;
+        private Krypton.Toolkit.KryptonButton kryptonButtonIndividualPatternSetConsonant;
+        private CheckBox checkBoxUseIndividualPattern;
+        private Krypton.Toolkit.KryptonTextBox kryptonTextBoxIndividualPattern;
+        private Krypton.Toolkit.KryptonButton kryptonButtonkryptonButtonIndividualPatternSetVowel;
+        private GroupBox groupBoxStarting;
+        private Krypton.Toolkit.KryptonRadioButton kryptonRadioButtonStartingRandom;
         private Krypton.Toolkit.KryptonCheckButton kryptonCheckButton1;
         private Krypton.Toolkit.KryptonCheckButton kryptonCheckButton2;
         private Krypton.Toolkit.KryptonCheckButton kryptonCheckButton3;
-        private GroupBox groupBox8;
-        private Krypton.Toolkit.KryptonRadioButton kryptonRadioButton5;
-        private Krypton.Toolkit.KryptonRadioButton kryptonRadioButton4;
+        private GroupBox groupBoxLettersPredefinedStyles;
+        private Krypton.Toolkit.KryptonRadioButton kryptonRadioButtonStarting;
+        private Krypton.Toolkit.KryptonRadioButton kryptonRadioButtonStartingWithConsonant;
     }
 }
