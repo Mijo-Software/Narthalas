@@ -20,44 +20,45 @@
 			base.Dispose(disposing);
 		}
 
-		#region Windows Form Designer generated code
+        #region Windows Form Designer generated code
 
-		/// <summary>
-		/// Required method for Designer support - do not modify
-		/// the contents of this method with the code editor.
-		/// </summary>
-		private void InitializeComponent()
-		{
-			kryptonPanel = new Krypton.Toolkit.KryptonPanel();
-			((System.ComponentModel.ISupportInitialize)kryptonPanel).BeginInit();
-			SuspendLayout();
-			// 
-			// kryptonPanel
-			// 
-			kryptonPanel.AccessibleDescription = "Just a Panel";
-			kryptonPanel.AccessibleName = "Panel";
-			kryptonPanel.AccessibleRole = AccessibleRole.Grouping;
-			kryptonPanel.Dock = DockStyle.Fill;
-			kryptonPanel.Location = new Point(0, 0);
-			kryptonPanel.Name = "kryptonPanel";
-			kryptonPanel.Size = new Size(800, 450);
-			kryptonPanel.TabIndex = 2;
-			kryptonPanel.TabStop = true;
-			// 
-			// BrethinForm
-			// 
-			AutoScaleDimensions = new SizeF(7F, 15F);
-			AutoScaleMode = AutoScaleMode.Font;
-			ClientSize = new Size(800, 450);
-			Controls.Add(kryptonPanel);
-			Name = "BrethinForm";
-			Text = "BrethinForm";
-			((System.ComponentModel.ISupportInitialize)kryptonPanel).EndInit();
-			ResumeLayout(false);
-		}
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            kryptonPanel = new Krypton.Toolkit.KryptonPanel();
+            ((System.ComponentModel.ISupportInitialize)kryptonPanel).BeginInit();
+            SuspendLayout();
+            // 
+            // kryptonPanel
+            // 
+            kryptonPanel.AccessibleDescription = "Just a Panel";
+            kryptonPanel.AccessibleName = "Panel";
+            kryptonPanel.AccessibleRole = AccessibleRole.Grouping;
+            kryptonPanel.Dock = DockStyle.Fill;
+            kryptonPanel.Location = new Point(0, 0);
+            kryptonPanel.Name = "kryptonPanel";
+            kryptonPanel.Size = new Size(324, 201);
+            kryptonPanel.TabIndex = 2;
+            kryptonPanel.TabStop = true;
+            // 
+            // BrethinForm
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(324, 201);
+            Controls.Add(kryptonPanel);
+            Name = "BrethinForm";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "BrethinForm";
+            ((System.ComponentModel.ISupportInitialize)kryptonPanel).EndInit();
+            ResumeLayout(false);
+        }
 
-		#endregion
+        #endregion
 
-		private Krypton.Toolkit.KryptonPanel kryptonPanel;
+        private Krypton.Toolkit.KryptonPanel kryptonPanel;
 	}
 }
