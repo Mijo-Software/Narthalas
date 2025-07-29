@@ -29,6 +29,7 @@ namespace Narthalas
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AboutBoxForm));
 			tableLayoutPanel = new KryptonTableLayoutPanel();
 			logoPictureBox = new KryptonPictureBox();
 			labelProductName = new KryptonLabel();
@@ -44,8 +45,8 @@ namespace Narthalas
 			// tableLayoutPanel
 			// 
 			tableLayoutPanel.ColumnCount = 2;
-			tableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 31.59091F));
-			tableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 68.40909F));
+			tableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.81995F));
+			tableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 66.1800461F));
 			tableLayoutPanel.Controls.Add(logoPictureBox, 0, 0);
 			tableLayoutPanel.Controls.Add(labelProductName, 1, 0);
 			tableLayoutPanel.Controls.Add(labelVersion, 1, 1);
@@ -64,7 +65,7 @@ namespace Narthalas
 			tableLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 11.4893618F));
 			tableLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 46.4F));
 			tableLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 13.6F));
-			tableLayoutPanel.Size = new Size(520, 251);
+			tableLayoutPanel.Size = new Size(411, 251);
 			tableLayoutPanel.TabIndex = 0;
 			// 
 			// logoPictureBox
@@ -75,64 +76,64 @@ namespace Narthalas
 			logoPictureBox.Margin = new Padding(4, 3, 4, 3);
 			logoPictureBox.Name = "logoPictureBox";
 			tableLayoutPanel.SetRowSpan(logoPictureBox, 6);
-			logoPictureBox.Size = new Size(156, 245);
+			logoPictureBox.Size = new Size(130, 245);
 			logoPictureBox.TabIndex = 12;
 			logoPictureBox.TabStop = false;
 			// 
 			// labelProductName
 			// 
 			labelProductName.Dock = DockStyle.Fill;
-			labelProductName.Location = new Point(171, 0);
+			labelProductName.Location = new Point(145, 0);
 			labelProductName.Margin = new Padding(7, 0, 4, 0);
 			labelProductName.MaximumSize = new Size(0, 20);
 			labelProductName.Name = "labelProductName";
-			labelProductName.Size = new Size(345, 20);
+			labelProductName.Size = new Size(262, 20);
 			labelProductName.TabIndex = 0;
 			labelProductName.Values.Text = "Produktname";
 			// 
 			// labelVersion
 			// 
 			labelVersion.Dock = DockStyle.Fill;
-			labelVersion.Location = new Point(171, 24);
+			labelVersion.Location = new Point(145, 24);
 			labelVersion.Margin = new Padding(7, 0, 4, 0);
 			labelVersion.MaximumSize = new Size(0, 20);
 			labelVersion.Name = "labelVersion";
-			labelVersion.Size = new Size(345, 20);
+			labelVersion.Size = new Size(262, 20);
 			labelVersion.TabIndex = 1;
 			labelVersion.Values.Text = "Version";
 			// 
 			// labelCopyright
 			// 
 			labelCopyright.Dock = DockStyle.Fill;
-			labelCopyright.Location = new Point(171, 48);
+			labelCopyright.Location = new Point(145, 48);
 			labelCopyright.Margin = new Padding(7, 0, 4, 0);
 			labelCopyright.MaximumSize = new Size(0, 20);
 			labelCopyright.Name = "labelCopyright";
-			labelCopyright.Size = new Size(345, 20);
+			labelCopyright.Size = new Size(262, 20);
 			labelCopyright.TabIndex = 2;
 			labelCopyright.Values.Text = "Copyright";
 			// 
 			// labelCompanyName
 			// 
 			labelCompanyName.Dock = DockStyle.Fill;
-			labelCompanyName.Location = new Point(171, 72);
+			labelCompanyName.Location = new Point(145, 72);
 			labelCompanyName.Margin = new Padding(7, 0, 4, 0);
 			labelCompanyName.MaximumSize = new Size(0, 20);
 			labelCompanyName.Name = "labelCompanyName";
-			labelCompanyName.Size = new Size(345, 20);
+			labelCompanyName.Size = new Size(262, 20);
 			labelCompanyName.TabIndex = 3;
 			labelCompanyName.Values.Text = "Firmenname";
 			// 
 			// textBoxDescription
 			// 
 			textBoxDescription.Dock = DockStyle.Fill;
-			textBoxDescription.Location = new Point(171, 103);
+			textBoxDescription.Location = new Point(145, 103);
 			textBoxDescription.Margin = new Padding(7, 3, 4, 3);
 			textBoxDescription.Multiline = true;
 			textBoxDescription.Name = "textBoxDescription";
 			textBoxDescription.ReadOnly = true;
 			textBoxDescription.ScrollBars = ScrollBars.Both;
-			textBoxDescription.Size = new Size(345, 108);
+			textBoxDescription.Size = new Size(262, 108);
 			textBoxDescription.TabIndex = 4;
 			textBoxDescription.TabStop = false;
 			textBoxDescription.Text = "Beschreibung";
@@ -141,7 +142,7 @@ namespace Narthalas
 			// 
 			okButton.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
 			okButton.DialogResult = DialogResult.Cancel;
-			okButton.Location = new Point(390, 217);
+			okButton.Location = new Point(281, 217);
 			okButton.Margin = new Padding(4, 3, 4, 3);
 			okButton.Name = "okButton";
 			okButton.Size = new Size(126, 31);
@@ -155,17 +156,18 @@ namespace Narthalas
 			AcceptButton = okButton;
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
-			ClientSize = new Size(520, 251);
+			ClientSize = new Size(411, 251);
 			Controls.Add(tableLayoutPanel);
-			FormBorderStyle = FormBorderStyle.FixedDialog;
+			FormBorderStyle = FormBorderStyle.FixedSingle;
+			Icon = (Icon)resources.GetObject("$this.Icon");
+			KeyPreview = true;
 			Margin = new Padding(4, 3, 4, 3);
 			MaximizeBox = false;
-			MinimizeBox = false;
 			Name = "AboutBoxForm";
-			ShowIcon = false;
 			ShowInTaskbar = false;
 			StartPosition = FormStartPosition.CenterParent;
 			Text = "Information";
+			KeyDown += AboutForm_KeyDown;
 			tableLayoutPanel.ResumeLayout(false);
 			tableLayoutPanel.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)logoPictureBox).EndInit();
