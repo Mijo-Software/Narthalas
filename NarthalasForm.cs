@@ -1,3 +1,5 @@
+using Krypton.Toolkit;
+
 namespace Narthalas
 {
 	public partial class NarthalasForm : Form
