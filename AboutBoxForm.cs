@@ -1,7 +1,5 @@
 ﻿using System.Reflection;
 
-using Krypton.Toolkit;
-
 namespace Narthalas
 {
 	internal partial class AboutBoxForm : Form
@@ -71,6 +69,28 @@ namespace Narthalas
 			{
 				object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(attributeType: typeof(AssemblyCompanyAttribute), inherit: false);
 				return attributes.Length == 0 ? "" : ((AssemblyCompanyAttribute)attributes[0]).Company;
+			}
+		}
+
+		#endregion
+
+		#region KeyDown event handlers
+
+		/// <summary>
+		/// Handles the KeyDown event of the AboutForm.
+		/// Closes the form when the Escape key is pressed.
+		/// </summary>
+		/// <param name="sender">The event source.</param>
+		/// <param name="e">The <see cref="EventArgs"/> instance that contains the event data.</param>
+		private void AboutForm_KeyDown(object? sender, KeyEventArgs e)
+		{
+			// Check if the sender is null
+			ArgumentNullException.ThrowIfNull(argument: sender);
+			// Check if the Escape key is pressed
+			if (e.KeyCode == Keys.Escape)
+			{
+				// Close the form
+				Close();
 			}
 		}
 

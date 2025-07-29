@@ -1,5 +1,3 @@
-using Krypton.Toolkit;
-
 namespace Narthalas
 {
 	public partial class NarthalasForm : Form
@@ -8,6 +6,8 @@ namespace Narthalas
 		{
 			InitializeComponent();
 		}
+
+		#region Helpers
 
 		/// <summary>
 		/// Sets the status bar text.
@@ -36,7 +36,9 @@ namespace Narthalas
 			toolStripStatusLabelInfo.Text = string.Empty;
 		}
 
-		#region Enter-Handler
+		#endregion
+
+		#region Enter event handlers
 
 		/// <summary>
 		/// Called when the mouse pointer moves over a control.
@@ -61,7 +63,7 @@ namespace Narthalas
 
 		#endregion
 
-		#region Leave-Handler
+		#region Leave event handler
 
 		/// <summary>
 		/// Called when the mouse pointer leaves a control.
@@ -72,7 +74,7 @@ namespace Narthalas
 
 		#endregion
 
-		#region KeyDown event handler
+		#region KeyDown event handlers
 
 		/// <summary>
 		/// Handles the KeyDown event of the NarthalasForm.
@@ -91,6 +93,10 @@ namespace Narthalas
 				Close();
 			}
 		}
+
+		#endregion
+
+		#region Click event handlers
 
 		#endregion
 
