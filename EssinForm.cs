@@ -207,37 +207,30 @@ namespace Narthalas
 
         private void ToolStripMenuItemOutputOptionsEntriesLineByLine_Click(object sender, EventArgs e)
         {
-
         }
 
         private void ToolStripMenuItemOutputOptionsClearListWithEveryGeneration_Click(object sender, EventArgs e)
         {
-
         }
 
         private void ToolStripMenuItemOutputOptionsSeparatorIsSpace_Click(object sender, EventArgs e)
         {
-
         }
 
         private void ToolStripMenuItemOutputOptionsSeparatorIsComma_Click(object sender, EventArgs e)
         {
-
         }
 
         private void ToolStripMenuItemOutputOptionsSeparatorIsPipe_Click(object sender, EventArgs e)
         {
-
         }
 
         private void ToolStripMenuItemOutputOptionsSeparatorIsSemikolon_Click(object sender, EventArgs e)
         {
-
         }
 
         private void ToolStripMenuItemOutputOptionsEnclosedWithQuotes_Click(object sender, EventArgs e)
         {
-
         }
 
         private void KryptonButtonStartLettersOutput_Click(object sender, EventArgs e)
@@ -251,6 +244,75 @@ namespace Narthalas
                 kryptonTextBoxLettersResults.ScrollToCaret();
 
             }
+        }
+
+        private void KryptonButtonCopySyllablesResultsToClipboard_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(text: kryptonTextBoxSyllablesResults.Text);
+        }
+
+        private void KryptonButtonCopyLettersResultsToClipboard_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(text: kryptonTextBoxLettersResults.Text);
+        }
+
+        private void KryptonButtonDeleteLettersResultsToClipboard_Click(object sender, EventArgs e)
+        {
+            kryptonTextBoxLettersResults.Text = string.Empty;
+        }
+
+        private void KryptonButtonDeleteSyllablesResultsToClipboard_Click(object sender, EventArgs e)
+        {
+            kryptonTextBoxSyllablesResults.Text = string.Empty;
+        }
+
+        private void KryptonButtonSaveLettersResultsToClipboard_Click(object sender, EventArgs e)
+        {
+            // Save the letters results to a file
+            SaveFileDialog saveFileDialog = new()
+            {
+                Title = "Buchstabenbasiertes Ergebnis speichern",
+                Filter = "Textdateien (*.txt)|*.txt|alle Dateien (*.*)|*.*",
+                DefaultExt = "txt",
+                AddExtension = true
+            };
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    System.IO.File.WriteAllText(path: saveFileDialog.FileName, contents: kryptonTextBoxLettersResults.Text);
+                    SetStatusBar(text: "Ergebnis abgespeichert.", additionalInfo: saveFileDialog.FileName);
+                }
+                catch (Exception ex)
+                {
+                    SetStatusBar(text: "Fehler bei der Abspeicherung des Ergebnisses", additionalInfo: ex.Message);
+                }
+            }
+        }
+
+        private void KryptonButtonSaveSyllablesResultsToClipboard_Click(object sender, EventArgs e)
+        {
+            // Save the letters results to a file
+            SaveFileDialog saveFileDialog = new()
+            {
+                Title = "Silbenbasiertes Ergebnis speichern",
+                Filter = "Textdateien (*.txt)|*.txt|alle Dateien (*.*)|*.*",
+                DefaultExt = "txt",
+                AddExtension = true
+            };
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    System.IO.File.WriteAllText(path: saveFileDialog.FileName, contents: kryptonTextBoxSyllablesResults.Text);
+                    SetStatusBar(text: "Ergebnis abgespeichert.", additionalInfo: saveFileDialog.FileName);
+                }
+                catch (Exception ex)
+                {
+                    SetStatusBar(text: "Fehler bei der Abspeicherung des Ergebnisses", additionalInfo: ex.Message);
+                }
+            }
+
         }
     }
 }
