@@ -13,7 +13,7 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <SignAssembly>False</SignAssembly>
     <Title>Narthalas</Title>
-    <Version>0.0.4.4</Version>
+    <Version>0.0.5.5</Version>
     <Company>Mijo Software</Company>
     <Authors>Michael Johne</Authors>
     <Description>Shape the world, Leaf by Leaf</Description>
@@ -23,6 +23,7 @@
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <Copyright>© 2025 Mijo Software</Copyright>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <NeutralLanguage>de</NeutralLanguage>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

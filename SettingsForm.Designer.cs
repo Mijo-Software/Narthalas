@@ -41,6 +41,14 @@
 			tabPageSettingsOstiath = new TabPage();
 			tabPageSettingsLamath = new TabPage();
 			tabPageSettingsEssin = new TabPage();
+			groupBoxEssinOutputOptions = new GroupBox();
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsSemicolon = new Krypton.Toolkit.KryptonRadioButton();
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsPipe = new Krypton.Toolkit.KryptonRadioButton();
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsComma = new Krypton.Toolkit.KryptonRadioButton();
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsSpace = new Krypton.Toolkit.KryptonRadioButton();
+			kryptonCheckBoxEssinOutputOptionsEntriesLineByLine = new Krypton.Toolkit.KryptonCheckBox();
+			kryptonCheckBoxEssinOutputOptionsEnclosedWithQuotes = new Krypton.Toolkit.KryptonCheckBox();
+			kryptonCheckBoxEssinOutputOptionsClearListWithEveryGeneration = new Krypton.Toolkit.KryptonCheckBox();
 			tabPageSettingsBrethin = new TabPage();
 			tabPageSettingsLassath = new TabPage();
 			tabPageSettingsMirath = new TabPage();
@@ -59,6 +67,8 @@
 			tabControl.SuspendLayout();
 			tabPageSettingsNarthalas.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)kryptonThemeComboBox1).BeginInit();
+			tabPageSettingsEssin.SuspendLayout();
+			groupBoxEssinOutputOptions.SuspendLayout();
 			kryptonToolStrip.SuspendLayout();
 			SuspendLayout();
 			// 
@@ -72,11 +82,11 @@
 			// toolStripContainer.ContentPanel
 			// 
 			toolStripContainer.ContentPanel.Controls.Add(kryptonPanel);
-			toolStripContainer.ContentPanel.Size = new Size(372, 154);
+			toolStripContainer.ContentPanel.Size = new Size(372, 252);
 			toolStripContainer.Dock = DockStyle.Fill;
 			toolStripContainer.Location = new Point(0, 0);
 			toolStripContainer.Name = "toolStripContainer";
-			toolStripContainer.Size = new Size(372, 201);
+			toolStripContainer.Size = new Size(372, 299);
 			toolStripContainer.TabIndex = 4;
 			toolStripContainer.Text = "toolStripContainer";
 			// 
@@ -126,7 +136,7 @@
 			kryptonPanel.Dock = DockStyle.Fill;
 			kryptonPanel.Location = new Point(0, 0);
 			kryptonPanel.Name = "kryptonPanel";
-			kryptonPanel.Size = new Size(372, 154);
+			kryptonPanel.Size = new Size(372, 252);
 			kryptonPanel.TabIndex = 2;
 			kryptonPanel.TabStop = true;
 			// 
@@ -146,7 +156,7 @@
 			tabControl.Location = new Point(0, 0);
 			tabControl.Name = "tabControl";
 			tabControl.SelectedIndex = 0;
-			tabControl.Size = new Size(372, 154);
+			tabControl.Size = new Size(372, 252);
 			tabControl.TabIndex = 0;
 			// 
 			// tabPageSettingsNarthalas
@@ -156,7 +166,7 @@
 			tabPageSettingsNarthalas.Location = new Point(4, 24);
 			tabPageSettingsNarthalas.Name = "tabPageSettingsNarthalas";
 			tabPageSettingsNarthalas.Padding = new Padding(3);
-			tabPageSettingsNarthalas.Size = new Size(364, 126);
+			tabPageSettingsNarthalas.Size = new Size(364, 224);
 			tabPageSettingsNarthalas.TabIndex = 0;
 			tabPageSettingsNarthalas.Text = "Narthalas";
 			tabPageSettingsNarthalas.UseVisualStyleBackColor = true;
@@ -177,7 +187,7 @@
 			tabPageSettingsTarmenel.Location = new Point(4, 24);
 			tabPageSettingsTarmenel.Name = "tabPageSettingsTarmenel";
 			tabPageSettingsTarmenel.Padding = new Padding(3);
-			tabPageSettingsTarmenel.Size = new Size(364, 126);
+			tabPageSettingsTarmenel.Size = new Size(364, 224);
 			tabPageSettingsTarmenel.TabIndex = 1;
 			tabPageSettingsTarmenel.Text = "Tarmenel";
 			tabPageSettingsTarmenel.UseVisualStyleBackColor = true;
@@ -187,7 +197,7 @@
 			tabPageSettingsDoriath.AutoScroll = true;
 			tabPageSettingsDoriath.Location = new Point(4, 24);
 			tabPageSettingsDoriath.Name = "tabPageSettingsDoriath";
-			tabPageSettingsDoriath.Size = new Size(364, 126);
+			tabPageSettingsDoriath.Size = new Size(364, 224);
 			tabPageSettingsDoriath.TabIndex = 2;
 			tabPageSettingsDoriath.Text = "Doriath";
 			tabPageSettingsDoriath.UseVisualStyleBackColor = true;
@@ -197,7 +207,7 @@
 			tabPageSettingsOstiath.AutoScroll = true;
 			tabPageSettingsOstiath.Location = new Point(4, 24);
 			tabPageSettingsOstiath.Name = "tabPageSettingsOstiath";
-			tabPageSettingsOstiath.Size = new Size(364, 126);
+			tabPageSettingsOstiath.Size = new Size(364, 224);
 			tabPageSettingsOstiath.TabIndex = 3;
 			tabPageSettingsOstiath.Text = "Ostiath";
 			tabPageSettingsOstiath.UseVisualStyleBackColor = true;
@@ -207,7 +217,7 @@
 			tabPageSettingsLamath.AutoScroll = true;
 			tabPageSettingsLamath.Location = new Point(4, 24);
 			tabPageSettingsLamath.Name = "tabPageSettingsLamath";
-			tabPageSettingsLamath.Size = new Size(364, 126);
+			tabPageSettingsLamath.Size = new Size(364, 224);
 			tabPageSettingsLamath.TabIndex = 4;
 			tabPageSettingsLamath.Text = "Lamath";
 			tabPageSettingsLamath.UseVisualStyleBackColor = true;
@@ -215,19 +225,92 @@
 			// tabPageSettingsEssin
 			// 
 			tabPageSettingsEssin.AutoScroll = true;
+			tabPageSettingsEssin.Controls.Add(groupBoxEssinOutputOptions);
 			tabPageSettingsEssin.Location = new Point(4, 24);
 			tabPageSettingsEssin.Name = "tabPageSettingsEssin";
-			tabPageSettingsEssin.Size = new Size(364, 126);
+			tabPageSettingsEssin.Size = new Size(364, 224);
 			tabPageSettingsEssin.TabIndex = 5;
 			tabPageSettingsEssin.Text = "Essin";
 			tabPageSettingsEssin.UseVisualStyleBackColor = true;
+			// 
+			// groupBoxEssinOutputOptions
+			// 
+			groupBoxEssinOutputOptions.Controls.Add(kryptonRadioButtonEssinOutputOptionsSeparatorIsSemicolon);
+			groupBoxEssinOutputOptions.Controls.Add(kryptonRadioButtonEssinOutputOptionsSeparatorIsPipe);
+			groupBoxEssinOutputOptions.Controls.Add(kryptonRadioButtonEssinOutputOptionsSeparatorIsComma);
+			groupBoxEssinOutputOptions.Controls.Add(kryptonRadioButtonEssinOutputOptionsSeparatorIsSpace);
+			groupBoxEssinOutputOptions.Controls.Add(kryptonCheckBoxEssinOutputOptionsEntriesLineByLine);
+			groupBoxEssinOutputOptions.Controls.Add(kryptonCheckBoxEssinOutputOptionsEnclosedWithQuotes);
+			groupBoxEssinOutputOptions.Controls.Add(kryptonCheckBoxEssinOutputOptionsClearListWithEveryGeneration);
+			groupBoxEssinOutputOptions.Location = new Point(8, 3);
+			groupBoxEssinOutputOptions.Name = "groupBoxEssinOutputOptions";
+			groupBoxEssinOutputOptions.Size = new Size(281, 208);
+			groupBoxEssinOutputOptions.TabIndex = 3;
+			groupBoxEssinOutputOptions.TabStop = false;
+			groupBoxEssinOutputOptions.Text = "Ausgabeoptionen";
+			// 
+			// kryptonRadioButtonEssinOutputOptionsSeparatorIsSemicolon
+			// 
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsSemicolon.Location = new Point(6, 178);
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsSemicolon.Name = "kryptonRadioButtonEssinOutputOptionsSeparatorIsSemicolon";
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsSemicolon.Size = new Size(214, 20);
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsSemicolon.TabIndex = 6;
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsSemicolon.Values.Text = "Einträge durch Semikolons trennen";
+			// 
+			// kryptonRadioButtonEssinOutputOptionsSeparatorIsPipe
+			// 
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsPipe.Location = new Point(6, 152);
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsPipe.Name = "kryptonRadioButtonEssinOutputOptionsSeparatorIsPipe";
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsPipe.Size = new Size(227, 20);
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsPipe.TabIndex = 5;
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsPipe.Values.Text = "Einträge durch Pipe-Symbole trennen";
+			// 
+			// kryptonRadioButtonEssinOutputOptionsSeparatorIsComma
+			// 
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsComma.Location = new Point(6, 126);
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsComma.Name = "kryptonRadioButtonEssinOutputOptionsSeparatorIsComma";
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsComma.Size = new Size(204, 20);
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsComma.TabIndex = 4;
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsComma.Values.Text = "Einträge durch Kommata trennen";
+			// 
+			// kryptonRadioButtonEssinOutputOptionsSeparatorIsSpace
+			// 
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsSpace.Location = new Point(6, 100);
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsSpace.Name = "kryptonRadioButtonEssinOutputOptionsSeparatorIsSpace";
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsSpace.Size = new Size(215, 20);
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsSpace.TabIndex = 3;
+			kryptonRadioButtonEssinOutputOptionsSeparatorIsSpace.Values.Text = "Einträge durch Leerzeichen trennen";
+			// 
+			// kryptonCheckBoxEssinOutputOptionsEntriesLineByLine
+			// 
+			kryptonCheckBoxEssinOutputOptionsEntriesLineByLine.Location = new Point(6, 22);
+			kryptonCheckBoxEssinOutputOptionsEntriesLineByLine.Name = "kryptonCheckBoxEssinOutputOptionsEntriesLineByLine";
+			kryptonCheckBoxEssinOutputOptionsEntriesLineByLine.Size = new Size(198, 20);
+			kryptonCheckBoxEssinOutputOptionsEntriesLineByLine.TabIndex = 0;
+			kryptonCheckBoxEssinOutputOptionsEntriesLineByLine.Values.Text = "Einträge zeilenweise hinzufügen";
+			// 
+			// kryptonCheckBoxEssinOutputOptionsEnclosedWithQuotes
+			// 
+			kryptonCheckBoxEssinOutputOptionsEnclosedWithQuotes.Location = new Point(6, 74);
+			kryptonCheckBoxEssinOutputOptionsEnclosedWithQuotes.Name = "kryptonCheckBoxEssinOutputOptionsEnclosedWithQuotes";
+			kryptonCheckBoxEssinOutputOptionsEnclosedWithQuotes.Size = new Size(269, 20);
+			kryptonCheckBoxEssinOutputOptionsEnclosedWithQuotes.TabIndex = 2;
+			kryptonCheckBoxEssinOutputOptionsEnclosedWithQuotes.Values.Text = "Einträge mit Anführungszeichen umschließen";
+			// 
+			// kryptonCheckBoxEssinOutputOptionsClearListWithEveryGeneration
+			// 
+			kryptonCheckBoxEssinOutputOptionsClearListWithEveryGeneration.Location = new Point(6, 48);
+			kryptonCheckBoxEssinOutputOptionsClearListWithEveryGeneration.Name = "kryptonCheckBoxEssinOutputOptionsClearListWithEveryGeneration";
+			kryptonCheckBoxEssinOutputOptionsClearListWithEveryGeneration.Size = new Size(237, 20);
+			kryptonCheckBoxEssinOutputOptionsClearListWithEveryGeneration.TabIndex = 1;
+			kryptonCheckBoxEssinOutputOptionsClearListWithEveryGeneration.Values.Text = "mit jeder Generierung die Liste löschen";
 			// 
 			// tabPageSettingsBrethin
 			// 
 			tabPageSettingsBrethin.AutoScroll = true;
 			tabPageSettingsBrethin.Location = new Point(4, 24);
 			tabPageSettingsBrethin.Name = "tabPageSettingsBrethin";
-			tabPageSettingsBrethin.Size = new Size(364, 126);
+			tabPageSettingsBrethin.Size = new Size(364, 224);
 			tabPageSettingsBrethin.TabIndex = 6;
 			tabPageSettingsBrethin.Text = "Brethin";
 			tabPageSettingsBrethin.UseVisualStyleBackColor = true;
@@ -237,7 +320,7 @@
 			tabPageSettingsLassath.AutoScroll = true;
 			tabPageSettingsLassath.Location = new Point(4, 24);
 			tabPageSettingsLassath.Name = "tabPageSettingsLassath";
-			tabPageSettingsLassath.Size = new Size(364, 126);
+			tabPageSettingsLassath.Size = new Size(364, 224);
 			tabPageSettingsLassath.TabIndex = 8;
 			tabPageSettingsLassath.Text = "Lassath";
 			tabPageSettingsLassath.UseVisualStyleBackColor = true;
@@ -247,7 +330,7 @@
 			tabPageSettingsMirath.AutoScroll = true;
 			tabPageSettingsMirath.Location = new Point(4, 24);
 			tabPageSettingsMirath.Name = "tabPageSettingsMirath";
-			tabPageSettingsMirath.Size = new Size(364, 126);
+			tabPageSettingsMirath.Size = new Size(364, 224);
 			tabPageSettingsMirath.TabIndex = 7;
 			tabPageSettingsMirath.Text = "Mirath";
 			tabPageSettingsMirath.UseVisualStyleBackColor = true;
@@ -316,7 +399,7 @@
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
-			ClientSize = new Size(372, 201);
+			ClientSize = new Size(372, 299);
 			Controls.Add(toolStripContainer);
 			FormBorderStyle = FormBorderStyle.FixedSingle;
 			Icon = (Icon)resources.GetObject("$this.Icon");
@@ -341,6 +424,9 @@
 			tabControl.ResumeLayout(false);
 			tabPageSettingsNarthalas.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)kryptonThemeComboBox1).EndInit();
+			tabPageSettingsEssin.ResumeLayout(false);
+			groupBoxEssinOutputOptions.ResumeLayout(false);
+			groupBoxEssinOutputOptions.PerformLayout();
 			kryptonToolStrip.ResumeLayout(false);
 			kryptonToolStrip.PerformLayout();
 			ResumeLayout(false);
@@ -368,5 +454,13 @@
 		private ToolStripButton toolStripButtonSetDefaultSettings;
 		private ToolStripSeparator toolStripSeparator1;
 		private Krypton.Toolkit.KryptonThemeComboBox kryptonThemeComboBox1;
+		private GroupBox groupBoxEssinOutputOptions;
+		private Krypton.Toolkit.KryptonCheckBox kryptonCheckBoxEssinOutputOptionsEntriesLineByLine;
+		private Krypton.Toolkit.KryptonCheckBox kryptonCheckBoxEssinOutputOptionsEnclosedWithQuotes;
+		private Krypton.Toolkit.KryptonCheckBox kryptonCheckBoxEssinOutputOptionsClearListWithEveryGeneration;
+		private Krypton.Toolkit.KryptonRadioButton kryptonRadioButtonEssinOutputOptionsSeparatorIsSemicolon;
+		private Krypton.Toolkit.KryptonRadioButton kryptonRadioButtonEssinOutputOptionsSeparatorIsPipe;
+		private Krypton.Toolkit.KryptonRadioButton kryptonRadioButtonEssinOutputOptionsSeparatorIsComma;
+		private Krypton.Toolkit.KryptonRadioButton kryptonRadioButtonEssinOutputOptionsSeparatorIsSpace;
 	}
 }
