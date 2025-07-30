@@ -117,13 +117,2803 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="contextMenuStripResultOptions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>168, 17</value>
-  </metadata>
+  <data name="toolStripContainer.AccessibleDescription" xml:space="preserve">
+    <value>Just a Container</value>
+  </data>
+  <data name="toolStripContainer.AccessibleName" xml:space="preserve">
+    <value>Container</value>
+  </data>
+  <data name="toolStripContainer.BottomToolStripPanel.AccessibleDescription" xml:space="preserve">
+    <value>Just a Pane</value>
+  </data>
+  <data name="toolStripContainer.BottomToolStripPanel.AccessibleName" xml:space="preserve">
+    <value>Pane</value>
+  </data>
   <metadata name="kryptonStatusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="kryptonStatusStrip.AccessibleDescription" xml:space="preserve">
+    <value>Hält wichtige Elemente wie Infotext bereit</value>
+  </data>
+  <data name="kryptonStatusStrip.AccessibleName" xml:space="preserve">
+    <value>Statusleiste</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="kryptonStatusStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="kryptonStatusStrip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="toolStripStatusLabelInfo.AccessibleDescription" xml:space="preserve">
+    <value>Zeigt erklärende Informationen an</value>
+  </data>
+  <data name="toolStripStatusLabelInfo.AccessibleName" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="toolStripStatusLabelInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>636, 17</value>
+  </data>
+  <data name="toolStripStatusLabelInfo.Text" xml:space="preserve">
+    <value>info</value>
+  </data>
+  <data name="toolStripStatusLabelInfo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="kryptonStatusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="kryptonStatusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>651, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="kryptonStatusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="kryptonStatusStrip.Text" xml:space="preserve">
+    <value>kryptonStatusStrip</value>
+  </data>
+  <data name="&gt;&gt;kryptonStatusStrip.Name" xml:space="preserve">
+    <value>kryptonStatusStrip</value>
+  </data>
+  <data name="&gt;&gt;kryptonStatusStrip.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonStatusStrip, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonStatusStrip.Parent" xml:space="preserve">
+    <value>toolStripContainer.BottomToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;kryptonStatusStrip.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.BottomToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer.BottomToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.BottomToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.BottomToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.BottomToolStripPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="kryptonPanel.AccessibleDescription" xml:space="preserve">
+    <value>Just a Panel</value>
+  </data>
+  <data name="kryptonPanel.AccessibleName" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="groupBoxLettersLanguageStyles.AccessibleDescription" xml:space="preserve">
+    <value>Gruppiert den Bereich der Sprachstile</value>
+  </data>
+  <data name="groupBoxLettersLanguageStyles.AccessibleName" xml:space="preserve">
+    <value>Sprachstile</value>
+  </data>
+  <data name="kryptonListBoxLettersLanguageStyles.AccessibleDescription" xml:space="preserve">
+    <value>Zeigt die Liste der auswählbaren Sprachstile an</value>
+  </data>
+  <data name="kryptonListBoxLettersLanguageStyles.AccessibleName" xml:space="preserve">
+    <value>Liste der Sprachstile</value>
+  </data>
+  <data name="kryptonListBoxLettersLanguageStyles.HorizontalScrollbar" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="kryptonListBoxLettersLanguageStyles.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="kryptonListBoxLettersLanguageStyles.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="kryptonListBoxLettersLanguageStyles.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="kryptonListBoxLettersLanguageStyles.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="kryptonListBoxLettersLanguageStyles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="kryptonListBoxLettersLanguageStyles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 173</value>
+  </data>
+  <data name="kryptonListBoxLettersLanguageStyles.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="resource.Description" xml:space="preserve">
+    <value>Zeigt die Liste der auswählbaren Sprachstile an</value>
+  </data>
+  <data name="resource.Heading" xml:space="preserve">
+    <value>Liste der Sprachstile</value>
+  </data>
+  <data name="&gt;&gt;kryptonListBoxLettersLanguageStyles.Name" xml:space="preserve">
+    <value>kryptonListBoxLettersLanguageStyles</value>
+  </data>
+  <data name="&gt;&gt;kryptonListBoxLettersLanguageStyles.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonListBox, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonListBoxLettersLanguageStyles.Parent" xml:space="preserve">
+    <value>groupBoxLettersLanguageStyles</value>
+  </data>
+  <data name="&gt;&gt;kryptonListBoxLettersLanguageStyles.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="kryptonButtonApplyLettersLanguageStyle.AccessibleDescription" xml:space="preserve">
+    <value>Wendet den ausgewählten Sprachstil an</value>
+  </data>
+  <data name="kryptonButtonApplyLettersLanguageStyle.AccessibleName" xml:space="preserve">
+    <value>Sprachstil anwenden</value>
+  </data>
+  <data name="kryptonButtonApplyLettersLanguageStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 170</value>
+  </data>
+  <data name="kryptonButtonApplyLettersLanguageStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 24</value>
+  </data>
+  <data name="kryptonButtonApplyLettersLanguageStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="resource.Description1" xml:space="preserve">
+    <value>Wendet den ausgewählten Sprachstil an</value>
+  </data>
+  <data name="resource.Heading1" xml:space="preserve">
+    <value>Sprachstil anwenden</value>
+  </data>
+  <data name="kryptonButtonApplyLettersLanguageStyle.Values.Text" xml:space="preserve">
+    <value>Anwenden</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonApplyLettersLanguageStyle.Name" xml:space="preserve">
+    <value>kryptonButtonApplyLettersLanguageStyle</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonApplyLettersLanguageStyle.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonApplyLettersLanguageStyle.Parent" xml:space="preserve">
+    <value>groupBoxLettersLanguageStyles</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonApplyLettersLanguageStyle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="kryptonTextBoxLettersLanguageStyleConsonants.AccessibleDescription" xml:space="preserve">
+    <value>Zeigt die Konsonanten des ausgewählten Sprachstils an</value>
+  </data>
+  <data name="kryptonTextBoxLettersLanguageStyleConsonants.AccessibleName" xml:space="preserve">
+    <value>Konsonanten des Sprachstils</value>
+  </data>
+  <data name="kryptonTextBoxLettersLanguageStyleConsonants.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 50</value>
+  </data>
+  <data name="kryptonTextBoxLettersLanguageStyleConsonants.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 23</value>
+  </data>
+  <data name="kryptonTextBoxLettersLanguageStyleConsonants.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="resource.Description2" xml:space="preserve">
+    <value>Zeigt die Konsonanten des ausgewählten Sprachstils an</value>
+  </data>
+  <data name="resource.Heading2" xml:space="preserve">
+    <value>Konsonanten des Sprachstils</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLettersLanguageStyleConsonants.Name" xml:space="preserve">
+    <value>kryptonTextBoxLettersLanguageStyleConsonants</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLettersLanguageStyleConsonants.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonTextBox, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLettersLanguageStyleConsonants.Parent" xml:space="preserve">
+    <value>groupBoxLettersLanguageStyles</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLettersLanguageStyleConsonants.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="kryptonLabelLettersLanguageStyleConsonants.AccessibleDescription" xml:space="preserve">
+    <value>Zeigt die Konsonanten des ausgewählten Sprachstils an</value>
+  </data>
+  <data name="kryptonLabelLettersLanguageStyleConsonants.AccessibleName" xml:space="preserve">
+    <value>Konsonanten des Sprachstils</value>
+  </data>
+  <data name="kryptonLabelLettersLanguageStyleConsonants.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 24</value>
+  </data>
+  <data name="kryptonLabelLettersLanguageStyleConsonants.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 20</value>
+  </data>
+  <data name="kryptonLabelLettersLanguageStyleConsonants.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="resource.Description3" xml:space="preserve">
+    <value>Zeigt die Konsonanten des ausgewählten Sprachstils an</value>
+  </data>
+  <data name="resource.Heading3" xml:space="preserve">
+    <value>Konsonanten des Sprachstils</value>
+  </data>
+  <data name="kryptonLabelLettersLanguageStyleConsonants.Values.Text" xml:space="preserve">
+    <value>Konsonanten</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelLettersLanguageStyleConsonants.Name" xml:space="preserve">
+    <value>kryptonLabelLettersLanguageStyleConsonants</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelLettersLanguageStyleConsonants.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonLabel, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelLettersLanguageStyleConsonants.Parent" xml:space="preserve">
+    <value>groupBoxLettersLanguageStyles</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelLettersLanguageStyleConsonants.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="kryptonLabelLettersLanguageStyleVowels.AccessibleDescription" xml:space="preserve">
+    <value>Zeigt die Vokale des ausgewählten Sprachstils an</value>
+  </data>
+  <data name="kryptonLabelLettersLanguageStyleVowels.AccessibleName" xml:space="preserve">
+    <value>Vokale des Sprachstils</value>
+  </data>
+  <data name="kryptonLabelLettersLanguageStyleVowels.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 80</value>
+  </data>
+  <data name="kryptonLabelLettersLanguageStyleVowels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="kryptonLabelLettersLanguageStyleVowels.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="resource.Description4" xml:space="preserve">
+    <value>Zeigt die Vokale des ausgewählten Sprachstils an</value>
+  </data>
+  <data name="resource.Heading4" xml:space="preserve">
+    <value>Vokale des Sprachstils</value>
+  </data>
+  <data name="kryptonLabelLettersLanguageStyleVowels.Values.Text" xml:space="preserve">
+    <value>Vokale</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelLettersLanguageStyleVowels.Name" xml:space="preserve">
+    <value>kryptonLabelLettersLanguageStyleVowels</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelLettersLanguageStyleVowels.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonLabel, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelLettersLanguageStyleVowels.Parent" xml:space="preserve">
+    <value>groupBoxLettersLanguageStyles</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelLettersLanguageStyleVowels.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="kryptonTextBoxLettersLanguageStyleVowels.AccessibleDescription" xml:space="preserve">
+    <value>Zeigt die Vokale des ausgewählten Sprachstils an</value>
+  </data>
+  <data name="kryptonTextBoxLettersLanguageStyleVowels.AccessibleName" xml:space="preserve">
+    <value>Vokale des Sprachstils</value>
+  </data>
+  <data name="kryptonTextBoxLettersLanguageStyleVowels.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 106</value>
+  </data>
+  <data name="kryptonTextBoxLettersLanguageStyleVowels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 23</value>
+  </data>
+  <data name="kryptonTextBoxLettersLanguageStyleVowels.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="resource.Description5" xml:space="preserve">
+    <value>Zeigt die Vokale des ausgewählten Sprachstils an</value>
+  </data>
+  <data name="resource.Heading5" xml:space="preserve">
+    <value>Vokale des Sprachstils</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLettersLanguageStyleVowels.Name" xml:space="preserve">
+    <value>kryptonTextBoxLettersLanguageStyleVowels</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLettersLanguageStyleVowels.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonTextBox, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLettersLanguageStyleVowels.Parent" xml:space="preserve">
+    <value>groupBoxLettersLanguageStyles</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLettersLanguageStyleVowels.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupBoxLettersLanguageStyles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 174</value>
+  </data>
+  <data name="groupBoxLettersLanguageStyles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 206</value>
+  </data>
+  <data name="groupBoxLettersLanguageStyles.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="groupBoxLettersLanguageStyles.Text" xml:space="preserve">
+    <value>Sprachstile</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLettersLanguageStyles.Name" xml:space="preserve">
+    <value>groupBoxLettersLanguageStyles</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLettersLanguageStyles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLettersLanguageStyles.Parent" xml:space="preserve">
+    <value>tabPageMethodLetters</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLettersLanguageStyles.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBoxStarting.AccessibleDescription" xml:space="preserve">
+    <value>Gruppiert den Bereich, mit welcher ucstabenart die Generierungen beginnen soll</value>
+  </data>
+  <data name="groupBoxStarting.AccessibleName" xml:space="preserve">
+    <value>Beginn mit...</value>
+  </data>
+  <data name="kryptonRadioButtonStarting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 77</value>
+  </data>
+  <data name="kryptonRadioButtonStarting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="kryptonRadioButtonStarting.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="kryptonRadioButtonStarting.Values.Text" xml:space="preserve">
+    <value>Vokal</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonStarting.Name" xml:space="preserve">
+    <value>kryptonRadioButtonStarting</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonStarting.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonRadioButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonStarting.Parent" xml:space="preserve">
+    <value>groupBoxStarting</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonStarting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="kryptonRadioButtonStartingWithConsonant.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="kryptonRadioButtonStartingWithConsonant.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="kryptonRadioButtonStartingWithConsonant.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="kryptonRadioButtonStartingWithConsonant.Values.Text" xml:space="preserve">
+    <value>Konsonant</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithConsonant.Name" xml:space="preserve">
+    <value>kryptonRadioButtonStartingWithConsonant</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithConsonant.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonRadioButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithConsonant.Parent" xml:space="preserve">
+    <value>groupBoxStarting</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithConsonant.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="kryptonRadioButtonStartingRandom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="kryptonRadioButtonStartingRandom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="kryptonRadioButtonStartingRandom.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="kryptonRadioButtonStartingRandom.Values.Text" xml:space="preserve">
+    <value>zufällig</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonStartingRandom.Name" xml:space="preserve">
+    <value>kryptonRadioButtonStartingRandom</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonStartingRandom.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonRadioButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonStartingRandom.Parent" xml:space="preserve">
+    <value>groupBoxStarting</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonStartingRandom.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBoxStarting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 6</value>
+  </data>
+  <data name="groupBoxStarting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 162</value>
+  </data>
+  <data name="groupBoxStarting.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="groupBoxStarting.Text" xml:space="preserve">
+    <value>Beginn mit ...</value>
+  </data>
+  <data name="&gt;&gt;groupBoxStarting.Name" xml:space="preserve">
+    <value>groupBoxStarting</value>
+  </data>
+  <data name="&gt;&gt;groupBoxStarting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxStarting.Parent" xml:space="preserve">
+    <value>tabPageMethodLetters</value>
+  </data>
+  <data name="&gt;&gt;groupBoxStarting.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBoxIndividualPattern.AccessibleDescription" xml:space="preserve">
+    <value>Gruppiert den Bereich des individuell anwendbaren Musters</value>
+  </data>
+  <data name="groupBoxIndividualPattern.AccessibleName" xml:space="preserve">
+    <value>Individuelles Muster</value>
+  </data>
+  <data name="kryptonButtonkryptonButtonIndividualPatternSetVowel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 74</value>
+  </data>
+  <data name="kryptonButtonkryptonButtonIndividualPatternSetVowel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 23</value>
+  </data>
+  <data name="kryptonButtonkryptonButtonIndividualPatternSetVowel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="kryptonButtonkryptonButtonIndividualPatternSetVowel.Values.Text" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonkryptonButtonIndividualPatternSetVowel.Name" xml:space="preserve">
+    <value>kryptonButtonkryptonButtonIndividualPatternSetVowel</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonkryptonButtonIndividualPatternSetVowel.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonkryptonButtonIndividualPatternSetVowel.Parent" xml:space="preserve">
+    <value>groupBoxIndividualPattern</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonkryptonButtonIndividualPatternSetVowel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="kryptonButtonIndividualPatternSetConsonant.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 74</value>
+  </data>
+  <data name="kryptonButtonIndividualPatternSetConsonant.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 23</value>
+  </data>
+  <data name="kryptonButtonIndividualPatternSetConsonant.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="kryptonButtonIndividualPatternSetConsonant.Values.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonIndividualPatternSetConsonant.Name" xml:space="preserve">
+    <value>kryptonButtonIndividualPatternSetConsonant</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonIndividualPatternSetConsonant.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonIndividualPatternSetConsonant.Parent" xml:space="preserve">
+    <value>groupBoxIndividualPattern</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonIndividualPatternSetConsonant.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxUseIndividualPattern.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxUseIndividualPattern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="checkBoxUseIndividualPattern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 19</value>
+  </data>
+  <data name="checkBoxUseIndividualPattern.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="checkBoxUseIndividualPattern.Text" xml:space="preserve">
+    <value>anwenden</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUseIndividualPattern.Name" xml:space="preserve">
+    <value>checkBoxUseIndividualPattern</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUseIndividualPattern.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUseIndividualPattern.Parent" xml:space="preserve">
+    <value>groupBoxIndividualPattern</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUseIndividualPattern.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="kryptonTextBoxIndividualPattern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 45</value>
+  </data>
+  <data name="kryptonTextBoxIndividualPattern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 23</value>
+  </data>
+  <data name="kryptonTextBoxIndividualPattern.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxIndividualPattern.Name" xml:space="preserve">
+    <value>kryptonTextBoxIndividualPattern</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxIndividualPattern.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonTextBox, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxIndividualPattern.Parent" xml:space="preserve">
+    <value>groupBoxIndividualPattern</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxIndividualPattern.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBoxIndividualPattern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 6</value>
+  </data>
+  <data name="groupBoxIndividualPattern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 162</value>
+  </data>
+  <data name="groupBoxIndividualPattern.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="groupBoxIndividualPattern.Text" xml:space="preserve">
+    <value>Individuelles Muster</value>
+  </data>
+  <data name="&gt;&gt;groupBoxIndividualPattern.Name" xml:space="preserve">
+    <value>groupBoxIndividualPattern</value>
+  </data>
+  <data name="&gt;&gt;groupBoxIndividualPattern.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxIndividualPattern.Parent" xml:space="preserve">
+    <value>tabPageMethodLetters</value>
+  </data>
+  <data name="&gt;&gt;groupBoxIndividualPattern.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBoxLetterSet.AccessibleDescription" xml:space="preserve">
+    <value>Gruppiert den Bereich der Buchstaben-Sets</value>
+  </data>
+  <data name="groupBoxLetterSet.AccessibleName" xml:space="preserve">
+    <value>Buchstaben-Set</value>
+  </data>
+  <data name="kryptonLabelLetterSetConsonants.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="kryptonLabelLetterSetConsonants.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 20</value>
+  </data>
+  <data name="kryptonLabelLetterSetConsonants.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="kryptonLabelLetterSetConsonants.Values.Text" xml:space="preserve">
+    <value>Konsonanten</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelLetterSetConsonants.Name" xml:space="preserve">
+    <value>kryptonLabelLetterSetConsonants</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelLetterSetConsonants.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonLabel, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelLetterSetConsonants.Parent" xml:space="preserve">
+    <value>groupBoxLetterSet</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelLetterSetConsonants.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="kryptonTextBoxLetterSetVowels.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 104</value>
+  </data>
+  <data name="kryptonTextBoxLetterSetVowels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 23</value>
+  </data>
+  <data name="kryptonTextBoxLetterSetVowels.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLetterSetVowels.Name" xml:space="preserve">
+    <value>kryptonTextBoxLetterSetVowels</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLetterSetVowels.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonTextBox, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLetterSetVowels.Parent" xml:space="preserve">
+    <value>groupBoxLetterSet</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLetterSetVowels.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="kryptonLabelLetterSetVowels.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 78</value>
+  </data>
+  <data name="kryptonLabelLetterSetVowels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="kryptonLabelLetterSetVowels.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="kryptonLabelLetterSetVowels.Values.Text" xml:space="preserve">
+    <value>Vokale</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelLetterSetVowels.Name" xml:space="preserve">
+    <value>kryptonLabelLetterSetVowels</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelLetterSetVowels.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonLabel, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelLetterSetVowels.Parent" xml:space="preserve">
+    <value>groupBoxLetterSet</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelLetterSetVowels.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="kryptonTextBoxLetterSetConsonants.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="kryptonTextBoxLetterSetConsonants.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 23</value>
+  </data>
+  <data name="kryptonTextBoxLetterSetConsonants.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLetterSetConsonants.Name" xml:space="preserve">
+    <value>kryptonTextBoxLetterSetConsonants</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLetterSetConsonants.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonTextBox, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLetterSetConsonants.Parent" xml:space="preserve">
+    <value>groupBoxLetterSet</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLetterSetConsonants.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBoxLetterSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="groupBoxLetterSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 162</value>
+  </data>
+  <data name="groupBoxLetterSet.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="groupBoxLetterSet.Text" xml:space="preserve">
+    <value>Buchstaben-Set</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLetterSet.Name" xml:space="preserve">
+    <value>groupBoxLetterSet</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLetterSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLetterSet.Parent" xml:space="preserve">
+    <value>tabPageMethodLetters</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLetterSet.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBoxWordLength.AccessibleDescription" xml:space="preserve">
+    <value>Gruppiert den Bereich der Wortlängen</value>
+  </data>
+  <data name="groupBoxWordLength.AccessibleName" xml:space="preserve">
+    <value>Wortlängen</value>
+  </data>
+  <data name="kryptonLabelWordLengthVariableMaximum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 78</value>
+  </data>
+  <data name="kryptonLabelWordLengthVariableMaximum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="kryptonLabelWordLengthVariableMaximum.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="kryptonLabelWordLengthVariableMaximum.Values.Text" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelWordLengthVariableMaximum.Name" xml:space="preserve">
+    <value>kryptonLabelWordLengthVariableMaximum</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelWordLengthVariableMaximum.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonLabel, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelWordLengthVariableMaximum.Parent" xml:space="preserve">
+    <value>groupBoxWordLength</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelWordLengthVariableMaximum.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="kryptonLabelWordLengthVariableMinimum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 48</value>
+  </data>
+  <data name="kryptonLabelWordLengthVariableMinimum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="kryptonLabelWordLengthVariableMinimum.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="kryptonLabelWordLengthVariableMinimum.Values.Text" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelWordLengthVariableMinimum.Name" xml:space="preserve">
+    <value>kryptonLabelWordLengthVariableMinimum</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelWordLengthVariableMinimum.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonLabel, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelWordLengthVariableMinimum.Parent" xml:space="preserve">
+    <value>groupBoxWordLength</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelWordLengthVariableMinimum.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="kryptonNumericUpDownWordLengthVariableMaximum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 76</value>
+  </data>
+  <data name="kryptonNumericUpDownWordLengthVariableMaximum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 22</value>
+  </data>
+  <data name="kryptonNumericUpDownWordLengthVariableMaximum.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownWordLengthVariableMaximum.Name" xml:space="preserve">
+    <value>kryptonNumericUpDownWordLengthVariableMaximum</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownWordLengthVariableMaximum.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonNumericUpDown, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownWordLengthVariableMaximum.Parent" xml:space="preserve">
+    <value>groupBoxWordLength</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownWordLengthVariableMaximum.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="kryptonNumericUpDownWordLengthVariableMinimum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 48</value>
+  </data>
+  <data name="kryptonNumericUpDownWordLengthVariableMinimum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 22</value>
+  </data>
+  <data name="kryptonNumericUpDownWordLengthVariableMinimum.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownWordLengthVariableMinimum.Name" xml:space="preserve">
+    <value>kryptonNumericUpDownWordLengthVariableMinimum</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownWordLengthVariableMinimum.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonNumericUpDown, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownWordLengthVariableMinimum.Parent" xml:space="preserve">
+    <value>groupBoxWordLength</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownWordLengthVariableMinimum.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="kryptonNumericUpDownWordlLengthFix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="kryptonNumericUpDownWordlLengthFix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 22</value>
+  </data>
+  <data name="kryptonNumericUpDownWordlLengthFix.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownWordlLengthFix.Name" xml:space="preserve">
+    <value>kryptonNumericUpDownWordlLengthFix</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownWordlLengthFix.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonNumericUpDown, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownWordlLengthFix.Parent" xml:space="preserve">
+    <value>groupBoxWordLength</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownWordlLengthFix.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="kryptonRadioButtonWordLengthVariable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="kryptonRadioButtonWordLengthVariable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="kryptonRadioButtonWordLengthVariable.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="kryptonRadioButtonWordLengthVariable.Values.Text" xml:space="preserve">
+    <value>variabel</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonWordLengthVariable.Name" xml:space="preserve">
+    <value>kryptonRadioButtonWordLengthVariable</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonWordLengthVariable.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonRadioButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonWordLengthVariable.Parent" xml:space="preserve">
+    <value>groupBoxWordLength</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonWordLengthVariable.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="kryptonRadioButtonWordLengthFix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="kryptonRadioButtonWordLengthFix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="kryptonRadioButtonWordLengthFix.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="kryptonRadioButtonWordLengthFix.Values.Text" xml:space="preserve">
+    <value>fest</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonWordLengthFix.Name" xml:space="preserve">
+    <value>kryptonRadioButtonWordLengthFix</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonWordLengthFix.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonRadioButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonWordLengthFix.Parent" xml:space="preserve">
+    <value>groupBoxWordLength</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonWordLengthFix.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="groupBoxWordLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 6</value>
+  </data>
+  <data name="groupBoxWordLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 162</value>
+  </data>
+  <data name="groupBoxWordLength.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="groupBoxWordLength.Text" xml:space="preserve">
+    <value>Wortlängen</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWordLength.Name" xml:space="preserve">
+    <value>groupBoxWordLength</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWordLength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWordLength.Parent" xml:space="preserve">
+    <value>tabPageMethodLetters</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWordLength.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBoxLetterOutput.AccessibleDescription" xml:space="preserve">
+    <value>Gruppiert den Bereich der Ausgabe</value>
+  </data>
+  <data name="groupBoxLetterOutput.AccessibleName" xml:space="preserve">
+    <value>Ausgabe</value>
+  </data>
+  <data name="kryptonButtonSaveLettersResultsToClipboard.AccessibleDescription" xml:space="preserve">
+    <value>Speichert die Ausgabeliste der generierten Namen</value>
+  </data>
+  <data name="kryptonButtonSaveLettersResultsToClipboard.AccessibleName" xml:space="preserve">
+    <value>Ausgabeliste speichern</value>
+  </data>
+  <data name="kryptonButtonSaveLettersResultsToClipboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 138</value>
+  </data>
+  <data name="kryptonButtonSaveLettersResultsToClipboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 24</value>
+  </data>
+  <data name="kryptonButtonSaveLettersResultsToClipboard.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="resource.Description6" xml:space="preserve">
+    <value>Speichert die Ausgabeliste der generierten Namen</value>
+  </data>
+  <data name="resource.Heading6" xml:space="preserve">
+    <value>Ausgabeliste speichern</value>
+  </data>
+  <data name="kryptonButtonSaveLettersResultsToClipboard.Values.Text" xml:space="preserve">
+    <value>Liste speichern</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonSaveLettersResultsToClipboard.Name" xml:space="preserve">
+    <value>kryptonButtonSaveLettersResultsToClipboard</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonSaveLettersResultsToClipboard.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonSaveLettersResultsToClipboard.Parent" xml:space="preserve">
+    <value>groupBoxLetterOutput</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonSaveLettersResultsToClipboard.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="kryptonLabelSetLettersNumberNames.AccessibleDescription" xml:space="preserve">
+    <value>Zeigt die veränderbare Wiederholungen für generierbare Namen an</value>
+  </data>
+  <data name="kryptonLabelSetLettersNumberNames.AccessibleName" xml:space="preserve">
+    <value>Wiederholungen</value>
+  </data>
+  <data name="kryptonLabelSetLettersNumberNames.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="kryptonLabelSetLettersNumberNames.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 20</value>
+  </data>
+  <data name="kryptonLabelSetLettersNumberNames.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="resource.Description7" xml:space="preserve">
+    <value>Zeigt die veränderbare Wiederholungen für generierbare Namen an</value>
+  </data>
+  <data name="resource.Heading7" xml:space="preserve">
+    <value>Wiederholungen</value>
+  </data>
+  <data name="kryptonLabelSetLettersNumberNames.Values.Text" xml:space="preserve">
+    <value>Wiederholungen</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelSetLettersNumberNames.Name" xml:space="preserve">
+    <value>kryptonLabelSetLettersNumberNames</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelSetLettersNumberNames.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonLabel, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelSetLettersNumberNames.Parent" xml:space="preserve">
+    <value>groupBoxLetterOutput</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelSetLettersNumberNames.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="kryptonButtonDeleteLettersResultsToClipboard.AccessibleDescription" xml:space="preserve">
+    <value>Löscht die Ausgabeliste der generierten Namen</value>
+  </data>
+  <data name="kryptonButtonDeleteLettersResultsToClipboard.AccessibleName" xml:space="preserve">
+    <value>Ausgabeliste löschen</value>
+  </data>
+  <data name="kryptonButtonDeleteLettersResultsToClipboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 168</value>
+  </data>
+  <data name="kryptonButtonDeleteLettersResultsToClipboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 26</value>
+  </data>
+  <data name="kryptonButtonDeleteLettersResultsToClipboard.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="resource.Description8" xml:space="preserve">
+    <value>Löscht die Ausgabeliste der generierten Namen</value>
+  </data>
+  <data name="resource.Heading8" xml:space="preserve">
+    <value>Ausgabeliste löschen</value>
+  </data>
+  <data name="kryptonButtonDeleteLettersResultsToClipboard.Values.Text" xml:space="preserve">
+    <value>Liste löschen</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonDeleteLettersResultsToClipboard.Name" xml:space="preserve">
+    <value>kryptonButtonDeleteLettersResultsToClipboard</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonDeleteLettersResultsToClipboard.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonDeleteLettersResultsToClipboard.Parent" xml:space="preserve">
+    <value>groupBoxLetterOutput</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonDeleteLettersResultsToClipboard.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="kryptonButtonLettersOutputOptions.AccessibleDescription" xml:space="preserve">
+    <value>Zeigt die einstellbaren Optionen der Ausgabe an</value>
+  </data>
+  <data name="kryptonButtonLettersOutputOptions.AccessibleName" xml:space="preserve">
+    <value>Ausgabeoptionen</value>
+  </data>
+  <metadata name="contextMenuStripResultOptions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>168, 17</value>
+  </metadata>
+  <data name="contextMenuStripResultOptions.AccessibleDescription" xml:space="preserve">
+    <value>beinhaltet einige Ausgabeoptionen für die Generierung von Namen</value>
+  </data>
+  <data name="contextMenuStripResultOptions.AccessibleName" xml:space="preserve">
+    <value>Ausgabeoptionen für die Generierung von Namen</value>
+  </data>
+  <data name="contextMenuStripResultOptions.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsEntriesLineByLine.AccessibleDescription" xml:space="preserve">
+    <value>Setzt jeden generierten Namen in eine neue Zeile</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsEntriesLineByLine.AccessibleName" xml:space="preserve">
+    <value>Einträge zeilenweise hinzufügen</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsEntriesLineByLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 22</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsEntriesLineByLine.Text" xml:space="preserve">
+    <value>Einträge zeilenweise hinzufügen</value>
+  </data>
+  <data name="toolStripSeparator3.AccessibleDescription" xml:space="preserve">
+    <value>Just a separator</value>
+  </data>
+  <data name="toolStripSeparator3.AccessibleName" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 6</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsClearListWithEveryGeneration.AccessibleDescription" xml:space="preserve">
+    <value>Löscht die Ausgabeliste vor jeder neuen Generierung</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsClearListWithEveryGeneration.AccessibleName" xml:space="preserve">
+    <value>Mit jeder Generierung die Liste löschen</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsClearListWithEveryGeneration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 22</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsClearListWithEveryGeneration.Text" xml:space="preserve">
+    <value>mit jeder Generierung die Liste löschen</value>
+  </data>
+  <data name="toolStripSeparator1.AccessibleDescription" xml:space="preserve">
+    <value>Just a separator</value>
+  </data>
+  <data name="toolStripSeparator1.AccessibleName" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 6</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsSeparatorIsSpace.AccessibleDescription" xml:space="preserve">
+    <value>Trennt die generierten Namen durch Leerzeichen voreinander</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsSeparatorIsSpace.AccessibleName" xml:space="preserve">
+    <value>Einträge durch Leerzeichen ersetzen</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsSeparatorIsSpace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 22</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsSeparatorIsSpace.Text" xml:space="preserve">
+    <value>Einträge durch Leerzeichen trennen</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsSeparatorIsComma.AccessibleDescription" xml:space="preserve">
+    <value>Trennt die generierten Namen durch Kommata voreinander</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsSeparatorIsComma.AccessibleName" xml:space="preserve">
+    <value>Einträge durch Kommata trennen</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsSeparatorIsComma.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 22</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsSeparatorIsComma.Text" xml:space="preserve">
+    <value>Einträge durch Kommata trennen</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsSeparatorIsPipe.AccessibleDescription" xml:space="preserve">
+    <value>Trennt die generierten Namen durch Pipe-Symbole voreinander</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsSeparatorIsPipe.AccessibleName" xml:space="preserve">
+    <value>Einträge durch Pipe-Symbole trennen</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsSeparatorIsPipe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 22</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsSeparatorIsPipe.Text" xml:space="preserve">
+    <value>Einträge durch Pipe-Symbole trennen</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsSeparatorIsSemicolon.AccessibleDescription" xml:space="preserve">
+    <value>Trennt die generierten Namen durch Semikolons voreinander</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsSeparatorIsSemicolon.AccessibleName" xml:space="preserve">
+    <value>Einträge durch Semikolons trennen</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsSeparatorIsSemicolon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 22</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsSeparatorIsSemicolon.Text" xml:space="preserve">
+    <value>Einträge durch Semikolons trennen</value>
+  </data>
+  <data name="toolStripSeparator2.AccessibleDescription" xml:space="preserve">
+    <value>Just a separator</value>
+  </data>
+  <data name="toolStripSeparator2.AccessibleName" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 6</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsEnclosedWithQuotes.AccessibleDescription" xml:space="preserve">
+    <value>Umschließt jeden generierten Namen mit doppelten Anführungszeichen</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsEnclosedWithQuotes.AccessibleName" xml:space="preserve">
+    <value>Einträge mit Anführungszeichen umschließen</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsEnclosedWithQuotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 22</value>
+  </data>
+  <data name="toolStripMenuItemOutputOptionsEnclosedWithQuotes.Text" xml:space="preserve">
+    <value>Einträge mit Anführungszeichen umschließen</value>
+  </data>
+  <data name="contextMenuStripResultOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 176</value>
+  </data>
+  <data name="contextMenuStripResultOptions.Text" xml:space="preserve">
+    <value>Ausgabeoptionen für die Generierung von Namen</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripResultOptions.Name" xml:space="preserve">
+    <value>contextMenuStripResultOptions</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripResultOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="kryptonButtonLettersOutputOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 78</value>
+  </data>
+  <data name="kryptonButtonLettersOutputOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 24</value>
+  </data>
+  <data name="kryptonButtonLettersOutputOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="resource.Description9" xml:space="preserve">
+    <value>Zeigt die einstellbaren Optionen der Ausgabe an</value>
+  </data>
+  <data name="resource.Heading9" xml:space="preserve">
+    <value>Ausgabeoptionen</value>
+  </data>
+  <data name="kryptonButtonLettersOutputOptions.Values.Text" xml:space="preserve">
+    <value>Ausgabeoptionen</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLettersOutputOptions.Name" xml:space="preserve">
+    <value>kryptonButtonLettersOutputOptions</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLettersOutputOptions.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLettersOutputOptions.Parent" xml:space="preserve">
+    <value>groupBoxLetterOutput</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLettersOutputOptions.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="kryptonTextBoxLettersResults.AccessibleDescription" xml:space="preserve">
+    <value>Zeigt die Ausgabe der generierten Namen an</value>
+  </data>
+  <data name="kryptonTextBoxLettersResults.AccessibleName" xml:space="preserve">
+    <value>Ausgabeliste</value>
+  </data>
+  <data name="kryptonTextBoxLettersResults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 21</value>
+  </data>
+  <data name="kryptonTextBoxLettersResults.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="kryptonTextBoxLettersResults.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="kryptonTextBoxLettersResults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 173</value>
+  </data>
+  <data name="kryptonTextBoxLettersResults.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="resource.Description10" xml:space="preserve">
+    <value>Zeigt die Ausgabe der generierten Namen an</value>
+  </data>
+  <data name="resource.Heading10" xml:space="preserve">
+    <value>Ausgabeliste</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLettersResults.Name" xml:space="preserve">
+    <value>kryptonTextBoxLettersResults</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLettersResults.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonTextBox, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLettersResults.Parent" xml:space="preserve">
+    <value>groupBoxLetterOutput</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxLettersResults.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="kryptonNumericUpDownSetLettersNumberNames.AccessibleDescription" xml:space="preserve">
+    <value>Zeigt die veränderbare Wiederholungen für generierbare Namen an</value>
+  </data>
+  <data name="kryptonNumericUpDownSetLettersNumberNames.AccessibleName" xml:space="preserve">
+    <value>Wiederholungen für Namen</value>
+  </data>
+  <data name="kryptonNumericUpDownSetLettersNumberNames.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 22</value>
+  </data>
+  <data name="kryptonNumericUpDownSetLettersNumberNames.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 22</value>
+  </data>
+  <data name="kryptonNumericUpDownSetLettersNumberNames.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="resource.Description11" xml:space="preserve">
+    <value>Zeigt die veränderbare Wiederholungen für generierbare Namen an</value>
+  </data>
+  <data name="resource.Heading11" xml:space="preserve">
+    <value>Wiederholungen</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSetLettersNumberNames.Name" xml:space="preserve">
+    <value>kryptonNumericUpDownSetLettersNumberNames</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSetLettersNumberNames.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonNumericUpDown, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSetLettersNumberNames.Parent" xml:space="preserve">
+    <value>groupBoxLetterOutput</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSetLettersNumberNames.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="kryptonButtonCopyLettersResultsToClipboard.AccessibleDescription" xml:space="preserve">
+    <value>Löscht die Ausgabeliste der generierten Namen</value>
+  </data>
+  <data name="kryptonButtonCopyLettersResultsToClipboard.AccessibleName" xml:space="preserve">
+    <value>Ausgabeliste löschen</value>
+  </data>
+  <data name="kryptonButtonCopyLettersResultsToClipboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 108</value>
+  </data>
+  <data name="kryptonButtonCopyLettersResultsToClipboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 24</value>
+  </data>
+  <data name="kryptonButtonCopyLettersResultsToClipboard.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Description12" xml:space="preserve">
+    <value>Löscht die Ausgabeliste der generierten Namen</value>
+  </data>
+  <data name="resource.Heading12" xml:space="preserve">
+    <value>Ausgabeliste löschen</value>
+  </data>
+  <data name="kryptonButtonCopyLettersResultsToClipboard.Values.Text" xml:space="preserve">
+    <value>Liste kopieren</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonCopyLettersResultsToClipboard.Name" xml:space="preserve">
+    <value>kryptonButtonCopyLettersResultsToClipboard</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonCopyLettersResultsToClipboard.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonCopyLettersResultsToClipboard.Parent" xml:space="preserve">
+    <value>groupBoxLetterOutput</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonCopyLettersResultsToClipboard.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="kryptonButtonStartLettersOutput.AccessibleDescription" xml:space="preserve">
+    <value>Generiert neue Namen</value>
+  </data>
+  <data name="kryptonButtonStartLettersOutput.AccessibleName" xml:space="preserve">
+    <value>Namen generieren</value>
+  </data>
+  <data name="kryptonButtonStartLettersOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="kryptonButtonStartLettersOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 24</value>
+  </data>
+  <data name="kryptonButtonStartLettersOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="resource.Description13" xml:space="preserve">
+    <value>Generiert neue Namen</value>
+  </data>
+  <data name="resource.Heading13" xml:space="preserve">
+    <value>Namen generieren</value>
+  </data>
+  <data name="kryptonButtonStartLettersOutput.Values.Text" xml:space="preserve">
+    <value>Erstellen</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonStartLettersOutput.Name" xml:space="preserve">
+    <value>kryptonButtonStartLettersOutput</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonStartLettersOutput.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonStartLettersOutput.Parent" xml:space="preserve">
+    <value>groupBoxLetterOutput</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonStartLettersOutput.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="groupBoxLetterOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 174</value>
+  </data>
+  <data name="groupBoxLetterOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 206</value>
+  </data>
+  <data name="groupBoxLetterOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="groupBoxLetterOutput.Text" xml:space="preserve">
+    <value>Ausgabe</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLetterOutput.Name" xml:space="preserve">
+    <value>groupBoxLetterOutput</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLetterOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLetterOutput.Parent" xml:space="preserve">
+    <value>tabPageMethodLetters</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLetterOutput.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tabPageMethodLetters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPageMethodLetters.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageMethodLetters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 388</value>
+  </data>
+  <data name="tabPageMethodLetters.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageMethodLetters.Text" xml:space="preserve">
+    <value>Buchstabenbasiert</value>
+  </data>
+  <data name="tabPageMethodLetters.ToolTipText" xml:space="preserve">
+    <value>CV-basiert</value>
+  </data>
+  <data name="&gt;&gt;tabPageMethodLetters.Name" xml:space="preserve">
+    <value>tabPageMethodLetters</value>
+  </data>
+  <data name="&gt;&gt;tabPageMethodLetters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageMethodLetters.Parent" xml:space="preserve">
+    <value>tabControlEssin</value>
+  </data>
+  <data name="&gt;&gt;tabPageMethodLetters.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBoxSyllableOutput.AccessibleDescription" xml:space="preserve">
+    <value>Gruppiert den Bereich der Ausgabe</value>
+  </data>
+  <data name="groupBoxSyllableOutput.AccessibleName" xml:space="preserve">
+    <value>Ausgabe</value>
+  </data>
+  <data name="kryptonButtonSaveSyllablesResultsToClipboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 138</value>
+  </data>
+  <data name="kryptonButtonSaveSyllablesResultsToClipboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 24</value>
+  </data>
+  <data name="kryptonButtonSaveSyllablesResultsToClipboard.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="kryptonButtonSaveSyllablesResultsToClipboard.Values.Text" xml:space="preserve">
+    <value>Liste speichern</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonSaveSyllablesResultsToClipboard.Name" xml:space="preserve">
+    <value>kryptonButtonSaveSyllablesResultsToClipboard</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonSaveSyllablesResultsToClipboard.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonSaveSyllablesResultsToClipboard.Parent" xml:space="preserve">
+    <value>groupBoxSyllableOutput</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonSaveSyllablesResultsToClipboard.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="kryptonLabelSetSyllablesNumberNames.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="kryptonLabelSetSyllablesNumberNames.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 20</value>
+  </data>
+  <data name="kryptonLabelSetSyllablesNumberNames.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="kryptonLabelSetSyllablesNumberNames.Values.Text" xml:space="preserve">
+    <value>Wiederholungen</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelSetSyllablesNumberNames.Name" xml:space="preserve">
+    <value>kryptonLabelSetSyllablesNumberNames</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelSetSyllablesNumberNames.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonLabel, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelSetSyllablesNumberNames.Parent" xml:space="preserve">
+    <value>groupBoxSyllableOutput</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelSetSyllablesNumberNames.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="kryptonButtonDeleteSyllablesResultsToClipboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 168</value>
+  </data>
+  <data name="kryptonButtonDeleteSyllablesResultsToClipboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 26</value>
+  </data>
+  <data name="kryptonButtonDeleteSyllablesResultsToClipboard.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="kryptonButtonDeleteSyllablesResultsToClipboard.Values.Text" xml:space="preserve">
+    <value>Liste löschen</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonDeleteSyllablesResultsToClipboard.Name" xml:space="preserve">
+    <value>kryptonButtonDeleteSyllablesResultsToClipboard</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonDeleteSyllablesResultsToClipboard.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonDeleteSyllablesResultsToClipboard.Parent" xml:space="preserve">
+    <value>groupBoxSyllableOutput</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonDeleteSyllablesResultsToClipboard.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="kryptonButtonSyllablesOutputOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 78</value>
+  </data>
+  <data name="kryptonButtonSyllablesOutputOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 24</value>
+  </data>
+  <data name="kryptonButtonSyllablesOutputOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="kryptonButtonSyllablesOutputOptions.Values.Text" xml:space="preserve">
+    <value>Ausgabeoptionen</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonSyllablesOutputOptions.Name" xml:space="preserve">
+    <value>kryptonButtonSyllablesOutputOptions</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonSyllablesOutputOptions.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonSyllablesOutputOptions.Parent" xml:space="preserve">
+    <value>groupBoxSyllableOutput</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonSyllablesOutputOptions.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="kryptonTextBoxSyllablesResults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 21</value>
+  </data>
+  <data name="kryptonTextBoxSyllablesResults.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="kryptonTextBoxSyllablesResults.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="kryptonTextBoxSyllablesResults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 173</value>
+  </data>
+  <data name="kryptonTextBoxSyllablesResults.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxSyllablesResults.Name" xml:space="preserve">
+    <value>kryptonTextBoxSyllablesResults</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxSyllablesResults.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonTextBox, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxSyllablesResults.Parent" xml:space="preserve">
+    <value>groupBoxSyllableOutput</value>
+  </data>
+  <data name="&gt;&gt;kryptonTextBoxSyllablesResults.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="kryptonNumericUpDownSetSyllablesNumberNames.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 22</value>
+  </data>
+  <data name="kryptonNumericUpDownSetSyllablesNumberNames.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 22</value>
+  </data>
+  <data name="kryptonNumericUpDownSetSyllablesNumberNames.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSetSyllablesNumberNames.Name" xml:space="preserve">
+    <value>kryptonNumericUpDownSetSyllablesNumberNames</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSetSyllablesNumberNames.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonNumericUpDown, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSetSyllablesNumberNames.Parent" xml:space="preserve">
+    <value>groupBoxSyllableOutput</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSetSyllablesNumberNames.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="kryptonButtonCopySyllablesResultsToClipboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 108</value>
+  </data>
+  <data name="kryptonButtonCopySyllablesResultsToClipboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 24</value>
+  </data>
+  <data name="kryptonButtonCopySyllablesResultsToClipboard.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="kryptonButtonCopySyllablesResultsToClipboard.Values.Text" xml:space="preserve">
+    <value>Liste kopieren</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonCopySyllablesResultsToClipboard.Name" xml:space="preserve">
+    <value>kryptonButtonCopySyllablesResultsToClipboard</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonCopySyllablesResultsToClipboard.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonCopySyllablesResultsToClipboard.Parent" xml:space="preserve">
+    <value>groupBoxSyllableOutput</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonCopySyllablesResultsToClipboard.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="kryptonButtonStartSyllablesOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="kryptonButtonStartSyllablesOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 24</value>
+  </data>
+  <data name="kryptonButtonStartSyllablesOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="kryptonButtonStartSyllablesOutput.Values.Text" xml:space="preserve">
+    <value>Erstellen</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonStartSyllablesOutput.Name" xml:space="preserve">
+    <value>kryptonButtonStartSyllablesOutput</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonStartSyllablesOutput.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonStartSyllablesOutput.Parent" xml:space="preserve">
+    <value>groupBoxSyllableOutput</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonStartSyllablesOutput.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="groupBoxSyllableOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 174</value>
+  </data>
+  <data name="groupBoxSyllableOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 206</value>
+  </data>
+  <data name="groupBoxSyllableOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupBoxSyllableOutput.Text" xml:space="preserve">
+    <value>Ausgabe</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableOutput.Name" xml:space="preserve">
+    <value>groupBoxSyllableOutput</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableOutput.Parent" xml:space="preserve">
+    <value>tabPageMethodSyllables</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableOutput.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBoxSyllablesLanguageStyles.AccessibleDescription" xml:space="preserve">
+    <value>Gruppiert den Bereich der vordefinierten Sprachstile</value>
+  </data>
+  <data name="groupBoxSyllablesLanguageStyles.AccessibleName" xml:space="preserve">
+    <value>Vordefinierte Sprachstile</value>
+  </data>
+  <data name="kryptonButton13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 78</value>
+  </data>
+  <data name="kryptonButton13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="kryptonButton13.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="kryptonButton13.Values.Text" xml:space="preserve">
+    <value>Invertieren</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton13.Name" xml:space="preserve">
+    <value>kryptonButton13</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton13.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton13.Parent" xml:space="preserve">
+    <value>groupBoxSyllablesLanguageStyles</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton13.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="kryptonButton12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 168</value>
+  </data>
+  <data name="kryptonButton12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="kryptonButton12.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="kryptonButton12.Values.Text" xml:space="preserve">
+    <value>Ersetzen</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton12.Name" xml:space="preserve">
+    <value>kryptonButton12</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton12.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton12.Parent" xml:space="preserve">
+    <value>groupBoxSyllablesLanguageStyles</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton12.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="kryptonButton6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 138</value>
+  </data>
+  <data name="kryptonButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="kryptonButton6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="kryptonButton6.Values.Text" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton6.Name" xml:space="preserve">
+    <value>kryptonButton6</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton6.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton6.Parent" xml:space="preserve">
+    <value>groupBoxSyllablesLanguageStyles</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="kryptonButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 108</value>
+  </data>
+  <data name="kryptonButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="kryptonButton5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="kryptonButton5.Values.Text" xml:space="preserve">
+    <value>Inhalt</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton5.Name" xml:space="preserve">
+    <value>kryptonButton5</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton5.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton5.Parent" xml:space="preserve">
+    <value>groupBoxSyllablesLanguageStyles</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="kryptonButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 48</value>
+  </data>
+  <data name="kryptonButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="kryptonButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="kryptonButton4.Values.Text" xml:space="preserve">
+    <value>Abwählen</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton4.Name" xml:space="preserve">
+    <value>kryptonButton4</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton4.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton4.Parent" xml:space="preserve">
+    <value>groupBoxSyllablesLanguageStyles</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="kryptonButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 17</value>
+  </data>
+  <data name="kryptonButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="kryptonButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="kryptonButton3.Values.Text" xml:space="preserve">
+    <value>Auswählen</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton3.Name" xml:space="preserve">
+    <value>kryptonButton3</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton3.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton3.Parent" xml:space="preserve">
+    <value>groupBoxSyllablesLanguageStyles</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="kryptonCheckedListBox1.Items" xml:space="preserve">
+    <value>arabsich</value>
+  </data>
+  <data name="kryptonCheckedListBox1.Items1" xml:space="preserve">
+    <value>deutsch</value>
+  </data>
+  <data name="kryptonCheckedListBox1.Items2" xml:space="preserve">
+    <value>englisch</value>
+  </data>
+  <data name="kryptonCheckedListBox1.Items3" xml:space="preserve">
+    <value>esperanto</value>
+  </data>
+  <data name="kryptonCheckedListBox1.Items4" xml:space="preserve">
+    <value>französisch</value>
+  </data>
+  <data name="kryptonCheckedListBox1.Items5" xml:space="preserve">
+    <value>italienisch</value>
+  </data>
+  <data name="kryptonCheckedListBox1.Items6" xml:space="preserve">
+    <value>japanisch</value>
+  </data>
+  <data name="kryptonCheckedListBox1.Items7" xml:space="preserve">
+    <value>klingonisch</value>
+  </data>
+  <data name="kryptonCheckedListBox1.Items8" xml:space="preserve">
+    <value>russisch</value>
+  </data>
+  <data name="kryptonCheckedListBox1.Items9" xml:space="preserve">
+    <value>spanisch</value>
+  </data>
+  <data name="kryptonCheckedListBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="kryptonCheckedListBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 177</value>
+  </data>
+  <data name="kryptonCheckedListBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckedListBox1.Name" xml:space="preserve">
+    <value>kryptonCheckedListBox1</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckedListBox1.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonCheckedListBox, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckedListBox1.Parent" xml:space="preserve">
+    <value>groupBoxSyllablesLanguageStyles</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckedListBox1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="groupBoxSyllablesLanguageStyles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 174</value>
+  </data>
+  <data name="groupBoxSyllablesLanguageStyles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 206</value>
+  </data>
+  <data name="groupBoxSyllablesLanguageStyles.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupBoxSyllablesLanguageStyles.Text" xml:space="preserve">
+    <value>Sprachstile</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllablesLanguageStyles.Name" xml:space="preserve">
+    <value>groupBoxSyllablesLanguageStyles</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllablesLanguageStyles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllablesLanguageStyles.Parent" xml:space="preserve">
+    <value>tabPageMethodSyllables</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllablesLanguageStyles.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBoxSyllableMiddle.AccessibleDescription" xml:space="preserve">
+    <value>Gruppiert den Bereich der Silbenmitte</value>
+  </data>
+  <data name="groupBoxSyllableMiddle.AccessibleName" xml:space="preserve">
+    <value>Silbenmitte</value>
+  </data>
+  <data name="kryptonButton8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 112</value>
+  </data>
+  <data name="kryptonButton8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="kryptonButton8.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="kryptonButton8.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;kryptonButton8.Name" xml:space="preserve">
+    <value>kryptonButton8</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton8.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton8.Parent" xml:space="preserve">
+    <value>groupBoxSyllableMiddle</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="kryptonCheckBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 142</value>
+  </data>
+  <data name="kryptonCheckBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 20</value>
+  </data>
+  <data name="kryptonCheckBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="kryptonCheckBox2.Values.Text" xml:space="preserve">
+    <value>Nicht verwenden</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckBox2.Name" xml:space="preserve">
+    <value>kryptonCheckBox2</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckBox2.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonCheckBox, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckBox2.Parent" xml:space="preserve">
+    <value>groupBoxSyllableMiddle</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="kryptonButtonRestoreSyllableMiddle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 82</value>
+  </data>
+  <data name="kryptonButtonRestoreSyllableMiddle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="kryptonButtonRestoreSyllableMiddle.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="kryptonButtonRestoreSyllableMiddle.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;kryptonButtonRestoreSyllableMiddle.Name" xml:space="preserve">
+    <value>kryptonButtonRestoreSyllableMiddle</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonRestoreSyllableMiddle.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonRestoreSyllableMiddle.Parent" xml:space="preserve">
+    <value>groupBoxSyllableMiddle</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonRestoreSyllableMiddle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBoxSyllableMiddleRepitition.AccessibleDescription" xml:space="preserve">
+    <value>Gruppiert den Bereich der Wiederholungen der Silbenmitte</value>
+  </data>
+  <data name="groupBoxSyllableMiddleRepitition.AccessibleName" xml:space="preserve">
+    <value>Wiederholungen der Silbenmitte</value>
+  </data>
+  <data name="kryptonLabelSyllableMiddleVariableMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 78</value>
+  </data>
+  <data name="kryptonLabelSyllableMiddleVariableMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="kryptonLabelSyllableMiddleVariableMax.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="kryptonLabelSyllableMiddleVariableMax.Values.Text" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelSyllableMiddleVariableMax.Name" xml:space="preserve">
+    <value>kryptonLabelSyllableMiddleVariableMax</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelSyllableMiddleVariableMax.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonLabel, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelSyllableMiddleVariableMax.Parent" xml:space="preserve">
+    <value>groupBoxSyllableMiddleRepitition</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelSyllableMiddleVariableMax.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="kryptonLabelSyllableMiddleVariableMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 48</value>
+  </data>
+  <data name="kryptonLabelSyllableMiddleVariableMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="kryptonLabelSyllableMiddleVariableMin.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="kryptonLabelSyllableMiddleVariableMin.Values.Text" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelSyllableMiddleVariableMin.Name" xml:space="preserve">
+    <value>kryptonLabelSyllableMiddleVariableMin</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelSyllableMiddleVariableMin.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonLabel, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelSyllableMiddleVariableMin.Parent" xml:space="preserve">
+    <value>groupBoxSyllableMiddleRepitition</value>
+  </data>
+  <data name="&gt;&gt;kryptonLabelSyllableMiddleVariableMin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="kryptonNumericUpDownSyllableMiddleVariableMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 76</value>
+  </data>
+  <data name="kryptonNumericUpDownSyllableMiddleVariableMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 22</value>
+  </data>
+  <data name="kryptonNumericUpDownSyllableMiddleVariableMax.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSyllableMiddleVariableMax.Name" xml:space="preserve">
+    <value>kryptonNumericUpDownSyllableMiddleVariableMax</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSyllableMiddleVariableMax.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonNumericUpDown, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSyllableMiddleVariableMax.Parent" xml:space="preserve">
+    <value>groupBoxSyllableMiddleRepitition</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSyllableMiddleVariableMax.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="kryptonNumericUpDownSyllableMiddleVariableMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 48</value>
+  </data>
+  <data name="kryptonNumericUpDownSyllableMiddleVariableMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 22</value>
+  </data>
+  <data name="kryptonNumericUpDownSyllableMiddleVariableMin.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSyllableMiddleVariableMin.Name" xml:space="preserve">
+    <value>kryptonNumericUpDownSyllableMiddleVariableMin</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSyllableMiddleVariableMin.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonNumericUpDown, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSyllableMiddleVariableMin.Parent" xml:space="preserve">
+    <value>groupBoxSyllableMiddleRepitition</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSyllableMiddleVariableMin.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="kryptonNumericUpDownSyllableMiddleFixed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="kryptonNumericUpDownSyllableMiddleFixed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 22</value>
+  </data>
+  <data name="kryptonNumericUpDownSyllableMiddleFixed.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSyllableMiddleFixed.Name" xml:space="preserve">
+    <value>kryptonNumericUpDownSyllableMiddleFixed</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSyllableMiddleFixed.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonNumericUpDown, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSyllableMiddleFixed.Parent" xml:space="preserve">
+    <value>groupBoxSyllableMiddleRepitition</value>
+  </data>
+  <data name="&gt;&gt;kryptonNumericUpDownSyllableMiddleFixed.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="kryptonRadioButtonRepititionVariable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="kryptonRadioButtonRepititionVariable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="kryptonRadioButtonRepititionVariable.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="kryptonRadioButtonRepititionVariable.Values.Text" xml:space="preserve">
+    <value>variabel</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonRepititionVariable.Name" xml:space="preserve">
+    <value>kryptonRadioButtonRepititionVariable</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonRepititionVariable.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonRadioButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonRepititionVariable.Parent" xml:space="preserve">
+    <value>groupBoxSyllableMiddleRepitition</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonRepititionVariable.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="kryptonRadioButtonRepititionFixed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="kryptonRadioButtonRepititionFixed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="kryptonRadioButtonRepititionFixed.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="kryptonRadioButtonRepititionFixed.Values.Text" xml:space="preserve">
+    <value>fest</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonRepititionFixed.Name" xml:space="preserve">
+    <value>kryptonRadioButtonRepititionFixed</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonRepititionFixed.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonRadioButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonRepititionFixed.Parent" xml:space="preserve">
+    <value>groupBoxSyllableMiddleRepitition</value>
+  </data>
+  <data name="&gt;&gt;kryptonRadioButtonRepititionFixed.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="groupBoxSyllableMiddleRepitition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 13</value>
+  </data>
+  <data name="groupBoxSyllableMiddleRepitition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 123</value>
+  </data>
+  <data name="groupBoxSyllableMiddleRepitition.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupBoxSyllableMiddleRepitition.Text" xml:space="preserve">
+    <value>Wiederholungen</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableMiddleRepitition.Name" xml:space="preserve">
+    <value>groupBoxSyllableMiddleRepitition</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableMiddleRepitition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableMiddleRepitition.Parent" xml:space="preserve">
+    <value>groupBoxSyllableMiddle</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableMiddleRepitition.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="kryptonButtonRemoveSyllableMiddle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 52</value>
+  </data>
+  <data name="kryptonButtonRemoveSyllableMiddle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="kryptonButtonRemoveSyllableMiddle.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="kryptonButtonRemoveSyllableMiddle.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;kryptonButtonRemoveSyllableMiddle.Name" xml:space="preserve">
+    <value>kryptonButtonRemoveSyllableMiddle</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonRemoveSyllableMiddle.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonRemoveSyllableMiddle.Parent" xml:space="preserve">
+    <value>groupBoxSyllableMiddle</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonRemoveSyllableMiddle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="kryptonButtonAddSyllableMiddle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="kryptonButtonAddSyllableMiddle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="kryptonButtonAddSyllableMiddle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="kryptonButtonAddSyllableMiddle.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;kryptonButtonAddSyllableMiddle.Name" xml:space="preserve">
+    <value>kryptonButtonAddSyllableMiddle</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonAddSyllableMiddle.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonAddSyllableMiddle.Parent" xml:space="preserve">
+    <value>groupBoxSyllableMiddle</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonAddSyllableMiddle.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="kryptonListBoxSyllableMiddle.HorizontalScrollbar" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="kryptonListBoxSyllableMiddle.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="kryptonListBoxSyllableMiddle.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="kryptonListBoxSyllableMiddle.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="kryptonListBoxSyllableMiddle.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="kryptonListBoxSyllableMiddle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="kryptonListBoxSyllableMiddle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 114</value>
+  </data>
+  <data name="kryptonListBoxSyllableMiddle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;kryptonListBoxSyllableMiddle.Name" xml:space="preserve">
+    <value>kryptonListBoxSyllableMiddle</value>
+  </data>
+  <data name="&gt;&gt;kryptonListBoxSyllableMiddle.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonListBox, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonListBoxSyllableMiddle.Parent" xml:space="preserve">
+    <value>groupBoxSyllableMiddle</value>
+  </data>
+  <data name="&gt;&gt;kryptonListBoxSyllableMiddle.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="groupBoxSyllableMiddle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 6</value>
+  </data>
+  <data name="groupBoxSyllableMiddle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>337, 162</value>
+  </data>
+  <data name="groupBoxSyllableMiddle.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupBoxSyllableMiddle.Text" xml:space="preserve">
+    <value>Silbenmitte</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableMiddle.Name" xml:space="preserve">
+    <value>groupBoxSyllableMiddle</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableMiddle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableMiddle.Parent" xml:space="preserve">
+    <value>tabPageMethodSyllables</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableMiddle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBoxSyllableEnd.AccessibleDescription" xml:space="preserve">
+    <value>Gruppiert den Bereich des Silbenendes</value>
+  </data>
+  <data name="groupBoxSyllableEnd.AccessibleName" xml:space="preserve">
+    <value>Silbenende</value>
+  </data>
+  <data name="kryptonButton9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 112</value>
+  </data>
+  <data name="kryptonButton9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="kryptonButton9.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="kryptonButton9.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;kryptonButton9.Name" xml:space="preserve">
+    <value>kryptonButton9</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton9.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton9.Parent" xml:space="preserve">
+    <value>groupBoxSyllableEnd</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="kryptonCheckBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 142</value>
+  </data>
+  <data name="kryptonCheckBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 20</value>
+  </data>
+  <data name="kryptonCheckBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="kryptonCheckBox3.Values.Text" xml:space="preserve">
+    <value>Nicht verwenden</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckBox3.Name" xml:space="preserve">
+    <value>kryptonCheckBox3</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckBox3.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonCheckBox, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckBox3.Parent" xml:space="preserve">
+    <value>groupBoxSyllableEnd</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckBox3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="kryptonButtonRestoreSyllableEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 82</value>
+  </data>
+  <data name="kryptonButtonRestoreSyllableEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="kryptonButtonRestoreSyllableEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="kryptonButtonRestoreSyllableEnd.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;kryptonButtonRestoreSyllableEnd.Name" xml:space="preserve">
+    <value>kryptonButtonRestoreSyllableEnd</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonRestoreSyllableEnd.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonRestoreSyllableEnd.Parent" xml:space="preserve">
+    <value>groupBoxSyllableEnd</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonRestoreSyllableEnd.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="kryptonButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 52</value>
+  </data>
+  <data name="kryptonButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="kryptonButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="kryptonButton1.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;kryptonButton1.Name" xml:space="preserve">
+    <value>kryptonButton1</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton1.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton1.Parent" xml:space="preserve">
+    <value>groupBoxSyllableEnd</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="kryptonButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="kryptonButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="kryptonButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="kryptonButton2.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;kryptonButton2.Name" xml:space="preserve">
+    <value>kryptonButton2</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton2.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton2.Parent" xml:space="preserve">
+    <value>groupBoxSyllableEnd</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="kryptonListBoxSyllableEnd.HorizontalScrollbar" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="kryptonListBoxSyllableEnd.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="kryptonListBoxSyllableEnd.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="kryptonListBoxSyllableEnd.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="kryptonListBoxSyllableEnd.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="kryptonListBoxSyllableEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="kryptonListBoxSyllableEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 114</value>
+  </data>
+  <data name="kryptonListBoxSyllableEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;kryptonListBoxSyllableEnd.Name" xml:space="preserve">
+    <value>kryptonListBoxSyllableEnd</value>
+  </data>
+  <data name="&gt;&gt;kryptonListBoxSyllableEnd.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonListBox, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonListBoxSyllableEnd.Parent" xml:space="preserve">
+    <value>groupBoxSyllableEnd</value>
+  </data>
+  <data name="&gt;&gt;kryptonListBoxSyllableEnd.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupBoxSyllableEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 6</value>
+  </data>
+  <data name="groupBoxSyllableEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 162</value>
+  </data>
+  <data name="groupBoxSyllableEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupBoxSyllableEnd.Text" xml:space="preserve">
+    <value>Silbenende</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableEnd.Name" xml:space="preserve">
+    <value>groupBoxSyllableEnd</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableEnd.Parent" xml:space="preserve">
+    <value>tabPageMethodSyllables</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableEnd.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBoxSyllableBegin.AccessibleDescription" xml:space="preserve">
+    <value>Gruppiert den Bereich des Silbenanfangs</value>
+  </data>
+  <data name="groupBoxSyllableBegin.AccessibleName" xml:space="preserve">
+    <value>Silbenanfang</value>
+  </data>
+  <data name="kryptonButton7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 112</value>
+  </data>
+  <data name="kryptonButton7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="kryptonButton7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="kryptonButton7.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;kryptonButton7.Name" xml:space="preserve">
+    <value>kryptonButton7</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton7.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton7.Parent" xml:space="preserve">
+    <value>groupBoxSyllableBegin</value>
+  </data>
+  <data name="&gt;&gt;kryptonButton7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="kryptonCheckBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 142</value>
+  </data>
+  <data name="kryptonCheckBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 20</value>
+  </data>
+  <data name="kryptonCheckBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="kryptonCheckBox1.Values.Text" xml:space="preserve">
+    <value>Nicht verwenden</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckBox1.Name" xml:space="preserve">
+    <value>kryptonCheckBox1</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckBox1.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonCheckBox, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckBox1.Parent" xml:space="preserve">
+    <value>groupBoxSyllableBegin</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="kryptonButtonRestoreSyllableBegin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 82</value>
+  </data>
+  <data name="kryptonButtonRestoreSyllableBegin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="kryptonButtonRestoreSyllableBegin.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="kryptonButtonRestoreSyllableBegin.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;kryptonButtonRestoreSyllableBegin.Name" xml:space="preserve">
+    <value>kryptonButtonRestoreSyllableBegin</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonRestoreSyllableBegin.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonRestoreSyllableBegin.Parent" xml:space="preserve">
+    <value>groupBoxSyllableBegin</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonRestoreSyllableBegin.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="kryptonButtonRemoveSyllableBegin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 52</value>
+  </data>
+  <data name="kryptonButtonRemoveSyllableBegin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="kryptonButtonRemoveSyllableBegin.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="kryptonButtonRemoveSyllableBegin.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;kryptonButtonRemoveSyllableBegin.Name" xml:space="preserve">
+    <value>kryptonButtonRemoveSyllableBegin</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonRemoveSyllableBegin.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonRemoveSyllableBegin.Parent" xml:space="preserve">
+    <value>groupBoxSyllableBegin</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonRemoveSyllableBegin.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="kryptonButtonAddSyllableBegin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="kryptonButtonAddSyllableBegin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="kryptonButtonAddSyllableBegin.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="kryptonButtonAddSyllableBegin.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;kryptonButtonAddSyllableBegin.Name" xml:space="preserve">
+    <value>kryptonButtonAddSyllableBegin</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonAddSyllableBegin.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonAddSyllableBegin.Parent" xml:space="preserve">
+    <value>groupBoxSyllableBegin</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonAddSyllableBegin.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="kryptonListBoxSyllableBegin.HorizontalScrollbar" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="kryptonListBoxSyllableBegin.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="kryptonListBoxSyllableBegin.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="kryptonListBoxSyllableBegin.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="kryptonListBoxSyllableBegin.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="kryptonListBoxSyllableBegin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="kryptonListBoxSyllableBegin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 114</value>
+  </data>
+  <data name="kryptonListBoxSyllableBegin.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;kryptonListBoxSyllableBegin.Name" xml:space="preserve">
+    <value>kryptonListBoxSyllableBegin</value>
+  </data>
+  <data name="&gt;&gt;kryptonListBoxSyllableBegin.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonListBox, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonListBoxSyllableBegin.Parent" xml:space="preserve">
+    <value>groupBoxSyllableBegin</value>
+  </data>
+  <data name="&gt;&gt;kryptonListBoxSyllableBegin.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupBoxSyllableBegin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="groupBoxSyllableBegin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 162</value>
+  </data>
+  <data name="groupBoxSyllableBegin.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBoxSyllableBegin.Text" xml:space="preserve">
+    <value>Silbenanfang</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableBegin.Name" xml:space="preserve">
+    <value>groupBoxSyllableBegin</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableBegin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableBegin.Parent" xml:space="preserve">
+    <value>tabPageMethodSyllables</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSyllableBegin.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabPageMethodSyllables.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="tabPageMethodSyllables.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageMethodSyllables.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 388</value>
+  </data>
+  <data name="tabPageMethodSyllables.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPageMethodSyllables.Text" xml:space="preserve">
+    <value>Silbenbasiert</value>
+  </data>
+  <data name="tabPageMethodSyllables.ToolTipText" xml:space="preserve">
+    <value>Silbenbasiert</value>
+  </data>
+  <data name="&gt;&gt;tabPageMethodSyllables.Name" xml:space="preserve">
+    <value>tabPageMethodSyllables</value>
+  </data>
+  <data name="&gt;&gt;tabPageMethodSyllables.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageMethodSyllables.Parent" xml:space="preserve">
+    <value>tabControlEssin</value>
+  </data>
+  <data name="&gt;&gt;tabPageMethodSyllables.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabControlEssin.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControlEssin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabControlEssin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>651, 416</value>
+  </data>
+  <data name="tabControlEssin.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabControlEssin.Name" xml:space="preserve">
+    <value>tabControlEssin</value>
+  </data>
+  <data name="&gt;&gt;tabControlEssin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControlEssin.Parent" xml:space="preserve">
+    <value>kryptonPanel</value>
+  </data>
+  <data name="&gt;&gt;tabControlEssin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="kryptonPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="kryptonPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="kryptonPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>651, 416</value>
+  </data>
+  <data name="kryptonPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;kryptonPanel.Name" xml:space="preserve">
+    <value>kryptonPanel</value>
+  </data>
+  <data name="&gt;&gt;kryptonPanel.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonPanel, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;kryptonPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolStripContainer.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>651, 416</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.ContentPanel.Name" xml:space="preserve">
+    <value>toolStripContainer.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.ContentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.ContentPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.ContentPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolStripContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="toolStripContainer.LeftToolStripPanel.AccessibleDescription" xml:space="preserve">
+    <value>Just a Pane</value>
+  </data>
+  <data name="toolStripContainer.LeftToolStripPanel.AccessibleName" xml:space="preserve">
+    <value>Pane</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.LeftToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer.LeftToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.LeftToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.LeftToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.LeftToolStripPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="toolStripContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolStripContainer.RightToolStripPanel.AccessibleDescription" xml:space="preserve">
+    <value>Just a Pane</value>
+  </data>
+  <data name="toolStripContainer.RightToolStripPanel.AccessibleName" xml:space="preserve">
+    <value>Pane</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.RightToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer.RightToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.RightToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.RightToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.RightToolStripPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="toolStripContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>651, 438</value>
+  </data>
+  <data name="toolStripContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="toolStripContainer.Text" xml:space="preserve">
+    <value>toolStripContainer</value>
+  </data>
+  <data name="toolStripContainer.TopToolStripPanel.AccessibleDescription" xml:space="preserve">
+    <value>Just a Pane</value>
+  </data>
+  <data name="toolStripContainer.TopToolStripPanel.AccessibleName" xml:space="preserve">
+    <value>Pane</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.TopToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer.TopToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.TopToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.TopToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.TopToolStripPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.Name" xml:space="preserve">
+    <value>toolStripContainer</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="kryptonCheckButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="kryptonCheckButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="kryptonCheckButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="kryptonCheckButton1.Values.Text" xml:space="preserve">
+    <value>kryptonCheckButton1</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckButton1.Name" xml:space="preserve">
+    <value>kryptonCheckButton1</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckButton1.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonCheckButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="kryptonCheckButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="kryptonCheckButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="kryptonCheckButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="kryptonCheckButton2.Values.Text" xml:space="preserve">
+    <value>kryptonCheckButton2</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckButton2.Name" xml:space="preserve">
+    <value>kryptonCheckButton2</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckButton2.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonCheckButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="kryptonCheckButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="kryptonCheckButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="kryptonCheckButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="kryptonCheckButton3.Values.Text" xml:space="preserve">
+    <value>kryptonCheckButton3</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckButton3.Name" xml:space="preserve">
+    <value>kryptonCheckButton3</value>
+  </data>
+  <data name="&gt;&gt;kryptonCheckButton3.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonCheckButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <metadata name="backgroundWorkerLetterNames.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>391, 17</value>
+  </metadata>
+  <metadata name="backgroundWorkerSyllableName.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>614, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>651, 438</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABABQAMDACAAEAAQAwAwAARgEAACAgAgABAAEAMAEAAHYEAAAQEAIAAQABALAAAACmBQAAMDAQAAEA
@@ -3498,5 +6288,95 @@
         AAD4DwAA4AcAAMADAACAAQAAkAEAABwIAAAYGAAAOHwAADg8AAAYOAAAGDgAAIwxAACOcQAAwsMAAOAH
         AAD4HwAA
 </value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Essin - Kreierung neuer Namen</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabelInfo.Name" xml:space="preserve">
+    <value>toolStripStatusLabelInfo</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabelInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemOutputOptionsEntriesLineByLine.Name" xml:space="preserve">
+    <value>toolStripMenuItemOutputOptionsEntriesLineByLine</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemOutputOptionsEntriesLineByLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemOutputOptionsClearListWithEveryGeneration.Name" xml:space="preserve">
+    <value>toolStripMenuItemOutputOptionsClearListWithEveryGeneration</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemOutputOptionsClearListWithEveryGeneration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemOutputOptionsSeparatorIsSpace.Name" xml:space="preserve">
+    <value>toolStripMenuItemOutputOptionsSeparatorIsSpace</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemOutputOptionsSeparatorIsSpace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemOutputOptionsSeparatorIsComma.Name" xml:space="preserve">
+    <value>toolStripMenuItemOutputOptionsSeparatorIsComma</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemOutputOptionsSeparatorIsComma.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemOutputOptionsSeparatorIsPipe.Name" xml:space="preserve">
+    <value>toolStripMenuItemOutputOptionsSeparatorIsPipe</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemOutputOptionsSeparatorIsPipe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemOutputOptionsSeparatorIsSemicolon.Name" xml:space="preserve">
+    <value>toolStripMenuItemOutputOptionsSeparatorIsSemicolon</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemOutputOptionsSeparatorIsSemicolon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemOutputOptionsEnclosedWithQuotes.Name" xml:space="preserve">
+    <value>toolStripMenuItemOutputOptionsEnclosedWithQuotes</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemOutputOptionsEnclosedWithQuotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorkerLetterNames.Name" xml:space="preserve">
+    <value>backgroundWorkerLetterNames</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorkerLetterNames.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System.ComponentModel.EventBasedAsync, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorkerSyllableName.Name" xml:space="preserve">
+    <value>backgroundWorkerSyllableName</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorkerSyllableName.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System.ComponentModel.EventBasedAsync, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>EssinForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
