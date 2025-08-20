@@ -1351,10 +1351,10 @@
     <value>5</value>
   </data>
   <data name="kryptonButtonCopyLettersResultsToClipboard.AccessibleDescription" xml:space="preserve">
-    <value>Löscht die Ausgabeliste der generierten Namen</value>
+    <value>Kopiert die Ausgabeliste in die Zwischenablage</value>
   </data>
   <data name="kryptonButtonCopyLettersResultsToClipboard.AccessibleName" xml:space="preserve">
-    <value>Ausgabeliste löschen</value>
+    <value>Ausgabeliste kopieren</value>
   </data>
   <data name="kryptonButtonCopyLettersResultsToClipboard.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 108</value>
