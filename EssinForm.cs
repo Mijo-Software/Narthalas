@@ -420,10 +420,14 @@ namespace Narthalas
 			kryptonNumericUpDownWordLengthVariableMinimum.Value = 2;
 			// Set the maximum word length for variable word lengths
 			kryptonNumericUpDownWordLengthVariableMaximum.Value = 10;
-
 			// Set the default radio button for starting with a random letter
 			kryptonRadioButtonStartingWithRandomLetter.Checked = true;
-
+			// This will prevent user input until the individual pattern option is selected
+			kryptonTextBoxIndividualPattern.ReadOnly = true;
+			// Disable the button to set the individual pattern
+			kryptonButtonIndividualPatternSetConsonant.Enabled = false;
+			// Disable the button to set the individual pattern for vowels
+			kryptonButtonkryptonButtonIndividualPatternSetVowel.Enabled = false;
 			// Set the default radio button for variable word length
 			kryptonRadioButtonWordLengthVariable.Checked = true;
 			// Set default separator to space
@@ -853,6 +857,42 @@ namespace Narthalas
 					SetStatusBar(text: "Fehler bei der Abspeicherung des Ergebnisses", additionalInfo: ex.Message);
 				}
 			}
+		}
+
+		private void KryptonCheckBoxUseIndividualPattern_Click(object sender, EventArgs e)
+		{
+			if (kryptonCheckBoxUseIndividualPattern.Checked)
+			{
+				groupBoxLetterSet.Enabled = false; // Disable the letter set group box when using an individual pattern
+				groupBoxWordLength.Enabled = false; // Disable the word length group box when using an individual pattern
+				groupBoxStarting.Enabled = false; // Disable the starting group box when using an individual pattern
+				groupBoxLettersLanguageStyles.Enabled = false; // Disable the language styles group box when using an individual pattern
+				kryptonButtonIndividualPatternSetConsonant.Enabled = true; // Enable the button to set the individual pattern
+				kryptonButtonkryptonButtonIndividualPatternSetVowel.Enabled = true; // Enable the button to set the individual pattern for vowels
+			}
+			else
+			{
+				groupBoxLetterSet.Enabled = true; // Enable the letter set group box when not using an individual pattern
+				groupBoxWordLength.Enabled = true; // Enable the word length group box when not using an individual pattern
+				groupBoxStarting.Enabled = true; // Enable the starting group box when not using an individual pattern
+				groupBoxLettersLanguageStyles.Enabled = true; // Enable the language styles group box when not using an individual pattern
+				kryptonButtonIndividualPatternSetConsonant.Enabled = false; // Disable the button to set the individual pattern
+				kryptonButtonkryptonButtonIndividualPatternSetVowel.Enabled = false; // Disable the button to set the individual pattern for vowels
+			}
+		}
+
+		private void KryptonButtonIndividualPatternSetConsonant_Click(object sender, EventArgs e)
+		{
+			// Check if the individual pattern textbox is not null
+			ArgumentNullException.ThrowIfNull(argument: kryptonTextBoxIndividualPattern);
+			kryptonTextBoxIndividualPattern.Text += "C"; // Append 'C' for consonant to the individual pattern textbox
+		}
+
+		private void KryptonButtonkryptonButtonIndividualPatternSetVowel_Click(object sender, EventArgs e)
+		{
+			// Check if the individual pattern textbox is not null
+			ArgumentNullException.ThrowIfNull(argument: kryptonTextBoxIndividualPattern);
+			kryptonTextBoxIndividualPattern.Text += "V"; // Append 'V' for vowel to the individual pattern textbox
 		}
 
 		#endregion

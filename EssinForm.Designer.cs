@@ -50,7 +50,7 @@
 			groupBoxIndividualPattern = new GroupBox();
 			kryptonButtonkryptonButtonIndividualPatternSetVowel = new Krypton.Toolkit.KryptonButton();
 			kryptonButtonIndividualPatternSetConsonant = new Krypton.Toolkit.KryptonButton();
-			checkBoxUseIndividualPattern = new CheckBox();
+			kryptonCheckBoxUseIndividualPattern = new Krypton.Toolkit.KryptonCheckBox();
 			kryptonTextBoxIndividualPattern = new Krypton.Toolkit.KryptonTextBox();
 			groupBoxLetterSet = new GroupBox();
 			kryptonLabelLetterSetConsonants = new Krypton.Toolkit.KryptonLabel();
@@ -388,7 +388,7 @@
 			kryptonRadioButtonStartingWithRandomLetter.AccessibleRole = AccessibleRole.RadioButton;
 			resources.ApplyResources(kryptonRadioButtonStartingWithRandomLetter, "kryptonRadioButtonStartingWithRandomLetter");
 			kryptonRadioButtonStartingWithRandomLetter.Name = "kryptonRadioButtonStartingWithRandomLetter";
-			kryptonRadioButtonStartingWithRandomLetter.Values.Text = resources.GetString("kryptonRadioButtonStartingRandom.Values.Text");
+			kryptonRadioButtonStartingWithRandomLetter.Values.Text = resources.GetString("kryptonRadioButtonStartingWithRandomLetter.Values.Text");
 			kryptonRadioButtonStartingWithRandomLetter.Enter += SetStatusBar_Enter;
 			kryptonRadioButtonStartingWithRandomLetter.Leave += SetStatusBar_Enter;
 			kryptonRadioButtonStartingWithRandomLetter.MouseEnter += SetStatusBar_Enter;
@@ -400,7 +400,7 @@
 			groupBoxIndividualPattern.AccessibleRole = AccessibleRole.Grouping;
 			groupBoxIndividualPattern.Controls.Add(kryptonButtonkryptonButtonIndividualPatternSetVowel);
 			groupBoxIndividualPattern.Controls.Add(kryptonButtonIndividualPatternSetConsonant);
-			groupBoxIndividualPattern.Controls.Add(checkBoxUseIndividualPattern);
+			groupBoxIndividualPattern.Controls.Add(kryptonCheckBoxUseIndividualPattern);
 			groupBoxIndividualPattern.Controls.Add(kryptonTextBoxIndividualPattern);
 			groupBoxIndividualPattern.Name = "groupBoxIndividualPattern";
 			groupBoxIndividualPattern.TabStop = false;
@@ -414,6 +414,7 @@
 			kryptonButtonkryptonButtonIndividualPatternSetVowel.Name = "kryptonButtonkryptonButtonIndividualPatternSetVowel";
 			kryptonButtonkryptonButtonIndividualPatternSetVowel.Values.DropDownArrowColor = Color.Empty;
 			kryptonButtonkryptonButtonIndividualPatternSetVowel.Values.Text = resources.GetString("kryptonButtonkryptonButtonIndividualPatternSetVowel.Values.Text");
+			kryptonButtonkryptonButtonIndividualPatternSetVowel.Click += KryptonButtonkryptonButtonIndividualPatternSetVowel_Click;
 			kryptonButtonkryptonButtonIndividualPatternSetVowel.Enter += SetStatusBar_Enter;
 			kryptonButtonkryptonButtonIndividualPatternSetVowel.Leave += SetStatusBar_Enter;
 			kryptonButtonkryptonButtonIndividualPatternSetVowel.MouseEnter += SetStatusBar_Enter;
@@ -426,21 +427,23 @@
 			kryptonButtonIndividualPatternSetConsonant.Name = "kryptonButtonIndividualPatternSetConsonant";
 			kryptonButtonIndividualPatternSetConsonant.Values.DropDownArrowColor = Color.Empty;
 			kryptonButtonIndividualPatternSetConsonant.Values.Text = resources.GetString("kryptonButtonIndividualPatternSetConsonant.Values.Text");
+			kryptonButtonIndividualPatternSetConsonant.Click += KryptonButtonIndividualPatternSetConsonant_Click;
 			kryptonButtonIndividualPatternSetConsonant.Enter += SetStatusBar_Enter;
 			kryptonButtonIndividualPatternSetConsonant.Leave += SetStatusBar_Enter;
 			kryptonButtonIndividualPatternSetConsonant.MouseEnter += SetStatusBar_Enter;
 			kryptonButtonIndividualPatternSetConsonant.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// checkBoxUseIndividualPattern
+			// kryptonCheckBoxUseIndividualPattern
 			// 
-			checkBoxUseIndividualPattern.AccessibleRole = AccessibleRole.CheckButton;
-			resources.ApplyResources(checkBoxUseIndividualPattern, "checkBoxUseIndividualPattern");
-			checkBoxUseIndividualPattern.Name = "checkBoxUseIndividualPattern";
-			checkBoxUseIndividualPattern.UseVisualStyleBackColor = true;
-			checkBoxUseIndividualPattern.Enter += SetStatusBar_Enter;
-			checkBoxUseIndividualPattern.Leave += SetStatusBar_Enter;
-			checkBoxUseIndividualPattern.MouseEnter += SetStatusBar_Enter;
-			checkBoxUseIndividualPattern.MouseLeave += ClearStatusBar_Leave;
+			kryptonCheckBoxUseIndividualPattern.AccessibleRole = AccessibleRole.CheckButton;
+			resources.ApplyResources(kryptonCheckBoxUseIndividualPattern, "kryptonCheckBoxUseIndividualPattern");
+			kryptonCheckBoxUseIndividualPattern.Name = "kryptonCheckBoxUseIndividualPattern";
+			kryptonCheckBoxUseIndividualPattern.Values.Text = resources.GetString("kryptonCheckBoxUseIndividualPattern.Values.Text");
+			kryptonCheckBoxUseIndividualPattern.Click += KryptonCheckBoxUseIndividualPattern_Click;
+			kryptonCheckBoxUseIndividualPattern.Enter += SetStatusBar_Enter;
+			kryptonCheckBoxUseIndividualPattern.Leave += SetStatusBar_Enter;
+			kryptonCheckBoxUseIndividualPattern.MouseEnter += SetStatusBar_Enter;
+			kryptonCheckBoxUseIndividualPattern.MouseLeave += ClearStatusBar_Leave;
 			// 
 			// kryptonTextBoxIndividualPattern
 			// 
@@ -682,9 +685,9 @@
 			kryptonButtonLettersOutputOptions.AccessibleRole = AccessibleRole.PushButton;
 			kryptonButtonLettersOutputOptions.ContextMenuStrip = contextMenuStripResultOptions;
 			kryptonButtonLettersOutputOptions.Name = "kryptonButtonLettersOutputOptions";
-			kryptonButtonLettersOutputOptions.ToolTipValues.Description = resources.GetString("resource.Description");
+			kryptonButtonLettersOutputOptions.ToolTipValues.Description = resources.GetString("resource.Description9");
 			kryptonButtonLettersOutputOptions.ToolTipValues.EnableToolTips = true;
-			kryptonButtonLettersOutputOptions.ToolTipValues.Heading = resources.GetString("resource.Heading");
+			kryptonButtonLettersOutputOptions.ToolTipValues.Heading = resources.GetString("resource.Heading9");
 			kryptonButtonLettersOutputOptions.ToolTipValues.Image = Properties.Resources.o_collection_office_wrench_16;
 			kryptonButtonLettersOutputOptions.Values.DropDownArrowColor = Color.Empty;
 			kryptonButtonLettersOutputOptions.Values.Image = Properties.Resources.o_collection_office_wrench_16;
@@ -1662,7 +1665,7 @@
         private Krypton.Toolkit.KryptonTextBox kryptonTextBoxLettersLanguageStyleConsonants;
         private GroupBox groupBoxIndividualPattern;
         private Krypton.Toolkit.KryptonButton kryptonButtonIndividualPatternSetConsonant;
-        private CheckBox checkBoxUseIndividualPattern;
+        private Krypton.Toolkit.KryptonCheckBox kryptonCheckBoxUseIndividualPattern;
         private Krypton.Toolkit.KryptonTextBox kryptonTextBoxIndividualPattern;
         private Krypton.Toolkit.KryptonButton kryptonButtonkryptonButtonIndividualPatternSetVowel;
         private GroupBox groupBoxStarting;
