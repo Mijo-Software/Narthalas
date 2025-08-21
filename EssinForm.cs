@@ -152,56 +152,118 @@ namespace Narthalas
 			kryptonTextBoxLettersResults.ScrollToCaret();
 		}
 
-		private static string CreateRandomLetterPatternWithLength(int length)
+		private string CreateRandomLetterPattern(int length)
 		{
+			// Create a random letter pattern with alternating vowels and consonants
+			// Check if the length is less than 1
+			if (length < 1)
+			{
+				// If the length is less than 1, throw an exception
+				throw new ArgumentOutOfRangeException(paramName: nameof(length), message: "Length must be at least 1.");
+			}
+			// Initialize an empty string to hold the pattern
+			// This pattern will alternate between vowels and consonants based on the starting option selected by the user
 			string pattern = string.Empty;
-			bool isVowel = true; // Start with a vowel
-			bool isConsonant = false; // Start with a consonant
+			// Determine whether to start with a vowel or consonant based on the selected radio button
+			// This will ensure that the pattern starts with the correct type of letter based on user preference
+			// Initialize boolean flags to track whether the next character should be a vowel or consonant
+			// These flags will be used to alternate between vowels and consonants as per the selected starting option
+			bool isVowel;
+			bool isConsonant;
+
+			// Check which radio button is selected to determine the starting character type
+			// This will set the initial state for whether the first character should be a vowel or consonant
+			// Based on the selected radio button, set the initial state for isVowel and isConsonant
+			// This will ensure that the pattern starts with the correct type of letter based on user preference
+			// If the starting option is set to start with a consonant, set isVowel to false and isConsonant to true
+			// If the starting option is set to start with a random letter, randomly decide whether to start with a vowel or consonant
+			// If the starting option is set to start with a vowel, set isVowel to true and isConsonant to false
+			// If none of the radio buttons are checked, throw an exception to ensure a valid starting option is selected
+			// This will ensure that the user has selected a valid starting option for the letter pattern
+			if (kryptonRadioButtonStartingWithConsonant.Checked)
+			{
+				// Start with a consonant
+				isVowel = false;
+				// Next character should be a consonant
+				isConsonant = true;
+			}
+			else if (kryptonRadioButtonStartingWithRandomLetter.Checked)
+			{
+				// Randomly decide whether to start with a vowel or consonant
+				isVowel = random.Next(maxValue: 2) == 0; // 50% chance to start with a vowel
+				isConsonant = !isVowel; // If not a vowel, it must be a consonant
+			}
+			else if (kryptonRadioButtonStartingWithVowel.Checked)
+			{
+				// Start with a vowel
+				isVowel = true;
+				// Next character should be a consonant
+				isConsonant = false;
+			}
+			else
+			{
+				// If none of the radio buttons are checked, throw an exception
+				// This ensures that the user has selected a valid starting option for the letter pattern
+				throw new InvalidOperationException(message: "Unrecognized starting option for letter pattern.");
+			}
+
+			// Loop through the specified length to create the pattern
+			// This loop will alternate between vowels and consonants based on the starting option selected by the user
+			// For each character in the pattern, append either a vowel or consonant based on the current state
+			// This will ensure that the pattern alternates correctly between vowels and consonants
+			// The loop will run for the specified length, appending characters to the pattern string
+			// The pattern will be built by appending either a vowel or consonant based on the current state
+			// The isVowel and isConsonant flags will be toggled after each character is appended
+			// This will ensure that the next character will be of the opposite type (vowel or consonant)
+			// The final pattern will be a string of alternating vowels and consonants based on the selected starting option
 			for (int j = 0; j < length; j++)
 			{
+				// Check if the current character should be a vowel or consonant based on the flags
+				// If isVowel is true, append a random vowel to the pattern
+				// If isConsonant is true, append a random consonant to the pattern
+				// After appending a character, toggle the flags to switch to the opposite type for the next character
+				// This will ensure that the next character will be of the opposite type (vowel or consonant)
+				// If the current character is a vowel, append a random vowel to the pattern
+				// If the current character is a consonant, append a random consonant to the pattern
+				// The pattern will alternate between vowels and consonants based on the selected starting option
 				if (isVowel)
 				{
 					// Append a random vowel to the pattern
-					pattern += "V"; //vowels[random.Next(maxValue: vowels.Length)];
-					isVowel = false; // Next character should be a consonant
-					isConsonant = true; // Next character should be a consonant
+					pattern += "V";
+					// Next character should be a consonant
+					isVowel = false;
+					// Next character should be a consonant
+					isConsonant = true;
 				}
 				else if (isConsonant)
 				{
 					// Append a random consonant to the pattern
-					pattern += "C"; //consonants[random.Next(maxValue: consonants.Length)];
-					isVowel = true; // Next character should be a vowel
-					isConsonant = false; // Next character should be a vowel
+					pattern += "C";
+					// Next character should be a vowel
+					isVowel = true;
+					// Next character should be a vowel
+					isConsonant = false;
 				}
 			}
+			// Return the generated pattern
+			// This pattern will be a string of alternating vowels and consonants based on the selected starting option
+			// The pattern will be used to generate names based on the specified length
+			// The final pattern will be a string of 'C' and 'V' characters representing consonants and vowels
 			return pattern;
 		}
 
-		private static string CreateRandomLetterPatternWithRandomMinAndMaxLength(int minLength, int maxLength)
+		private string CreateRandomLetterPatternWithLength(int length)
+		{
+			// Create a random letter pattern with the specified length
+			return CreateRandomLetterPattern(length);
+		}
+
+		private string CreateRandomLetterPatternWithRandomMinAndMaxLength(int minLength, int maxLength)
 		{
 			// Create a random letter pattern with alternating vowels and consonants
-			int randomLength = random.Next(minValue: minLength, maxValue: maxLength + 1);
-			string pattern = string.Empty;
-			bool isVowel = true; // Start with a vowel
-			bool isConsonant = false; // Start with a consonant
-			for (int j = 0; j < randomLength; j++)
-			{
-				if (isVowel)
-				{
-					// Append a random vowel to the pattern
-					pattern += "V"; //vowels[random.Next(maxValue: vowels.Length)];
-					isVowel = false; // Next character should be a consonant
-					isConsonant = true; // Next character should be a consonant
-				}
-				else if (isConsonant)
-				{
-					// Append a random consonant to the pattern
-					pattern += "C"; //consonants[random.Next(maxValue: consonants.Length)];
-					isVowel = true; // Next character should be a vowel
-					isConsonant = false; // Next character should be a vowel
-				}
-			}
-			return pattern;
+			int length = random.Next(minValue: minLength, maxValue: maxLength + 1);
+			// Generate a random length between minLength and maxLength (inclusive)
+			return CreateRandomLetterPattern(length);
 		}
 
 		/// <summary>
@@ -360,7 +422,7 @@ namespace Narthalas
 			kryptonNumericUpDownWordLengthVariableMaximum.Value = 10;
 
 			// Set the default radio button for starting with a random letter
-			kryptonRadioButtonStartingRandom.Checked = true;
+			kryptonRadioButtonStartingWithRandomLetter.Checked = true;
 
 			// Set the default radio button for variable word length
 			kryptonRadioButtonWordLengthVariable.Checked = true;

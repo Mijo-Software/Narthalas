@@ -817,16 +817,16 @@
   <data name="groupBoxStarting.AccessibleName" xml:space="preserve">
     <value>Beginn mit...</value>
   </data>
-  <data name="&gt;&gt;kryptonRadioButtonStarting.Name" xml:space="preserve">
-    <value>kryptonRadioButtonStarting</value>
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithVowel.Name" xml:space="preserve">
+    <value>kryptonRadioButtonStartingWithVowel</value>
   </data>
-  <data name="&gt;&gt;kryptonRadioButtonStarting.Type" xml:space="preserve">
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithVowel.Type" xml:space="preserve">
     <value>Krypton.Toolkit.KryptonRadioButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
   </data>
-  <data name="&gt;&gt;kryptonRadioButtonStarting.Parent" xml:space="preserve">
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithVowel.Parent" xml:space="preserve">
     <value>groupBoxStarting</value>
   </data>
-  <data name="&gt;&gt;kryptonRadioButtonStarting.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithVowel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="&gt;&gt;kryptonRadioButtonStartingWithConsonant.Name" xml:space="preserve">
@@ -841,16 +841,16 @@
   <data name="&gt;&gt;kryptonRadioButtonStartingWithConsonant.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;kryptonRadioButtonStartingRandom.Name" xml:space="preserve">
-    <value>kryptonRadioButtonStartingRandom</value>
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithRandomLetter.Name" xml:space="preserve">
+    <value>kryptonRadioButtonStartingWithRandomLetter</value>
   </data>
-  <data name="&gt;&gt;kryptonRadioButtonStartingRandom.Type" xml:space="preserve">
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithRandomLetter.Type" xml:space="preserve">
     <value>Krypton.Toolkit.KryptonRadioButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
   </data>
-  <data name="&gt;&gt;kryptonRadioButtonStartingRandom.Parent" xml:space="preserve">
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithRandomLetter.Parent" xml:space="preserve">
     <value>groupBoxStarting</value>
   </data>
-  <data name="&gt;&gt;kryptonRadioButtonStartingRandom.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithRandomLetter.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="groupBoxStarting.Location" type="System.Drawing.Point, System.Drawing">
@@ -877,28 +877,28 @@
   <data name="&gt;&gt;groupBoxStarting.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="kryptonRadioButtonStarting.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="kryptonRadioButtonStartingWithVowel.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 77</value>
   </data>
-  <data name="kryptonRadioButtonStarting.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="kryptonRadioButtonStartingWithVowel.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 20</value>
   </data>
-  <data name="kryptonRadioButtonStarting.TabIndex" type="System.Int32, mscorlib">
+  <data name="kryptonRadioButtonStartingWithVowel.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="kryptonRadioButtonStarting.Values.Text" xml:space="preserve">
+  <data name="kryptonRadioButtonStartingWithVowel.Values.Text" xml:space="preserve">
     <value>Vokal</value>
   </data>
-  <data name="&gt;&gt;kryptonRadioButtonStarting.Name" xml:space="preserve">
-    <value>kryptonRadioButtonStarting</value>
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithVowel.Name" xml:space="preserve">
+    <value>kryptonRadioButtonStartingWithVowel</value>
   </data>
-  <data name="&gt;&gt;kryptonRadioButtonStarting.Type" xml:space="preserve">
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithVowel.Type" xml:space="preserve">
     <value>Krypton.Toolkit.KryptonRadioButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
   </data>
-  <data name="&gt;&gt;kryptonRadioButtonStarting.Parent" xml:space="preserve">
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithVowel.Parent" xml:space="preserve">
     <value>groupBoxStarting</value>
   </data>
-  <data name="&gt;&gt;kryptonRadioButtonStarting.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithVowel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="kryptonRadioButtonStartingWithConsonant.Location" type="System.Drawing.Point, System.Drawing">
@@ -925,28 +925,28 @@
   <data name="&gt;&gt;kryptonRadioButtonStartingWithConsonant.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="kryptonRadioButtonStartingRandom.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="kryptonRadioButtonStartingWithRandomLetter.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 22</value>
   </data>
-  <data name="kryptonRadioButtonStartingRandom.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="kryptonRadioButtonStartingWithRandomLetter.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 20</value>
   </data>
-  <data name="kryptonRadioButtonStartingRandom.TabIndex" type="System.Int32, mscorlib">
+  <data name="kryptonRadioButtonStartingWithRandomLetter.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="kryptonRadioButtonStartingRandom.Values.Text" xml:space="preserve">
     <value>zufällig</value>
   </data>
-  <data name="&gt;&gt;kryptonRadioButtonStartingRandom.Name" xml:space="preserve">
-    <value>kryptonRadioButtonStartingRandom</value>
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithRandomLetter.Name" xml:space="preserve">
+    <value>kryptonRadioButtonStartingWithRandomLetter</value>
   </data>
-  <data name="&gt;&gt;kryptonRadioButtonStartingRandom.Type" xml:space="preserve">
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithRandomLetter.Type" xml:space="preserve">
     <value>Krypton.Toolkit.KryptonRadioButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
   </data>
-  <data name="&gt;&gt;kryptonRadioButtonStartingRandom.Parent" xml:space="preserve">
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithRandomLetter.Parent" xml:space="preserve">
     <value>groupBoxStarting</value>
   </data>
-  <data name="&gt;&gt;kryptonRadioButtonStartingRandom.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;kryptonRadioButtonStartingWithRandomLetter.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="groupBoxIndividualPattern.AccessibleDescription" xml:space="preserve">
