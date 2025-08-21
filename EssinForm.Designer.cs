@@ -62,9 +62,9 @@
             kryptonLabelWordLengthVariableMinimum = new Krypton.Toolkit.KryptonLabel();
             kryptonNumericUpDownWordLengthVariableMaximum = new Krypton.Toolkit.KryptonNumericUpDown();
             kryptonNumericUpDownWordLengthVariableMinimum = new Krypton.Toolkit.KryptonNumericUpDown();
-            kryptonNumericUpDownWordlLengthFix = new Krypton.Toolkit.KryptonNumericUpDown();
+            kryptonNumericUpDownWordLengthFixed = new Krypton.Toolkit.KryptonNumericUpDown();
             kryptonRadioButtonWordLengthVariable = new Krypton.Toolkit.KryptonRadioButton();
-            kryptonRadioButtonWordLengthFix = new Krypton.Toolkit.KryptonRadioButton();
+            kryptonRadioButtonWordLengthFixed = new Krypton.Toolkit.KryptonRadioButton();
             groupBoxLetterOutput = new GroupBox();
             kryptonButtonSaveLettersResultsToClipboard = new Krypton.Toolkit.KryptonButton();
             kryptonLabelSetLettersNumberNames = new Krypton.Toolkit.KryptonLabel();
@@ -515,9 +515,9 @@
             groupBoxWordLength.Controls.Add(kryptonLabelWordLengthVariableMinimum);
             groupBoxWordLength.Controls.Add(kryptonNumericUpDownWordLengthVariableMaximum);
             groupBoxWordLength.Controls.Add(kryptonNumericUpDownWordLengthVariableMinimum);
-            groupBoxWordLength.Controls.Add(kryptonNumericUpDownWordlLengthFix);
+            groupBoxWordLength.Controls.Add(kryptonNumericUpDownWordLengthFixed);
             groupBoxWordLength.Controls.Add(kryptonRadioButtonWordLengthVariable);
-            groupBoxWordLength.Controls.Add(kryptonRadioButtonWordLengthFix);
+            groupBoxWordLength.Controls.Add(kryptonRadioButtonWordLengthFixed);
             groupBoxWordLength.Name = "groupBoxWordLength";
             groupBoxWordLength.TabStop = false;
             groupBoxWordLength.Enter += SetStatusBar_Enter;
@@ -525,8 +525,8 @@
             // 
             // kryptonLabelWordLengthVariableMaximum
             // 
-            kryptonLabelWordLengthVariableMaximum.AccessibleRole = AccessibleRole.StaticText;
             resources.ApplyResources(kryptonLabelWordLengthVariableMaximum, "kryptonLabelWordLengthVariableMaximum");
+            kryptonLabelWordLengthVariableMaximum.AccessibleRole = AccessibleRole.StaticText;
             kryptonLabelWordLengthVariableMaximum.Name = "kryptonLabelWordLengthVariableMaximum";
             kryptonLabelWordLengthVariableMaximum.Values.Text = resources.GetString("kryptonLabelWordLengthVariableMaximum.Values.Text");
             kryptonLabelWordLengthVariableMaximum.Enter += SetStatusBar_Enter;
@@ -536,8 +536,8 @@
             // 
             // kryptonLabelWordLengthVariableMinimum
             // 
-            kryptonLabelWordLengthVariableMinimum.AccessibleRole = AccessibleRole.StaticText;
             resources.ApplyResources(kryptonLabelWordLengthVariableMinimum, "kryptonLabelWordLengthVariableMinimum");
+            kryptonLabelWordLengthVariableMinimum.AccessibleRole = AccessibleRole.StaticText;
             kryptonLabelWordLengthVariableMinimum.Name = "kryptonLabelWordLengthVariableMinimum";
             kryptonLabelWordLengthVariableMinimum.Values.Text = resources.GetString("kryptonLabelWordLengthVariableMinimum.Values.Text");
             kryptonLabelWordLengthVariableMinimum.Enter += SetStatusBar_Enter;
@@ -547,9 +547,9 @@
             // 
             // kryptonNumericUpDownWordLengthVariableMaximum
             // 
+            resources.ApplyResources(kryptonNumericUpDownWordLengthVariableMaximum, "kryptonNumericUpDownWordLengthVariableMaximum");
             kryptonNumericUpDownWordLengthVariableMaximum.AccessibleRole = AccessibleRole.SpinButton;
             kryptonNumericUpDownWordLengthVariableMaximum.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-            resources.ApplyResources(kryptonNumericUpDownWordLengthVariableMaximum, "kryptonNumericUpDownWordLengthVariableMaximum");
             kryptonNumericUpDownWordLengthVariableMaximum.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
             kryptonNumericUpDownWordLengthVariableMaximum.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             kryptonNumericUpDownWordLengthVariableMaximum.Name = "kryptonNumericUpDownWordLengthVariableMaximum";
@@ -561,9 +561,9 @@
             // 
             // kryptonNumericUpDownWordLengthVariableMinimum
             // 
+            resources.ApplyResources(kryptonNumericUpDownWordLengthVariableMinimum, "kryptonNumericUpDownWordLengthVariableMinimum");
             kryptonNumericUpDownWordLengthVariableMinimum.AccessibleRole = AccessibleRole.SpinButton;
             kryptonNumericUpDownWordLengthVariableMinimum.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-            resources.ApplyResources(kryptonNumericUpDownWordLengthVariableMinimum, "kryptonNumericUpDownWordLengthVariableMinimum");
             kryptonNumericUpDownWordLengthVariableMinimum.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
             kryptonNumericUpDownWordLengthVariableMinimum.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             kryptonNumericUpDownWordLengthVariableMinimum.Name = "kryptonNumericUpDownWordLengthVariableMinimum";
@@ -573,24 +573,24 @@
             kryptonNumericUpDownWordLengthVariableMinimum.MouseEnter += SetStatusBar_Enter;
             kryptonNumericUpDownWordLengthVariableMinimum.MouseLeave += ClearStatusBar_Leave;
             // 
-            // kryptonNumericUpDownWordlLengthFix
+            // kryptonNumericUpDownWordLengthFixed
             // 
-            kryptonNumericUpDownWordlLengthFix.AccessibleRole = AccessibleRole.SpinButton;
-            kryptonNumericUpDownWordlLengthFix.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-            resources.ApplyResources(kryptonNumericUpDownWordlLengthFix, "kryptonNumericUpDownWordlLengthFix");
-            kryptonNumericUpDownWordlLengthFix.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-            kryptonNumericUpDownWordlLengthFix.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
-            kryptonNumericUpDownWordlLengthFix.Name = "kryptonNumericUpDownWordlLengthFix";
-            kryptonNumericUpDownWordlLengthFix.Value = new decimal(new int[] { 1, 0, 0, 0 });
-            kryptonNumericUpDownWordlLengthFix.Enter += SetStatusBar_Enter;
-            kryptonNumericUpDownWordlLengthFix.Leave += SetStatusBar_Enter;
-            kryptonNumericUpDownWordlLengthFix.MouseEnter += SetStatusBar_Enter;
-            kryptonNumericUpDownWordlLengthFix.MouseLeave += ClearStatusBar_Leave;
+            kryptonNumericUpDownWordLengthFixed.AccessibleRole = AccessibleRole.SpinButton;
+            kryptonNumericUpDownWordLengthFixed.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+            resources.ApplyResources(kryptonNumericUpDownWordLengthFixed, "kryptonNumericUpDownWordLengthFixed");
+            kryptonNumericUpDownWordLengthFixed.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+            kryptonNumericUpDownWordLengthFixed.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            kryptonNumericUpDownWordLengthFixed.Name = "kryptonNumericUpDownWordLengthFixed";
+            kryptonNumericUpDownWordLengthFixed.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            kryptonNumericUpDownWordLengthFixed.Enter += SetStatusBar_Enter;
+            kryptonNumericUpDownWordLengthFixed.Leave += SetStatusBar_Enter;
+            kryptonNumericUpDownWordLengthFixed.MouseEnter += SetStatusBar_Enter;
+            kryptonNumericUpDownWordLengthFixed.MouseLeave += ClearStatusBar_Leave;
             // 
             // kryptonRadioButtonWordLengthVariable
             // 
-            kryptonRadioButtonWordLengthVariable.AccessibleRole = AccessibleRole.RadioButton;
             resources.ApplyResources(kryptonRadioButtonWordLengthVariable, "kryptonRadioButtonWordLengthVariable");
+            kryptonRadioButtonWordLengthVariable.AccessibleRole = AccessibleRole.RadioButton;
             kryptonRadioButtonWordLengthVariable.Name = "kryptonRadioButtonWordLengthVariable";
             kryptonRadioButtonWordLengthVariable.Values.Text = resources.GetString("kryptonRadioButtonWordLengthVariable.Values.Text");
             kryptonRadioButtonWordLengthVariable.Enter += SetStatusBar_Enter;
@@ -598,16 +598,16 @@
             kryptonRadioButtonWordLengthVariable.MouseEnter += SetStatusBar_Enter;
             kryptonRadioButtonWordLengthVariable.MouseLeave += ClearStatusBar_Leave;
             // 
-            // kryptonRadioButtonWordLengthFix
+            // kryptonRadioButtonWordLengthFixed
             // 
-            kryptonRadioButtonWordLengthFix.AccessibleRole = AccessibleRole.RadioButton;
-            resources.ApplyResources(kryptonRadioButtonWordLengthFix, "kryptonRadioButtonWordLengthFix");
-            kryptonRadioButtonWordLengthFix.Name = "kryptonRadioButtonWordLengthFix";
-            kryptonRadioButtonWordLengthFix.Values.Text = resources.GetString("kryptonRadioButtonWordLengthFix.Values.Text");
-            kryptonRadioButtonWordLengthFix.Enter += SetStatusBar_Enter;
-            kryptonRadioButtonWordLengthFix.Leave += SetStatusBar_Enter;
-            kryptonRadioButtonWordLengthFix.MouseEnter += SetStatusBar_Enter;
-            kryptonRadioButtonWordLengthFix.MouseLeave += ClearStatusBar_Leave;
+            resources.ApplyResources(kryptonRadioButtonWordLengthFixed, "kryptonRadioButtonWordLengthFixed");
+            kryptonRadioButtonWordLengthFixed.AccessibleRole = AccessibleRole.RadioButton;
+            kryptonRadioButtonWordLengthFixed.Name = "kryptonRadioButtonWordLengthFixed";
+            kryptonRadioButtonWordLengthFixed.Values.Text = resources.GetString("kryptonRadioButtonWordLengthFixed.Values.Text");
+            kryptonRadioButtonWordLengthFixed.Enter += SetStatusBar_Enter;
+            kryptonRadioButtonWordLengthFixed.Leave += SetStatusBar_Enter;
+            kryptonRadioButtonWordLengthFixed.MouseEnter += SetStatusBar_Enter;
+            kryptonRadioButtonWordLengthFixed.MouseLeave += ClearStatusBar_Leave;
             // 
             // groupBoxLetterOutput
             // 
@@ -682,9 +682,9 @@
             kryptonButtonLettersOutputOptions.AccessibleRole = AccessibleRole.PushButton;
             kryptonButtonLettersOutputOptions.ContextMenuStrip = contextMenuStripResultOptions;
             kryptonButtonLettersOutputOptions.Name = "kryptonButtonLettersOutputOptions";
-            kryptonButtonLettersOutputOptions.ToolTipValues.Description = resources.GetString("resource.Description9");
+            kryptonButtonLettersOutputOptions.ToolTipValues.Description = resources.GetString("resource.Description");
             kryptonButtonLettersOutputOptions.ToolTipValues.EnableToolTips = true;
-            kryptonButtonLettersOutputOptions.ToolTipValues.Heading = resources.GetString("resource.Heading9");
+            kryptonButtonLettersOutputOptions.ToolTipValues.Heading = resources.GetString("resource.Heading");
             kryptonButtonLettersOutputOptions.ToolTipValues.Image = Properties.Resources.o_collection_office_wrench_16;
             kryptonButtonLettersOutputOptions.Values.DropDownArrowColor = Color.Empty;
             kryptonButtonLettersOutputOptions.Values.Image = Properties.Resources.o_collection_office_wrench_16;
@@ -1652,9 +1652,9 @@
         private Krypton.Toolkit.KryptonLabel kryptonLabelWordLengthVariableMinimum;
         private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownWordLengthVariableMaximum;
         private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownWordLengthVariableMinimum;
-        private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownWordlLengthFix;
+        private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownWordLengthFixed;
         private Krypton.Toolkit.KryptonRadioButton kryptonRadioButtonWordLengthVariable;
-        private Krypton.Toolkit.KryptonRadioButton kryptonRadioButtonWordLengthFix;
+        private Krypton.Toolkit.KryptonRadioButton kryptonRadioButtonWordLengthFixed;
         private Krypton.Toolkit.KryptonButton kryptonButtonApplyLettersLanguageStyle;
         private Krypton.Toolkit.KryptonLabel kryptonLabelLettersLanguageStyleConsonants;
         private Krypton.Toolkit.KryptonTextBox kryptonTextBoxLettersLanguageStyleVowels;

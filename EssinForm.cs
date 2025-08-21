@@ -61,10 +61,24 @@ namespace Narthalas
         /// </summary>
         private string quote = string.Empty;
 
+        /// <summary>
+        /// The default pattern used for letter-based name generation.
+        /// 'C' stands for consonant, 'V' for vowel (e.g., "CVCVC").
+        /// </summary>
         private const string DefaultPattern = "CVCVC"; // Default pattern for letter-based name generation
 
+        private string randomPattern = DefaultPattern; // Random pattern for letter-based name generation
+
+        /// <summary>
+        /// Stores the newline character(s) to use between generated names in the output.
+        /// Is set to <see cref="Environment.NewLine"/> if line-by-line output is enabled, otherwise empty.
+        /// </summary>
         private string newLine = string.Empty; // Default new line character for output
 
+        /// <summary>
+        /// Stores the separator string to use between generated names in the output.
+        /// Can be changed by the user (e.g., space, comma, pipe, semicolon).
+        /// </summary>
         private string separator = " "; // Default separator for output, can be changed based on user selection
 
         #region Constructor
@@ -129,6 +143,42 @@ namespace Narthalas
             return chars[random.Next(maxValue: chars.Length)];
         }
 
+        private void ScrollToTextBoxLettersResultEnd()
+        {
+            // Check if the letters results textbox is not null
+            ArgumentNullException.ThrowIfNull(argument: kryptonTextBoxLettersResults);
+            // Scroll to the end of the text in the letters results textbox
+            kryptonTextBoxLettersResults.SelectionStart = kryptonTextBoxLettersResults.Text.Length;
+            kryptonTextBoxLettersResults.ScrollToCaret();
+        }
+
+        private string CreateRandomLetterPattern(int minLength, int maxLength)
+        {
+            // Create a random letter pattern with alternating vowels and consonants
+            int randomLength = random.Next(minValue: minLength, maxValue: maxLength + 1);
+            string rndPattern = string.Empty;
+            bool isVowel = true; // Start with a vowel
+            bool isConsonant = false; // Start with a consonant
+            for (int j = 0; j < randomLength; j++)
+            {
+                if (isVowel)
+                {
+                    // Append a random vowel to the pattern
+                    rndPattern += "V"; //vowels[random.Next(maxValue: vowels.Length)];
+                    isVowel = false; // Next character should be a consonant
+                    isConsonant = true; // Next character should be a consonant
+                }
+                else if (isConsonant)
+                {
+                    // Append a random consonant to the pattern
+                    rndPattern += "C"; //consonants[random.Next(maxValue: consonants.Length)];
+                    isVowel = true; // Next character should be a vowel
+                    isConsonant = false; // Next character should be a vowel
+                }
+            }
+            return rndPattern;
+        }
+
         /// <summary>
         /// Generates a name based on a given pattern of consonants (C) and vowels (V).
         /// </summary>
@@ -181,20 +231,54 @@ namespace Narthalas
                 name[index: 0] = char.ToUpper(c: name[index: 0]);
             }
 
+            // Return the generated name as a string
             return name.ToString();
+        }
+
+        private static string GenerateLettersName(string pattern = DefaultPattern, int fixedLength = 5)
+        {
+            for (int i = 0; i < fixedLength + 1; i++)
+            {
+                // Generate a name based on the provided pattern
+                string generatedName = GenerateLettersName(pattern: pattern);
+                // Check if the generated name's length matches the specified fixed length
+                if (generatedName.Length == fixedLength)
+                {
+                    return generatedName;
+                }
+            }
+            // Fallback: Return a name with the pattern if no matching length is found
+            return GenerateLettersName(pattern: pattern);
+        }
+
+        private static string GenerateLettersName(string pattern = DefaultPattern, int minLength = 2, int maxLength = 10)
+        {
+            for (int i = minLength; i < maxLength + 1; i++)
+            {
+                // Generate a name based on the provided pattern
+                string generatedName = GenerateLettersName(pattern: pattern);
+
+                // Check if the generated name's length is within the specified range
+                if (generatedName.Length >= minLength && generatedName.Length <= maxLength)
+                {
+                    return generatedName;
+                }
+            }
+            // Fallback: Return a name with the pattern if no matching length is found
+            return GenerateLettersName(pattern: pattern);
         }
 
         /// <summary>
         /// Generates a name by combining random syllables.
         /// </summary>
-        /// <param name="silbenAnzahl">The number of syllables to include in the name (minimum 2).</param>
+        /// <param name="numberSyllables">The number of syllables to include in the name (minimum 2).</param>
         /// <returns>A generated name composed of a beginning, middle, and ending syllable.</returns>
-        private static string GenerateSyllablesName(int silbenAnzahl = 2)
+        private static string GenerateSyllablesName(int numberSyllables = 2)
         {
             StringBuilder sb = new();
             _ = sb.Append(value: syllablesBegin[random.Next(maxValue: syllablesBegin.Length)]);
 
-            for (int i = 0; i < silbenAnzahl - 1; i++)
+            for (int i = 0; i < numberSyllables - 1; i++)
             {
                 // Append a random middle syllable
 
@@ -208,12 +292,12 @@ namespace Narthalas
                 // Append a random middle syllable
                 // This allows for multiple middle syllables to be added based on the specified count
                 // The random middle syllable is chosen from the syllablesMiddle array
-                if (silbenAnzahl > 2 || i < silbenAnzahl - 2)
+                if (numberSyllables > 2 || i < numberSyllables - 2)
                 {
                     _ = sb.Append(value: syllablesMiddle[random.Next(maxValue: syllablesMiddle.Length)]);
                 }
                 // If the number of syllables is 2, it will not append any middle syllables
-                else if (silbenAnzahl == 2 && i == 0)
+                else if (numberSyllables == 2 && i == 0)
                 {
                     // Append a middle syllable only for the first iteration if the total syllables are 2
                     _ = sb.Append(value: syllablesMiddle[random.Next(maxValue: syllablesMiddle.Length)]);
@@ -228,7 +312,6 @@ namespace Narthalas
             return sb.ToString();
         }
 
-
         #endregion
 
         #region Load event handler
@@ -241,6 +324,21 @@ namespace Narthalas
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void EssinForm_Load(object sender, EventArgs e)
         {
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+
+            // Set the default fixed word length to 5
+            kryptonNumericUpDownWordLengthFixed.Value = 5;
+            // Set the minimum word length for variable word lengths
+            kryptonNumericUpDownWordLengthVariableMinimum.Value = 2;
+            // Set the maximum word length for variable word lengths
+            kryptonNumericUpDownWordLengthVariableMaximum.Value = 10;
+
+            // Set the default radio button for starting with a random letter
+            kryptonRadioButtonStartingRandom.Checked = true;
+
+            // Set the default radio button for variable word length
+            kryptonRadioButtonWordLengthVariable.Checked = true; 
             // Set default separator to space
             toolStripMenuItemOutputOptionsSeparatorIsSpace.Checked = true;
         }
@@ -672,6 +770,8 @@ namespace Narthalas
 
         #endregion
 
+        #region BackgroundWorker event handlers
+
         /// <summary>
         /// Handles the background worker operation for generating letter-based names.
         /// Generates the specified number of names and appends them to the letter results textbox.
@@ -680,9 +780,6 @@ namespace Narthalas
         /// <param name="e">The <see cref="System.ComponentModel.DoWorkEventArgs"/> instance containing the event data.</param>
         private void BackgroundWorkerLetterNames_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
-            // Disable the button to prevent multiple clicks during generation
-            kryptonButtonStartLettersOutput.Enabled = false;
-
             if (kryptonNumericUpDownSetLettersNumberNames.Value > kryptonNumericUpDownSetLettersNumberNames.Maximum)
             {
                 // Show an error message if the number of names exceeds the maximum limit
@@ -691,6 +788,7 @@ namespace Narthalas
                 SetStatusBar(text: "Die Anzahl der zu generierenden Namen darf maximal 100 sein.");
                 return;
             }
+
             if (kryptonNumericUpDownSetLettersNumberNames.Value < kryptonNumericUpDownSetLettersNumberNames.Minimum)
             {
                 // Show an error message if the number of names is below the minimum limit
@@ -705,16 +803,72 @@ namespace Narthalas
                 // Clear the results textbox before generating new names
                 kryptonTextBoxLettersResults.Text = string.Empty;
             }
+
+            // Disable the button to prevent multiple clicks during generation
+            kryptonButtonStartLettersOutput.Enabled = false;
+
             // Generate the specified number of names
             for (int i = 0; i < kryptonNumericUpDownSetLettersNumberNames.Value; i++)
             {
-                // Generate a name based on the specified pattern and append it to the results textbox
-                kryptonTextBoxLettersResults.Text = string.IsNullOrWhiteSpace(value: kryptonTextBoxLettersResults.Text)
-                    ? $"{quote}{GenerateLettersName(pattern: DefaultPattern)}{quote}"
-                    : $"{kryptonTextBoxLettersResults.Text}{separator}{newLine}{quote}{GenerateLettersName(pattern: DefaultPattern)}{quote}";
-                kryptonTextBoxLettersResults.SelectionStart = kryptonTextBoxLettersResults.Text.Length;
-                kryptonTextBoxLettersResults.ScrollToCaret();
-            }
+                if (kryptonRadioButtonWordLengthVariable.Checked)
+                {
+                    // Generate a name with variable word length
+                    // This will generate a name with a random length between the specified minimum and maximum values
+                    int minLength = (int)kryptonNumericUpDownWordLengthVariableMinimum.Value;
+                    int maxLength = (int)kryptonNumericUpDownWordLengthVariableMaximum.Value;
+
+                    // Ensure minLength is less than or equal to maxLength
+                    if (minLength > maxLength)
+                    {
+                        // Show an error message if the minimum length is greater than the maximum length
+                        // This will display an error message box and update the status bar with the error message
+                        _ = MessageBox.Show(text: "Die minimale Wortlänge darf nicht größer als die maximale Wortlänge sein.", caption: "Fehler", buttons: MessageBoxButtons.OK, icon: MessageBoxIcon.Error);
+                        SetStatusBar(text: "Die minimale Wortlänge darf nicht größer als die maximale Wortlänge sein.");
+                        kryptonButtonStartLettersOutput.Enabled = true;
+                        return;
+                    }
+                    
+                    randomPattern = CreateRandomLetterPattern(minLength: minLength, maxLength: maxLength);
+
+                    // Generate a name with variable word length and append it to the results textbox
+                    // This will generate a name with a random length between the specified minimum and maximum values
+                    kryptonTextBoxLettersResults.Text = string.IsNullOrWhiteSpace(value: kryptonTextBoxLettersResults.Text)
+                        ? $"{quote}{GenerateLettersName(pattern: randomPattern, minLength: minLength, maxLength: maxLength)}{quote}"
+                        : $"{kryptonTextBoxLettersResults.Text}{separator}{newLine}{quote}{GenerateLettersName(pattern: randomPattern, minLength: minLength, maxLength: maxLength)}{quote}";
+                    ScrollToTextBoxLettersResultEnd();
+                }
+                
+                else if (kryptonRadioButtonWordLengthFixed.Checked)
+                {
+                    // Generate a name with fixed word length
+                    // This will generate a name with the specified fixed length
+                    int fixedLength = (int)kryptonNumericUpDownWordLengthFixed.Value;
+
+                    randomPattern = CreateRandomLetterPattern(minLength: minLength, maxLength: maxLength);
+
+                    kryptonTextBoxLettersResults.Text = string.IsNullOrWhiteSpace(value: kryptonTextBoxLettersResults.Text)
+                        ? $"{quote}{GenerateLettersName(pattern: DefaultPattern, fixedLength: fixedLength)}{quote}"
+                        : $"{kryptonTextBoxLettersResults.Text}{separator}{newLine}{quote}{GenerateLettersName(pattern: DefaultPattern, fixedLength: fixedLength)}{quote}";
+                }
+
+                /*else if (kryptonRadioButtonStartingRandom.Checked)
+                {
+                    // Generate a name starting with a random letter
+                    // This will generate a name starting with a random letter and following the specified pattern
+                    kryptonTextBoxLettersResults.Text = string.IsNullOrWhiteSpace(value: kryptonTextBoxLettersResults.Text)
+                        ? $"{quote}{GenerateLettersName(pattern: DefaultPattern, startingWithRandomLetter: true)}{quote}"
+                        : $"{kryptonTextBoxLettersResults.Text}{separator}{newLine}{quote}{GenerateLettersName(pattern: DefaultPattern, startingWithRandomLetter: true)}{quote}";
+                }
+                */
+                else
+                {
+                    // Generate a name based on the specified pattern and append it to the results textbox
+                    kryptonTextBoxLettersResults.Text = string.IsNullOrWhiteSpace(value: kryptonTextBoxLettersResults.Text)
+                        ? $"{quote}{GenerateLettersName(pattern: DefaultPattern)}{quote}"
+                        : $"{kryptonTextBoxLettersResults.Text}{separator}{newLine}{quote}{GenerateLettersName(pattern: DefaultPattern)}{quote}";
+                    ScrollToTextBoxLettersResultEnd();
+                }
+           }
 
             // Re-enable the button after generation is complete
             kryptonButtonStartLettersOutput.Enabled = true;
@@ -759,5 +913,7 @@ namespace Narthalas
             // Re-enable the button after generation is complete
             kryptonButtonStartSyllablesOutput.Enabled = true;
         }
+
+        #endregion
     }
 }
