@@ -123,6 +123,13 @@ namespace Narthalas
             toolStripStatusLabelInfo.Text = string.Empty;
         }
 
+        private static char RandomChar(string input)
+        {            // Check if the input string is null or empty            ArgumentNullException.ThrowIfNull(argument: input, paramName: nameof(input));
+
+            // If the input string is null or empty, throw an exception
+            // This ensures that the method does not throw an exception when trying to access an empty string
+            // This will ensure that the method does not throw an exception when trying to access an empty string
+            if (string.IsNullOrEmpty(value: input))            {                // If the string is empty, throw an exception                throw new ArgumentException(message: "Input string cannot be null or empty.", paramName: nameof(input));            }            // Generate a random index within the bounds of the input string            // This will return a random character from the provided string            return input[index: random.Next(maxValue: input.Length)];        }
         /// <summary>
         /// Returns a random character from the specified array.
         /// </summary>
@@ -301,7 +308,7 @@ namespace Narthalas
                 if (c == 'C')
                 {
                     // Append a random consonant
-                    _ = name.Append(value: RandomChar(chars: consonants));
+                    _ = name.Append(value: RandomChar(kryptonTextBoxLetterSetConsonants.TextBox.Text));
                 }
                 else if (c == 'V')
                 {
@@ -413,16 +420,19 @@ namespace Narthalas
         {
             // Check if the sender is null
             ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
             // Set the status bar text to indicate that the form has loaded
             SetStatusBar(text: "Essin-Modul geladen. Bitte wählen Sie eine Option aus, um Namen zu generieren.");
             // Set the default pattern for letter-based name generation
             //kryptonTextBoxLetterSetPattern.TextBox.Text = DefaultPattern;
             // Set the default letter set for consonants and vowels
-            kryptonTextBoxLetterSetConsonants.TextBox.Text = new string(consonants);
-            kryptonTextBoxLetterSetVowels.TextBox.Text = new string(vowels);
+            kryptonTextBoxLetterSetConsonants.TextBox.Text = new string(value: consonants);
+            kryptonTextBoxLetterSetVowels.TextBox.Text = new string(value: vowels);
             // Set the default letter set for language style consonants and vowels
-            kryptonTextBoxLettersLanguageStyleConsonants.TextBox.Text = new string(consonants);
-            kryptonTextBoxLettersLanguageStyleVowels.TextBox.Text = new string(vowels);
+            kryptonTextBoxLettersLanguageStyleConsonants.TextBox.Text = new string(value: consonants);
+            kryptonTextBoxLettersLanguageStyleVowels.TextBox.Text = new string(value: vowels);
             // Set the default individual pattern for letter-based name generation
             kryptonTextBoxIndividualPattern.TextBox.Text = string.Empty;
             // Allow only letters in the relevant textboxes
@@ -464,6 +474,11 @@ namespace Narthalas
         /// <param name="e">The <see cref="EventArgs"/> instance that contains the event data.</param>
         private void SetStatusBar_Enter(object sender, EventArgs e)
         {
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
             // Set the status bar text based on the sender's accessible description
             switch (sender)
             {
@@ -487,7 +502,15 @@ namespace Narthalas
         /// </summary>
         /// <param name="sender">The event source.</param>
         /// <param name="e">The <see cref="EventArgs"/> instance that contains the event data.</param>
-        private void ClearStatusBar_Leave(object sender, EventArgs e) => ClearStatusBar();
+        private void ClearStatusBar_Leave(object sender, EventArgs e)
+        {
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+            // Clear the status bar text when the mouse leaves the control
+            ClearStatusBar();
+        }
 
         #endregion
 
@@ -503,6 +526,9 @@ namespace Narthalas
         {
             // Check if the sender is null
             ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
             // Check if the Escape key is pressed
             if (e.KeyCode == Keys.Escape)
             {
@@ -523,6 +549,11 @@ namespace Narthalas
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void KryptonButtonStartLettersOutput_Click(object sender, EventArgs e)
         {
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
             // Check if the background worker for letter names is not already running
             if (backgroundWorkerLetterNames.IsBusy)
             {
@@ -543,6 +574,11 @@ namespace Narthalas
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void KryptonButtonStartSyllabesOutput_Click(object sender, EventArgs e)
         {
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
             // Check if the background worker for syllable names is not already running
             if (backgroundWorkerSyllableName.IsBusy)
             {
@@ -563,6 +599,11 @@ namespace Narthalas
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void KryptonButtonLettersOutputOptions_Click(object sender, EventArgs e)
         {
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
             // Position des Buttons relativ zum Formular
             Point buttonPosition = kryptonButtonLettersOutputOptions.PointToScreen(p: Point.Empty);
             // Position unterhalb des Buttons berechnen
@@ -579,6 +620,11 @@ namespace Narthalas
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void KryptonButtonSyllablesOutputOptions_Click(object sender, EventArgs e)
         {
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
             // Position des Buttons relativ zum Formular
             Point buttonPosition = kryptonButtonSyllablesOutputOptions.PointToScreen(p: Point.Empty);
             // Position unterhalb des Buttons berechnen
@@ -589,6 +635,11 @@ namespace Narthalas
 
         private void ToolStripMenuItemOutputOptionsSeparatorIsSpace_Click(object sender, EventArgs e)
         {
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
             // Set the separator to space and update the status bar
             separator = " ";
             SetStatusBar(text: "Ergebnisse werden mit Leerzeichen getrennt.");
@@ -606,6 +657,11 @@ namespace Narthalas
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void ToolStripMenuItemOutputOptionsSeparatorIsComma_Click(object sender, EventArgs e)
         {
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
             // Set the separator to comma and update the status bar
             separator = ",";
             SetStatusBar(text: "Ergebnisse werden mit Kommas getrennt.");
@@ -623,6 +679,12 @@ namespace Narthalas
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void ToolStripMenuItemOutputOptionsSeparatorIsPipe_Click(object sender, EventArgs e)
         {
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+            // If the sender is not a Form, throw an exception
+
             // Set the separator to pipe and update the status bar
             separator = "|";
             SetStatusBar(text: "Ergebnisse werden mit Pipes getrennt.");
@@ -640,6 +702,11 @@ namespace Narthalas
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void ToolStripMenuItemOutputOptionsSeparatorIsSemikolon_Click(object sender, EventArgs e)
         {
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
             // Set the separator to semicolon and update the status bar
             separator = ";";
             SetStatusBar(text: "Ergebnisse werden mit Semikolons getrennt.");
@@ -657,6 +724,12 @@ namespace Narthalas
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void ToolStripMenuItemOutputOptionsEntriesLineByLine_Click(object sender, EventArgs e)
         {
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+            // If the sender is not a Form, throw an exception
+
             // Set newLine and status bar text based on the checked state
             newLine = toolStripMenuItemOutputOptionsEntriesLineByLine.Checked ? Environment.NewLine : string.Empty;
             SetStatusBar(text: toolStripMenuItemOutputOptionsEntriesLineByLine.Checked
@@ -666,6 +739,12 @@ namespace Narthalas
 
         private void ToolStripMenuItemOutputOptionsEnclosedWithQuotes_Click(object sender, EventArgs e)
         {
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+            // If the sender is not a Form, throw an exception
+
             // Set quote to enclose results if the option is checked, otherwise use no quotes
             quote = toolStripMenuItemOutputOptionsEnclosedWithQuotes.Checked ? "\"" : string.Empty;
             // Update the status bar to reflect the change
@@ -682,8 +761,11 @@ namespace Narthalas
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void KryptonButtonCopyLettersResultsToClipboard_Click(object sender, EventArgs e)
         {
-            // Copy the letters results to the clipboard
-            ArgumentNullException.ThrowIfNull(argument: kryptonTextBoxLettersResults);
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
             // Check if the text box is not null or empty
             if (string.IsNullOrWhiteSpace(value: kryptonTextBoxLettersResults.Text))
             {
@@ -706,8 +788,11 @@ namespace Narthalas
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void KryptonButtonCopySyllablesResultsToClipboard_Click(object sender, EventArgs e)
         {
-            // Copy the syllables results to the clipboard
-            ArgumentNullException.ThrowIfNull(argument: kryptonTextBoxSyllablesResults);
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
             // Check if the text box is not null or empty
             if (string.IsNullOrWhiteSpace(value: kryptonTextBoxSyllablesResults.Text))
             {
@@ -730,8 +815,12 @@ namespace Narthalas
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void KryptonButtonDeleteLettersResultsToClipboard_Click(object sender, EventArgs e)
         {
-            // Clear the letters results textbox
-            ArgumentNullException.ThrowIfNull(argument: kryptonTextBoxLettersResults);
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+            // If the sender is not a Form, throw an exception
+
             // Check if the text box is not null or empty
             if (string.IsNullOrWhiteSpace(value: kryptonTextBoxLettersResults.Text))
             {
@@ -753,8 +842,11 @@ namespace Narthalas
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void KryptonButtonDeleteSyllablesResultsToClipboard_Click(object sender, EventArgs e)
         {
-            // Clear the syllables results textbox
-            ArgumentNullException.ThrowIfNull(argument: kryptonTextBoxSyllablesResults);
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
             // Check if the text box is not null or empty
             if (string.IsNullOrWhiteSpace(value: kryptonTextBoxSyllablesResults.Text))
             {
@@ -777,8 +869,11 @@ namespace Narthalas
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void KryptonButtonSaveLettersResultsToClipboard_Click(object sender, EventArgs e)
         {
-            // Check if the letters results textbox is not null or empty
-            ArgumentNullException.ThrowIfNull(argument: kryptonTextBoxLettersResults);
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
             if (string.IsNullOrWhiteSpace(value: kryptonTextBoxLettersResults.Text))
             {
                 // Show an error message if there are no letters results to save
@@ -832,8 +927,11 @@ namespace Narthalas
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void KryptonButtonSaveSyllablesResultsToClipboard_Click(object sender, EventArgs e)
         {
-            // Check if the syllables results textbox is not null or empty
-            ArgumentNullException.ThrowIfNull(argument: kryptonTextBoxSyllablesResults);
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
             if (string.IsNullOrWhiteSpace(value: kryptonTextBoxSyllablesResults.Text))
             {
                 // Show an error message if there are no syllables results to save
@@ -880,6 +978,15 @@ namespace Narthalas
 
         private void KryptonCheckBoxUseIndividualPattern_Click(object sender, EventArgs e)
         {
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
+            // Enable or disable the letter set, word length, starting, and language styles group boxes based on the checkbox state
+            // This will enable or disable the letter set, word length, starting, and language styles group boxes
+            // when the user checks or unchecks the individual pattern checkbox
+            // ToggleIndividualPatternControls();
             if (kryptonCheckBoxUseIndividualPattern.Checked)
             {
                 groupBoxLetterSet.Enabled = false; // Disable the letter set group box when using an individual pattern
@@ -906,19 +1013,57 @@ namespace Narthalas
         {
             // Check if the individual pattern textbox is not null
             ArgumentNullException.ThrowIfNull(argument: kryptonTextBoxIndividualPattern);
-            kryptonTextBoxIndividualPattern.Text += "C"; // Append 'C' for consonant to the individual pattern textbox
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
+            // Append 'C' for consonant to the individual pattern textbox
+            kryptonTextBoxIndividualPattern.Text += "C";
         }
 
         private void KryptonButtonkryptonButtonIndividualPatternSetVowel_Click(object sender, EventArgs e)
         {
             // Check if the individual pattern textbox is not null
             ArgumentNullException.ThrowIfNull(argument: kryptonTextBoxIndividualPattern);
-            kryptonTextBoxIndividualPattern.Text += "V"; // Append 'V' for vowel to the individual pattern textbox
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
+            // Append 'V' for vowel to the individual pattern textbox
+            kryptonTextBoxIndividualPattern.Text += "V";
         }
 
         private void KryptonButtonClearTextBoxIndividualPattern_Click(object sender, EventArgs e)
         {
-            kryptonTextBoxIndividualPattern.Text = string.Empty; // Clear the individual pattern textbox
+            // Check if the individual pattern textbox is not null
+            ArgumentNullException.ThrowIfNull(argument: kryptonTextBoxIndividualPattern);
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
+            // Clear the individual pattern textbox
+            kryptonTextBoxIndividualPattern.Text = string.Empty; 
+        }
+
+        private void KryptonButtonApplyLettersLanguageStyle_Click(object sender, EventArgs e)
+        {
+            // Check if the letter set text boxes are not null
+            ArgumentNullException.ThrowIfNull(argument: kryptonTextBoxLetterSetConsonants);
+            ArgumentNullException.ThrowIfNull(argument: kryptonTextBoxLetterSetVowels);
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
+            // Update the consonants language style textbox with the letter set for consonants
+            kryptonTextBoxLetterSetConsonants.Text = kryptonTextBoxLettersLanguageStyleConsonants.Text;
+            // Update the vowels language style textbox with the letter set for vowels
+            kryptonTextBoxLetterSetVowels.Text = kryptonTextBoxLettersLanguageStyleVowels.Text;
+            // Update the status bar to reflect the applied language style
+            SetStatusBar(text: "Buchstabenstil angewendet.");
         }
 
         #endregion
@@ -933,6 +1078,11 @@ namespace Narthalas
         /// <param name="e">The <see cref="System.ComponentModel.DoWorkEventArgs"/> instance containing the event data.</param>
         private void BackgroundWorkerLetterNames_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
             if (kryptonNumericUpDownSetLettersNumberNames.Value > kryptonNumericUpDownSetLettersNumberNames.Maximum)
             {
                 // Show an error message if the number of names exceeds the maximum limit
@@ -1049,6 +1199,11 @@ namespace Narthalas
         /// <param name="e">The <see cref="System.ComponentModel.DoWorkEventArgs"/> instance containing the event data.</param>
         private void BackgroundWorkerSyllableName_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
+            // Check if the sender is null
+            ArgumentNullException.ThrowIfNull(argument: sender);
+            // Check if the event arguments are null
+            ArgumentNullException.ThrowIfNull(argument: e);
+
             kryptonButtonStartSyllablesOutput.Enabled = false; // Disable the button to prevent multiple clicks during generation
             if (kryptonNumericUpDownSetSyllablesNumberNames.Value > kryptonNumericUpDownSetSyllablesNumberNames.Maximum)
             {

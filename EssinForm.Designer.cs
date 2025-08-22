@@ -291,6 +291,7 @@
             kryptonButtonApplyLettersLanguageStyle.Values.DropDownArrowColor = Color.Empty;
             kryptonButtonApplyLettersLanguageStyle.Values.Image = Properties.Resources.o_collection_office_ok_16;
             kryptonButtonApplyLettersLanguageStyle.Values.Text = resources.GetString("kryptonButtonApplyLettersLanguageStyle.Values.Text");
+            kryptonButtonApplyLettersLanguageStyle.Click += KryptonButtonApplyLettersLanguageStyle_Click;
             kryptonButtonApplyLettersLanguageStyle.Enter += SetStatusBar_Enter;
             kryptonButtonApplyLettersLanguageStyle.Leave += SetStatusBar_Enter;
             kryptonButtonApplyLettersLanguageStyle.MouseEnter += SetStatusBar_Enter;
