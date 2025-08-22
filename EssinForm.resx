@@ -169,7 +169,7 @@
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="kryptonStatusStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>0</value>
   </data>
   <data name="kryptonStatusStrip.Text" xml:space="preserve">
     <value>kryptonStatusStrip</value>
@@ -238,7 +238,7 @@
     <value>123, 173</value>
   </data>
   <data name="kryptonListBoxLettersLanguageStyles.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>0</value>
   </data>
   <data name="resource.Description" xml:space="preserve">
     <value>Zeigt die einstellbaren Optionen der Ausgabe an</value>
@@ -271,7 +271,7 @@
     <value>106, 24</value>
   </data>
   <data name="kryptonButtonApplyLettersLanguageStyle.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+    <value>5</value>
   </data>
   <data name="resource.Description1" xml:space="preserve">
     <value>Wendet den ausgewählten Sprachstil an</value>
@@ -307,7 +307,7 @@
     <value>106, 23</value>
   </data>
   <data name="kryptonTextBoxLettersLanguageStyleConsonants.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
+    <value>2</value>
   </data>
   <data name="resource.Description2" xml:space="preserve">
     <value>Zeigt die Konsonanten des ausgewählten Sprachstils an</value>
@@ -340,7 +340,7 @@
     <value>82, 20</value>
   </data>
   <data name="kryptonLabelLettersLanguageStyleConsonants.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+    <value>1</value>
   </data>
   <data name="resource.Description3" xml:space="preserve">
     <value>Zeigt die Konsonanten des ausgewählten Sprachstils an</value>
@@ -376,7 +376,7 @@
     <value>47, 20</value>
   </data>
   <data name="kryptonLabelLettersLanguageStyleVowels.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+    <value>3</value>
   </data>
   <data name="resource.Description4" xml:space="preserve">
     <value>Zeigt die Vokale des ausgewählten Sprachstils an</value>
@@ -412,7 +412,7 @@
     <value>106, 23</value>
   </data>
   <data name="kryptonTextBoxLettersLanguageStyleVowels.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+    <value>4</value>
   </data>
   <data name="resource.Description5" xml:space="preserve">
     <value>Zeigt die Vokale des ausgewählten Sprachstils an</value>
@@ -439,7 +439,7 @@
     <value>247, 206</value>
   </data>
   <data name="groupBoxLettersLanguageStyles.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
+    <value>5</value>
   </data>
   <data name="groupBoxLettersLanguageStyles.Text" xml:space="preserve">
     <value>Sprachstile</value>
@@ -541,7 +541,7 @@
     <value>103, 162</value>
   </data>
   <data name="groupBoxStarting.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
+    <value>3</value>
   </data>
   <data name="groupBoxStarting.Text" xml:space="preserve">
     <value>Beginn mit ...</value>
@@ -564,6 +564,30 @@
   <data name="groupBoxIndividualPattern.AccessibleName" xml:space="preserve">
     <value>Individuelles Muster</value>
   </data>
+  <data name="kryptonButtonClearTextBoxIndividualPattern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 45</value>
+  </data>
+  <data name="kryptonButtonClearTextBoxIndividualPattern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 23</value>
+  </data>
+  <data name="kryptonButtonClearTextBoxIndividualPattern.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="kryptonButtonClearTextBoxIndividualPattern.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;kryptonButtonClearTextBoxIndividualPattern.Name" xml:space="preserve">
+    <value>kryptonButtonClearTextBoxIndividualPattern</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonClearTextBoxIndividualPattern.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonClearTextBoxIndividualPattern.Parent" xml:space="preserve">
+    <value>groupBoxIndividualPattern</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonClearTextBoxIndividualPattern.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="kryptonButtonkryptonButtonIndividualPatternSetVowel.Location" type="System.Drawing.Point, System.Drawing">
     <value>36, 74</value>
   </data>
@@ -571,7 +595,7 @@
     <value>24, 23</value>
   </data>
   <data name="kryptonButtonkryptonButtonIndividualPatternSetVowel.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
+    <value>4</value>
   </data>
   <data name="kryptonButtonkryptonButtonIndividualPatternSetVowel.Values.Text" xml:space="preserve">
     <value>V</value>
@@ -586,7 +610,7 @@
     <value>groupBoxIndividualPattern</value>
   </data>
   <data name="&gt;&gt;kryptonButtonkryptonButtonIndividualPatternSetVowel.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="kryptonButtonIndividualPatternSetConsonant.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 74</value>
@@ -595,7 +619,7 @@
     <value>24, 23</value>
   </data>
   <data name="kryptonButtonIndividualPatternSetConsonant.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
+    <value>3</value>
   </data>
   <data name="kryptonButtonIndividualPatternSetConsonant.Values.Text" xml:space="preserve">
     <value>C</value>
@@ -610,7 +634,7 @@
     <value>groupBoxIndividualPattern</value>
   </data>
   <data name="&gt;&gt;kryptonButtonIndividualPatternSetConsonant.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="kryptonCheckBoxUseIndividualPattern.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 20</value>
@@ -619,7 +643,7 @@
     <value>80, 20</value>
   </data>
   <data name="kryptonCheckBoxUseIndividualPattern.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
+    <value>0</value>
   </data>
   <data name="kryptonCheckBoxUseIndividualPattern.Values.Text" xml:space="preserve">
     <value>anwenden</value>
@@ -634,7 +658,7 @@
     <value>groupBoxIndividualPattern</value>
   </data>
   <data name="&gt;&gt;kryptonCheckBoxUseIndividualPattern.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="kryptonTextBoxIndividualPattern.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 45</value>
@@ -643,7 +667,7 @@
     <value>81, 23</value>
   </data>
   <data name="kryptonTextBoxIndividualPattern.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;kryptonTextBoxIndividualPattern.Name" xml:space="preserve">
     <value>kryptonTextBoxIndividualPattern</value>
@@ -655,7 +679,7 @@
     <value>groupBoxIndividualPattern</value>
   </data>
   <data name="&gt;&gt;kryptonTextBoxIndividualPattern.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="groupBoxIndividualPattern.Location" type="System.Drawing.Point, System.Drawing">
     <value>464, 6</value>
@@ -664,7 +688,7 @@
     <value>171, 162</value>
   </data>
   <data name="groupBoxIndividualPattern.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
+    <value>4</value>
   </data>
   <data name="groupBoxIndividualPattern.Text" xml:space="preserve">
     <value>Individuelles Muster</value>
@@ -694,7 +718,7 @@
     <value>82, 20</value>
   </data>
   <data name="kryptonLabelLetterSetConsonants.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+    <value>1</value>
   </data>
   <data name="kryptonLabelLetterSetConsonants.Values.Text" xml:space="preserve">
     <value>Konsonanten</value>
@@ -718,7 +742,7 @@
     <value>123, 23</value>
   </data>
   <data name="kryptonTextBoxLetterSetVowels.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;kryptonTextBoxLetterSetVowels.Name" xml:space="preserve">
     <value>kryptonTextBoxLetterSetVowels</value>
@@ -739,7 +763,7 @@
     <value>47, 20</value>
   </data>
   <data name="kryptonLabelLetterSetVowels.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>0</value>
   </data>
   <data name="kryptonLabelLetterSetVowels.Values.Text" xml:space="preserve">
     <value>Vokale</value>
@@ -763,7 +787,7 @@
     <value>123, 23</value>
   </data>
   <data name="kryptonTextBoxLetterSetConsonants.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;kryptonTextBoxLetterSetConsonants.Name" xml:space="preserve">
     <value>kryptonTextBoxLetterSetConsonants</value>
@@ -784,7 +808,7 @@
     <value>141, 162</value>
   </data>
   <data name="groupBoxLetterSet.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+    <value>1</value>
   </data>
   <data name="groupBoxLetterSet.Text" xml:space="preserve">
     <value>Buchstaben-Set</value>
@@ -844,7 +868,7 @@
     <value>63, 20</value>
   </data>
   <data name="kryptonLabelWordLengthVariableMinimum.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="kryptonLabelWordLengthVariableMinimum.Values.Text" xml:space="preserve">
     <value>Minimum</value>
@@ -871,7 +895,7 @@
     <value>46, 22</value>
   </data>
   <data name="kryptonNumericUpDownWordLengthVariableMaximum.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;kryptonNumericUpDownWordLengthVariableMaximum.Name" xml:space="preserve">
     <value>kryptonNumericUpDownWordLengthVariableMaximum</value>
@@ -916,7 +940,7 @@
     <value>46, 22</value>
   </data>
   <data name="kryptonNumericUpDownWordLengthFixed.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;kryptonNumericUpDownWordLengthFixed.Name" xml:space="preserve">
     <value>kryptonNumericUpDownWordLengthFixed</value>
@@ -940,7 +964,7 @@
     <value>65, 20</value>
   </data>
   <data name="kryptonRadioButtonWordLengthVariable.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="kryptonRadioButtonWordLengthVariable.Values.Text" xml:space="preserve">
     <value>variabel</value>
@@ -991,7 +1015,7 @@
     <value>194, 162</value>
   </data>
   <data name="groupBoxWordLength.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>2</value>
   </data>
   <data name="groupBoxWordLength.Text" xml:space="preserve">
     <value>Wortlängen</value>
@@ -1027,7 +1051,7 @@
     <value>158, 24</value>
   </data>
   <data name="kryptonButtonSaveLettersResultsToClipboard.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>5</value>
   </data>
   <data name="resource.Description6" xml:space="preserve">
     <value>Speichert die Ausgabeliste der generierten Namen</value>
@@ -1063,7 +1087,7 @@
     <value>101, 20</value>
   </data>
   <data name="kryptonLabelSetLettersNumberNames.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>0</value>
   </data>
   <data name="resource.Description7" xml:space="preserve">
     <value>Zeigt die veränderbare Wiederholungen für generierbare Namen an</value>
@@ -1099,7 +1123,7 @@
     <value>158, 26</value>
   </data>
   <data name="kryptonButtonDeleteLettersResultsToClipboard.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="resource.Description8" xml:space="preserve">
     <value>Löscht die Ausgabeliste der generierten Namen</value>
@@ -1270,7 +1294,7 @@
     <value>158, 24</value>
   </data>
   <data name="kryptonButtonLettersOutputOptions.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>3</value>
   </data>
   <data name="resource.Description9" xml:space="preserve">
     <value>Zeigt die einstellbaren Optionen der Ausgabe an</value>
@@ -1312,7 +1336,7 @@
     <value>197, 173</value>
   </data>
   <data name="kryptonTextBoxLettersResults.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="resource.Description10" xml:space="preserve">
     <value>Zeigt die Ausgabe der generierten Namen an</value>
@@ -1345,7 +1369,7 @@
     <value>51, 22</value>
   </data>
   <data name="kryptonNumericUpDownSetLettersNumberNames.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>1</value>
   </data>
   <data name="resource.Description11" xml:space="preserve">
     <value>Zeigt die veränderbare Wiederholungen für generierbare Namen an</value>
@@ -1378,7 +1402,7 @@
     <value>158, 24</value>
   </data>
   <data name="kryptonButtonCopyLettersResultsToClipboard.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="resource.Description12" xml:space="preserve">
     <value>Löscht die Ausgabeliste der generierten Namen</value>
@@ -1414,7 +1438,7 @@
     <value>158, 24</value>
   </data>
   <data name="kryptonButtonStartLettersOutput.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="resource.Description13" xml:space="preserve">
     <value>Generiert neue Namen</value>
@@ -1444,7 +1468,7 @@
     <value>376, 206</value>
   </data>
   <data name="groupBoxLetterOutput.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>0</value>
   </data>
   <data name="groupBoxLetterOutput.Text" xml:space="preserve">
     <value>Ausgabe</value>
@@ -2726,7 +2750,7 @@
     <value>651, 416</value>
   </data>
   <data name="tabControlEssin.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="&gt;&gt;tabControlEssin.Name" xml:space="preserve">
     <value>tabControlEssin</value>
