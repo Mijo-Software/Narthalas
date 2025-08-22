@@ -413,7 +413,24 @@ namespace Narthalas
         {
             // Check if the sender is null
             ArgumentNullException.ThrowIfNull(argument: sender);
-
+            // Set the status bar text to indicate that the form has loaded
+            SetStatusBar(text: "Essin-Modul geladen. Bitte wählen Sie eine Option aus, um Namen zu generieren.");
+            // Set the default pattern for letter-based name generation
+            //kryptonTextBoxLetterSetPattern.TextBox.Text = DefaultPattern;
+            // Set the default letter set for consonants and vowels
+            kryptonTextBoxLetterSetConsonants.TextBox.Text = new string(consonants);
+            kryptonTextBoxLetterSetVowels.TextBox.Text = new string(vowels);
+            // Set the default letter set for language style consonants and vowels
+            kryptonTextBoxLettersLanguageStyleConsonants.TextBox.Text = new string(consonants);
+            kryptonTextBoxLettersLanguageStyleVowels.TextBox.Text = new string(vowels);
+            // Set the default individual pattern for letter-based name generation
+            kryptonTextBoxIndividualPattern.TextBox.Text = string.Empty;
+            // Allow only letters in the relevant textboxes
+            InputValidator.AllowOnlyLetters(textBox: kryptonTextBoxLetterSetConsonants.TextBox); // Allow only letters in the consonants textbox
+            InputValidator.AllowOnlyLetters(textBox: kryptonTextBoxLetterSetVowels.TextBox); // Allow only letters in the vowels textbox
+            InputValidator.AllowOnlyLetters(textBox: kryptonTextBoxLettersLanguageStyleConsonants.TextBox); // Allow only letters in the language style consonants textbox
+            InputValidator.AllowOnlyLetters(textBox: kryptonTextBoxLettersLanguageStyleVowels.TextBox); // Allow only letters in the language style vowels textbox
+            InputValidator.AllowOnlyLetters(textBox: kryptonTextBoxIndividualPattern.TextBox); // Allow only letters in the individual pattern textbox
             // Set the default fixed word length to 5
             kryptonNumericUpDownWordLengthFixed.Value = 5;
             // Set the minimum word length for variable word lengths
