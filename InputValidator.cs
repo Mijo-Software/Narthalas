@@ -22,6 +22,10 @@
 
 namespace Narthalas
 {
+	/// <summary>
+	/// Provides static helper methods to restrict and validate user input in <see cref="TextBox"/> controls.
+	/// Supports filtering for Unicode letters, letters with spaces, and custom regular expression patterns.
+	/// </summary>
 	internal class InputValidator
 	{
 		/// <summary>
@@ -68,7 +72,12 @@ namespace Narthalas
 			void CustomRegexHandlerWrapper(object? sender, KeyPressEventArgs e) => CustomRegexHandler(sender: sender!, e: e, pattern: pattern);
 		}
 
-		// Eventhandler: Nur Buchstaben, keine Leerzeichen
+		/// <summary>
+		/// Handles the KeyPress event to allow only Unicode letter characters (no spaces).
+		/// Suppresses any non-letter and non-control key input.
+		/// </summary>
+		/// <param name="sender">The source of the event, typically a <see cref="TextBox"/>.</param>
+		/// <param name="e">The <see cref="KeyPressEventArgs"/> instance containing the event data.</param>
 		private static void TextBox_AllowOnlyLetters(object? sender, KeyPressEventArgs e)
 		{
 			// Check if the key pressed is a control key (like Backspace, Enter, etc.)
@@ -83,7 +92,12 @@ namespace Narthalas
 			}
 		}
 
-		// Eventhandler: Buchstaben + Leerzeichen
+		/// <summary>
+		/// Handles the KeyPress event to allow only Unicode letter characters and spaces.
+		/// Suppresses any input that is not a letter, space, or control key.
+		/// </summary>
+		/// <param name="sender">The source of the event, typically a <see cref="TextBox"/>.</param>
+		/// <param name="e">The <see cref="KeyPressEventArgs"/> instance containing the event data.</param>
 		private static void TextBox_AllowOnlyLettersWithSpaces(object? sender, KeyPressEventArgs e)
 		{
 			// Check if the key pressed is a control key (like Backspace, Enter, etc.)
@@ -99,7 +113,13 @@ namespace Narthalas
 			}
 		}
 
-		// Eventhandler: Regex-basiert
+		/// <summary>
+		/// Handles the KeyPress event to allow input matching a custom regular expression pattern.
+		/// Suppresses any input that does not match the provided regex pattern, except control keys.
+		/// </summary>
+		/// <param name="sender">The source of the event, typically a <see cref="TextBox"/>.</param>
+		/// <param name="e">The <see cref="KeyPressEventArgs"/> instance containing the event data.</param>
+		/// <param name="pattern">The regular expression pattern to validate input against.</param>
 		private static void CustomRegexHandler(object? sender, KeyPressEventArgs e, string pattern)
 		{
 			// Check if the sender is a TextBox

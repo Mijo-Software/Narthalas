@@ -30,6 +30,18 @@ namespace Narthalas
 		];
 
 		/// <summary>
+		/// The default vowel set used for letter-based name generation.
+		/// This string is initialized from the <see cref="vowels"/> character array.
+		/// </summary>
+		private readonly string DefaultVowelSet = new(value: vowels); // Default vowel set for letter-based name generation
+
+		/// <summary>
+		/// The default consonant set used for letter-based name generation.
+		/// This string is initialized from the <see cref="consonants"/> character array.
+		/// </summary>
+		private readonly string DefaultConsonantSet = new(value: consonants); // Default consonant set for letter-based name generation
+
+		/// <summary>
 		/// Array of possible syllable beginnings for syllable-based name generation.
 		/// </summary>
 		private static readonly string[] syllablesBegin =
@@ -67,6 +79,10 @@ namespace Narthalas
 		/// </summary>
 		private const string DefaultPattern = "CVCVC"; // Default pattern for letter-based name generation
 
+		/// <summary>
+		/// Stores the current pattern used for letter-based name generation.
+		/// This pattern can be changed at runtime and is initialized with the default pattern.
+		/// </summary>
 		private string pattern = DefaultPattern; // Random pattern for letter-based name generation
 
 		/// <summary>
@@ -162,6 +178,9 @@ namespace Narthalas
 			return chars[random.Next(maxValue: chars.Length)];
 		}
 
+		/// <summary>
+		/// Scrolls the letter results textbox to the end, ensuring the latest generated name is visible.
+		/// </summary>
 		private void ScrollToTextBoxLettersResultEnd()
 		{
 			// Check if the letters results textbox is not null
@@ -171,6 +190,14 @@ namespace Narthalas
 			kryptonTextBoxLettersResults.ScrollToCaret();
 		}
 
+		/// <summary>
+		/// Creates a random letter pattern of the specified length, alternating between vowels ('V') and consonants ('C').
+		/// The starting character type (vowel or consonant) is determined by the selected radio button.
+		/// </summary>
+		/// <param name="length">The length of the pattern to generate. Must be at least 1.</param>
+		/// <returns>A string pattern consisting of 'C' and 'V' characters.</returns>
+		/// <exception cref="ArgumentOutOfRangeException">Thrown if <paramref name="length"/> is less than 1.</exception>
+		/// <exception cref="InvalidOperationException">Thrown if no valid starting option is selected.</exception>
 		private string CreateRandomLetterPattern(int length)
 		{
 			// Create a random letter pattern with alternating vowels and consonants
@@ -271,12 +298,25 @@ namespace Narthalas
 			return pattern;
 		}
 
+		/// <summary>
+		/// Creates a random letter pattern with the specified fixed length.
+		/// The pattern alternates between vowels ('V') and consonants ('C') based on the starting option.
+		/// </summary>
+		/// <param name="length">The length of the pattern to generate.</param>
+		/// <returns>A string pattern consisting of 'C' and 'V' characters.</returns>
 		private string CreateRandomLetterPatternWithLength(int length)
 		{
 			// Create a random letter pattern with the specified length
 			return CreateRandomLetterPattern(length);
 		}
 
+		/// <summary>
+		/// Creates a random letter pattern with a random length between the specified minimum and maximum values (inclusive).
+		/// The pattern alternates between vowels ('V') and consonants ('C') based on the starting option.
+		/// </summary>
+		/// <param name="minLength">The minimum length of the pattern.</param>
+		/// <param name="maxLength">The maximum length of the pattern.</param>
+		/// <returns>A string pattern consisting of 'C' and 'V' characters.</returns>
 		private string CreateRandomLetterPatternWithRandomMinAndMaxLength(int minLength, int maxLength)
 		{
 			// Create a random letter pattern with alternating vowels and consonants
@@ -320,12 +360,12 @@ namespace Narthalas
 				if (c == 'C')
 				{
 					// Append a random consonant
-					_ = name.Append(value: RandomChar(input: kryptonTextBoxLetterSetConsonants.TextBox.Text));
+					_ = name.Append(value: RandomChar(input: kryptonTextBoxLetterSetConsonants.Text));
 				}
 				else if (c == 'V')
 				{
 					// Append a random vowel
-					_ = name.Append(value: RandomChar(input: kryptonTextBoxLetterSetVowels.TextBox.Text));
+					_ = name.Append(value: RandomChar(input: kryptonTextBoxLetterSetVowels.Text));
 				}
 			}
 
@@ -341,6 +381,13 @@ namespace Narthalas
 			return name.ToString();
 		}
 
+		/// <summary>
+		/// Generates a name based on a given pattern and ensures the result has the specified fixed length.
+		/// Tries multiple times to generate a name matching the fixed length; if unsuccessful, returns a name with the given pattern.
+		/// </summary>
+		/// <param name="pattern">A string pattern using 'C' for consonant and 'V' for vowel (e.g., "CVCVC").</param>
+		/// <param name="fixedLength">The required fixed length of the generated name.</param>
+		/// <returns>A generated name of the specified fixed length, or a name with the given pattern if no match is found.</returns>
 		private string GenerateLettersName(string pattern = DefaultPattern, int fixedLength = 5)
 		{
 			for (int i = 0; i < fixedLength + 1; i++)
@@ -357,6 +404,14 @@ namespace Narthalas
 			return GenerateLettersName(pattern: pattern);
 		}
 
+		/// <summary>
+		/// Generates a name based on a given pattern and ensures the result is within the specified length range.
+		/// Tries multiple times to generate a name within the range; if unsuccessful, returns a name with the given pattern.
+		/// </summary>
+		/// <param name="pattern">A string pattern using 'C' for consonant and 'V' for vowel (e.g., "CVCVC").</param>
+		/// <param name="minLength">The minimum allowed length of the generated name.</param>
+		/// <param name="maxLength">The maximum allowed length of the generated name.</param>
+		/// <returns>A generated name within the specified length range, or a name with the given pattern if no match is found.</returns>
 		private string GenerateLettersName(string pattern = DefaultPattern, int minLength = 2, int maxLength = 10)
 		{
 			for (int i = minLength; i < maxLength + 1; i++)
@@ -645,6 +700,12 @@ namespace Narthalas
 			contextMenuStripResultOptions.Show(screenLocation: menuPosition);
 		}
 
+		/// <summary>
+		/// Handles the click event for setting the output separator to a space character.
+		/// Updates the separator, status bar, and unchecks other separator options.
+		/// </summary>
+		/// <param name="sender">The source of the event.</param>
+		/// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
 		private void ToolStripMenuItemOutputOptionsSeparatorIsSpace_Click(object sender, EventArgs e)
 		{
 			// Check if the sender is null
@@ -749,6 +810,12 @@ namespace Narthalas
 				: "Ergebnisse werden nicht zeilenweise ausgegeben.");
 		}
 
+		/// <summary>
+		/// Handles the click event for toggling the option to enclose generated results with quotes.
+		/// Sets the <c>quote</c> field based on the checked state and updates the status bar accordingly.
+		/// </summary>
+		/// <param name="sender">The source of the event.</param>
+		/// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
 		private void ToolStripMenuItemOutputOptionsEnclosedWithQuotes_Click(object sender, EventArgs e)
 		{
 			// Check if the sender is null
@@ -988,6 +1055,12 @@ namespace Narthalas
 			}
 		}
 
+		/// <summary>
+		/// Handles the click event for toggling the use of an individual pattern for name generation.
+		/// Enables or disables related controls based on the checkbox state.
+		/// </summary>
+		/// <param name="sender">The source of the event.</param>
+		/// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
 		private void KryptonCheckBoxUseIndividualPattern_Click(object sender, EventArgs e)
 		{
 			// Check if the sender is null
@@ -1001,7 +1074,6 @@ namespace Narthalas
 			// ToggleIndividualPatternControls();
 			if (kryptonCheckBoxUseIndividualPattern.Checked)
 			{
-				groupBoxLetterSet.Enabled = false; // Disable the letter set group box when using an individual pattern
 				groupBoxWordLength.Enabled = false; // Disable the word length group box when using an individual pattern
 				groupBoxStarting.Enabled = false; // Disable the starting group box when using an individual pattern
 				groupBoxLettersLanguageStyles.Enabled = false; // Disable the language styles group box when using an individual pattern
@@ -1011,7 +1083,6 @@ namespace Narthalas
 			}
 			else
 			{
-				groupBoxLetterSet.Enabled = true; // Enable the letter set group box when not using an individual pattern
 				groupBoxWordLength.Enabled = true; // Enable the word length group box when not using an individual pattern
 				groupBoxStarting.Enabled = true; // Enable the starting group box when not using an individual pattern
 				groupBoxLettersLanguageStyles.Enabled = true; // Enable the language styles group box when not using an individual pattern
@@ -1021,6 +1092,12 @@ namespace Narthalas
 			}
 		}
 
+		/// <summary>
+		/// Handles the click event for adding a consonant ('C') to the individual pattern textbox.
+		/// Appends 'C' to the textbox for custom pattern creation.
+		/// </summary>
+		/// <param name="sender">The source of the event.</param>
+		/// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
 		private void KryptonButtonIndividualPatternSetConsonant_Click(object sender, EventArgs e)
 		{
 			// Check if the individual pattern textbox is not null
@@ -1034,6 +1111,12 @@ namespace Narthalas
 			kryptonTextBoxIndividualPattern.Text += "C";
 		}
 
+		/// <summary>
+		/// Handles the click event for adding a vowel ('V') to the individual pattern textbox.
+		/// Appends 'V' to the textbox for custom pattern creation.
+		/// </summary>
+		/// <param name="sender">The source of the event.</param>
+		/// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
 		private void KryptonButtonkryptonButtonIndividualPatternSetVowel_Click(object sender, EventArgs e)
 		{
 			// Check if the individual pattern textbox is not null
@@ -1047,6 +1130,12 @@ namespace Narthalas
 			kryptonTextBoxIndividualPattern.Text += "V";
 		}
 
+		/// <summary>
+		/// Handles the click event for clearing the individual pattern textbox.
+		/// Removes all content from the textbox used for custom letter patterns.
+		/// </summary>
+		/// <param name="sender">The source of the event.</param>
+		/// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
 		private void KryptonButtonClearTextBoxIndividualPattern_Click(object sender, EventArgs e)
 		{
 			// Check if the individual pattern textbox is not null
@@ -1060,6 +1149,12 @@ namespace Narthalas
 			kryptonTextBoxIndividualPattern.Text = string.Empty;
 		}
 
+		/// <summary>
+		/// Handles the click event for applying the selected language style to the letter set text boxes.
+		/// Updates the consonant and vowel text boxes with the values from the language style text boxes and updates the status bar.
+		/// </summary>
+		/// <param name="sender">The source of the event.</param>
+		/// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
 		private void KryptonButtonApplyLettersLanguageStyle_Click(object sender, EventArgs e)
 		{
 			// Check if the letter set text boxes are not null
@@ -1076,6 +1171,25 @@ namespace Narthalas
 			kryptonTextBoxLetterSetVowels.Text = kryptonTextBoxLettersLanguageStyleVowels.Text;
 			// Update the status bar to reflect the applied language style
 			SetStatusBar(text: "Buchstabenstil angewendet.");
+		}
+
+		/// <summary>
+		/// Handles the click event for resetting the letter set text boxes to their default values.
+		/// Resets the consonant and vowel sets to their default values and updates the status bar.
+		/// </summary>
+		/// <param name="sender">The source of the event.</param>
+		/// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
+		private void KryptonButtonLettersResetDefault_Click(object sender, EventArgs e)
+		{
+			// Check if the sender is null
+			ArgumentNullException.ThrowIfNull(argument: sender);
+			// Check if the event arguments are null
+			ArgumentNullException.ThrowIfNull(argument: e);
+			// Reset the letter set text boxes to their default values
+			kryptonTextBoxLetterSetConsonants.Text = DefaultConsonantSet;
+			kryptonTextBoxLetterSetVowels.Text = DefaultVowelSet;
+			// Update the status bar to reflect the reset action
+			SetStatusBar(text: "Buchstabensätze auf Standard zurückgesetzt.");
 		}
 
 		#endregion
@@ -1095,6 +1209,17 @@ namespace Narthalas
 			// Check if the event arguments are null
 			ArgumentNullException.ThrowIfNull(argument: e);
 
+			// Variable to hold the pattern for name generation
+			if (string.IsNullOrEmpty(value: kryptonTextBoxLetterSetConsonants.Text) || string.IsNullOrEmpty(value: kryptonTextBoxLetterSetVowels.Text))
+			{
+				// Show an error message if the letter sets are not defined
+				// This will display an error message box and update the status bar with the error message
+				_ = MessageBox.Show(text: "Bitte definieren Sie die Buchstabensätze für Konsonanten und Vokale.", caption: "Fehler", buttons: MessageBoxButtons.OK, icon: MessageBoxIcon.Error);
+				SetStatusBar(text: "Bitte definieren Sie die Buchstabensätze für Konsonanten und Vokale.");
+				return;
+			}
+
+			// Validate the number of names to generate
 			if (kryptonNumericUpDownSetLettersNumberNames.Value > kryptonNumericUpDownSetLettersNumberNames.Maximum)
 			{
 				// Show an error message if the number of names exceeds the maximum limit
@@ -1104,6 +1229,7 @@ namespace Narthalas
 				return;
 			}
 
+			// Validate the number of names to generate
 			if (kryptonNumericUpDownSetLettersNumberNames.Value < kryptonNumericUpDownSetLettersNumberNames.Minimum)
 			{
 				// Show an error message if the number of names is below the minimum limit
@@ -1217,6 +1343,8 @@ namespace Narthalas
 			ArgumentNullException.ThrowIfNull(argument: e);
 
 			kryptonButtonStartSyllablesOutput.Enabled = false; // Disable the button to prevent multiple clicks during generation
+
+			// Validate the number of names to generate
 			if (kryptonNumericUpDownSetSyllablesNumberNames.Value > kryptonNumericUpDownSetSyllablesNumberNames.Maximum)
 			{
 				// Show an error message if the number of names exceeds the maximum limit
@@ -1225,6 +1353,8 @@ namespace Narthalas
 				SetStatusBar(text: "Die Anzahl der zu generierenden Namen darf maximal 100 sein.");
 				return;
 			}
+
+			// Validate the number of names to generate
 			if (kryptonNumericUpDownSetSyllablesNumberNames.Value < kryptonNumericUpDownSetSyllablesNumberNames.Minimum)
 			{
 				// Show an error message if the number of names is below the minimum limit
@@ -1234,6 +1364,7 @@ namespace Narthalas
 				return;
 			}
 
+			// Check if the syllable sets are defined
 			for (int i = 0; i < kryptonNumericUpDownSetSyllablesNumberNames.Value; i++)
 			{
 				// Generate a syllable-based name and append it to the results textbox

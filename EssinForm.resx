@@ -439,7 +439,7 @@
     <value>247, 206</value>
   </data>
   <data name="groupBoxLettersLanguageStyles.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="groupBoxLettersLanguageStyles.Text" xml:space="preserve">
     <value>Sprachstile</value>
@@ -541,7 +541,7 @@
     <value>103, 162</value>
   </data>
   <data name="groupBoxStarting.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="groupBoxStarting.Text" xml:space="preserve">
     <value>Beginn mit ...</value>
@@ -688,7 +688,7 @@
     <value>171, 162</value>
   </data>
   <data name="groupBoxIndividualPattern.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="groupBoxIndividualPattern.Text" xml:space="preserve">
     <value>Individuelles Muster</value>
@@ -711,6 +711,30 @@
   <data name="groupBoxLetterSet.AccessibleName" xml:space="preserve">
     <value>Buchstaben-Set</value>
   </data>
+  <data name="kryptonButtonLettersResetDefault.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 133</value>
+  </data>
+  <data name="kryptonButtonLettersResetDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 23</value>
+  </data>
+  <data name="kryptonButtonLettersResetDefault.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="kryptonButtonLettersResetDefault.Values.Text" xml:space="preserve">
+    <value>Standard-Set aufrufen</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLettersResetDefault.Name" xml:space="preserve">
+    <value>kryptonButtonLettersResetDefault</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLettersResetDefault.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLettersResetDefault.Parent" xml:space="preserve">
+    <value>groupBoxLetterSet</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLettersResetDefault.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="kryptonLabelLetterSetConsonants.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 22</value>
   </data>
@@ -718,7 +742,7 @@
     <value>82, 20</value>
   </data>
   <data name="kryptonLabelLetterSetConsonants.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="kryptonLabelLetterSetConsonants.Values.Text" xml:space="preserve">
     <value>Konsonanten</value>
@@ -733,16 +757,16 @@
     <value>groupBoxLetterSet</value>
   </data>
   <data name="&gt;&gt;kryptonLabelLetterSetConsonants.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="kryptonTextBoxLetterSetVowels.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 104</value>
   </data>
   <data name="kryptonTextBoxLetterSetVowels.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 23</value>
+    <value>131, 23</value>
   </data>
   <data name="kryptonTextBoxLetterSetVowels.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;kryptonTextBoxLetterSetVowels.Name" xml:space="preserve">
     <value>kryptonTextBoxLetterSetVowels</value>
@@ -754,7 +778,7 @@
     <value>groupBoxLetterSet</value>
   </data>
   <data name="&gt;&gt;kryptonTextBoxLetterSetVowels.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="kryptonLabelLetterSetVowels.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 78</value>
@@ -763,7 +787,7 @@
     <value>47, 20</value>
   </data>
   <data name="kryptonLabelLetterSetVowels.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="kryptonLabelLetterSetVowels.Values.Text" xml:space="preserve">
     <value>Vokale</value>
@@ -778,16 +802,16 @@
     <value>groupBoxLetterSet</value>
   </data>
   <data name="&gt;&gt;kryptonLabelLetterSetVowels.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="kryptonTextBoxLetterSetConsonants.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 48</value>
   </data>
   <data name="kryptonTextBoxLetterSetConsonants.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 23</value>
+    <value>131, 23</value>
   </data>
   <data name="kryptonTextBoxLetterSetConsonants.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;kryptonTextBoxLetterSetConsonants.Name" xml:space="preserve">
     <value>kryptonTextBoxLetterSetConsonants</value>
@@ -799,16 +823,16 @@
     <value>groupBoxLetterSet</value>
   </data>
   <data name="&gt;&gt;kryptonTextBoxLetterSetConsonants.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="groupBoxLetterSet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 6</value>
+    <value>6, 6</value>
   </data>
   <data name="groupBoxLetterSet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 162</value>
+    <value>143, 162</value>
   </data>
   <data name="groupBoxLetterSet.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="groupBoxLetterSet.Text" xml:space="preserve">
     <value>Buchstaben-Set</value>
@@ -1015,7 +1039,7 @@
     <value>194, 162</value>
   </data>
   <data name="groupBoxWordLength.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="groupBoxWordLength.Text" xml:space="preserve">
     <value>Wortlängen</value>
@@ -1468,7 +1492,7 @@
     <value>376, 206</value>
   </data>
   <data name="groupBoxLetterOutput.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>5</value>
   </data>
   <data name="groupBoxLetterOutput.Text" xml:space="preserve">
     <value>Ausgabe</value>
