@@ -13,7 +13,7 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <SignAssembly>False</SignAssembly>
     <Title>Narthalas</Title>
-    <Version>0.0.13.13</Version>
+    <Version>0.0.14.14</Version>
     <Company>Mijo Software</Company>
     <Authors>Michael Johne</Authors>
     <Description>Shape the world, Leaf by Leaf</Description>

@@ -117,62 +117,732 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;toolStripContainer.RightToolStripPanel.Name" xml:space="preserve">
-    <value>toolStripContainer.RightToolStripPanel</value>
+  <data name="toolStripContainer.AccessibleDescription" xml:space="preserve">
+    <value>Container für das Hauptprogramm</value>
   </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.Ok" xml:space="preserve">
-    <value>Ok</value>
+  <data name="toolStripContainer.AccessibleName" xml:space="preserve">
+    <value>Container</value>
   </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.ShowGroupBox" xml:space="preserve">
-    <value>Show GroupBox</value>
+  <data name="toolStripContainer.BottomToolStripPanel.AccessibleDescription" xml:space="preserve">
+    <value>Unterer Panel des Containers</value>
   </data>
-  <data name="kryptonButtonSettings.Values.ExtraText" xml:space="preserve">
-    <value />
+  <data name="toolStripContainer.BottomToolStripPanel.AccessibleName" xml:space="preserve">
+    <value>Unterer Panel des Containers</value>
   </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2007Blue" xml:space="preserve">
-    <value>Office 2007 - Blue</value>
+  <metadata name="kryptonStatusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>159, 17</value>
+  </metadata>
+  <data name="kryptonStatusStrip.AccessibleDescription" xml:space="preserve">
+    <value>Hält wichtige Elemente wie Infotext bereit</value>
   </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.ConditionalFormatting" xml:space="preserve">
-    <value>Conditional formatting</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonMirath.Name" xml:space="preserve">
-    <value>kryptonButtonMirath</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.Reset" xml:space="preserve">
-    <value>&amp;Reset</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonHelp.Parent" xml:space="preserve">
-    <value>kryptonPanelMain</value>
-  </data>
-  <data name="kryptonButtonEssin.Values.ExtraText" xml:space="preserve">
-    <value>Namen</value>
+  <data name="kryptonStatusStrip.AccessibleName" xml:space="preserve">
+    <value>Statusleiste</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="kryptonStatusStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="kryptonManager.ToolkitStrings.RibbonStrings.AppButtonKeyTip" xml:space="preserve">
-    <value>F</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="kryptonStatusStrip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="toolStripStatusLabelInfo.AccessibleDescription" xml:space="preserve">
+    <value>Zeigt erklärende Informationen an</value>
+  </data>
+  <data name="toolStripStatusLabelInfo.AccessibleName" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="toolStripStatusLabelInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 17</value>
+  </data>
+  <data name="toolStripStatusLabelInfo.Text" xml:space="preserve">
+    <value>info</value>
+  </data>
+  <data name="kryptonStatusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="kryptonStatusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>673, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="kryptonStatusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="kryptonStatusStrip.Text" xml:space="preserve">
+    <value>kryptonStatusStrip</value>
+  </data>
+  <data name="&gt;&gt;kryptonStatusStrip.Name" xml:space="preserve">
+    <value>kryptonStatusStrip</value>
+  </data>
+  <data name="&gt;&gt;kryptonStatusStrip.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonStatusStrip, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonStatusStrip.Parent" xml:space="preserve">
+    <value>toolStripContainer.BottomToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;kryptonStatusStrip.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.BottomToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer.BottomToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.BottomToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.BottomToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.BottomToolStripPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="kryptonPanelMain.AccessibleDescription" xml:space="preserve">
+    <value>Panel des Hauptprogramm, das ein Logo des Programmes zeigt</value>
+  </data>
+  <data name="kryptonPanelMain.AccessibleName" xml:space="preserve">
+    <value>Panel des Hauptprogramm</value>
+  </data>
+  <data name="kryptonButtonHelp.AccessibleDescription" xml:space="preserve">
+    <value>Ruft die Hilfe auf</value>
+  </data>
+  <data name="kryptonButtonHelp.AccessibleName" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="kryptonButtonHelp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="kryptonButtonHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 0</value>
+  </data>
+  <data name="kryptonButtonHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 25</value>
+  </data>
+  <data name="kryptonButtonHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="kryptonButtonHelp.Values.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.AlphabeticGroupText" xml:space="preserve">
-    <value>Alphabetic</value>
+  <data name="&gt;&gt;kryptonButtonHelp.Name" xml:space="preserve">
+    <value>kryptonButtonHelp</value>
   </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.CustomFormatWindowTitle" xml:space="preserve">
-    <value>Custom Rule</value>
+  <data name="&gt;&gt;kryptonButtonHelp.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonHelp.Parent" xml:space="preserve">
+    <value>kryptonPanelMain</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="kryptonButtonLanguage.AccessibleDescription" xml:space="preserve">
+    <value>Ändert die Sprache des Programms</value>
+  </data>
+  <data name="kryptonButtonLanguage.AccessibleName" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="kryptonButtonLanguage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="kryptonButtonLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 381</value>
+  </data>
+  <data name="kryptonButtonLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 25</value>
+  </data>
+  <data name="kryptonButtonLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="kryptonButtonLanguage.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;kryptonButtonLanguage.Name" xml:space="preserve">
+    <value>kryptonButtonLanguage</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLanguage.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLanguage.Parent" xml:space="preserve">
+    <value>kryptonPanelMain</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLanguage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="kryptonButtonSettings.AccessibleDescription" xml:space="preserve">
+    <value>Öffnet die Einstellungen des Programms</value>
+  </data>
+  <data name="kryptonButtonSettings.AccessibleName" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="kryptonButtonSettings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="kryptonButtonSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 381</value>
+  </data>
+  <data name="kryptonButtonSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 25</value>
+  </data>
+  <data name="kryptonButtonSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="kryptonButtonSettings.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;kryptonButtonSettings.Name" xml:space="preserve">
+    <value>kryptonButtonSettings</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonSettings.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonSettings.Parent" xml:space="preserve">
+    <value>kryptonPanelMain</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonSettings.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="kryptonButtonInfo.AccessibleDescription" xml:space="preserve">
+    <value>Gibt Informationen zum Programm aus</value>
+  </data>
+  <data name="kryptonButtonInfo.AccessibleName" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="kryptonButtonInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="kryptonButtonInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 25</value>
+  </data>
+  <data name="kryptonButtonInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="kryptonButtonInfo.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;kryptonButtonInfo.Name" xml:space="preserve">
+    <value>kryptonButtonInfo</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonInfo.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonInfo.Parent" xml:space="preserve">
+    <value>kryptonPanelMain</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonInfo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="kryptonButtonDoriath.AccessibleDescription" xml:space="preserve">
+    <value>Öffnet das Modul "Doriath" zur Generierung weiter Terrains</value>
+  </data>
+  <data name="kryptonButtonDoriath.AccessibleName" xml:space="preserve">
+    <value>Doriath</value>
+  </data>
+  <data name="kryptonButtonDoriath.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="kryptonButtonDoriath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 174</value>
+  </data>
+  <data name="kryptonButtonDoriath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 45</value>
+  </data>
+  <data name="kryptonButtonDoriath.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="resource.Description" xml:space="preserve">
+    <value>generiert weite Terrains</value>
+  </data>
+  <data name="resource.Heading" xml:space="preserve">
+    <value>Doriath</value>
+  </data>
+  <data name="kryptonButtonDoriath.Values.ExtraText" xml:space="preserve">
+    <value>Terrains</value>
+  </data>
+  <data name="kryptonButtonDoriath.Values.Text" xml:space="preserve">
+    <value>Doriath</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonDoriath.Name" xml:space="preserve">
+    <value>kryptonButtonDoriath</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonDoriath.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonDoriath.Parent" xml:space="preserve">
+    <value>kryptonPanelMain</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonDoriath.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="kryptonButtonGilathar.AccessibleDescription" xml:space="preserve">
+    <value>Öffnet das Modul "Gîlathar" zur Erschaffung kompletter Galaxien</value>
+  </data>
+  <data name="kryptonButtonGilathar.AccessibleName" xml:space="preserve">
+    <value>Gîlathar</value>
+  </data>
+  <data name="kryptonButtonGilathar.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="kryptonButtonGilathar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 21</value>
+  </data>
+  <data name="kryptonButtonGilathar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 45</value>
+  </data>
+  <data name="kryptonButtonGilathar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="resource.Description1" xml:space="preserve">
+    <value>erschafft komplette Galaxien</value>
+  </data>
+  <data name="resource.Heading1" xml:space="preserve">
+    <value>Gîlathar</value>
+  </data>
+  <data name="kryptonButtonGilathar.Values.ExtraText" xml:space="preserve">
+    <value>Galaxien</value>
+  </data>
+  <data name="kryptonButtonGilathar.Values.Text" xml:space="preserve">
+    <value>Gîlathar</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonGilathar.Name" xml:space="preserve">
+    <value>kryptonButtonGilathar</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonGilathar.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonGilathar.Parent" xml:space="preserve">
+    <value>kryptonPanelMain</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonGilathar.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="kryptonButtonOstiath.AccessibleDescription" xml:space="preserve">
+    <value>Öffnet das Modul "Ostiath" zur Modellierung von Städten und Dörfer</value>
+  </data>
+  <data name="kryptonButtonOstiath.AccessibleName" xml:space="preserve">
+    <value>Ostiath</value>
+  </data>
+  <data name="kryptonButtonOstiath.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="kryptonButtonOstiath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 257</value>
+  </data>
+  <data name="kryptonButtonOstiath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 45</value>
+  </data>
+  <data name="kryptonButtonOstiath.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="resource.Description2" xml:space="preserve">
+    <value>modelliert Städte und Dörfer</value>
+  </data>
+  <data name="resource.Heading2" xml:space="preserve">
+    <value>Ostiath</value>
+  </data>
+  <data name="kryptonButtonOstiath.Values.ExtraText" xml:space="preserve">
+    <value>Städte/Dörfer</value>
+  </data>
+  <data name="kryptonButtonOstiath.Values.Text" xml:space="preserve">
+    <value>Ostiath</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonOstiath.Name" xml:space="preserve">
+    <value>kryptonButtonOstiath</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonOstiath.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonOstiath.Parent" xml:space="preserve">
+    <value>kryptonPanelMain</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonOstiath.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="kryptonButtonTarmenel.AccessibleDescription" xml:space="preserve">
+    <value>Öffnet das Modul "Tarmenel" zur Erstellung neuer Planetensysteme</value>
+  </data>
+  <data name="kryptonButtonTarmenel.AccessibleName" xml:space="preserve">
+    <value>Tarmenel</value>
+  </data>
+  <data name="kryptonButtonTarmenel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="kryptonButtonTarmenel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 90</value>
+  </data>
+  <data name="kryptonButtonTarmenel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 45</value>
+  </data>
+  <data name="kryptonButtonTarmenel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Description3" xml:space="preserve">
+    <value>erstellt neue Planetensysteme</value>
+  </data>
+  <data name="resource.Heading3" xml:space="preserve">
+    <value>Tarmenel</value>
   </data>
   <data name="kryptonButtonTarmenel.Values.ExtraText" xml:space="preserve">
     <value>Planetensysteme</value>
   </data>
+  <data name="kryptonButtonTarmenel.Values.Text" xml:space="preserve">
+    <value>Tarmenel</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonTarmenel.Name" xml:space="preserve">
+    <value>kryptonButtonTarmenel</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonTarmenel.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonTarmenel.Parent" xml:space="preserve">
+    <value>kryptonPanelMain</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonTarmenel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="kryptonButtonEssin.AccessibleDescription" xml:space="preserve">
+    <value>Öffnet das Modul "Essin" zur Kreierung neuer Namen</value>
+  </data>
+  <data name="kryptonButtonEssin.AccessibleName" xml:space="preserve">
+    <value>Essin</value>
+  </data>
+  <data name="kryptonButtonEssin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 346</value>
+  </data>
+  <data name="kryptonButtonEssin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 45</value>
+  </data>
+  <data name="kryptonButtonEssin.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="resource.Description4" xml:space="preserve">
+    <value>kreiert neue Namen</value>
+  </data>
+  <data name="resource.Heading4" xml:space="preserve">
+    <value>Essin</value>
+  </data>
+  <data name="kryptonButtonEssin.Values.ExtraText" xml:space="preserve">
+    <value>Namen</value>
+  </data>
+  <data name="kryptonButtonEssin.Values.Text" xml:space="preserve">
+    <value>Essin</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonEssin.Name" xml:space="preserve">
+    <value>kryptonButtonEssin</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonEssin.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonEssin.Parent" xml:space="preserve">
+    <value>kryptonPanelMain</value>
+  </data>
   <data name="&gt;&gt;kryptonButtonEssin.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.SortBySummaryCount" xml:space="preserve">
-    <value>Sort by summary count</value>
+  <data name="kryptonButtonLassath.AccessibleDescription" xml:space="preserve">
+    <value>Öffnet das Modul "Lassath" zur Erfindung exotischer Wälder und Pflanzen</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="kryptonButtonLassath.AccessibleName" xml:space="preserve">
+    <value>Lassath</value>
+  </data>
+  <data name="kryptonButtonLassath.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="kryptonButtonLassath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>469, 174</value>
+  </data>
+  <data name="kryptonButtonLassath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 45</value>
+  </data>
+  <data name="kryptonButtonLassath.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="resource.Description5" xml:space="preserve">
+    <value>erfindet exotische Wälder und Pflanzen</value>
+  </data>
+  <data name="resource.Heading5" xml:space="preserve">
+    <value>Lassath</value>
+  </data>
+  <data name="kryptonButtonLassath.Values.ExtraText" xml:space="preserve">
+    <value>Wälder/Pflanzen</value>
+  </data>
+  <data name="kryptonButtonLassath.Values.Text" xml:space="preserve">
+    <value>Lassath</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLassath.Name" xml:space="preserve">
+    <value>kryptonButtonLassath</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLassath.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLassath.Parent" xml:space="preserve">
+    <value>kryptonPanelMain</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLassath.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="kryptonButtonBrethin.AccessibleDescription" xml:space="preserve">
+    <value>Öffnet das Modul "Brethin" zur Entwicklung fremder Lebensformen</value>
+  </data>
+  <data name="kryptonButtonBrethin.AccessibleName" xml:space="preserve">
+    <value>Brethin</value>
+  </data>
+  <data name="kryptonButtonBrethin.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="kryptonButtonBrethin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>469, 257</value>
+  </data>
+  <data name="kryptonButtonBrethin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 45</value>
+  </data>
+  <data name="kryptonButtonBrethin.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="resource.Description6" xml:space="preserve">
+    <value>entwickelt unbekannte Lebensformen</value>
+  </data>
+  <data name="resource.Heading6" xml:space="preserve">
+    <value>Brethin</value>
+  </data>
+  <data name="kryptonButtonBrethin.Values.ExtraText" xml:space="preserve">
+    <value>Lebensformen</value>
+  </data>
+  <data name="kryptonButtonBrethin.Values.Text" xml:space="preserve">
+    <value>Brethin</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonBrethin.Name" xml:space="preserve">
+    <value>kryptonButtonBrethin</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonBrethin.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonBrethin.Parent" xml:space="preserve">
+    <value>kryptonPanelMain</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonBrethin.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="kryptonButtonMirath.AccessibleDescription" xml:space="preserve">
+    <value>Öffnet das Modul "Mîrath" zur Simulation von Mikroorganismen</value>
+  </data>
+  <data name="kryptonButtonMirath.AccessibleName" xml:space="preserve">
+    <value>Mîrath</value>
+  </data>
+  <data name="kryptonButtonMirath.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="kryptonButtonMirath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>469, 90</value>
+  </data>
+  <data name="kryptonButtonMirath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 45</value>
+  </data>
+  <data name="kryptonButtonMirath.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="resource.Description7" xml:space="preserve">
+    <value>simuliert Mikroorganismen</value>
+  </data>
+  <data name="resource.Heading7" xml:space="preserve">
+    <value>Mîrath</value>
+  </data>
+  <data name="kryptonButtonMirath.Values.ExtraText" xml:space="preserve">
+    <value>Mikroorganismen</value>
+  </data>
+  <data name="kryptonButtonMirath.Values.Text" xml:space="preserve">
+    <value>Mîrath</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonMirath.Name" xml:space="preserve">
+    <value>kryptonButtonMirath</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonMirath.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonMirath.Parent" xml:space="preserve">
+    <value>kryptonPanelMain</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonMirath.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="kryptonButtonLamath.AccessibleDescription" xml:space="preserve">
+    <value>Öffnet das Modul "Lamath" zur Konstruierung fremder Sprachen</value>
+  </data>
+  <data name="kryptonButtonLamath.AccessibleName" xml:space="preserve">
+    <value>Lamath</value>
+  </data>
+  <data name="kryptonButtonLamath.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="kryptonButtonLamath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 346</value>
+  </data>
+  <data name="kryptonButtonLamath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 45</value>
+  </data>
+  <data name="kryptonButtonLamath.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="resource.Description8" xml:space="preserve">
+    <value>konstruiert fremde Sprachen</value>
+  </data>
+  <data name="resource.Heading8" xml:space="preserve">
+    <value>Lamath</value>
+  </data>
+  <data name="kryptonButtonLamath.Values.ExtraText" xml:space="preserve">
+    <value>Sprachen</value>
+  </data>
+  <data name="kryptonButtonLamath.Values.Text" xml:space="preserve">
+    <value>Lamath</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLamath.Name" xml:space="preserve">
+    <value>kryptonButtonLamath</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLamath.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLamath.Parent" xml:space="preserve">
+    <value>kryptonPanelMain</value>
+  </data>
+  <data name="&gt;&gt;kryptonButtonLamath.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="kryptonPanelMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="kryptonPanelMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="kryptonPanelMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>673, 406</value>
+  </data>
+  <data name="kryptonPanelMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;kryptonPanelMain.Name" xml:space="preserve">
+    <value>kryptonPanelMain</value>
+  </data>
+  <data name="&gt;&gt;kryptonPanelMain.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonPanel, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonPanelMain.Parent" xml:space="preserve">
+    <value>toolStripContainer.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;kryptonPanelMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolStripContainer.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>673, 406</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.ContentPanel.Name" xml:space="preserve">
+    <value>toolStripContainer.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.ContentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.ContentPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.ContentPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolStripContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="toolStripContainer.LeftToolStripPanel.AccessibleDescription" xml:space="preserve">
+    <value>Linker Panel des Containers</value>
+  </data>
+  <data name="toolStripContainer.LeftToolStripPanel.AccessibleName" xml:space="preserve">
+    <value>Linker Panel des Containers</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.LeftToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer.LeftToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.LeftToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.LeftToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.LeftToolStripPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="toolStripContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolStripContainer.RightToolStripPanel.AccessibleDescription" xml:space="preserve">
+    <value>Rechter Panel des Containers</value>
+  </data>
+  <data name="toolStripContainer.RightToolStripPanel.AccessibleName" xml:space="preserve">
+    <value>Rechter Panel des Containers</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.RightToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer.RightToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.RightToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.RightToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.RightToolStripPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="toolStripContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>673, 428</value>
+  </data>
+  <data name="toolStripContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="toolStripContainer.Text" xml:space="preserve">
+    <value>toolStripContainer</value>
+  </data>
+  <data name="toolStripContainer.TopToolStripPanel.AccessibleDescription" xml:space="preserve">
+    <value>Oberer Panel des Containers</value>
+  </data>
+  <data name="toolStripContainer.TopToolStripPanel.AccessibleName" xml:space="preserve">
+    <value>Oberer Panel des Containers</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.TopToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer.TopToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.TopToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.TopToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.TopToolStripPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.Name" xml:space="preserve">
+    <value>toolStripContainer</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="kryptonManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AccessibleDescription" xml:space="preserve">
+    <value>Hauptprogramm</value>
+  </data>
+  <data name="$this.AccessibleName" xml:space="preserve">
+    <value>Narthalas</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>673, 428</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABABQAMDACAAEAAQAwAwAARgEAACAgAgABAAEAMAEAAHYEAAAQEAIAAQABALAAAACmBQAAMDAQAAEA
@@ -3548,1514 +4218,28 @@
         AAD4HwAA
 </value>
   </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.VisualStudio2010With2013Renderer" xml:space="preserve">
-    <value>Visual Studio 2010 (2013 Variation)</value>
-  </data>
-  <data name="kryptonButtonBrethin.AccessibleDescription" xml:space="preserve">
-    <value>Öffnet das Modul "Brethin" zur Entwicklung fremder Lebensformen</value>
-  </data>
-  <data name="kryptonStatusStrip.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="resource.Description2" xml:space="preserve">
-    <value>modelliert Städte und Dörfer</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.Cut" xml:space="preserve">
-    <value>C&amp;ut</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.InThreeWeeks" xml:space="preserve">
-    <value>In three weeks</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.RibbonStrings.NoColor" xml:space="preserve">
-    <value>&amp;No Color</value>
-  </data>
-  <data name="kryptonButtonOstiath.AccessibleName" xml:space="preserve">
-    <value>Ostiath</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.Hand" xml:space="preserve">
-    <value>Hand</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.CustomThreeDots" xml:space="preserve">
-    <value>Custom...</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.GroupInterval" xml:space="preserve">
-    <value>Group interval</value>
-  </data>
-  <data name="resource.ImageTransparentColor2" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="&gt;&gt;toolStripContainer.RightToolStripPanel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.LeftToolStripPanel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Today" xml:space="preserve">
-    <value>Today</value>
-  </data>
-  <data name="kryptonButtonEssin.AccessibleDescription" xml:space="preserve">
-    <value>Öffnet das Modul "Essin" zur Kreierung neuer Namen</value>
-  </data>
-  <data name="kryptonPanelMain.AccessibleName" xml:space="preserve">
-    <value>Panel des Hauptprogramm</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.GeneralStrings.Retry" xml:space="preserve">
-    <value>Ret&amp;ry</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxBasicStrings.CachePath" xml:space="preserve">
-    <value>Cache Path</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonDoriath.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxBasicStrings.ConfigurationFile" xml:space="preserve">
-    <value>Configuration File</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonDoriath.Type" xml:space="preserve">
-    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Microsoft365BlackDarkModeAlternate" xml:space="preserve">
-    <value>Microsoft 365 - Black (Dark Mode - Alternate)</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.SparkleOrangeDarkMode" xml:space="preserve">
-    <value>Sparkle - Orange (Dark Mode)</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="kryptonButtonInfo.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxStrings.Title" xml:space="preserve">
-    <value>Title</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.SparklePurpleDarkMode" xml:space="preserve">
-    <value>Sparkle - Purple (Dark Mode)</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonTarmenel.Name" xml:space="preserve">
-    <value>kryptonButtonTarmenel</value>
-  </data>
-  <data name="kryptonStatusStrip.Text" xml:space="preserve">
-    <value>kryptonStatusStrip</value>
-  </data>
-  <data name="kryptonButtonLamath.AccessibleName" xml:space="preserve">
-    <value>Lamath</value>
-  </data>
-  <data name="toolStripContainer.LeftToolStripPanel.AccessibleName" xml:space="preserve">
-    <value>Linker Panel des Containers</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Collapse" xml:space="preserve">
-    <value>Collapse</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Expand" xml:space="preserve">
-    <value>Expand</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Microsoft365BlueDarkMode" xml:space="preserve">
-    <value>Microsoft 365 - Blue (Dark Mode)</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2007BlueLightMode" xml:space="preserve">
-    <value>Office 2007 - Blue (Light Mode)</value>
-  </data>
-  <data name="toolStripStatusLabelInfo.Text" xml:space="preserve">
-    <value>info</value>
-  </data>
-  <data name="kryptonButtonDoriath.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Bar" xml:space="preserve">
-    <value>Data Bars</value>
-  </data>
-  <data name="kryptonButtonLanguage.Values.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;kryptonButtonSettings.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.Next" xml:space="preserve">
-    <value>&amp;Next</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.AfterNextMonth" xml:space="preserve">
-    <value>After next month</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2007Black" xml:space="preserve">
-    <value>Office 2007 - Black</value>
-  </data>
-  <data name="kryptonButtonHelp.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="&gt;&gt;kryptonManager.Name" xml:space="preserve">
-    <value>kryptonManager</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.SortDescending" xml:space="preserve">
-    <value>Sort descending</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.WindowsLogo" xml:space="preserve">
-    <value>Windows Logo</value>
-  </data>
-  <data name="kryptonButtonGilathar.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="&gt;&gt;kryptonPanelMain.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="kryptonButtonHelp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="kryptonButtonLassath.AccessibleDescription" xml:space="preserve">
-    <value>Öffnet das Modul "Lassath" zur Erfindung exotischer Wälder und Pflanzen</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.Stop" xml:space="preserve">
-    <value>Stop</value>
-  </data>
-  <data name="kryptonButtonOstiath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 45</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Microsoft365Silver" xml:space="preserve">
-    <value>Microsoft 365 - Silver</value>
-  </data>
-  <data name="kryptonButtonInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 25</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.ThreeWeeksAgo" xml:space="preserve">
-    <value>Three weeks ago</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.RibbonStrings.AppButtonText" xml:space="preserve">
-    <value>File</value>
-  </data>
-  <data name="toolStripStatusLabelInfo.AccessibleDescription" xml:space="preserve">
-    <value>Zeigt erklärende Informationen an</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.SystemApplication" xml:space="preserve">
-    <value>Application (System)</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.GeneralStrings.Close" xml:space="preserve">
-    <value>Clo&amp;se</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonLamath.Type" xml:space="preserve">
-    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="kryptonStatusStrip.AccessibleDescription" xml:space="preserve">
-    <value>Hält wichtige Elemente wie Infotext bereit</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.GeneralStrings.Today" xml:space="preserve">
-    <value>&amp;Today</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2010SilverDarkMode" xml:space="preserve">
-    <value>Office 2010 - Silver (Dark Mode)</value>
-  </data>
-  <data name="kryptonButtonLamath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 45</value>
-  </data>
-  <data name="kryptonButtonOstiath.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2010Blue" xml:space="preserve">
-    <value>Office 2010 - Blue</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.SystemHand" xml:space="preserve">
-    <value>Hand (System)</value>
-  </data>
-  <data name="kryptonButtonSettings.Values.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Smart" xml:space="preserve">
-    <value>Smart</value>
-  </data>
-  <data name="&gt;&gt;kryptonPanelMain.Name" xml:space="preserve">
-    <value>kryptonPanelMain</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.RibbonStrings.ShowBelowRibbon" xml:space="preserve">
-    <value>&amp;Show Below the Ribbon</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.TwoWeeksAgo" xml:space="preserve">
-    <value>Two weeks ago</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Group" xml:space="preserve">
-    <value>Group by this column</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.Shield" xml:space="preserve">
-    <value>Shield</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.GeneralStrings.No" xml:space="preserve">
-    <value>N&amp;o</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.Collapse" xml:space="preserve">
-    <value>C&amp;ollapse</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonGilathar.Type" xml:space="preserve">
-    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.SystemQuestion" xml:space="preserve">
-    <value>Question (System)</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2010LightGray" xml:space="preserve">
-    <value>Office 2010 - Light Gray</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Microsoft365BlackDarkMode" xml:space="preserve">
-    <value>Microsoft 365 - Black (Dark Mode)</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonOstiath.Parent" xml:space="preserve">
-    <value>kryptonPanelMain</value>
-  </data>
-  <data name="resource.Heading7" xml:space="preserve">
-    <value>Mîrath</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.ThreeColorsRange" xml:space="preserve">
-    <value>Three Color Scale</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.RibbonStrings.RecentColors" xml:space="preserve">
-    <value>Recent Colors</value>
-  </data>
-  <data name="&gt;&gt;toolStripStatusLabelInfo.Name" xml:space="preserve">
-    <value>toolStripStatusLabelInfo</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxBasicStrings.DynamicBase" xml:space="preserve">
-    <value>Dynamic Base</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.VisualStudio2010With365Renderer" xml:space="preserve">
-    <value>Visual Studio 2010 (Microsoft 365 Variation)</value>
-  </data>
-  <data name="kryptonButtonLassath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>469, 174</value>
-  </data>
-  <data name="resource.Description6" xml:space="preserve">
-    <value>entwickelt unbekannte Lebensformen</value>
-  </data>
-  <data name="resource.Heading3" xml:space="preserve">
-    <value>Tarmenel</value>
-  </data>
-  <data name="kryptonButtonLamath.Values.Text" xml:space="preserve">
-    <value>Lamath</value>
-  </data>
-  <data name="kryptonButtonMirath.Values.ExtraText" xml:space="preserve">
-    <value>Mikroorganismen</value>
-  </data>
-  <data name="kryptonButtonGilathar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 45</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.Previous" xml:space="preserve">
-    <value>Pre&amp;vious</value>
-  </data>
-  <data name="resource.Heading2" xml:space="preserve">
-    <value>Ostiath</value>
-  </data>
-  <data name="kryptonButtonEssin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 45</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Day" xml:space="preserve">
-    <value>Day</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.NumberOfItems" xml:space="preserve">
-    <value> items</value>
-  </data>
-  <data name="kryptonButtonSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 25</value>
-  </data>
-  <data name="kryptonButtonLassath.AccessibleName" xml:space="preserve">
-    <value>Lassath</value>
-  </data>
-  <data name="resource.Heading" xml:space="preserve">
-    <value>Doriath</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.RibbonStrings.ShowQATAboveRibbon" xml:space="preserve">
-    <value>&amp;Show Quick Access Toolbar Above the Ribbon</value>
-  </data>
-  <data name="kryptonButtonSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="toolStripStatusLabelInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 17</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonGilathar.Name" xml:space="preserve">
-    <value>kryptonButtonGilathar</value>
-  </data>
-  <data name="kryptonButtonTarmenel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 45</value>
-  </data>
-  <data name="resource.ImageTransparentColor3" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2013LightGray" xml:space="preserve">
-    <value>Office 2013 - Light Gray</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ColorStrings.Color" xml:space="preserve">
-    <value>Color</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Year" xml:space="preserve">
-    <value>Year</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.ContentPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.TopToolStripPanel.Name" xml:space="preserve">
-    <value>toolStripContainer.TopToolStripPanel</value>
-  </data>
-  <data name="kryptonPanelMain.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonOstiath.Type" xml:space="preserve">
-    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.CustomFormatPreviewLabelText" xml:space="preserve">
-    <value>Preview</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Microsoft365LightGray" xml:space="preserve">
-    <value>Microsoft 365 - Light Gray</value>
-  </data>
-  <data name="kryptonButtonHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 25</value>
-  </data>
-  <data name="kryptonButtonMirath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 45</value>
-  </data>
-  <data name="kryptonButtonHelp.Values.ExtraText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;toolStripContainer.ContentPanel.Parent" xml:space="preserve">
-    <value>toolStripContainer</value>
-  </data>
-  <data name="kryptonButtonInfo.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="&gt;&gt;toolStripContainer.BottomToolStripPanel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2010BlueLightMode" xml:space="preserve">
-    <value>Office 2010 - Blue (Light Mode)</value>
-  </data>
-  <data name="&gt;&gt;kryptonStatusStrip.Type" xml:space="preserve">
-    <value>Krypton.Toolkit.KryptonStatusStrip, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="kryptonButtonLanguage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.DoNotShowAgain" xml:space="preserve">
-    <value>&amp;Do not show again</value>
-  </data>
-  <data name="toolStripContainer.Text" xml:space="preserve">
-    <value>toolStripContainer</value>
-  </data>
-  <data name="toolStripContainer.BottomToolStripPanel.AccessibleDescription" xml:space="preserve">
-    <value>Unterer Panel des Containers</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.QuarterOne" xml:space="preserve">
-    <value>Q1</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.SystemAsterisk" xml:space="preserve">
-    <value>Asterisk (System)</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.CurrentTheme" xml:space="preserve">
-    <value>Current Theme</value>
-  </data>
-  <data name="kryptonStatusStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.None" xml:space="preserve">
-    <value>None</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.PreviousWeek" xml:space="preserve">
-    <value>Previous week</value>
-  </data>
-  <data name="toolStripContainer.RightToolStripPanel.AccessibleName" xml:space="preserve">
-    <value>Rechter Panel des Containers</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.InTwoWeeks" xml:space="preserve">
-    <value>In two weeks</value>
-  </data>
-  <data name="kryptonButtonBrethin.AccessibleName" xml:space="preserve">
-    <value>Brethin</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.NoDate" xml:space="preserve">
-    <value>No date</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.CustomFormatFillLabelText" xml:space="preserve">
-    <value>Fill</value>
-  </data>
-  <data name="kryptonButtonLamath.Values.ExtraText" xml:space="preserve">
-    <value>Sprachen</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxStrings.Version" xml:space="preserve">
-    <value>Version</value>
-  </data>
-  <data name="kryptonStatusStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;toolStripStatusLabelInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="kryptonButtonHelp.AccessibleName" xml:space="preserve">
-    <value>Hilfe</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.ConditionXMLNodeText" xml:space="preserve">
-    <value>Condition</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonBrethin.Parent" xml:space="preserve">
-    <value>kryptonPanelMain</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonLanguage.Parent" xml:space="preserve">
-    <value>kryptonPanelMain</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ButtonOrientationStrings.Auto" xml:space="preserve">
-    <value>Auto</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.GeneralStrings.TryAgain" xml:space="preserve">
-    <value>Try Aga&amp;in</value>
-  </data>
-  <data name="resource.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.DateGroupText" xml:space="preserve">
-    <value>Date</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.OkToAll" xml:space="preserve">
-    <value>O&amp;k to All</value>
-  </data>
-  <data name="kryptonPanelMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonInfo.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxBasicStrings.EntryAssembly" xml:space="preserve">
-    <value>Entry Assembly</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxBasicStrings.LicenseFile" xml:space="preserve">
-    <value>License File</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Custom" xml:space="preserve">
-    <value>Custom</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="kryptonButtonMirath.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxStrings.Copyright" xml:space="preserve">
-    <value>Copyright</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonTarmenel.Type" xml:space="preserve">
-    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="kryptonButtonBrethin.Values.Text" xml:space="preserve">
-    <value>Brethin</value>
-  </data>
-  <data name="toolStripContainer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="toolStripContainer.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>669, 405</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Microsoft365Blue" xml:space="preserve">
-    <value>Microsoft 365 - Blue</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.Custom" xml:space="preserve">
-    <value>Custom</value>
-  </data>
-  <data name="kryptonButtonOstiath.Values.ExtraText" xml:space="preserve">
-    <value>Städte/Dörfer</value>
-  </data>
-  <data name="kryptonButtonInfo.Values.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="kryptonButtonBrethin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>469, 257</value>
-  </data>
-  <data name="resource.Description8" xml:space="preserve">
-    <value>konstruiert fremde Sprachen</value>
-  </data>
-  <data name="resource.Description3" xml:space="preserve">
-    <value>erstellt neue Planetensysteme</value>
-  </data>
-  <data name="kryptonButtonBrethin.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="kryptonButtonMirath.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonBrethin.Type" xml:space="preserve">
-    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="kryptonButtonLassath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 45</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonSettings.Name" xml:space="preserve">
-    <value>kryptonButtonSettings</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxStrings.LoadedFromGlobalAssemblyCache" xml:space="preserve">
-    <value>Loaded from GAC</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.VisualStudio2010With2010Renderer" xml:space="preserve">
-    <value>Visual Studio 2010 (2010 Variation)</value>
-  </data>
-  <data name="&gt;&gt;kryptonManager.Type" xml:space="preserve">
-    <value>Krypton.Toolkit.KryptonManager, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="kryptonButtonLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 25</value>
-  </data>
-  <data name="kryptonButtonLanguage.Values.ExtraText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;kryptonButtonLassath.Type" xml:space="preserve">
-    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ColorStrings.StandardColors" xml:space="preserve">
-    <value>Standard Colors</value>
-  </data>
-  <data name="kryptonButtonMirath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>469, 90</value>
-  </data>
-  <data name="resource.Heading6" xml:space="preserve">
-    <value>Brethin</value>
-  </data>
-  <data name="kryptonPanelMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="toolStripContainer.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonSettings.Type" xml:space="preserve">
-    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.ContentPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="kryptonStatusStrip.AccessibleName" xml:space="preserve">
-    <value>Statusleiste</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxBasicStrings.FriendlyName" xml:space="preserve">
-    <value>Friendly Name</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ButtonOrientationStrings.FixedBottom" xml:space="preserve">
-    <value>Fixed Bottom</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.RibbonStrings.StandardColors" xml:space="preserve">
-    <value>Standard Colors</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Thursday" xml:space="preserve">
-    <value>Thursday</value>
-  </data>
-  <data name="kryptonButtonLanguage.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="kryptonButtonGilathar.AccessibleDescription" xml:space="preserve">
-    <value>Öffnet das Modul "Gîlathar" zur Erschaffung kompletter Galaxien</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxBasicStrings.ApplicationBase" xml:space="preserve">
-    <value>Application Base</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.MiscellaneousThemeStrings.Upgrade" xml:space="preserve">
-    <value>Up&amp;grade</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.SparkleBlueDarkMode" xml:space="preserve">
-    <value>Sparkle - Blue (Dark Mode)</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonLanguage.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="kryptonButtonDoriath.AccessibleName" xml:space="preserve">
-    <value>Doriath</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Unknown" xml:space="preserve">
-    <value>Unknown</value>
-  </data>
-  <data name="kryptonButtonSettings.AccessibleName" xml:space="preserve">
-    <value>Einstellungen</value>
-  </data>
-  <data name="kryptonButtonTarmenel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.GeneralStrings.OK" xml:space="preserve">
-    <value>O&amp;K</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonLassath.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.Finish" xml:space="preserve">
-    <value>&amp;Finish</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.QuarterTwo" xml:space="preserve">
-    <value>Q2</value>
-  </data>
-  <data name="kryptonButtonTarmenel.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Monday" xml:space="preserve">
-    <value>Monday</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.SystemInformation" xml:space="preserve">
-    <value>S&amp;ystem Information</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>NarthalasForm</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.SparkleBlue" xml:space="preserve">
-    <value>Sparkle - Blue</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.GeneralStrings.Ignore" xml:space="preserve">
-    <value>I&amp;gnore</value>
-  </data>
-  <data name="&gt;&gt;kryptonPanelMain.Parent" xml:space="preserve">
-    <value>toolStripContainer.ContentPanel</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonOstiath.Name" xml:space="preserve">
-    <value>kryptonButtonOstiath</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2007Silver" xml:space="preserve">
-    <value>Office 2007 - Silver</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.MiscellaneousThemeStrings.ThemeBrowserDescription" xml:space="preserve">
-    <value>Select a theme from the list below:</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.CustomFormatIntermediateColorButtonText" xml:space="preserve">
-    <value>Intermediate Color</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ColorStrings.Colors" xml:space="preserve">
-    <value>Colors</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.BestFit" xml:space="preserve">
-    <value>Best fit</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.SelectAll" xml:space="preserve">
-    <value>Sel&amp;ect All</value>
-  </data>
-  <data name="resource.Heading5" xml:space="preserve">
-    <value>Lassath</value>
-  </data>
-  <data name="kryptonButtonBrethin.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxBasicStrings.PrivateBinPath" xml:space="preserve">
-    <value>Private Bin Path</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Microsoft365SilverLightMode" xml:space="preserve">
-    <value>Microsoft 365 - Silver (Light Mode)</value>
-  </data>
-  <data name="&gt;&gt;kryptonStatusStrip.Parent" xml:space="preserve">
-    <value>toolStripContainer.BottomToolStripPanel</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.MiscellaneousThemeStrings.Import" xml:space="preserve">
-    <value>I&amp;mport...</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2010DarkGray" xml:space="preserve">
-    <value>Office 2010 - Dark Gray</value>
-  </data>
-  <data name="kryptonButtonTarmenel.Values.Text" xml:space="preserve">
-    <value>Tarmenel</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxBasicStrings.ApplicationName" xml:space="preserve">
-    <value>Application Name</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2007LightGray" xml:space="preserve">
-    <value>Office 2007 - Light Gray</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.SystemWarning" xml:space="preserve">
-    <value>Warning (System)</value>
-  </data>
-  <data name="kryptonButtonLassath.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="&gt;&gt;kryptonButtonEssin.Name" xml:space="preserve">
-    <value>kryptonButtonEssin</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.DragColumnToGroup" xml:space="preserve">
-    <value>Drag a column header here to group by that column</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2013White" xml:space="preserve">
-    <value>Office 2013 - White</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonGilathar.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.CustomFormatLabelText" xml:space="preserve">
-    <value>Format</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.ContentPanel.Name" xml:space="preserve">
-    <value>toolStripContainer.ContentPanel</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonLanguage.Type" xml:space="preserve">
-    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="resource.Description" xml:space="preserve">
-    <value>generiert weite Terrains</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.Error" xml:space="preserve">
-    <value>Error</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Quarter" xml:space="preserve">
-    <value>Quarter</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.RightToolStripPanel.Parent" xml:space="preserve">
-    <value>toolStripContainer</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.MiscellaneousThemeStrings.Silent" xml:space="preserve">
-    <value>&amp;Silent</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxStrings.BuildDate" xml:space="preserve">
-    <value>Build Date</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationStrings.Dismiss" xml:space="preserve">
-    <value>&amp;Dismiss</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Microsoft365Black" xml:space="preserve">
-    <value>Microsoft 365 - Black</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.GeneralStrings.Abort" xml:space="preserve">
-    <value>A&amp;bort</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Microsoft365White" xml:space="preserve">
-    <value>Microsoft 365 - White</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Professional2003" xml:space="preserve">
-    <value>Professional - Office 2003</value>
-  </data>
-  <data name="&gt;&gt;kryptonPanelMain.Type" xml:space="preserve">
-    <value>Krypton.Toolkit.KryptonPanel, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.NoToAll" xml:space="preserve">
-    <value>No t&amp;o All</value>
-  </data>
-  <data name="kryptonButtonSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>643, 380</value>
-  </data>
-  <data name="toolStripStatusLabelInfo.AccessibleName" xml:space="preserve">
-    <value>Information</value>
-  </data>
-  <data name="kryptonButtonOstiath.AccessibleDescription" xml:space="preserve">
-    <value>Öffnet das Modul "Ostiath" zur Modellierung von Städten und Dörfer</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.YearGroupText" xml:space="preserve">
-    <value>Year</value>
-  </data>
-  <data name="kryptonPanelMain.AccessibleDescription" xml:space="preserve">
-    <value>Panel des Hauptprogramm, das ein Logo des Programmes zeigt</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationStrings.DoNotShowAgain" xml:space="preserve">
-    <value>Do &amp;not show again</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.YesToAll" xml:space="preserve">
-    <value>Yes &amp;to All</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.Application" xml:space="preserve">
-    <value>Application</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.EarlierDuringThisYear" xml:space="preserve">
-    <value>Earlier this year</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2007BlueDarkMode" xml:space="preserve">
-    <value>Office 2007 - Blue (Dark Mode)</value>
-  </data>
-  <data name="kryptonButtonTarmenel.AccessibleName" xml:space="preserve">
-    <value>Tarmenel</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.FormatParamsXMLNodeText" xml:space="preserve">
-    <value>FormatParams</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Professional" xml:space="preserve">
-    <value>Professional - System</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.Information" xml:space="preserve">
-    <value>Information</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.QuarterFour" xml:space="preserve">
-    <value>Q4</value>
-  </data>
-  <data name="toolStripContainer.RightToolStripPanel.AccessibleDescription" xml:space="preserve">
-    <value>Rechter Panel des Containers</value>
-  </data>
-  <data name="kryptonButtonInfo.AccessibleDescription" xml:space="preserve">
-    <value>Gibt Informationen zum Programm aus</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="kryptonButtonMirath.AccessibleDescription" xml:space="preserve">
-    <value>Öffnet das Modul "Mîrath" zur Simulation von Mikroorganismen</value>
-  </data>
-  <data name="kryptonButtonTarmenel.AccessibleDescription" xml:space="preserve">
-    <value>Öffnet das Modul "Tarmenel" zur Erstellung neuer Planetensysteme</value>
-  </data>
-  <data name="kryptonButtonGilathar.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="kryptonButtonLamath.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.TwoColorsRange" xml:space="preserve">
-    <value>Two Color Scale</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonLanguage.Name" xml:space="preserve">
-    <value>kryptonButtonLanguage</value>
-  </data>
-  <data name="kryptonButtonDoriath.Values.ExtraText" xml:space="preserve">
-    <value>Terrains</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2007White" xml:space="preserve">
-    <value>Office 2007 - White</value>
-  </data>
-  <data name="kryptonStatusStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>669, 22</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.MiscellaneousThemeStrings.ThemeBrowserWindowTitle" xml:space="preserve">
-    <value>Select a Theme</value>
-  </data>
-  <data name="kryptonButtonHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>643, 0</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.LaterDuringThisMonth" xml:space="preserve">
-    <value>Later during this month</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxStrings.About" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2007SilverLightMode" xml:space="preserve">
-    <value>Office 2007 - Silver (Light Mode)</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.BottomToolStripPanel.Name" xml:space="preserve">
-    <value>toolStripContainer.BottomToolStripPanel</value>
-  </data>
-  <data name="kryptonButtonMirath.Values.Text" xml:space="preserve">
-    <value>Mîrath</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Tuesday" xml:space="preserve">
-    <value>Tuesday</value>
-  </data>
-  <data name="resource.Description7" xml:space="preserve">
-    <value>simuliert Mikroorganismen</value>
-  </data>
-  <data name="resource.ImageTransparentColor4" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="&gt;&gt;kryptonButtonHelp.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.Apply" xml:space="preserve">
-    <value>A&amp;pply</value>
-  </data>
-  <data name="kryptonButtonSettings.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.ClearSorting" xml:space="preserve">
-    <value>Clear sorting</value>
-  </data>
-  <data name="resource.Description5" xml:space="preserve">
-    <value>erfindet exotische Wälder und Pflanzen</value>
-  </data>
-  <data name="$this.AccessibleDescription" xml:space="preserve">
-    <value>Hauptprogramm</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.SolidFill" xml:space="preserve">
-    <value>Solid Fill</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.SystemStop" xml:space="preserve">
-    <value>Stop (System)</value>
-  </data>
-  <data name="kryptonStatusStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.QuarterThree" xml:space="preserve">
-    <value>Q3</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonEssin.Type" xml:space="preserve">
-    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="kryptonButtonLanguage.AccessibleName" xml:space="preserve">
-    <value>Sprache</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonLamath.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="kryptonButtonMirath.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Sunday" xml:space="preserve">
-    <value>Sunday</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.BottomToolStripPanel.Parent" xml:space="preserve">
-    <value>toolStripContainer</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonGilathar.Parent" xml:space="preserve">
-    <value>kryptonPanelMain</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.BeforePreviousMonth" xml:space="preserve">
-    <value>Before previous month</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ButtonOrientationStrings.FixedRight" xml:space="preserve">
-    <value>Fixed Right</value>
-  </data>
-  <data name="resource.ImageTransparentColor1" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="kryptonButtonLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 380</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2007BlackDarkMode" xml:space="preserve">
-    <value>Office 2007 - Black (Dark Mode)</value>
-  </data>
-  <data name="kryptonButtonDoriath.Values.Text" xml:space="preserve">
-    <value>Doriath</value>
-  </data>
-  <data name="kryptonButtonBrethin.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.Question" xml:space="preserve">
-    <value>Question</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2010BlackDarkMode" xml:space="preserve">
-    <value>Office 2010 - Black (Dark Mode)</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ButtonOrientationStrings.FixedLeft" xml:space="preserve">
-    <value>Fixed Left</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.Paste" xml:space="preserve">
-    <value>Pas&amp;te</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.RibbonStrings.RecentDocuments" xml:space="preserve">
-    <value>Recent Documents</value>
-  </data>
-  <data name="$this.AccessibleName" xml:space="preserve">
-    <value>Narthalas</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.ClearClipboard" xml:space="preserve">
-    <value>Clear Clipboa&amp;rd</value>
-  </data>
-  <data name="kryptonButtonLassath.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonBrethin.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.TopToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="kryptonButtonOstiath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 257</value>
-  </data>
-  <data name="kryptonButtonOstiath.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonTarmenel.Parent" xml:space="preserve">
-    <value>kryptonPanelMain</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.NextMonth" xml:space="preserve">
-    <value>Next month</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonLamath.Name" xml:space="preserve">
-    <value>kryptonButtonLamath</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.RibbonStrings.ShowQATBelowRibbon" xml:space="preserve">
-    <value>&amp;Show Quick Access Toolbar Below the Ribbon</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.LeftToolStripPanel.Name" xml:space="preserve">
-    <value>toolStripContainer.LeftToolStripPanel</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.Expand" xml:space="preserve">
-    <value>Ex&amp;pand</value>
-  </data>
-  <data name="toolStripContainer.BottomToolStripPanel.AccessibleName" xml:space="preserve">
-    <value>Unterer Panel des Containers</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.OneItem" xml:space="preserve">
-    <value>1 item</value>
-  </data>
-  <data name="kryptonButtonLamath.AccessibleDescription" xml:space="preserve">
-    <value>Öffnet das Modul "Lamath" zur Konstruierung fremder Sprachen</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonHelp.Name" xml:space="preserve">
-    <value>kryptonButtonHelp</value>
-  </data>
-  <data name="resource.Heading4" xml:space="preserve">
-    <value>Essin</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2010White" xml:space="preserve">
-    <value>Office 2010 - White</value>
-  </data>
-  <data name="kryptonButtonLassath.Values.ExtraText" xml:space="preserve">
-    <value>Wälder/Pflanzen</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.PreviousMonth" xml:space="preserve">
-    <value>Previous month</value>
-  </data>
-  <data name="kryptonButtonLamath.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="resource.ImageTransparentColor6" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="kryptonButtonTarmenel.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Other" xml:space="preserve">
-    <value>Other</value>
-  </data>
-  <data name="resource.ImageTransparentColor7" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="toolStripContainer.TopToolStripPanel.AccessibleName" xml:space="preserve">
-    <value>Oberer Panel des Containers</value>
-  </data>
-  <data name="kryptonButtonHelp.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ColorStrings.NoColor" xml:space="preserve">
-    <value>No Color</value>
-  </data>
-  <data name="kryptonButtonDoriath.AccessibleDescription" xml:space="preserve">
-    <value>Öffnet das Modul "Doriath" zur Generierung weiter Terrains</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxBasicStrings.CallingAssembly" xml:space="preserve">
-    <value>Calling Assembly</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.RibbonStrings.CustomizeQuickAccessToolbar" xml:space="preserve">
-    <value>Customize Quick Access Toolbar</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.FormatTypeXMLNodeText" xml:space="preserve">
-    <value>FormatType</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Microsoft365BlueLightMode" xml:space="preserve">
-    <value>Microsoft 365 - Blue (Light Mode)</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.VisualStudio2010With2007Renderer" xml:space="preserve">
-    <value>Visual Studio 2010 (2007 Variation)</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2010Black" xml:space="preserve">
-    <value>Office 2010 - Black</value>
-  </data>
-  <data name="kryptonButtonInfo.Values.ExtraText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="kryptonManager.ToolkitStrings.GeneralStrings.Cancel" xml:space="preserve">
-    <value>Cance&amp;l</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.NextWeek" xml:space="preserve">
-    <value>Next week</value>
-  </data>
-  <data name="kryptonButtonSettings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.TopToolStripPanel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="resource.Description1" xml:space="preserve">
-    <value>erschafft komplette Galaxien</value>
-  </data>
-  <data name="toolStripContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Wednesday" xml:space="preserve">
-    <value>Wednesday</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.HideGroupBox" xml:space="preserve">
-    <value>Hide GroupBox</value>
-  </data>
-  <data name="kryptonButtonLamath.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.RibbonStrings.MoreColors" xml:space="preserve">
-    <value>&amp;More Colors...</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.SortAscending" xml:space="preserve">
-    <value>Sort ascending</value>
-  </data>
-  <data name="kryptonButtonSettings.AccessibleDescription" xml:space="preserve">
-    <value>Öffnet die Einstellungen des Programms</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.LeftToolStripPanel.Parent" xml:space="preserve">
-    <value>toolStripContainer</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonEssin.Parent" xml:space="preserve">
-    <value>kryptonPanelMain</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2010SilverLightMode" xml:space="preserve">
-    <value>Office 2010 - Silver (Light Mode)</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.TopToolStripPanel.Parent" xml:space="preserve">
-    <value>toolStripContainer</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.PaletteCustom" xml:space="preserve">
-    <value>Custom...</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxStrings.Company" xml:space="preserve">
-    <value>Company</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Tomorrow" xml:space="preserve">
-    <value>Tomorrow</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.PaletteCustomHeading" xml:space="preserve">
-    <value>Custom palettes</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.GeneralStrings.Continue" xml:space="preserve">
-    <value>Co&amp;ntinue</value>
-  </data>
-  <data name="resource.Heading8" xml:space="preserve">
-    <value>Lamath</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonInfo.Name" xml:space="preserve">
-    <value>kryptonButtonInfo</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonMirath.Type" xml:space="preserve">
-    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="kryptonButtonGilathar.Values.ExtraText" xml:space="preserve">
-    <value>Galaxien</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxBasicStrings.ExecutingAssembly" xml:space="preserve">
-    <value>Executing Assembly</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.GeneralStrings.Help" xml:space="preserve">
-    <value>H&amp;elp</value>
-  </data>
-  <data name="toolStripContainer.TopToolStripPanel.AccessibleDescription" xml:space="preserve">
-    <value>Oberer Panel des Containers</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.FullCollapse" xml:space="preserve">
-    <value>Full collapse</value>
-  </data>
-  <data name="kryptonButtonDoriath.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxStrings.Product" xml:space="preserve">
-    <value>Product</value>
-  </data>
-  <data name="toolStripContainer.LeftToolStripPanel.AccessibleDescription" xml:space="preserve">
-    <value>Linker Panel des Containers</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.SystemInformation" xml:space="preserve">
-    <value>Information (System)</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2010Silver" xml:space="preserve">
-    <value>Office 2010 - Silver</value>
-  </data>
-  <data name="kryptonButtonHelp.AccessibleDescription" xml:space="preserve">
-    <value>Ruft die Hilfe auf</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Saturday" xml:space="preserve">
-    <value>Saturday</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.FullExpand" xml:space="preserve">
-    <value>Full expand</value>
-  </data>
-  <data name="toolStripContainer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>669, 427</value>
-  </data>
-  <data name="kryptonButtonGilathar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>246, 21</value>
-  </data>
-  <data name="kryptonButtonInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.SparklePurpleLightMode" xml:space="preserve">
-    <value>Sparkle - Purple (Light Mode)</value>
-  </data>
-  <data name="toolStripContainer.AccessibleName" xml:space="preserve">
-    <value>Container</value>
-  </data>
-  <data name="&gt;&gt;kryptonStatusStrip.Name" xml:space="preserve">
-    <value>kryptonStatusStrip</value>
-  </data>
-  <data name="&gt;&gt;kryptonStatusStrip.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="kryptonButtonOstiath.Values.Text" xml:space="preserve">
-    <value>Ostiath</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.PreviousYear" xml:space="preserve">
-    <value>Previous year</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.Copy" xml:space="preserve">
-    <value>&amp;Copy</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Friday" xml:space="preserve">
-    <value>Friday</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.Exclamation" xml:space="preserve">
-    <value>Exclamation</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.Warning" xml:space="preserve">
-    <value>Warning</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ColorStrings.ThemeColors" xml:space="preserve">
-    <value>Theme Colors</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.RibbonStrings.ThemeColors" xml:space="preserve">
-    <value>Theme Colors</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Microsoft365DarkGray" xml:space="preserve">
-    <value>Microsoft 365 - Dark Gray</value>
-  </data>
-  <data name="kryptonButtonDoriath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 45</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonMirath.Parent" xml:space="preserve">
-    <value>kryptonPanelMain</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxStrings.ImageRuntimeVersion" xml:space="preserve">
-    <value>Image Runtime Version</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonTarmenel.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2007DarkGray" xml:space="preserve">
-    <value>Office 2007 - Dark Gray</value>
-  </data>
-  <data name="kryptonButtonInfo.AccessibleName" xml:space="preserve">
-    <value>Info</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.SystemError" xml:space="preserve">
-    <value>Error (System)</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.LeftToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxStrings.Trademark" xml:space="preserve">
-    <value>Trademark</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.RibbonStrings.Minimize" xml:space="preserve">
-    <value>Mi&amp;nimize the Ribbon</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2007SilverDarkMode" xml:space="preserve">
-    <value>Office 2007 - Silver (Dark Mode)</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonBrethin.Name" xml:space="preserve">
-    <value>kryptonButtonBrethin</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.SparkleBlueLightMode" xml:space="preserve">
-    <value>Sparkle - Blue (Light Mode)</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.Asterisk" xml:space="preserve">
-    <value>Asterisk</value>
-  </data>
-  <data name="kryptonButtonGilathar.Values.Text" xml:space="preserve">
-    <value>Gîlathar</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.ColumnNameXMLNodeText" xml:space="preserve">
-    <value>ColumnName</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ColorStrings.MoreColors" xml:space="preserve">
-    <value>More Colors ...</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ButtonOrientationStrings.Inherit" xml:space="preserve">
-    <value>Inherit</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.BestFitAll" xml:space="preserve">
-    <value>Best fit (all columns)</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.BottomToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Columns" xml:space="preserve">
-    <value>Columns</value>
-  </data>
-  <data name="resource.ImageTransparentColor8" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ButtonOrientationStrings.FixedTop" xml:space="preserve">
-    <value>Fixed Top</value>
-  </data>
-  <data name="kryptonButtonBrethin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 45</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonLassath.Parent" xml:space="preserve">
-    <value>kryptonPanelMain</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.ClearGrouping" xml:space="preserve">
-    <value>Clear grouping</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.RibbonStrings.ShowAboveRibbon" xml:space="preserve">
-    <value>&amp;Show Above the Ribbon</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.SparklePurple" xml:space="preserve">
-    <value>Sparkle - Purple</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.Name" xml:space="preserve">
-    <value>toolStripContainer</value>
-  </data>
-  <data name="kryptonButtonEssin.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="kryptonButtonDoriath.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="kryptonButtonDoriath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 174</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.EarlierDuringThisMonth" xml:space="preserve">
-    <value>Earlier during this month</value>
-  </data>
-  <data name="kryptonButtonMirath.AccessibleName" xml:space="preserve">
-    <value>Mîrath</value>
-  </data>
-  <data name="kryptonPanelMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>669, 405</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonDoriath.Name" xml:space="preserve">
-    <value>kryptonButtonDoriath</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Microsoft365SilverDarkMode" xml:space="preserve">
-    <value>Microsoft 365 - Silver (Dark Mode)</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.SparkleOrangeLightMode" xml:space="preserve">
-    <value>Sparkle - Orange (Light Mode)</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonDoriath.Parent" xml:space="preserve">
-    <value>kryptonPanelMain</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.Back" xml:space="preserve">
-    <value>Bac&amp;k</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>669, 427</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonSettings.Parent" xml:space="preserve">
-    <value>kryptonPanelMain</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2013DarkGray" xml:space="preserve">
-    <value>Office 2013 - Dark Gray</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Ungroup" xml:space="preserve">
-    <value>Ungroup</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxStrings.Description" xml:space="preserve">
-    <value>Description</value>
-  </data>
-  <data name="kryptonButtonEssin.Values.Text" xml:space="preserve">
-    <value>Essin</value>
-  </data>
-  <data name="kryptonButtonTarmenel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 90</value>
-  </data>
-  <data name="toolStripContainer.AccessibleDescription" xml:space="preserve">
-    <value>Container für das Hauptprogramm</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Narthalas</value>
   </data>
-  <data name="kryptonButtonLanguage.AccessibleDescription" xml:space="preserve">
-    <value>Ändert die Sprache des Programms</value>
+  <data name="&gt;&gt;toolStripStatusLabelInfo.Name" xml:space="preserve">
+    <value>toolStripStatusLabelInfo</value>
   </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.ClearRules" xml:space="preserve">
-    <value>Clear rules...</value>
+  <data name="&gt;&gt;toolStripStatusLabelInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.GradientFill" xml:space="preserve">
-    <value>Gradient Fill</value>
+  <data name="&gt;&gt;kryptonManager.Name" xml:space="preserve">
+    <value>kryptonManager</value>
   </data>
-  <data name="kryptonButtonGilathar.AccessibleName" xml:space="preserve">
-    <value>Gîlathar</value>
+  <data name="&gt;&gt;kryptonManager.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonManager, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
   </data>
-  <data name="kryptonButtonEssin.AccessibleName" xml:space="preserve">
-    <value>Essin</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.CustomFormatMinimumColorButtonText" xml:space="preserve">
-    <value>Minimum Color</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.CustomStrings.Exit" xml:space="preserve">
-    <value>E&amp;xit</value>
-  </data>
-  <data name="resource.Description4" xml:space="preserve">
-    <value>kreiert neue Namen</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Older" xml:space="preserve">
-    <value>Older</value>
-  </data>
-  <data name="kryptonButtonEssin.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonLamath.Parent" xml:space="preserve">
-    <value>kryptonPanelMain</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonHelp.Type" xml:space="preserve">
-    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Month" xml:space="preserve">
-    <value>Month</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.SparkleOrange" xml:space="preserve">
-    <value>Sparkle - Orange</value>
-  </data>
-  <data name="kryptonButtonLamath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 346</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonMirath.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.AboutBoxBasicStrings.ShadowCopyDirectories" xml:space="preserve">
-    <value>Shadow Copy Directories</value>
-  </data>
-  <data name="kryptonButtonLassath.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonOstiath.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="kryptonButtonOstiath.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.Yesterday" xml:space="preserve">
-    <value>Yesterday</value>
-  </data>
-  <data name="resource.Heading1" xml:space="preserve">
-    <value>Gîlathar</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer.RightToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.PaletteModeStrings.Office2010BlueDarkMode" xml:space="preserve">
-    <value>Office 2010 - Blue (Dark Mode)</value>
-  </data>
-  <data name="kryptonButtonLassath.Values.Text" xml:space="preserve">
-    <value>Lassath</value>
-  </data>
-  <data name="kryptonButtonBrethin.Values.ExtraText" xml:space="preserve">
-    <value>Lebensformen</value>
-  </data>
-  <data name="kryptonButtonLanguage.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value />
-  </data>
-  <data name="kryptonButtonEssin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>372, 346</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.GeneralStrings.Yes" xml:space="preserve">
-    <value>&amp;Yes</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ToastNotificationIconStrings.SystemExclamation" xml:space="preserve">
-    <value>Exclamation (System)</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.ColorStrings.RecentColors" xml:space="preserve">
-    <value>Recent Colors</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonInfo.Type" xml:space="preserve">
-    <value>Krypton.Toolkit.KryptonButton, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonInfo.Parent" xml:space="preserve">
-    <value>kryptonPanelMain</value>
-  </data>
-  <data name="&gt;&gt;kryptonButtonLassath.Name" xml:space="preserve">
-    <value>kryptonButtonLassath</value>
-  </data>
-  <data name="resource.ImageTransparentColor5" type="System.Drawing.Color, System.Drawing">
-    <value />
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>NarthalasForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="kryptonButtonGilathar.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="kryptonManager.ToolkitStrings.OutlookGridStrings.CustomFormatMaximumColorButtonText" xml:space="preserve">
-    <value>Maximum Color</value>
-  </data>
-  <metadata name="kryptonStatusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>159, 17</value>
-  </metadata>
-  <metadata name="kryptonManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>
