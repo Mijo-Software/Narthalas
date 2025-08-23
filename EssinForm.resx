@@ -216,6 +216,9 @@
   <data name="kryptonButtonLetterTable.AccessibleName" xml:space="preserve">
     <value>Sprachstil anwenden</value>
   </data>
+  <data name="kryptonButtonLetterTable.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="kryptonButtonLetterTable.Location" type="System.Drawing.Point, System.Drawing">
     <value>135, 168</value>
   </data>
@@ -231,7 +234,7 @@
   <data name="resource.Heading" xml:space="preserve">
     <value>Sprachstil anwenden</value>
   </data>
-  <data name="kryptonButton10.Values.Text" xml:space="preserve">
+  <data name="kryptonButtonLetterTable.Values.Text" xml:space="preserve">
     <value>Tabelle</value>
   </data>
   <data name="&gt;&gt;kryptonButtonLetterTable.Name" xml:space="preserve">
