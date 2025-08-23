@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿//using Krypton.Toolkit.Suite.Extended.Utilities.System.Synthesis;
+using System.Speech.Synthesis;
+using System.Text;
 
 namespace Narthalas
 {
@@ -98,6 +100,8 @@ namespace Narthalas
 		/// Can be changed by the user (e.g., space, comma, pipe, semicolon).
 		/// </summary>
 		private string separator = " "; // Default separator for output, can be changed based on user selection
+
+		private SpeechSynthesizer synthesizer;
 
 		#endregion
 
@@ -1344,6 +1348,65 @@ namespace Narthalas
 
 			// Update the status bar to reflect the action
 			SetStatusBar(text: "Buchstabentabelle angezeigt.");
+		}
+
+		private void KryptonButtonSpeechLetterResults_Click(object sender, EventArgs e)
+		{
+			// Check if the sender is null
+			ArgumentNullException.ThrowIfNull(argument: sender);
+			// Check if the event arguments are null
+			ArgumentNullException.ThrowIfNull(argument: e);
+			// Check if the SpeechSynthesizer class is available
+			ArgumentNullException.ThrowIfNull(argument: typeof(SpeechSynthesizer));
+			// Check if the letters results textbox is not null
+			ArgumentNullException.ThrowIfNull(argument: kryptonTextBoxLettersResults);
+			// Check if the letters results textbox is not empty
+			ArgumentNullException.ThrowIfNull(argument: kryptonTextBoxLettersResults.Text);
+
+			// Initialize the speech synthesizer
+			SpeechSynthesizer synthesizer = new();
+
+			if (kryptonTextBoxLettersResults.SelectionLength > 0)
+			{
+				// Get the selected text to speak from the letters results textbox
+				string selectedTextToSpeak = kryptonTextBoxLettersResults.SelectedText;
+				// Speak the selected text asynchronously if it's not empty
+				if (!string.IsNullOrEmpty(value: selectedTextToSpeak))
+				{
+					// Speak the selected text asynchronously
+					_ = synthesizer.SpeakAsync(textToSpeak: selectedTextToSpeak);
+					// Update the status bar to reflect the action
+					SetStatusBar(text: "Ausgewählter Buchstabenergebnis wird gesprochen.");
+				}
+				else
+				{
+					// Show an error message if there are no letters results to speak
+					_ = MessageBox.Show(text: "Keine Buchstabenergebnisse zum Sprechen vorhanden.", caption: "Fehler", buttons: MessageBoxButtons.OK, icon: MessageBoxIcon.Error);
+					// Update the status bar to reflect the action
+					SetStatusBar(text: "Keine Buchstabenergebnisse zum Sprechen vorhanden.");
+				}
+			}
+			else
+			{
+				// If no text is selected, proceed to speak the entire content
+				// Get the text to speak from the letters results textbox
+				string textToSpeak = kryptonTextBoxLettersResults.Text;
+
+				// Speak the text asynchronously if it's not empty
+				if (!string.IsNullOrEmpty(value: textToSpeak))
+				{
+					// Speak the text asynchronously
+					_ = synthesizer.SpeakAsync(textToSpeak: textToSpeak);
+					// Update the status bar to reflect the action
+					SetStatusBar(text: "Buchstabenergebnisse werden gesprochen.");
+				}
+				else
+				{
+					// Show an error message if there are no letters results to speak
+					_ = MessageBox.Show(text: "Keine Buchstabenergebnisse zum Sprechen vorhanden.", caption: "Fehler", buttons: MessageBoxButtons.OK, icon: MessageBoxIcon.Error);
+					SetStatusBar(text: "Keine Buchstabenergebnisse zum Sprechen vorhanden.");
+				}
+			}
 		}
 
 		#endregion
