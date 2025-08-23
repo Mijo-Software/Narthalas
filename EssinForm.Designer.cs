@@ -37,6 +37,7 @@
 			tabControlEssin = new TabControl();
 			tabPageMethodLetters = new TabPage();
 			groupBoxLettersLanguageStyles = new GroupBox();
+			kryptonButtonLetterTable = new Krypton.Toolkit.KryptonButton();
 			kryptonListBoxLettersLanguageStyles = new Krypton.Toolkit.KryptonListBox();
 			kryptonButtonApplyLettersLanguageStyle = new Krypton.Toolkit.KryptonButton();
 			kryptonTextBoxLettersLanguageStyleConsonants = new Krypton.Toolkit.KryptonTextBox();
@@ -139,7 +140,6 @@
 			kryptonCheckButton3 = new Krypton.Toolkit.KryptonCheckButton();
 			backgroundWorkerLetterNames = new System.ComponentModel.BackgroundWorker();
 			backgroundWorkerSyllableName = new System.ComponentModel.BackgroundWorker();
-			kryptonButtonLetterTable = new Krypton.Toolkit.KryptonButton();
 			toolStripContainer.BottomToolStripPanel.SuspendLayout();
 			toolStripContainer.ContentPanel.SuspendLayout();
 			toolStripContainer.SuspendLayout();
@@ -266,6 +266,20 @@
 			groupBoxLettersLanguageStyles.TabStop = false;
 			groupBoxLettersLanguageStyles.Enter += SetStatusBar_Enter;
 			groupBoxLettersLanguageStyles.Leave += SetStatusBar_Enter;
+			// 
+			// kryptonButtonLetterTable
+			// 
+			resources.ApplyResources(kryptonButtonLetterTable, "kryptonButtonLetterTable");
+			kryptonButtonLetterTable.AccessibleRole = AccessibleRole.PushButton;
+			kryptonButtonLetterTable.Name = "kryptonButtonLetterTable";
+			kryptonButtonLetterTable.ToolTipValues.Description = resources.GetString("resource.Description");
+			kryptonButtonLetterTable.ToolTipValues.EnableToolTips = true;
+			kryptonButtonLetterTable.ToolTipValues.Heading = resources.GetString("resource.Heading");
+			kryptonButtonLetterTable.ToolTipValues.Image = Properties.Resources.o_collection_office_ok_16;
+			kryptonButtonLetterTable.Values.DropDownArrowColor = Color.Empty;
+			kryptonButtonLetterTable.Values.Image = Properties.Resources.o_collection_office_table_16;
+			kryptonButtonLetterTable.Values.Text = resources.GetString("kryptonButtonLetterTable.Values.Text");
+			kryptonButtonLetterTable.Click += KryptonButtonLetterTable_Click;
 			// 
 			// kryptonListBoxLettersLanguageStyles
 			// 
@@ -1540,20 +1554,6 @@
 			backgroundWorkerSyllableName.WorkerReportsProgress = true;
 			backgroundWorkerSyllableName.WorkerSupportsCancellation = true;
 			backgroundWorkerSyllableName.DoWork += BackgroundWorkerSyllableName_DoWork;
-			// 
-			// kryptonButtonLetterTable
-			// 
-			resources.ApplyResources(kryptonButtonLetterTable, "kryptonButtonLetterTable");
-			kryptonButtonLetterTable.AccessibleRole = AccessibleRole.PushButton;
-			kryptonButtonLetterTable.Name = "kryptonButtonLetterTable";
-			kryptonButtonLetterTable.ToolTipValues.Description = resources.GetString("resource.Description");
-			kryptonButtonLetterTable.ToolTipValues.EnableToolTips = true;
-			kryptonButtonLetterTable.ToolTipValues.Heading = resources.GetString("resource.Heading");
-			kryptonButtonLetterTable.ToolTipValues.Image = Properties.Resources.o_collection_office_ok_16;
-			kryptonButtonLetterTable.Values.DropDownArrowColor = Color.Empty;
-			kryptonButtonLetterTable.Values.Image = Properties.Resources.o_collection_office_table_16;
-			kryptonButtonLetterTable.Values.Text = resources.GetString("kryptonButton10.Values.Text");
-			kryptonButtonLetterTable.Click += KryptonButtonLetterTable_Click;
 			// 
 			// EssinForm
 			// 

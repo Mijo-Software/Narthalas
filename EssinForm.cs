@@ -8,6 +8,8 @@ namespace Narthalas
 	/// </summary>
 	public partial class EssinForm : Form
 	{
+		#region Fields and Properties
+
 		/// <summary>
 		/// Static random number generator used for name generation.
 		/// </summary>
@@ -96,6 +98,8 @@ namespace Narthalas
 		/// Can be changed by the user (e.g., space, comma, pipe, semicolon).
 		/// </summary>
 		private string separator = " "; // Default separator for output, can be changed based on user selection
+
+		#endregion
 
 		#region Constructor
 
@@ -602,6 +606,69 @@ namespace Narthalas
 				// Close the form
 				Close();
 			}
+
+			// Check if the Control key is pressed along with the 'A' key
+			if (e.Control && e.KeyCode == Keys.A)
+			{
+				// If the active control is a TextBox, select all text
+				if (ActiveControl is TextBox textBox)
+				{
+					textBox.SelectAll();
+					// Mark the event as handled to prevent further processing
+					e.Handled = true;
+				}
+			}
+
+			// Check if the Control key is pressed along with the 'C' key
+			if (e.Control && e.KeyCode == Keys.C)
+			{
+				// If the active control is a TextBox, copy the selected text to the clipboard
+				if (ActiveControl is TextBox textBox)
+				{
+					textBox.Copy();
+					// Mark the event as handled to prevent further processing
+					e.Handled = true;
+				}
+			}
+
+			// Check if the Control key is pressed along with the 'V' key
+			if (e.Control && e.KeyCode == Keys.V)
+			{
+				// If the active control is a TextBox, paste text from the clipboard
+				if (ActiveControl is TextBox textBox)
+				{
+					textBox.Paste();
+					// Mark the event as handled to prevent further processing
+					e.Handled = true;
+				}
+			}
+
+			// Check if the Control key is pressed along with the 'X' key
+			if (e.Control && e.KeyCode == Keys.X)
+			{
+				// If the active control is a TextBox, cut the selected text to the clipboard
+				if (ActiveControl is TextBox textBox)
+				{
+					textBox.Cut();
+					// Mark the event as handled to prevent further processing
+					e.Handled = true;
+				}
+			}
+
+			// Check if the Control key is pressed along with the 'Z' key
+			if (e.Control && e.KeyCode == Keys.Z)
+			{
+				// If the active control is a TextBox, undo the last action
+				if (ActiveControl is TextBox textBox)
+				{
+					if (textBox.CanUndo)
+					{
+						textBox.Undo();
+						// Mark the event as handled to prevent further processing
+						e.Handled = true;
+					}
+				}
+			}
 		}
 
 		#endregion
@@ -631,6 +698,9 @@ namespace Narthalas
 			}
 			// If the background worker is not busy, start it to generate letter-based names
 			backgroundWorkerLetterNames.RunWorkerAsync();
+
+			// Update the status bar to reflect the action
+			SetStatusBar(text: "Die Generierung von Buchstabennamen wurde gestartet.");
 		}
 
 		/// <summary>
@@ -656,6 +726,9 @@ namespace Narthalas
 			}
 			// If the background worker is not busy, start it to generate syllable-based names
 			backgroundWorkerSyllableName.RunWorkerAsync();
+
+			// Update the status bar to reflect the action
+			SetStatusBar(text: "Die Generierung von Silbennamen wurde gestartet.");
 		}
 
 		/// <summary>
@@ -677,6 +750,9 @@ namespace Narthalas
 			Point menuPosition = new(x: buttonPosition.X, y: buttonPosition.Y + kryptonButtonLettersOutputOptions.Height);
 			// Kontextmenü an dieser Position anzeigen
 			contextMenuStripResultOptions.Show(screenLocation: menuPosition);
+
+			// Update the status bar to reflect the action
+			SetStatusBar(text: "Ergebnisoptionen werden angezeigt.");
 		}
 
 		/// <summary>
@@ -698,6 +774,9 @@ namespace Narthalas
 			Point menuPosition = new(x: buttonPosition.X, y: buttonPosition.Y + kryptonButtonSyllablesOutputOptions.Height);
 			// Kontextmenü an dieser Position anzeigen
 			contextMenuStripResultOptions.Show(screenLocation: menuPosition);
+
+			// Update the status bar to reflect the action
+			SetStatusBar(text: "Ergebnisoptionen werden angezeigt.");
 		}
 
 		/// <summary>
@@ -720,6 +799,9 @@ namespace Narthalas
 			toolStripMenuItemOutputOptionsSeparatorIsComma.Checked = false;
 			toolStripMenuItemOutputOptionsSeparatorIsPipe.Checked = false;
 			toolStripMenuItemOutputOptionsSeparatorIsSemicolon.Checked = false;
+
+			// Update the status bar to reflect the action
+			SetStatusBar(text: "Ergebnisse werden mit Leerzeichen getrennt.");
 		}
 
 		/// <summary>
@@ -742,6 +824,9 @@ namespace Narthalas
 			toolStripMenuItemOutputOptionsSeparatorIsSpace.Checked = false;
 			toolStripMenuItemOutputOptionsSeparatorIsPipe.Checked = false;
 			toolStripMenuItemOutputOptionsSeparatorIsSemicolon.Checked = false;
+
+			// Update the status bar to reflect the action
+			SetStatusBar(text: "Ergebnisse werden mit Kommas getrennt.");
 		}
 
 		/// <summary>
@@ -765,6 +850,9 @@ namespace Narthalas
 			toolStripMenuItemOutputOptionsSeparatorIsSpace.Checked = false;
 			toolStripMenuItemOutputOptionsSeparatorIsComma.Checked = false;
 			toolStripMenuItemOutputOptionsSeparatorIsSemicolon.Checked = false;
+
+			// Update the status bar to reflect the action
+			SetStatusBar(text: "Ergebnisse werden mit Pipes getrennt.");
 		}
 
 		/// <summary>
@@ -787,6 +875,9 @@ namespace Narthalas
 			toolStripMenuItemOutputOptionsSeparatorIsSpace.Checked = false;
 			toolStripMenuItemOutputOptionsSeparatorIsComma.Checked = false;
 			toolStripMenuItemOutputOptionsSeparatorIsPipe.Checked = false;
+
+			// Update the status bar to reflect the action
+			SetStatusBar(text: "Ergebnisse werden mit Semikolons getrennt.");
 		}
 
 		/// <summary>
@@ -805,6 +896,8 @@ namespace Narthalas
 
 			// Set newLine and status bar text based on the checked state
 			newLine = toolStripMenuItemOutputOptionsEntriesLineByLine.Checked ? Environment.NewLine : string.Empty;
+
+			// Update the status bar to reflect the action
 			SetStatusBar(text: toolStripMenuItemOutputOptionsEntriesLineByLine.Checked
 				? "Ergebnisse werden zeilenweise ausgegeben."
 				: "Ergebnisse werden nicht zeilenweise ausgegeben.");
@@ -826,6 +919,7 @@ namespace Narthalas
 
 			// Set quote to enclose results if the option is checked, otherwise use no quotes
 			quote = toolStripMenuItemOutputOptionsEnclosedWithQuotes.Checked ? "\"" : string.Empty;
+
 			// Update the status bar to reflect the change
 			SetStatusBar(text: toolStripMenuItemOutputOptionsEnclosedWithQuotes.Checked
 				? "Ergebnisse werden in Anführungszeichen gesetzt."
@@ -854,9 +948,13 @@ namespace Narthalas
 				SetStatusBar(text: "Keine Buchstabenergebnisse zum Kopieren vorhanden.");
 				return;
 			}
+
 			// Copy the text to the clipboard
 			// This will copy the text from the letters results textbox to the clipboard
 			Clipboard.SetText(text: kryptonTextBoxLettersResults.Text);
+
+			// Update the status bar to reflect the action
+			SetStatusBar(text: "Buchstabenergebnisse in die Zwischenablage kopiert.");
 		}
 
 		/// <summary>
@@ -884,6 +982,9 @@ namespace Narthalas
 			// Copy the text to the clipboard
 			// This will copy the text from the syllables results textbox to the clipboard
 			Clipboard.SetText(text: kryptonTextBoxSyllablesResults.Text);
+
+			// Update the status bar to reflect the action
+			SetStatusBar(text: "Silbenergebnisse in die Zwischenablage kopiert.");
 		}
 
 		/// <summary>
@@ -911,6 +1012,9 @@ namespace Narthalas
 			}
 			// Clear the text box
 			kryptonTextBoxLettersResults.Text = string.Empty;
+
+			// Update the status bar to reflect the action
+			SetStatusBar(text: "Buchstabenergebnisse gelöscht.");
 		}
 
 		/// <summary>
@@ -937,6 +1041,9 @@ namespace Narthalas
 			}
 			// Clear the text box
 			kryptonTextBoxSyllablesResults.Text = string.Empty;
+
+			// Update the status bar to reflect the action
+			SetStatusBar(text: "Silbenergebnisse gelöscht.");
 		}
 
 		/// <summary>
@@ -995,6 +1102,12 @@ namespace Narthalas
 					SetStatusBar(text: "Fehler bei der Abspeicherung des Ergebnisses", additionalInfo: ex.Message);
 				}
 			}
+
+			// Dispose of the save file dialog
+			saveFileDialog.Dispose();
+
+			// Update the status bar to reflect the action
+			SetStatusBar(text: "Buchstabenergebnisse in die Zwischenablage kopiert.");
 		}
 
 		/// <summary>
@@ -1053,6 +1166,12 @@ namespace Narthalas
 					SetStatusBar(text: "Fehler bei der Abspeicherung des Ergebnisses", additionalInfo: ex.Message);
 				}
 			}
+
+			// Dispose of the save file dialog
+			saveFileDialog.Dispose();
+
+			// Update the status bar to reflect the action
+			SetStatusBar(text: "Silbenergebnisse in die Zwischenablage kopiert.");
 		}
 
 		/// <summary>
@@ -1090,6 +1209,11 @@ namespace Narthalas
 				kryptonButtonkryptonButtonIndividualPatternSetVowel.Enabled = false; // Disable the button to set the individual pattern for vowels
 				kryptonButtonClearTextBoxIndividualPattern.Enabled = false; // Disable the button to clear the individual pattern textbox
 			}
+
+			// Update the status bar to reflect the change
+			SetStatusBar(text: kryptonCheckBoxUseIndividualPattern.Checked
+				? "Individuelles Muster aktiviert."
+				: "Individuelles Muster deaktiviert.");
 		}
 
 		/// <summary>
@@ -1109,6 +1233,9 @@ namespace Narthalas
 
 			// Append 'C' for consonant to the individual pattern textbox
 			kryptonTextBoxIndividualPattern.Text += "C";
+
+			// Update the status bar to reflect the action
+			SetStatusBar(text: "Konsonant 'C' zum individuellen Muster hinzugefügt.");
 		}
 
 		/// <summary>
@@ -1128,6 +1255,9 @@ namespace Narthalas
 
 			// Append 'V' for vowel to the individual pattern textbox
 			kryptonTextBoxIndividualPattern.Text += "V";
+
+			// Update the status bar to reflect the action
+
 		}
 
 		/// <summary>
@@ -1147,6 +1277,9 @@ namespace Narthalas
 
 			// Clear the individual pattern textbox
 			kryptonTextBoxIndividualPattern.Text = string.Empty;
+
+			// Update the status bar to reflect the action
+			SetStatusBar(text: "Individuelles Muster gelöscht.");
 		}
 
 		/// <summary>
@@ -1190,6 +1323,27 @@ namespace Narthalas
 			kryptonTextBoxLetterSetVowels.Text = DefaultVowelSet;
 			// Update the status bar to reflect the reset action
 			SetStatusBar(text: "Buchstabensätze auf Standard zurückgesetzt.");
+		}
+
+		/// <summary>
+		/// Handles the click event for opening the letter table form.
+		/// Displays a dialog with the letter table for user reference.
+		/// </summary>
+		/// <param name="sender">The source of the event.</param>
+		/// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
+		private void KryptonButtonLetterTable_Click(object sender, EventArgs e)
+		{
+			// Check if the sender is null
+			ArgumentNullException.ThrowIfNull(argument: sender);
+			// Check if the event arguments are null
+			ArgumentNullException.ThrowIfNull(argument: e);
+
+			// Open the letter table form
+			using EsseDuForm letterTable = new();
+			_ = letterTable.ShowDialog();
+
+			// Update the status bar to reflect the action
+			SetStatusBar(text: "Buchstabentabelle angezeigt.");
 		}
 
 		#endregion
@@ -1380,11 +1534,5 @@ namespace Narthalas
 		}
 
 		#endregion
-
-		private void KryptonButtonLetterTable_Click(object sender, EventArgs e)
-		{
-			using EsseDuForm letterTable = new();
-			_ = letterTable.ShowDialog();
-		}
 	}
 }

@@ -28,110 +28,111 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EsseDuForm));
 			kryptonStatusStrip = new Krypton.Toolkit.KryptonStatusStrip();
 			toolStripStatusLabelInfo = new ToolStripStatusLabel();
 			toolStripContainer = new ToolStripContainer();
 			kryptonPanel = new Krypton.Toolkit.KryptonPanel();
-			kryptonComboBox24 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel47 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown24 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel48 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox25 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel49 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown25 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel50 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox12 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel23 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown12 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel24 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox13 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel25 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown13 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel26 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox14 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel27 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown14 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel28 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox15 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel29 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown15 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel30 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox16 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel31 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown16 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel32 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox17 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel33 = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterZ = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterZPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterZ = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterZ = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterY = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterYPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterY = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterY = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterX = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterXPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterX = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterX = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterW = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterWPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterW = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterW = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterV = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterVPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterV = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterV = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterU = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterUPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterU = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterU = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterT = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterTPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterT = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterT = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterS = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterSPercent = new Krypton.Toolkit.KryptonLabel();
 			kryptonNumericUpDown17 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel34 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox18 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel35 = new Krypton.Toolkit.KryptonLabel();
+			kryptonLabelLetterS = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterR = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterRPercent = new Krypton.Toolkit.KryptonLabel();
 			kryptonNumericUpDown18 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel36 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox19 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel37 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown19 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel38 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox20 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel39 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown20 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel40 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox21 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel41 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown21 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel42 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox22 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel43 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown22 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel44 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox23 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel45 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown23 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel46 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox11 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel21 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown11 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel22 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox10 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel19 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown10 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel20 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox9 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel17 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown9 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel18 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox8 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel15 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown8 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel16 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox7 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel13 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown7 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel14 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox6 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel11 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown6 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel12 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox5 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel9 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown5 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel10 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox4 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel7 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown4 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel8 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox3 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel5 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown3 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel6 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox2 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel3 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown2 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel4 = new Krypton.Toolkit.KryptonLabel();
-			kryptonComboBox1 = new Krypton.Toolkit.KryptonComboBox();
-			kryptonLabel1 = new Krypton.Toolkit.KryptonLabel();
-			kryptonNumericUpDown1 = new Krypton.Toolkit.KryptonNumericUpDown();
-			kryptonLabel2 = new Krypton.Toolkit.KryptonLabel();
+			kryptonLabelLetterR = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterQ = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterQPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterQ = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterQ = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterP = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterPPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownP = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterP = new Krypton.Toolkit.KryptonLabel();
+			OLetter = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterOPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterO = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelO = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterN = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterNPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterN = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterN = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterM = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterMPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterM = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterM = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterL = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterLPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterL = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterL = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterK = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterKPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterK = new Krypton.Toolkit.KryptonNumericUpDown();
+			KLetter = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterJ = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterJPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterJ = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterJ = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterI = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterIPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterI = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelI = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterH = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterHPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterH = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterH = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterG = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterGPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterG = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterG = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterF = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterFPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterF = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterF = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterE = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterEPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterE = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterE = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterD = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterDPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterD = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterD = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterC = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterCPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterC = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterC = new Krypton.Toolkit.KryptonLabel();
+			kryptonComboBoxLetterB = new Krypton.Toolkit.KryptonComboBox();
+			kryptonLabelLetterBPercent = new Krypton.Toolkit.KryptonLabel();
+			kryptonNumericUpDownLetterB = new Krypton.Toolkit.KryptonNumericUpDown();
+			kryptonLabelLetterB = new Krypton.Toolkit.KryptonLabel();
 			kryptonComboBoxLetterA = new Krypton.Toolkit.KryptonComboBox();
 			kryptonLabelLetterAPercent = new Krypton.Toolkit.KryptonLabel();
 			kryptonNumericUpDownLetterA = new Krypton.Toolkit.KryptonNumericUpDown();
@@ -146,31 +147,31 @@
 			toolStripContainer.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)kryptonPanel).BeginInit();
 			kryptonPanel.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox24).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox25).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox12).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox13).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox14).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox15).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox16).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox17).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox18).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox19).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox20).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox21).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox22).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox23).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox11).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox10).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox9).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox8).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox7).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox6).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox5).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox4).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox3).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox2).BeginInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox1).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterZ).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterY).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterX).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterW).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterV).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterU).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterT).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterS).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterR).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterQ).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterP).BeginInit();
+			((System.ComponentModel.ISupportInitialize)OLetter).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterN).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterM).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterL).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterK).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterJ).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterI).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterH).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterG).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterF).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterE).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterD).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterC).BeginInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterB).BeginInit();
 			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterA).BeginInit();
 			kryptonToolStrip.SuspendLayout();
 			SuspendLayout();
@@ -190,7 +191,7 @@
 			kryptonStatusStrip.ProgressBars = null;
 			kryptonStatusStrip.RenderMode = ToolStripRenderMode.ManagerRenderMode;
 			kryptonStatusStrip.ShowItemToolTips = true;
-			kryptonStatusStrip.Size = new Size(528, 22);
+			kryptonStatusStrip.Size = new Size(518, 22);
 			kryptonStatusStrip.SizingGrip = false;
 			kryptonStatusStrip.TabIndex = 0;
 			kryptonStatusStrip.TabStop = true;
@@ -203,7 +204,7 @@
 			toolStripStatusLabelInfo.AccessibleRole = AccessibleRole.StaticText;
 			toolStripStatusLabelInfo.AutoToolTip = true;
 			toolStripStatusLabelInfo.Name = "toolStripStatusLabelInfo";
-			toolStripStatusLabelInfo.Size = new Size(513, 17);
+			toolStripStatusLabelInfo.Size = new Size(503, 17);
 			toolStripStatusLabelInfo.Spring = true;
 			toolStripStatusLabelInfo.Text = "info";
 			toolStripStatusLabelInfo.TextAlign = ContentAlignment.MiddleLeft;
@@ -218,11 +219,11 @@
 			// toolStripContainer.ContentPanel
 			// 
 			toolStripContainer.ContentPanel.Controls.Add(kryptonPanel);
-			toolStripContainer.ContentPanel.Size = new Size(528, 267);
+			toolStripContainer.ContentPanel.Size = new Size(518, 267);
 			toolStripContainer.Dock = DockStyle.Fill;
 			toolStripContainer.Location = new Point(0, 0);
 			toolStripContainer.Name = "toolStripContainer";
-			toolStripContainer.Size = new Size(528, 314);
+			toolStripContainer.Size = new Size(518, 314);
 			toolStripContainer.TabIndex = 5;
 			toolStripContainer.Text = "toolStripContainer";
 			// 
@@ -235,106 +236,106 @@
 			kryptonPanel.AccessibleDescription = "Just a Panel";
 			kryptonPanel.AccessibleName = "Panel";
 			kryptonPanel.AccessibleRole = AccessibleRole.Grouping;
-			kryptonPanel.Controls.Add(kryptonComboBox24);
-			kryptonPanel.Controls.Add(kryptonLabel47);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown24);
-			kryptonPanel.Controls.Add(kryptonLabel48);
-			kryptonPanel.Controls.Add(kryptonComboBox25);
-			kryptonPanel.Controls.Add(kryptonLabel49);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown25);
-			kryptonPanel.Controls.Add(kryptonLabel50);
-			kryptonPanel.Controls.Add(kryptonComboBox12);
-			kryptonPanel.Controls.Add(kryptonLabel23);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown12);
-			kryptonPanel.Controls.Add(kryptonLabel24);
-			kryptonPanel.Controls.Add(kryptonComboBox13);
-			kryptonPanel.Controls.Add(kryptonLabel25);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown13);
-			kryptonPanel.Controls.Add(kryptonLabel26);
-			kryptonPanel.Controls.Add(kryptonComboBox14);
-			kryptonPanel.Controls.Add(kryptonLabel27);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown14);
-			kryptonPanel.Controls.Add(kryptonLabel28);
-			kryptonPanel.Controls.Add(kryptonComboBox15);
-			kryptonPanel.Controls.Add(kryptonLabel29);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown15);
-			kryptonPanel.Controls.Add(kryptonLabel30);
-			kryptonPanel.Controls.Add(kryptonComboBox16);
-			kryptonPanel.Controls.Add(kryptonLabel31);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown16);
-			kryptonPanel.Controls.Add(kryptonLabel32);
-			kryptonPanel.Controls.Add(kryptonComboBox17);
-			kryptonPanel.Controls.Add(kryptonLabel33);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterZ);
+			kryptonPanel.Controls.Add(kryptonLabelLetterZPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterZ);
+			kryptonPanel.Controls.Add(kryptonLabelLetterZ);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterY);
+			kryptonPanel.Controls.Add(kryptonLabelLetterYPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterY);
+			kryptonPanel.Controls.Add(kryptonLabelLetterY);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterX);
+			kryptonPanel.Controls.Add(kryptonLabelLetterXPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterX);
+			kryptonPanel.Controls.Add(kryptonLabelLetterX);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterW);
+			kryptonPanel.Controls.Add(kryptonLabelLetterWPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterW);
+			kryptonPanel.Controls.Add(kryptonLabelLetterW);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterV);
+			kryptonPanel.Controls.Add(kryptonLabelLetterVPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterV);
+			kryptonPanel.Controls.Add(kryptonLabelLetterV);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterU);
+			kryptonPanel.Controls.Add(kryptonLabelLetterUPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterU);
+			kryptonPanel.Controls.Add(kryptonLabelLetterU);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterT);
+			kryptonPanel.Controls.Add(kryptonLabelLetterTPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterT);
+			kryptonPanel.Controls.Add(kryptonLabelLetterT);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterS);
+			kryptonPanel.Controls.Add(kryptonLabelLetterSPercent);
 			kryptonPanel.Controls.Add(kryptonNumericUpDown17);
-			kryptonPanel.Controls.Add(kryptonLabel34);
-			kryptonPanel.Controls.Add(kryptonComboBox18);
-			kryptonPanel.Controls.Add(kryptonLabel35);
+			kryptonPanel.Controls.Add(kryptonLabelLetterS);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterR);
+			kryptonPanel.Controls.Add(kryptonLabelLetterRPercent);
 			kryptonPanel.Controls.Add(kryptonNumericUpDown18);
-			kryptonPanel.Controls.Add(kryptonLabel36);
-			kryptonPanel.Controls.Add(kryptonComboBox19);
-			kryptonPanel.Controls.Add(kryptonLabel37);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown19);
-			kryptonPanel.Controls.Add(kryptonLabel38);
-			kryptonPanel.Controls.Add(kryptonComboBox20);
-			kryptonPanel.Controls.Add(kryptonLabel39);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown20);
-			kryptonPanel.Controls.Add(kryptonLabel40);
-			kryptonPanel.Controls.Add(kryptonComboBox21);
-			kryptonPanel.Controls.Add(kryptonLabel41);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown21);
-			kryptonPanel.Controls.Add(kryptonLabel42);
-			kryptonPanel.Controls.Add(kryptonComboBox22);
-			kryptonPanel.Controls.Add(kryptonLabel43);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown22);
-			kryptonPanel.Controls.Add(kryptonLabel44);
-			kryptonPanel.Controls.Add(kryptonComboBox23);
-			kryptonPanel.Controls.Add(kryptonLabel45);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown23);
-			kryptonPanel.Controls.Add(kryptonLabel46);
-			kryptonPanel.Controls.Add(kryptonComboBox11);
-			kryptonPanel.Controls.Add(kryptonLabel21);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown11);
-			kryptonPanel.Controls.Add(kryptonLabel22);
-			kryptonPanel.Controls.Add(kryptonComboBox10);
-			kryptonPanel.Controls.Add(kryptonLabel19);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown10);
-			kryptonPanel.Controls.Add(kryptonLabel20);
-			kryptonPanel.Controls.Add(kryptonComboBox9);
-			kryptonPanel.Controls.Add(kryptonLabel17);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown9);
-			kryptonPanel.Controls.Add(kryptonLabel18);
-			kryptonPanel.Controls.Add(kryptonComboBox8);
-			kryptonPanel.Controls.Add(kryptonLabel15);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown8);
-			kryptonPanel.Controls.Add(kryptonLabel16);
-			kryptonPanel.Controls.Add(kryptonComboBox7);
-			kryptonPanel.Controls.Add(kryptonLabel13);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown7);
-			kryptonPanel.Controls.Add(kryptonLabel14);
-			kryptonPanel.Controls.Add(kryptonComboBox6);
-			kryptonPanel.Controls.Add(kryptonLabel11);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown6);
-			kryptonPanel.Controls.Add(kryptonLabel12);
-			kryptonPanel.Controls.Add(kryptonComboBox5);
-			kryptonPanel.Controls.Add(kryptonLabel9);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown5);
-			kryptonPanel.Controls.Add(kryptonLabel10);
-			kryptonPanel.Controls.Add(kryptonComboBox4);
-			kryptonPanel.Controls.Add(kryptonLabel7);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown4);
-			kryptonPanel.Controls.Add(kryptonLabel8);
-			kryptonPanel.Controls.Add(kryptonComboBox3);
-			kryptonPanel.Controls.Add(kryptonLabel5);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown3);
-			kryptonPanel.Controls.Add(kryptonLabel6);
-			kryptonPanel.Controls.Add(kryptonComboBox2);
-			kryptonPanel.Controls.Add(kryptonLabel3);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown2);
-			kryptonPanel.Controls.Add(kryptonLabel4);
-			kryptonPanel.Controls.Add(kryptonComboBox1);
-			kryptonPanel.Controls.Add(kryptonLabel1);
-			kryptonPanel.Controls.Add(kryptonNumericUpDown1);
-			kryptonPanel.Controls.Add(kryptonLabel2);
+			kryptonPanel.Controls.Add(kryptonLabelLetterR);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterQ);
+			kryptonPanel.Controls.Add(kryptonLabelLetterQPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterQ);
+			kryptonPanel.Controls.Add(kryptonLabelLetterQ);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterP);
+			kryptonPanel.Controls.Add(kryptonLabelLetterPPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownP);
+			kryptonPanel.Controls.Add(kryptonLabelLetterP);
+			kryptonPanel.Controls.Add(OLetter);
+			kryptonPanel.Controls.Add(kryptonLabelLetterOPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterO);
+			kryptonPanel.Controls.Add(kryptonLabelO);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterN);
+			kryptonPanel.Controls.Add(kryptonLabelLetterNPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterN);
+			kryptonPanel.Controls.Add(kryptonLabelLetterN);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterM);
+			kryptonPanel.Controls.Add(kryptonLabelLetterMPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterM);
+			kryptonPanel.Controls.Add(kryptonLabelLetterM);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterL);
+			kryptonPanel.Controls.Add(kryptonLabelLetterLPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterL);
+			kryptonPanel.Controls.Add(kryptonLabelLetterL);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterK);
+			kryptonPanel.Controls.Add(kryptonLabelLetterKPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterK);
+			kryptonPanel.Controls.Add(KLetter);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterJ);
+			kryptonPanel.Controls.Add(kryptonLabelLetterJPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterJ);
+			kryptonPanel.Controls.Add(kryptonLabelLetterJ);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterI);
+			kryptonPanel.Controls.Add(kryptonLabelLetterIPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterI);
+			kryptonPanel.Controls.Add(kryptonLabelI);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterH);
+			kryptonPanel.Controls.Add(kryptonLabelLetterHPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterH);
+			kryptonPanel.Controls.Add(kryptonLabelLetterH);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterG);
+			kryptonPanel.Controls.Add(kryptonLabelLetterGPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterG);
+			kryptonPanel.Controls.Add(kryptonLabelLetterG);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterF);
+			kryptonPanel.Controls.Add(kryptonLabelLetterFPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterF);
+			kryptonPanel.Controls.Add(kryptonLabelLetterF);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterE);
+			kryptonPanel.Controls.Add(kryptonLabelLetterEPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterE);
+			kryptonPanel.Controls.Add(kryptonLabelLetterE);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterD);
+			kryptonPanel.Controls.Add(kryptonLabelLetterDPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterD);
+			kryptonPanel.Controls.Add(kryptonLabelLetterD);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterC);
+			kryptonPanel.Controls.Add(kryptonLabelLetterCPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterC);
+			kryptonPanel.Controls.Add(kryptonLabelLetterC);
+			kryptonPanel.Controls.Add(kryptonComboBoxLetterB);
+			kryptonPanel.Controls.Add(kryptonLabelLetterBPercent);
+			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterB);
+			kryptonPanel.Controls.Add(kryptonLabelLetterB);
 			kryptonPanel.Controls.Add(kryptonComboBoxLetterA);
 			kryptonPanel.Controls.Add(kryptonLabelLetterAPercent);
 			kryptonPanel.Controls.Add(kryptonNumericUpDownLetterA);
@@ -342,400 +343,535 @@
 			kryptonPanel.Dock = DockStyle.Fill;
 			kryptonPanel.Location = new Point(0, 0);
 			kryptonPanel.Name = "kryptonPanel";
-			kryptonPanel.Size = new Size(528, 267);
+			kryptonPanel.Size = new Size(518, 267);
 			kryptonPanel.TabIndex = 0;
 			kryptonPanel.TabStop = true;
-			kryptonPanel.Paint += this.KryptonPanel_Paint;
 			// 
-			// kryptonComboBox24
+			// kryptonComboBoxLetterZ
 			// 
-			kryptonComboBox24.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox24.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox24.DropDownWidth = 75;
-			kryptonComboBox24.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox24.Location = new Point(391, 206);
-			kryptonComboBox24.Name = "kryptonComboBox24";
-			kryptonComboBox24.Size = new Size(35, 22);
-			kryptonComboBox24.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox24.TabIndex = 102;
+			kryptonComboBoxLetterZ.AccessibleDescription = "Wählt die Art des Buchstabens Z";
+			kryptonComboBoxLetterZ.AccessibleName = "Art des Buchstabens Z";
+			kryptonComboBoxLetterZ.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterZ.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterZ.DropDownWidth = 75;
+			kryptonComboBoxLetterZ.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterZ.Location = new Point(377, 206);
+			kryptonComboBoxLetterZ.Name = "kryptonComboBoxLetterZ";
+			kryptonComboBoxLetterZ.Size = new Size(35, 22);
+			kryptonComboBoxLetterZ.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterZ.TabIndex = 102;
+			kryptonComboBoxLetterZ.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterZ.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterZ.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterZ.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonLabel47
+			// kryptonLabelLetterZPercent
 			// 
-			kryptonLabel47.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel47.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel47.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel47.Location = new Point(501, 208);
-			kryptonLabel47.Name = "kryptonLabel47";
-			kryptonLabel47.Size = new Size(21, 20);
-			kryptonLabel47.TabIndex = 0;
-			kryptonLabel47.Values.Text = "%";
+			kryptonLabelLetterZPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben Z an";
+			kryptonLabelLetterZPercent.AccessibleName = "Prozentzeichen für den Buchstabe Z";
+			kryptonLabelLetterZPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterZPercent.Location = new Point(487, 208);
+			kryptonLabelLetterZPercent.Name = "kryptonLabelLetterZPercent";
+			kryptonLabelLetterZPercent.Size = new Size(21, 20);
+			kryptonLabelLetterZPercent.TabIndex = 0;
+			kryptonLabelLetterZPercent.Values.Text = "%";
+			kryptonLabelLetterZPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterZPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterZPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterZPercent.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonNumericUpDown24
+			// kryptonNumericUpDownLetterZ
 			// 
-			kryptonNumericUpDown24.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown24.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown24.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown24.AllowDecimals = true;
-			kryptonNumericUpDown24.DecimalPlaces = 2;
-			kryptonNumericUpDown24.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown24.Location = new Point(432, 206);
-			kryptonNumericUpDown24.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown24.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown24.Name = "kryptonNumericUpDown24";
-			kryptonNumericUpDown24.Size = new Size(63, 22);
-			kryptonNumericUpDown24.TabIndex = 103;
-			kryptonNumericUpDown24.ThousandsSeparator = true;
-			kryptonNumericUpDown24.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterZ.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben Z";
+			kryptonNumericUpDownLetterZ.AccessibleName = "Relative Häufigkeit für den Buchstaben Z";
+			kryptonNumericUpDownLetterZ.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterZ.AllowDecimals = true;
+			kryptonNumericUpDownLetterZ.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterZ.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterZ.Location = new Point(418, 206);
+			kryptonNumericUpDownLetterZ.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterZ.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterZ.Name = "kryptonNumericUpDownLetterZ";
+			kryptonNumericUpDownLetterZ.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterZ.TabIndex = 103;
+			kryptonNumericUpDownLetterZ.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterZ.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterZ.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterZ.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterZ.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterZ.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonLabel48
+			// kryptonLabelLetterZ
 			// 
-			kryptonLabel48.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel48.AccessibleName = "Buchstabe A";
-			kryptonLabel48.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel48.Location = new Point(364, 208);
-			kryptonLabel48.Name = "kryptonLabel48";
-			kryptonLabel48.Size = new Size(20, 20);
-			kryptonLabel48.TabIndex = 101;
-			kryptonLabel48.Values.Text = "&Z:";
+			kryptonLabelLetterZ.AccessibleDescription = "Zeigt den Buchstabe Z an";
+			kryptonLabelLetterZ.AccessibleName = "Buchstabe Z";
+			kryptonLabelLetterZ.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterZ.Location = new Point(350, 208);
+			kryptonLabelLetterZ.Name = "kryptonLabelLetterZ";
+			kryptonLabelLetterZ.Size = new Size(20, 20);
+			kryptonLabelLetterZ.TabIndex = 101;
+			kryptonLabelLetterZ.Values.Text = "&Z:";
+			kryptonLabelLetterZ.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterZ.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterZ.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterZ.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonComboBox25
+			// kryptonComboBoxLetterY
 			// 
-			kryptonComboBox25.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox25.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox25.DropDownWidth = 75;
-			kryptonComboBox25.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox25.Location = new Point(391, 178);
-			kryptonComboBox25.Name = "kryptonComboBox25";
-			kryptonComboBox25.Size = new Size(35, 22);
-			kryptonComboBox25.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox25.TabIndex = 98;
+			kryptonComboBoxLetterY.AccessibleDescription = "Wählt die Art des Buchstabens Y";
+			kryptonComboBoxLetterY.AccessibleName = "Art des Buchstabens Y";
+			kryptonComboBoxLetterY.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterY.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterY.DropDownWidth = 75;
+			kryptonComboBoxLetterY.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterY.Location = new Point(377, 178);
+			kryptonComboBoxLetterY.Name = "kryptonComboBoxLetterY";
+			kryptonComboBoxLetterY.Size = new Size(35, 22);
+			kryptonComboBoxLetterY.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterY.TabIndex = 98;
+			kryptonComboBoxLetterY.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterY.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterY.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterY.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonLabel49
+			// kryptonLabelLetterYPercent
 			// 
-			kryptonLabel49.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel49.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel49.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel49.Location = new Point(501, 180);
-			kryptonLabel49.Name = "kryptonLabel49";
-			kryptonLabel49.Size = new Size(21, 20);
-			kryptonLabel49.TabIndex = 100;
-			kryptonLabel49.Values.Text = "%";
+			kryptonLabelLetterYPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben Y an";
+			kryptonLabelLetterYPercent.AccessibleName = "Prozentzeichen für den Buchstabe Y";
+			kryptonLabelLetterYPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterYPercent.Location = new Point(487, 180);
+			kryptonLabelLetterYPercent.Name = "kryptonLabelLetterYPercent";
+			kryptonLabelLetterYPercent.Size = new Size(21, 20);
+			kryptonLabelLetterYPercent.TabIndex = 100;
+			kryptonLabelLetterYPercent.Values.Text = "%";
+			kryptonLabelLetterYPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterYPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterYPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterYPercent.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonNumericUpDown25
+			// kryptonNumericUpDownLetterY
 			// 
-			kryptonNumericUpDown25.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown25.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown25.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown25.AllowDecimals = true;
-			kryptonNumericUpDown25.DecimalPlaces = 2;
-			kryptonNumericUpDown25.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown25.Location = new Point(432, 178);
-			kryptonNumericUpDown25.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown25.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown25.Name = "kryptonNumericUpDown25";
-			kryptonNumericUpDown25.Size = new Size(63, 22);
-			kryptonNumericUpDown25.TabIndex = 99;
-			kryptonNumericUpDown25.ThousandsSeparator = true;
-			kryptonNumericUpDown25.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterY.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben Y";
+			kryptonNumericUpDownLetterY.AccessibleName = "Relative Häufigkeit für den Buchstaben Y";
+			kryptonNumericUpDownLetterY.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterY.AllowDecimals = true;
+			kryptonNumericUpDownLetterY.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterY.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterY.Location = new Point(418, 178);
+			kryptonNumericUpDownLetterY.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterY.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterY.Name = "kryptonNumericUpDownLetterY";
+			kryptonNumericUpDownLetterY.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterY.TabIndex = 99;
+			kryptonNumericUpDownLetterY.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterY.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterY.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterY.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterY.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterY.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonLabel50
+			// kryptonLabelLetterY
 			// 
-			kryptonLabel50.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel50.AccessibleName = "Buchstabe A";
-			kryptonLabel50.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel50.Location = new Point(364, 180);
-			kryptonLabel50.Name = "kryptonLabel50";
-			kryptonLabel50.Size = new Size(20, 20);
-			kryptonLabel50.TabIndex = 97;
-			kryptonLabel50.Values.Text = "&Y:";
+			kryptonLabelLetterY.AccessibleDescription = "Zeigt den Buchstabe Y an";
+			kryptonLabelLetterY.AccessibleName = "Buchstabe Y";
+			kryptonLabelLetterY.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterY.Location = new Point(350, 180);
+			kryptonLabelLetterY.Name = "kryptonLabelLetterY";
+			kryptonLabelLetterY.Size = new Size(20, 20);
+			kryptonLabelLetterY.TabIndex = 97;
+			kryptonLabelLetterY.Values.Text = "&Y:";
+			kryptonLabelLetterY.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterY.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterY.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterY.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonComboBox12
+			// kryptonComboBoxLetterX
 			// 
-			kryptonComboBox12.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox12.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox12.DropDownWidth = 75;
-			kryptonComboBox12.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox12.Location = new Point(391, 150);
-			kryptonComboBox12.Name = "kryptonComboBox12";
-			kryptonComboBox12.Size = new Size(35, 22);
-			kryptonComboBox12.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox12.TabIndex = 94;
+			kryptonComboBoxLetterX.AccessibleDescription = "Wählt die Art des Buchstabens X";
+			kryptonComboBoxLetterX.AccessibleName = "Art des Buchstabens X";
+			kryptonComboBoxLetterX.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterX.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterX.DropDownWidth = 75;
+			kryptonComboBoxLetterX.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterX.Location = new Point(377, 150);
+			kryptonComboBoxLetterX.Name = "kryptonComboBoxLetterX";
+			kryptonComboBoxLetterX.Size = new Size(35, 22);
+			kryptonComboBoxLetterX.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterX.TabIndex = 94;
+			kryptonComboBoxLetterX.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterX.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterX.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterX.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonLabel23
+			// kryptonLabelLetterXPercent
 			// 
-			kryptonLabel23.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel23.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel23.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel23.Location = new Point(501, 152);
-			kryptonLabel23.Name = "kryptonLabel23";
-			kryptonLabel23.Size = new Size(21, 20);
-			kryptonLabel23.TabIndex = 96;
-			kryptonLabel23.Values.Text = "%";
+			kryptonLabelLetterXPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben X an";
+			kryptonLabelLetterXPercent.AccessibleName = "Prozentzeichen für den Buchstabe X";
+			kryptonLabelLetterXPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterXPercent.Location = new Point(487, 152);
+			kryptonLabelLetterXPercent.Name = "kryptonLabelLetterXPercent";
+			kryptonLabelLetterXPercent.Size = new Size(21, 20);
+			kryptonLabelLetterXPercent.TabIndex = 96;
+			kryptonLabelLetterXPercent.Values.Text = "%";
+			kryptonLabelLetterXPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterXPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterXPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterXPercent.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonNumericUpDown12
+			// kryptonNumericUpDownLetterX
 			// 
-			kryptonNumericUpDown12.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown12.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown12.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown12.AllowDecimals = true;
-			kryptonNumericUpDown12.DecimalPlaces = 2;
-			kryptonNumericUpDown12.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown12.Location = new Point(432, 150);
-			kryptonNumericUpDown12.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown12.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown12.Name = "kryptonNumericUpDown12";
-			kryptonNumericUpDown12.Size = new Size(63, 22);
-			kryptonNumericUpDown12.TabIndex = 95;
-			kryptonNumericUpDown12.ThousandsSeparator = true;
-			kryptonNumericUpDown12.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterX.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben X";
+			kryptonNumericUpDownLetterX.AccessibleName = "Relative Häufigkeit für den Buchstaben X";
+			kryptonNumericUpDownLetterX.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterX.AllowDecimals = true;
+			kryptonNumericUpDownLetterX.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterX.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterX.Location = new Point(418, 150);
+			kryptonNumericUpDownLetterX.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterX.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterX.Name = "kryptonNumericUpDownLetterX";
+			kryptonNumericUpDownLetterX.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterX.TabIndex = 95;
+			kryptonNumericUpDownLetterX.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterX.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterX.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterX.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterX.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterX.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonLabel24
+			// kryptonLabelLetterX
 			// 
-			kryptonLabel24.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel24.AccessibleName = "Buchstabe A";
-			kryptonLabel24.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel24.Location = new Point(364, 152);
-			kryptonLabel24.Name = "kryptonLabel24";
-			kryptonLabel24.Size = new Size(20, 20);
-			kryptonLabel24.TabIndex = 93;
-			kryptonLabel24.Values.Text = "&X:";
+			kryptonLabelLetterX.AccessibleDescription = "Zeigt den Buchstabe X an";
+			kryptonLabelLetterX.AccessibleName = "Buchstabe X";
+			kryptonLabelLetterX.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterX.Location = new Point(350, 152);
+			kryptonLabelLetterX.Name = "kryptonLabelLetterX";
+			kryptonLabelLetterX.Size = new Size(20, 20);
+			kryptonLabelLetterX.TabIndex = 93;
+			kryptonLabelLetterX.Values.Text = "&X:";
+			kryptonLabelLetterX.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterX.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterX.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterX.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonComboBox13
+			// kryptonComboBoxLetterW
 			// 
-			kryptonComboBox13.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox13.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox13.DropDownWidth = 75;
-			kryptonComboBox13.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox13.Location = new Point(391, 122);
-			kryptonComboBox13.Name = "kryptonComboBox13";
-			kryptonComboBox13.Size = new Size(35, 22);
-			kryptonComboBox13.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox13.TabIndex = 90;
+			kryptonComboBoxLetterW.AccessibleDescription = "Wählt die Art des Buchstabens W";
+			kryptonComboBoxLetterW.AccessibleName = "Art des Buchstabens W";
+			kryptonComboBoxLetterW.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterW.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterW.DropDownWidth = 75;
+			kryptonComboBoxLetterW.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterW.Location = new Point(377, 122);
+			kryptonComboBoxLetterW.Name = "kryptonComboBoxLetterW";
+			kryptonComboBoxLetterW.Size = new Size(35, 22);
+			kryptonComboBoxLetterW.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterW.TabIndex = 90;
+			kryptonComboBoxLetterW.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterW.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterW.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterW.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonLabel25
+			// kryptonLabelLetterWPercent
 			// 
-			kryptonLabel25.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel25.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel25.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel25.Location = new Point(501, 124);
-			kryptonLabel25.Name = "kryptonLabel25";
-			kryptonLabel25.Size = new Size(21, 20);
-			kryptonLabel25.TabIndex = 92;
-			kryptonLabel25.Values.Text = "%";
+			kryptonLabelLetterWPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben W an";
+			kryptonLabelLetterWPercent.AccessibleName = "Prozentzeichen für den Buchstabe W";
+			kryptonLabelLetterWPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterWPercent.Location = new Point(487, 124);
+			kryptonLabelLetterWPercent.Name = "kryptonLabelLetterWPercent";
+			kryptonLabelLetterWPercent.Size = new Size(21, 20);
+			kryptonLabelLetterWPercent.TabIndex = 92;
+			kryptonLabelLetterWPercent.Values.Text = "%";
+			kryptonLabelLetterWPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterWPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterWPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterWPercent.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonNumericUpDown13
+			// kryptonNumericUpDownLetterW
 			// 
-			kryptonNumericUpDown13.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown13.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown13.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown13.AllowDecimals = true;
-			kryptonNumericUpDown13.DecimalPlaces = 2;
-			kryptonNumericUpDown13.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown13.Location = new Point(432, 122);
-			kryptonNumericUpDown13.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown13.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown13.Name = "kryptonNumericUpDown13";
-			kryptonNumericUpDown13.Size = new Size(63, 22);
-			kryptonNumericUpDown13.TabIndex = 91;
-			kryptonNumericUpDown13.ThousandsSeparator = true;
-			kryptonNumericUpDown13.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterW.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben W";
+			kryptonNumericUpDownLetterW.AccessibleName = "Relative Häufigkeit für den Buchstaben W";
+			kryptonNumericUpDownLetterW.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterW.AllowDecimals = true;
+			kryptonNumericUpDownLetterW.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterW.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterW.Location = new Point(418, 122);
+			kryptonNumericUpDownLetterW.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterW.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterW.Name = "kryptonNumericUpDownLetterW";
+			kryptonNumericUpDownLetterW.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterW.TabIndex = 91;
+			kryptonNumericUpDownLetterW.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterW.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterW.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterW.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterW.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterW.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonLabel26
+			// kryptonLabelLetterW
 			// 
-			kryptonLabel26.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel26.AccessibleName = "Buchstabe A";
-			kryptonLabel26.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel26.Location = new Point(364, 124);
-			kryptonLabel26.Name = "kryptonLabel26";
-			kryptonLabel26.Size = new Size(21, 20);
-			kryptonLabel26.TabIndex = 89;
-			kryptonLabel26.Values.Text = "&V:";
+			kryptonLabelLetterW.AccessibleDescription = "Zeigt den Buchstabe W an";
+			kryptonLabelLetterW.AccessibleName = "Buchstabe W";
+			kryptonLabelLetterW.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterW.Location = new Point(350, 124);
+			kryptonLabelLetterW.Name = "kryptonLabelLetterW";
+			kryptonLabelLetterW.Size = new Size(25, 20);
+			kryptonLabelLetterW.TabIndex = 89;
+			kryptonLabelLetterW.Values.Text = "&W:";
+			kryptonLabelLetterW.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterW.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterW.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterW.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonComboBox14
+			// kryptonComboBoxLetterV
 			// 
-			kryptonComboBox14.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox14.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox14.DropDownWidth = 75;
-			kryptonComboBox14.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox14.Location = new Point(391, 94);
-			kryptonComboBox14.Name = "kryptonComboBox14";
-			kryptonComboBox14.Size = new Size(35, 22);
-			kryptonComboBox14.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox14.TabIndex = 86;
+			kryptonComboBoxLetterV.AccessibleDescription = "Wählt die Art des Buchstabens V";
+			kryptonComboBoxLetterV.AccessibleName = "Art des Buchstabens V";
+			kryptonComboBoxLetterV.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterV.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterV.DropDownWidth = 75;
+			kryptonComboBoxLetterV.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterV.Location = new Point(377, 94);
+			kryptonComboBoxLetterV.Name = "kryptonComboBoxLetterV";
+			kryptonComboBoxLetterV.Size = new Size(35, 22);
+			kryptonComboBoxLetterV.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterV.TabIndex = 86;
+			kryptonComboBoxLetterV.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterV.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterV.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterV.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonLabel27
+			// kryptonLabelLetterVPercent
 			// 
-			kryptonLabel27.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel27.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel27.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel27.Location = new Point(501, 96);
-			kryptonLabel27.Name = "kryptonLabel27";
-			kryptonLabel27.Size = new Size(21, 20);
-			kryptonLabel27.TabIndex = 88;
-			kryptonLabel27.Values.Text = "%";
+			kryptonLabelLetterVPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben V an";
+			kryptonLabelLetterVPercent.AccessibleName = "Prozentzeichen für den Buchstabe V";
+			kryptonLabelLetterVPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterVPercent.Location = new Point(487, 96);
+			kryptonLabelLetterVPercent.Name = "kryptonLabelLetterVPercent";
+			kryptonLabelLetterVPercent.Size = new Size(21, 20);
+			kryptonLabelLetterVPercent.TabIndex = 88;
+			kryptonLabelLetterVPercent.Values.Text = "%";
+			kryptonLabelLetterVPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterVPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterVPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterVPercent.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonNumericUpDown14
+			// kryptonNumericUpDownLetterV
 			// 
-			kryptonNumericUpDown14.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown14.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown14.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown14.AllowDecimals = true;
-			kryptonNumericUpDown14.DecimalPlaces = 2;
-			kryptonNumericUpDown14.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown14.Location = new Point(432, 94);
-			kryptonNumericUpDown14.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown14.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown14.Name = "kryptonNumericUpDown14";
-			kryptonNumericUpDown14.Size = new Size(63, 22);
-			kryptonNumericUpDown14.TabIndex = 87;
-			kryptonNumericUpDown14.ThousandsSeparator = true;
-			kryptonNumericUpDown14.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterV.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben V";
+			kryptonNumericUpDownLetterV.AccessibleName = "Relative Häufigkeit für den Buchstaben V";
+			kryptonNumericUpDownLetterV.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterV.AllowDecimals = true;
+			kryptonNumericUpDownLetterV.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterV.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterV.Location = new Point(418, 94);
+			kryptonNumericUpDownLetterV.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterV.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterV.Name = "kryptonNumericUpDownLetterV";
+			kryptonNumericUpDownLetterV.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterV.TabIndex = 87;
+			kryptonNumericUpDownLetterV.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterV.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterV.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterV.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterV.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterV.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonLabel28
+			// kryptonLabelLetterV
 			// 
-			kryptonLabel28.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel28.AccessibleName = "Buchstabe A";
-			kryptonLabel28.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel28.Location = new Point(364, 96);
-			kryptonLabel28.Name = "kryptonLabel28";
-			kryptonLabel28.Size = new Size(21, 20);
-			kryptonLabel28.TabIndex = 85;
-			kryptonLabel28.Values.Text = "&V:";
+			kryptonLabelLetterV.AccessibleDescription = "Zeigt den Buchstabe V an";
+			kryptonLabelLetterV.AccessibleName = "Buchstabe V";
+			kryptonLabelLetterV.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterV.Location = new Point(350, 96);
+			kryptonLabelLetterV.Name = "kryptonLabelLetterV";
+			kryptonLabelLetterV.Size = new Size(21, 20);
+			kryptonLabelLetterV.TabIndex = 85;
+			kryptonLabelLetterV.Values.Text = "&V:";
+			kryptonLabelLetterV.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterV.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterV.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterV.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonComboBox15
+			// kryptonComboBoxLetterU
 			// 
-			kryptonComboBox15.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox15.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox15.DropDownWidth = 75;
-			kryptonComboBox15.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox15.Location = new Point(391, 66);
-			kryptonComboBox15.Name = "kryptonComboBox15";
-			kryptonComboBox15.Size = new Size(35, 22);
-			kryptonComboBox15.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox15.TabIndex = 82;
+			kryptonComboBoxLetterU.AccessibleDescription = "Wählt die Art des Buchstabens U";
+			kryptonComboBoxLetterU.AccessibleName = "Art des Buchstabens U";
+			kryptonComboBoxLetterU.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterU.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterU.DropDownWidth = 75;
+			kryptonComboBoxLetterU.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterU.Location = new Point(377, 66);
+			kryptonComboBoxLetterU.Name = "kryptonComboBoxLetterU";
+			kryptonComboBoxLetterU.Size = new Size(35, 22);
+			kryptonComboBoxLetterU.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterU.TabIndex = 82;
+			kryptonComboBoxLetterU.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterU.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterU.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterU.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonLabel29
+			// kryptonLabelLetterUPercent
 			// 
-			kryptonLabel29.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel29.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel29.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel29.Location = new Point(501, 68);
-			kryptonLabel29.Name = "kryptonLabel29";
-			kryptonLabel29.Size = new Size(21, 20);
-			kryptonLabel29.TabIndex = 84;
-			kryptonLabel29.Values.Text = "%";
+			kryptonLabelLetterUPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben U an";
+			kryptonLabelLetterUPercent.AccessibleName = "Prozentzeichen für den Buchstabe U";
+			kryptonLabelLetterUPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterUPercent.Location = new Point(487, 68);
+			kryptonLabelLetterUPercent.Name = "kryptonLabelLetterUPercent";
+			kryptonLabelLetterUPercent.Size = new Size(21, 20);
+			kryptonLabelLetterUPercent.TabIndex = 84;
+			kryptonLabelLetterUPercent.Values.Text = "%";
+			kryptonLabelLetterUPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterUPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterUPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterUPercent.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonNumericUpDown15
+			// kryptonNumericUpDownLetterU
 			// 
-			kryptonNumericUpDown15.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown15.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown15.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown15.AllowDecimals = true;
-			kryptonNumericUpDown15.DecimalPlaces = 2;
-			kryptonNumericUpDown15.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown15.Location = new Point(432, 66);
-			kryptonNumericUpDown15.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown15.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown15.Name = "kryptonNumericUpDown15";
-			kryptonNumericUpDown15.Size = new Size(63, 22);
-			kryptonNumericUpDown15.TabIndex = 83;
-			kryptonNumericUpDown15.ThousandsSeparator = true;
-			kryptonNumericUpDown15.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterU.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben U";
+			kryptonNumericUpDownLetterU.AccessibleName = "Relative Häufigkeit für den Buchstaben U";
+			kryptonNumericUpDownLetterU.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterU.AllowDecimals = true;
+			kryptonNumericUpDownLetterU.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterU.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterU.Location = new Point(418, 66);
+			kryptonNumericUpDownLetterU.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterU.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterU.Name = "kryptonNumericUpDownLetterU";
+			kryptonNumericUpDownLetterU.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterU.TabIndex = 83;
+			kryptonNumericUpDownLetterU.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterU.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterU.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterU.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterU.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterU.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonLabel30
+			// kryptonLabelLetterU
 			// 
-			kryptonLabel30.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel30.AccessibleName = "Buchstabe A";
-			kryptonLabel30.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel30.Location = new Point(364, 68);
-			kryptonLabel30.Name = "kryptonLabel30";
-			kryptonLabel30.Size = new Size(22, 20);
-			kryptonLabel30.TabIndex = 81;
-			kryptonLabel30.Values.Text = "&U:";
+			kryptonLabelLetterU.AccessibleDescription = "Zeigt den Buchstabe U an";
+			kryptonLabelLetterU.AccessibleName = "Buchstabe U";
+			kryptonLabelLetterU.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterU.Location = new Point(350, 68);
+			kryptonLabelLetterU.Name = "kryptonLabelLetterU";
+			kryptonLabelLetterU.Size = new Size(22, 20);
+			kryptonLabelLetterU.TabIndex = 81;
+			kryptonLabelLetterU.Values.Text = "&U:";
+			kryptonLabelLetterU.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterU.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterU.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterU.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonComboBox16
+			// kryptonComboBoxLetterT
 			// 
-			kryptonComboBox16.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox16.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox16.DropDownWidth = 75;
-			kryptonComboBox16.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox16.Location = new Point(391, 38);
-			kryptonComboBox16.Name = "kryptonComboBox16";
-			kryptonComboBox16.Size = new Size(35, 22);
-			kryptonComboBox16.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox16.TabIndex = 78;
+			kryptonComboBoxLetterT.AccessibleDescription = "Wählt die Art des Buchstabens T";
+			kryptonComboBoxLetterT.AccessibleName = "Art des Buchstabens T";
+			kryptonComboBoxLetterT.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterT.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterT.DropDownWidth = 75;
+			kryptonComboBoxLetterT.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterT.Location = new Point(377, 38);
+			kryptonComboBoxLetterT.Name = "kryptonComboBoxLetterT";
+			kryptonComboBoxLetterT.Size = new Size(35, 22);
+			kryptonComboBoxLetterT.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterT.TabIndex = 78;
+			kryptonComboBoxLetterT.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterT.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterT.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterT.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonLabel31
+			// kryptonLabelLetterTPercent
 			// 
-			kryptonLabel31.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel31.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel31.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel31.Location = new Point(501, 40);
-			kryptonLabel31.Name = "kryptonLabel31";
-			kryptonLabel31.Size = new Size(21, 20);
-			kryptonLabel31.TabIndex = 80;
-			kryptonLabel31.Values.Text = "%";
+			kryptonLabelLetterTPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben T an";
+			kryptonLabelLetterTPercent.AccessibleName = "Prozentzeichen für den Buchstabe T";
+			kryptonLabelLetterTPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterTPercent.Location = new Point(487, 40);
+			kryptonLabelLetterTPercent.Name = "kryptonLabelLetterTPercent";
+			kryptonLabelLetterTPercent.Size = new Size(21, 20);
+			kryptonLabelLetterTPercent.TabIndex = 80;
+			kryptonLabelLetterTPercent.Values.Text = "%";
+			kryptonLabelLetterTPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterTPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterTPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterTPercent.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonNumericUpDown16
+			// kryptonNumericUpDownLetterT
 			// 
-			kryptonNumericUpDown16.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown16.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown16.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown16.AllowDecimals = true;
-			kryptonNumericUpDown16.DecimalPlaces = 2;
-			kryptonNumericUpDown16.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown16.Location = new Point(432, 38);
-			kryptonNumericUpDown16.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown16.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown16.Name = "kryptonNumericUpDown16";
-			kryptonNumericUpDown16.Size = new Size(63, 22);
-			kryptonNumericUpDown16.TabIndex = 79;
-			kryptonNumericUpDown16.ThousandsSeparator = true;
-			kryptonNumericUpDown16.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterT.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben T";
+			kryptonNumericUpDownLetterT.AccessibleName = "Relative Häufigkeit für den Buchstaben T";
+			kryptonNumericUpDownLetterT.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterT.AllowDecimals = true;
+			kryptonNumericUpDownLetterT.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterT.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterT.Location = new Point(418, 38);
+			kryptonNumericUpDownLetterT.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterT.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterT.Name = "kryptonNumericUpDownLetterT";
+			kryptonNumericUpDownLetterT.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterT.TabIndex = 79;
+			kryptonNumericUpDownLetterT.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterT.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterT.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterT.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterT.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterT.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonLabel32
+			// kryptonLabelLetterT
 			// 
-			kryptonLabel32.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel32.AccessibleName = "Buchstabe A";
-			kryptonLabel32.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel32.Location = new Point(364, 40);
-			kryptonLabel32.Name = "kryptonLabel32";
-			kryptonLabel32.Size = new Size(20, 20);
-			kryptonLabel32.TabIndex = 77;
-			kryptonLabel32.Values.Text = "&T:";
+			kryptonLabelLetterT.AccessibleDescription = "Zeigt den Buchstabe T an";
+			kryptonLabelLetterT.AccessibleName = "Buchstabe T";
+			kryptonLabelLetterT.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterT.Location = new Point(350, 40);
+			kryptonLabelLetterT.Name = "kryptonLabelLetterT";
+			kryptonLabelLetterT.Size = new Size(20, 20);
+			kryptonLabelLetterT.TabIndex = 77;
+			kryptonLabelLetterT.Values.Text = "&T:";
+			kryptonLabelLetterT.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterT.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterT.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterT.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonComboBox17
+			// kryptonComboBoxLetterS
 			// 
-			kryptonComboBox17.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox17.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox17.DropDownWidth = 75;
-			kryptonComboBox17.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox17.Location = new Point(391, 10);
-			kryptonComboBox17.Name = "kryptonComboBox17";
-			kryptonComboBox17.Size = new Size(35, 22);
-			kryptonComboBox17.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox17.TabIndex = 74;
+			kryptonComboBoxLetterS.AccessibleDescription = "Wählt die Art des Buchstabens S";
+			kryptonComboBoxLetterS.AccessibleName = "Art des Buchstabens S";
+			kryptonComboBoxLetterS.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterS.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterS.DropDownWidth = 75;
+			kryptonComboBoxLetterS.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterS.Location = new Point(377, 10);
+			kryptonComboBoxLetterS.Name = "kryptonComboBoxLetterS";
+			kryptonComboBoxLetterS.Size = new Size(35, 22);
+			kryptonComboBoxLetterS.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterS.TabIndex = 74;
+			kryptonComboBoxLetterS.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterS.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterS.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterS.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonLabel33
+			// kryptonLabelLetterSPercent
 			// 
-			kryptonLabel33.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel33.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel33.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel33.Location = new Point(501, 12);
-			kryptonLabel33.Name = "kryptonLabel33";
-			kryptonLabel33.Size = new Size(21, 20);
-			kryptonLabel33.TabIndex = 76;
-			kryptonLabel33.Values.Text = "%";
+			kryptonLabelLetterSPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben S an";
+			kryptonLabelLetterSPercent.AccessibleName = "Prozentzeichen für den Buchstabe S";
+			kryptonLabelLetterSPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterSPercent.Location = new Point(487, 12);
+			kryptonLabelLetterSPercent.Name = "kryptonLabelLetterSPercent";
+			kryptonLabelLetterSPercent.Size = new Size(21, 20);
+			kryptonLabelLetterSPercent.TabIndex = 76;
+			kryptonLabelLetterSPercent.Values.Text = "%";
+			kryptonLabelLetterSPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterSPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterSPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterSPercent.MouseLeave += ClearStatusBar_Leave;
 			// 
 			// kryptonNumericUpDown17
 			// 
-			kryptonNumericUpDown17.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown17.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
+			kryptonNumericUpDown17.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben S";
+			kryptonNumericUpDown17.AccessibleName = "Relative Häufigkeit für den Buchstaben S";
 			kryptonNumericUpDown17.AccessibleRole = AccessibleRole.SpinButton;
 			kryptonNumericUpDown17.AllowDecimals = true;
 			kryptonNumericUpDown17.DecimalPlaces = 2;
 			kryptonNumericUpDown17.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown17.Location = new Point(432, 10);
+			kryptonNumericUpDown17.Location = new Point(418, 10);
 			kryptonNumericUpDown17.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
 			kryptonNumericUpDown17.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
 			kryptonNumericUpDown17.Name = "kryptonNumericUpDown17";
@@ -743,45 +879,63 @@
 			kryptonNumericUpDown17.TabIndex = 75;
 			kryptonNumericUpDown17.ThousandsSeparator = true;
 			kryptonNumericUpDown17.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDown17.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDown17.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDown17.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDown17.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonLabel34
+			// kryptonLabelLetterS
 			// 
-			kryptonLabel34.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel34.AccessibleName = "Buchstabe A";
-			kryptonLabel34.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel34.Location = new Point(364, 12);
-			kryptonLabel34.Name = "kryptonLabel34";
-			kryptonLabel34.Size = new Size(20, 20);
-			kryptonLabel34.TabIndex = 73;
-			kryptonLabel34.Values.Text = "&S:";
+			kryptonLabelLetterS.AccessibleDescription = "Zeigt den Buchstabe S an";
+			kryptonLabelLetterS.AccessibleName = "Buchstabe S";
+			kryptonLabelLetterS.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterS.Location = new Point(350, 12);
+			kryptonLabelLetterS.Name = "kryptonLabelLetterS";
+			kryptonLabelLetterS.Size = new Size(20, 20);
+			kryptonLabelLetterS.TabIndex = 73;
+			kryptonLabelLetterS.Values.Text = "&S:";
+			kryptonLabelLetterS.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterS.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterS.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterS.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonComboBox18
+			// kryptonComboBoxLetterR
 			// 
-			kryptonComboBox18.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox18.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox18.DropDownWidth = 75;
-			kryptonComboBox18.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox18.Location = new Point(208, 232);
-			kryptonComboBox18.Name = "kryptonComboBox18";
-			kryptonComboBox18.Size = new Size(35, 22);
-			kryptonComboBox18.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox18.TabIndex = 69;
+			kryptonComboBoxLetterR.AccessibleDescription = "Wählt die Art des Buchstabens R";
+			kryptonComboBoxLetterR.AccessibleName = "Art des Buchstabens R";
+			kryptonComboBoxLetterR.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterR.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterR.DropDownWidth = 75;
+			kryptonComboBoxLetterR.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterR.Location = new Point(208, 232);
+			kryptonComboBoxLetterR.Name = "kryptonComboBoxLetterR";
+			kryptonComboBoxLetterR.Size = new Size(35, 22);
+			kryptonComboBoxLetterR.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterR.TabIndex = 69;
+			kryptonComboBoxLetterR.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterR.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterR.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterR.MouseLeave += ClearStatusBar_Leave;
 			// 
-			// kryptonLabel35
+			// kryptonLabelLetterRPercent
 			// 
-			kryptonLabel35.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel35.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel35.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel35.Location = new Point(318, 234);
-			kryptonLabel35.Name = "kryptonLabel35";
-			kryptonLabel35.Size = new Size(21, 20);
-			kryptonLabel35.TabIndex = 71;
-			kryptonLabel35.Values.Text = "%";
+			kryptonLabelLetterRPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben R an";
+			kryptonLabelLetterRPercent.AccessibleName = "Prozentzeichen für den Buchstabe R";
+			kryptonLabelLetterRPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterRPercent.Location = new Point(318, 234);
+			kryptonLabelLetterRPercent.Name = "kryptonLabelLetterRPercent";
+			kryptonLabelLetterRPercent.Size = new Size(21, 20);
+			kryptonLabelLetterRPercent.TabIndex = 71;
+			kryptonLabelLetterRPercent.Values.Text = "%";
+			kryptonLabelLetterRPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterRPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterRPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterRPercent.MouseLeave += ClearStatusBar_Leave;
 			// 
 			// kryptonNumericUpDown18
 			// 
-			kryptonNumericUpDown18.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown18.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
+			kryptonNumericUpDown18.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben ";
+			kryptonNumericUpDown18.AccessibleName = "Relative Häufigkeit für den Buchstaben ";
 			kryptonNumericUpDown18.AccessibleRole = AccessibleRole.SpinButton;
 			kryptonNumericUpDown18.AllowDecimals = true;
 			kryptonNumericUpDown18.DecimalPlaces = 2;
@@ -794,836 +948,1134 @@
 			kryptonNumericUpDown18.TabIndex = 70;
 			kryptonNumericUpDown18.ThousandsSeparator = true;
 			kryptonNumericUpDown18.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
-			// 
-			// kryptonLabel36
-			// 
-			kryptonLabel36.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel36.AccessibleName = "Buchstabe A";
-			kryptonLabel36.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel36.Location = new Point(181, 234);
-			kryptonLabel36.Name = "kryptonLabel36";
-			kryptonLabel36.Size = new Size(21, 20);
-			kryptonLabel36.TabIndex = 68;
-			kryptonLabel36.Values.Text = "&R:";
-			// 
-			// kryptonComboBox19
-			// 
-			kryptonComboBox19.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox19.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox19.DropDownWidth = 75;
-			kryptonComboBox19.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox19.Location = new Point(208, 204);
-			kryptonComboBox19.Name = "kryptonComboBox19";
-			kryptonComboBox19.Size = new Size(35, 22);
-			kryptonComboBox19.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox19.TabIndex = 65;
-			// 
-			// kryptonLabel37
-			// 
-			kryptonLabel37.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel37.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel37.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel37.Location = new Point(318, 206);
-			kryptonLabel37.Name = "kryptonLabel37";
-			kryptonLabel37.Size = new Size(21, 20);
-			kryptonLabel37.TabIndex = 67;
-			kryptonLabel37.Values.Text = "%";
-			// 
-			// kryptonNumericUpDown19
-			// 
-			kryptonNumericUpDown19.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown19.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown19.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown19.AllowDecimals = true;
-			kryptonNumericUpDown19.DecimalPlaces = 2;
-			kryptonNumericUpDown19.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown19.Location = new Point(249, 204);
-			kryptonNumericUpDown19.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown19.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown19.Name = "kryptonNumericUpDown19";
-			kryptonNumericUpDown19.Size = new Size(63, 22);
-			kryptonNumericUpDown19.TabIndex = 66;
-			kryptonNumericUpDown19.ThousandsSeparator = true;
-			kryptonNumericUpDown19.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
-			// 
-			// kryptonLabel38
-			// 
-			kryptonLabel38.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel38.AccessibleName = "Buchstabe A";
-			kryptonLabel38.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel38.Location = new Point(181, 206);
-			kryptonLabel38.Name = "kryptonLabel38";
-			kryptonLabel38.Size = new Size(22, 20);
-			kryptonLabel38.TabIndex = 64;
-			kryptonLabel38.Values.Text = "&Q:";
-			// 
-			// kryptonComboBox20
-			// 
-			kryptonComboBox20.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox20.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox20.DropDownWidth = 75;
-			kryptonComboBox20.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox20.Location = new Point(208, 176);
-			kryptonComboBox20.Name = "kryptonComboBox20";
-			kryptonComboBox20.Size = new Size(35, 22);
-			kryptonComboBox20.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox20.TabIndex = 61;
-			// 
-			// kryptonLabel39
-			// 
-			kryptonLabel39.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel39.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel39.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel39.Location = new Point(318, 178);
-			kryptonLabel39.Name = "kryptonLabel39";
-			kryptonLabel39.Size = new Size(21, 20);
-			kryptonLabel39.TabIndex = 63;
-			kryptonLabel39.Values.Text = "%";
-			// 
-			// kryptonNumericUpDown20
-			// 
-			kryptonNumericUpDown20.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown20.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown20.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown20.AllowDecimals = true;
-			kryptonNumericUpDown20.DecimalPlaces = 2;
-			kryptonNumericUpDown20.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown20.Location = new Point(249, 176);
-			kryptonNumericUpDown20.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown20.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown20.Name = "kryptonNumericUpDown20";
-			kryptonNumericUpDown20.Size = new Size(63, 22);
-			kryptonNumericUpDown20.TabIndex = 62;
-			kryptonNumericUpDown20.ThousandsSeparator = true;
-			kryptonNumericUpDown20.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
-			// 
-			// kryptonLabel40
-			// 
-			kryptonLabel40.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel40.AccessibleName = "Buchstabe A";
-			kryptonLabel40.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel40.Location = new Point(181, 178);
-			kryptonLabel40.Name = "kryptonLabel40";
-			kryptonLabel40.Size = new Size(20, 20);
-			kryptonLabel40.TabIndex = 60;
-			kryptonLabel40.Values.Text = "&P:";
-			// 
-			// kryptonComboBox21
-			// 
-			kryptonComboBox21.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox21.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox21.DropDownWidth = 75;
-			kryptonComboBox21.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox21.Location = new Point(208, 148);
-			kryptonComboBox21.Name = "kryptonComboBox21";
-			kryptonComboBox21.Size = new Size(35, 22);
-			kryptonComboBox21.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox21.TabIndex = 57;
-			// 
-			// kryptonLabel41
-			// 
-			kryptonLabel41.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel41.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel41.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel41.Location = new Point(318, 150);
-			kryptonLabel41.Name = "kryptonLabel41";
-			kryptonLabel41.Size = new Size(21, 20);
-			kryptonLabel41.TabIndex = 59;
-			kryptonLabel41.Values.Text = "%";
-			// 
-			// kryptonNumericUpDown21
-			// 
-			kryptonNumericUpDown21.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown21.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown21.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown21.AllowDecimals = true;
-			kryptonNumericUpDown21.DecimalPlaces = 2;
-			kryptonNumericUpDown21.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown21.Location = new Point(249, 148);
-			kryptonNumericUpDown21.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown21.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown21.Name = "kryptonNumericUpDown21";
-			kryptonNumericUpDown21.Size = new Size(63, 22);
-			kryptonNumericUpDown21.TabIndex = 58;
-			kryptonNumericUpDown21.ThousandsSeparator = true;
-			kryptonNumericUpDown21.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
-			// 
-			// kryptonLabel42
-			// 
-			kryptonLabel42.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel42.AccessibleName = "Buchstabe A";
-			kryptonLabel42.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel42.Location = new Point(181, 150);
-			kryptonLabel42.Name = "kryptonLabel42";
-			kryptonLabel42.Size = new Size(22, 20);
-			kryptonLabel42.TabIndex = 56;
-			kryptonLabel42.Values.Text = "&O:";
-			// 
-			// kryptonComboBox22
-			// 
-			kryptonComboBox22.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox22.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox22.DropDownWidth = 75;
-			kryptonComboBox22.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox22.Location = new Point(208, 120);
-			kryptonComboBox22.Name = "kryptonComboBox22";
-			kryptonComboBox22.Size = new Size(35, 22);
-			kryptonComboBox22.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox22.TabIndex = 53;
-			// 
-			// kryptonLabel43
-			// 
-			kryptonLabel43.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel43.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel43.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel43.Location = new Point(318, 122);
-			kryptonLabel43.Name = "kryptonLabel43";
-			kryptonLabel43.Size = new Size(21, 20);
-			kryptonLabel43.TabIndex = 55;
-			kryptonLabel43.Values.Text = "%";
-			// 
-			// kryptonNumericUpDown22
-			// 
-			kryptonNumericUpDown22.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown22.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown22.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown22.AllowDecimals = true;
-			kryptonNumericUpDown22.DecimalPlaces = 2;
-			kryptonNumericUpDown22.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown22.Location = new Point(249, 120);
-			kryptonNumericUpDown22.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown22.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown22.Name = "kryptonNumericUpDown22";
-			kryptonNumericUpDown22.Size = new Size(63, 22);
-			kryptonNumericUpDown22.TabIndex = 54;
-			kryptonNumericUpDown22.ThousandsSeparator = true;
-			kryptonNumericUpDown22.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
-			// 
-			// kryptonLabel44
-			// 
-			kryptonLabel44.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel44.AccessibleName = "Buchstabe A";
-			kryptonLabel44.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel44.Location = new Point(181, 122);
-			kryptonLabel44.Name = "kryptonLabel44";
-			kryptonLabel44.Size = new Size(22, 20);
-			kryptonLabel44.TabIndex = 52;
-			kryptonLabel44.Values.Text = "&N:";
-			// 
-			// kryptonComboBox23
-			// 
-			kryptonComboBox23.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox23.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox23.DropDownWidth = 75;
-			kryptonComboBox23.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox23.Location = new Point(208, 92);
-			kryptonComboBox23.Name = "kryptonComboBox23";
-			kryptonComboBox23.Size = new Size(35, 22);
-			kryptonComboBox23.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox23.TabIndex = 49;
-			// 
-			// kryptonLabel45
-			// 
-			kryptonLabel45.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel45.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel45.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel45.Location = new Point(318, 94);
-			kryptonLabel45.Name = "kryptonLabel45";
-			kryptonLabel45.Size = new Size(21, 20);
-			kryptonLabel45.TabIndex = 51;
-			kryptonLabel45.Values.Text = "%";
-			// 
-			// kryptonNumericUpDown23
-			// 
-			kryptonNumericUpDown23.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown23.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown23.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown23.AllowDecimals = true;
-			kryptonNumericUpDown23.DecimalPlaces = 2;
-			kryptonNumericUpDown23.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown23.Location = new Point(249, 92);
-			kryptonNumericUpDown23.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown23.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown23.Name = "kryptonNumericUpDown23";
-			kryptonNumericUpDown23.Size = new Size(63, 22);
-			kryptonNumericUpDown23.TabIndex = 50;
-			kryptonNumericUpDown23.ThousandsSeparator = true;
-			kryptonNumericUpDown23.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
-			// 
-			// kryptonLabel46
-			// 
-			kryptonLabel46.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel46.AccessibleName = "Buchstabe A";
-			kryptonLabel46.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel46.Location = new Point(181, 94);
-			kryptonLabel46.Name = "kryptonLabel46";
-			kryptonLabel46.Size = new Size(24, 20);
-			kryptonLabel46.TabIndex = 48;
-			kryptonLabel46.Values.Text = "&M:";
-			// 
-			// kryptonComboBox11
-			// 
-			kryptonComboBox11.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox11.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox11.DropDownWidth = 75;
-			kryptonComboBox11.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox11.Location = new Point(208, 66);
-			kryptonComboBox11.Name = "kryptonComboBox11";
-			kryptonComboBox11.Size = new Size(35, 22);
-			kryptonComboBox11.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox11.TabIndex = 45;
-			// 
-			// kryptonLabel21
-			// 
-			kryptonLabel21.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel21.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel21.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel21.Location = new Point(318, 68);
-			kryptonLabel21.Name = "kryptonLabel21";
-			kryptonLabel21.Size = new Size(21, 20);
-			kryptonLabel21.TabIndex = 47;
-			kryptonLabel21.Values.Text = "%";
-			// 
-			// kryptonNumericUpDown11
-			// 
-			kryptonNumericUpDown11.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown11.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown11.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown11.AllowDecimals = true;
-			kryptonNumericUpDown11.DecimalPlaces = 2;
-			kryptonNumericUpDown11.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown11.Location = new Point(249, 66);
-			kryptonNumericUpDown11.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown11.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown11.Name = "kryptonNumericUpDown11";
-			kryptonNumericUpDown11.Size = new Size(63, 22);
-			kryptonNumericUpDown11.TabIndex = 46;
-			kryptonNumericUpDown11.ThousandsSeparator = true;
-			kryptonNumericUpDown11.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
-			// 
-			// kryptonLabel22
-			// 
-			kryptonLabel22.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel22.AccessibleName = "Buchstabe A";
-			kryptonLabel22.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel22.Location = new Point(181, 68);
-			kryptonLabel22.Name = "kryptonLabel22";
-			kryptonLabel22.Size = new Size(19, 20);
-			kryptonLabel22.TabIndex = 44;
-			kryptonLabel22.Values.Text = "&L:";
-			// 
-			// kryptonComboBox10
-			// 
-			kryptonComboBox10.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox10.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox10.DropDownWidth = 75;
-			kryptonComboBox10.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox10.Location = new Point(208, 38);
-			kryptonComboBox10.Name = "kryptonComboBox10";
-			kryptonComboBox10.Size = new Size(35, 22);
-			kryptonComboBox10.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox10.TabIndex = 41;
-			// 
-			// kryptonLabel19
-			// 
-			kryptonLabel19.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel19.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel19.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel19.Location = new Point(318, 40);
-			kryptonLabel19.Name = "kryptonLabel19";
-			kryptonLabel19.Size = new Size(21, 20);
-			kryptonLabel19.TabIndex = 43;
-			kryptonLabel19.Values.Text = "%";
-			// 
-			// kryptonNumericUpDown10
-			// 
-			kryptonNumericUpDown10.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown10.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown10.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown10.AllowDecimals = true;
-			kryptonNumericUpDown10.DecimalPlaces = 2;
-			kryptonNumericUpDown10.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown10.Location = new Point(249, 38);
-			kryptonNumericUpDown10.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown10.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown10.Name = "kryptonNumericUpDown10";
-			kryptonNumericUpDown10.Size = new Size(63, 22);
-			kryptonNumericUpDown10.TabIndex = 42;
-			kryptonNumericUpDown10.ThousandsSeparator = true;
-			kryptonNumericUpDown10.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
-			// 
-			// kryptonLabel20
-			// 
-			kryptonLabel20.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel20.AccessibleName = "Buchstabe A";
-			kryptonLabel20.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel20.Location = new Point(181, 40);
-			kryptonLabel20.Name = "kryptonLabel20";
-			kryptonLabel20.Size = new Size(20, 20);
-			kryptonLabel20.TabIndex = 40;
-			kryptonLabel20.Values.Text = "&K:";
-			// 
-			// kryptonComboBox9
-			// 
-			kryptonComboBox9.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox9.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox9.DropDownWidth = 75;
-			kryptonComboBox9.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox9.Location = new Point(208, 10);
-			kryptonComboBox9.Name = "kryptonComboBox9";
-			kryptonComboBox9.Size = new Size(35, 22);
-			kryptonComboBox9.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox9.TabIndex = 37;
-			// 
-			// kryptonLabel17
-			// 
-			kryptonLabel17.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel17.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel17.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel17.Location = new Point(318, 12);
-			kryptonLabel17.Name = "kryptonLabel17";
-			kryptonLabel17.Size = new Size(21, 20);
-			kryptonLabel17.TabIndex = 39;
-			kryptonLabel17.Values.Text = "%";
-			// 
-			// kryptonNumericUpDown9
-			// 
-			kryptonNumericUpDown9.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown9.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown9.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown9.AllowDecimals = true;
-			kryptonNumericUpDown9.DecimalPlaces = 2;
-			kryptonNumericUpDown9.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown9.Location = new Point(249, 10);
-			kryptonNumericUpDown9.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown9.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown9.Name = "kryptonNumericUpDown9";
-			kryptonNumericUpDown9.Size = new Size(63, 22);
-			kryptonNumericUpDown9.TabIndex = 38;
-			kryptonNumericUpDown9.ThousandsSeparator = true;
-			kryptonNumericUpDown9.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
-			// 
-			// kryptonLabel18
-			// 
-			kryptonLabel18.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel18.AccessibleName = "Buchstabe A";
-			kryptonLabel18.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel18.Location = new Point(181, 12);
-			kryptonLabel18.Name = "kryptonLabel18";
-			kryptonLabel18.Size = new Size(18, 20);
-			kryptonLabel18.TabIndex = 36;
-			kryptonLabel18.Values.Text = "&J:";
-			// 
-			// kryptonComboBox8
-			// 
-			kryptonComboBox8.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox8.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox8.DropDownWidth = 75;
-			kryptonComboBox8.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox8.Location = new Point(39, 234);
-			kryptonComboBox8.Name = "kryptonComboBox8";
-			kryptonComboBox8.Size = new Size(35, 22);
-			kryptonComboBox8.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox8.TabIndex = 33;
-			// 
-			// kryptonLabel15
-			// 
-			kryptonLabel15.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel15.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel15.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel15.Location = new Point(149, 236);
-			kryptonLabel15.Name = "kryptonLabel15";
-			kryptonLabel15.Size = new Size(21, 20);
-			kryptonLabel15.TabIndex = 35;
-			kryptonLabel15.Values.Text = "%";
-			// 
-			// kryptonNumericUpDown8
-			// 
-			kryptonNumericUpDown8.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown8.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown8.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown8.AllowDecimals = true;
-			kryptonNumericUpDown8.DecimalPlaces = 2;
-			kryptonNumericUpDown8.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown8.Location = new Point(80, 234);
-			kryptonNumericUpDown8.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown8.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown8.Name = "kryptonNumericUpDown8";
-			kryptonNumericUpDown8.Size = new Size(63, 22);
-			kryptonNumericUpDown8.TabIndex = 34;
-			kryptonNumericUpDown8.ThousandsSeparator = true;
-			kryptonNumericUpDown8.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
-			// 
-			// kryptonLabel16
-			// 
-			kryptonLabel16.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel16.AccessibleName = "Buchstabe A";
-			kryptonLabel16.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel16.Location = new Point(12, 236);
-			kryptonLabel16.Name = "kryptonLabel16";
-			kryptonLabel16.Size = new Size(16, 20);
-			kryptonLabel16.TabIndex = 32;
-			kryptonLabel16.Values.Text = "&I:";
-			// 
-			// kryptonComboBox7
-			// 
-			kryptonComboBox7.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox7.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox7.DropDownWidth = 75;
-			kryptonComboBox7.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox7.Location = new Point(39, 206);
-			kryptonComboBox7.Name = "kryptonComboBox7";
-			kryptonComboBox7.Size = new Size(35, 22);
-			kryptonComboBox7.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox7.TabIndex = 29;
-			// 
-			// kryptonLabel13
-			// 
-			kryptonLabel13.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel13.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel13.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel13.Location = new Point(149, 208);
-			kryptonLabel13.Name = "kryptonLabel13";
-			kryptonLabel13.Size = new Size(21, 20);
-			kryptonLabel13.TabIndex = 31;
-			kryptonLabel13.Values.Text = "%";
-			// 
-			// kryptonNumericUpDown7
-			// 
-			kryptonNumericUpDown7.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown7.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown7.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown7.AllowDecimals = true;
-			kryptonNumericUpDown7.DecimalPlaces = 2;
-			kryptonNumericUpDown7.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown7.Location = new Point(80, 206);
-			kryptonNumericUpDown7.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown7.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown7.Name = "kryptonNumericUpDown7";
-			kryptonNumericUpDown7.Size = new Size(63, 22);
-			kryptonNumericUpDown7.TabIndex = 30;
-			kryptonNumericUpDown7.ThousandsSeparator = true;
-			kryptonNumericUpDown7.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
-			// 
-			// kryptonLabel14
-			// 
-			kryptonLabel14.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel14.AccessibleName = "Buchstabe A";
-			kryptonLabel14.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel14.Location = new Point(12, 208);
-			kryptonLabel14.Name = "kryptonLabel14";
-			kryptonLabel14.Size = new Size(22, 20);
-			kryptonLabel14.TabIndex = 28;
-			kryptonLabel14.Values.Text = "&H:";
-			// 
-			// kryptonComboBox6
-			// 
-			kryptonComboBox6.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox6.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox6.DropDownWidth = 75;
-			kryptonComboBox6.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox6.Location = new Point(39, 178);
-			kryptonComboBox6.Name = "kryptonComboBox6";
-			kryptonComboBox6.Size = new Size(35, 22);
-			kryptonComboBox6.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox6.TabIndex = 25;
-			// 
-			// kryptonLabel11
-			// 
-			kryptonLabel11.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel11.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel11.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel11.Location = new Point(149, 180);
-			kryptonLabel11.Name = "kryptonLabel11";
-			kryptonLabel11.Size = new Size(21, 20);
-			kryptonLabel11.TabIndex = 27;
-			kryptonLabel11.Values.Text = "%";
-			// 
-			// kryptonNumericUpDown6
-			// 
-			kryptonNumericUpDown6.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown6.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown6.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown6.AllowDecimals = true;
-			kryptonNumericUpDown6.DecimalPlaces = 2;
-			kryptonNumericUpDown6.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown6.Location = new Point(80, 178);
-			kryptonNumericUpDown6.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown6.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown6.Name = "kryptonNumericUpDown6";
-			kryptonNumericUpDown6.Size = new Size(63, 22);
-			kryptonNumericUpDown6.TabIndex = 26;
-			kryptonNumericUpDown6.ThousandsSeparator = true;
-			kryptonNumericUpDown6.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
-			// 
-			// kryptonLabel12
-			// 
-			kryptonLabel12.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel12.AccessibleName = "Buchstabe A";
-			kryptonLabel12.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel12.Location = new Point(12, 180);
-			kryptonLabel12.Name = "kryptonLabel12";
-			kryptonLabel12.Size = new Size(22, 20);
-			kryptonLabel12.TabIndex = 24;
-			kryptonLabel12.Values.Text = "&G:";
-			// 
-			// kryptonComboBox5
-			// 
-			kryptonComboBox5.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox5.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox5.DropDownWidth = 75;
-			kryptonComboBox5.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox5.Location = new Point(39, 150);
-			kryptonComboBox5.Name = "kryptonComboBox5";
-			kryptonComboBox5.Size = new Size(35, 22);
-			kryptonComboBox5.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox5.TabIndex = 21;
-			// 
-			// kryptonLabel9
-			// 
-			kryptonLabel9.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel9.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel9.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel9.Location = new Point(149, 152);
-			kryptonLabel9.Name = "kryptonLabel9";
-			kryptonLabel9.Size = new Size(21, 20);
-			kryptonLabel9.TabIndex = 23;
-			kryptonLabel9.Values.Text = "%";
-			// 
-			// kryptonNumericUpDown5
-			// 
-			kryptonNumericUpDown5.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown5.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown5.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown5.AllowDecimals = true;
-			kryptonNumericUpDown5.DecimalPlaces = 2;
-			kryptonNumericUpDown5.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown5.Location = new Point(80, 150);
-			kryptonNumericUpDown5.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown5.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown5.Name = "kryptonNumericUpDown5";
-			kryptonNumericUpDown5.Size = new Size(63, 22);
-			kryptonNumericUpDown5.TabIndex = 22;
-			kryptonNumericUpDown5.ThousandsSeparator = true;
-			kryptonNumericUpDown5.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
-			// 
-			// kryptonLabel10
-			// 
-			kryptonLabel10.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel10.AccessibleName = "Buchstabe A";
-			kryptonLabel10.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel10.Location = new Point(12, 152);
-			kryptonLabel10.Name = "kryptonLabel10";
-			kryptonLabel10.Size = new Size(19, 20);
-			kryptonLabel10.TabIndex = 20;
-			kryptonLabel10.Values.Text = "&F:";
-			// 
-			// kryptonComboBox4
-			// 
-			kryptonComboBox4.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox4.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox4.DropDownWidth = 75;
-			kryptonComboBox4.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox4.Location = new Point(39, 122);
-			kryptonComboBox4.Name = "kryptonComboBox4";
-			kryptonComboBox4.Size = new Size(35, 22);
-			kryptonComboBox4.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox4.TabIndex = 17;
-			// 
-			// kryptonLabel7
-			// 
-			kryptonLabel7.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel7.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel7.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel7.Location = new Point(149, 124);
-			kryptonLabel7.Name = "kryptonLabel7";
-			kryptonLabel7.Size = new Size(21, 20);
-			kryptonLabel7.TabIndex = 19;
-			kryptonLabel7.Values.Text = "%";
-			// 
-			// kryptonNumericUpDown4
-			// 
-			kryptonNumericUpDown4.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown4.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown4.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown4.AllowDecimals = true;
-			kryptonNumericUpDown4.DecimalPlaces = 2;
-			kryptonNumericUpDown4.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown4.Location = new Point(80, 122);
-			kryptonNumericUpDown4.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown4.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown4.Name = "kryptonNumericUpDown4";
-			kryptonNumericUpDown4.Size = new Size(63, 22);
-			kryptonNumericUpDown4.TabIndex = 18;
-			kryptonNumericUpDown4.ThousandsSeparator = true;
-			kryptonNumericUpDown4.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
-			// 
-			// kryptonLabel8
-			// 
-			kryptonLabel8.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel8.AccessibleName = "Buchstabe A";
-			kryptonLabel8.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel8.Location = new Point(12, 124);
-			kryptonLabel8.Name = "kryptonLabel8";
-			kryptonLabel8.Size = new Size(19, 20);
-			kryptonLabel8.TabIndex = 16;
-			kryptonLabel8.Values.Text = "&E:";
-			// 
-			// kryptonComboBox3
-			// 
-			kryptonComboBox3.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox3.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox3.DropDownWidth = 75;
-			kryptonComboBox3.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox3.Location = new Point(39, 94);
-			kryptonComboBox3.Name = "kryptonComboBox3";
-			kryptonComboBox3.Size = new Size(35, 22);
-			kryptonComboBox3.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox3.TabIndex = 13;
-			// 
-			// kryptonLabel5
-			// 
-			kryptonLabel5.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel5.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel5.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel5.Location = new Point(149, 96);
-			kryptonLabel5.Name = "kryptonLabel5";
-			kryptonLabel5.Size = new Size(21, 20);
-			kryptonLabel5.TabIndex = 15;
-			kryptonLabel5.Values.Text = "%";
-			// 
-			// kryptonNumericUpDown3
-			// 
-			kryptonNumericUpDown3.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown3.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown3.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown3.AllowDecimals = true;
-			kryptonNumericUpDown3.DecimalPlaces = 2;
-			kryptonNumericUpDown3.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown3.Location = new Point(80, 94);
-			kryptonNumericUpDown3.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown3.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown3.Name = "kryptonNumericUpDown3";
-			kryptonNumericUpDown3.Size = new Size(63, 22);
-			kryptonNumericUpDown3.TabIndex = 14;
-			kryptonNumericUpDown3.ThousandsSeparator = true;
-			kryptonNumericUpDown3.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
-			// 
-			// kryptonLabel6
-			// 
-			kryptonLabel6.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel6.AccessibleName = "Buchstabe A";
-			kryptonLabel6.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel6.Location = new Point(12, 96);
-			kryptonLabel6.Name = "kryptonLabel6";
-			kryptonLabel6.Size = new Size(22, 20);
-			kryptonLabel6.TabIndex = 12;
-			kryptonLabel6.Values.Text = "&D:";
-			// 
-			// kryptonComboBox2
-			// 
-			kryptonComboBox2.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox2.DropDownWidth = 75;
-			kryptonComboBox2.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox2.Location = new Point(39, 66);
-			kryptonComboBox2.Name = "kryptonComboBox2";
-			kryptonComboBox2.Size = new Size(35, 22);
-			kryptonComboBox2.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox2.TabIndex = 9;
-			// 
-			// kryptonLabel3
-			// 
-			kryptonLabel3.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel3.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel3.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel3.Location = new Point(149, 68);
-			kryptonLabel3.Name = "kryptonLabel3";
-			kryptonLabel3.Size = new Size(21, 20);
-			kryptonLabel3.TabIndex = 11;
-			kryptonLabel3.Values.Text = "%";
-			// 
-			// kryptonNumericUpDown2
-			// 
-			kryptonNumericUpDown2.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown2.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown2.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown2.AllowDecimals = true;
-			kryptonNumericUpDown2.DecimalPlaces = 2;
-			kryptonNumericUpDown2.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown2.Location = new Point(80, 66);
-			kryptonNumericUpDown2.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown2.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown2.Name = "kryptonNumericUpDown2";
-			kryptonNumericUpDown2.Size = new Size(63, 22);
-			kryptonNumericUpDown2.TabIndex = 10;
-			kryptonNumericUpDown2.ThousandsSeparator = true;
-			kryptonNumericUpDown2.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
-			// 
-			// kryptonLabel4
-			// 
-			kryptonLabel4.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel4.AccessibleName = "Buchstabe A";
-			kryptonLabel4.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel4.Location = new Point(12, 68);
-			kryptonLabel4.Name = "kryptonLabel4";
-			kryptonLabel4.Size = new Size(21, 20);
-			kryptonLabel4.TabIndex = 8;
-			kryptonLabel4.Values.Text = "&C:";
-			// 
-			// kryptonComboBox1
-			// 
-			kryptonComboBox1.AccessibleRole = AccessibleRole.DropList;
-			kryptonComboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
-			kryptonComboBox1.DropDownWidth = 75;
-			kryptonComboBox1.Items.AddRange(new object[] { "C", "V" });
-			kryptonComboBox1.Location = new Point(39, 38);
-			kryptonComboBox1.Name = "kryptonComboBox1";
-			kryptonComboBox1.Size = new Size(35, 22);
-			kryptonComboBox1.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-			kryptonComboBox1.TabIndex = 5;
-			// 
-			// kryptonLabel1
-			// 
-			kryptonLabel1.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
-			kryptonLabel1.AccessibleName = "Prozentzeichen für Buchstabe A";
-			kryptonLabel1.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel1.Location = new Point(149, 40);
-			kryptonLabel1.Name = "kryptonLabel1";
-			kryptonLabel1.Size = new Size(21, 20);
-			kryptonLabel1.TabIndex = 7;
-			kryptonLabel1.Values.Text = "%";
-			// 
-			// kryptonNumericUpDown1
-			// 
-			kryptonNumericUpDown1.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDown1.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
-			kryptonNumericUpDown1.AccessibleRole = AccessibleRole.SpinButton;
-			kryptonNumericUpDown1.AllowDecimals = true;
-			kryptonNumericUpDown1.DecimalPlaces = 2;
-			kryptonNumericUpDown1.Increment = new decimal(new int[] { 1, 0, 0, 0 });
-			kryptonNumericUpDown1.Location = new Point(80, 38);
-			kryptonNumericUpDown1.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
-			kryptonNumericUpDown1.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
-			kryptonNumericUpDown1.Name = "kryptonNumericUpDown1";
-			kryptonNumericUpDown1.Size = new Size(63, 22);
-			kryptonNumericUpDown1.TabIndex = 6;
-			kryptonNumericUpDown1.ThousandsSeparator = true;
-			kryptonNumericUpDown1.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
-			// 
-			// kryptonLabel2
-			// 
-			kryptonLabel2.AccessibleDescription = "Zeigt den Buchstabe A an";
-			kryptonLabel2.AccessibleName = "Buchstabe A";
-			kryptonLabel2.AccessibleRole = AccessibleRole.StaticText;
-			kryptonLabel2.Location = new Point(12, 40);
-			kryptonLabel2.Name = "kryptonLabel2";
-			kryptonLabel2.Size = new Size(20, 20);
-			kryptonLabel2.TabIndex = 4;
-			kryptonLabel2.Values.Text = "&B:";
+			kryptonNumericUpDown18.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDown18.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDown18.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDown18.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterR
+			// 
+			kryptonLabelLetterR.AccessibleDescription = "Zeigt den Buchstabe R an";
+			kryptonLabelLetterR.AccessibleName = "Buchstabe R";
+			kryptonLabelLetterR.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterR.Location = new Point(181, 234);
+			kryptonLabelLetterR.Name = "kryptonLabelLetterR";
+			kryptonLabelLetterR.Size = new Size(21, 20);
+			kryptonLabelLetterR.TabIndex = 68;
+			kryptonLabelLetterR.Values.Text = "&R:";
+			kryptonLabelLetterR.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterR.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterR.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterR.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonComboBoxLetterQ
+			// 
+			kryptonComboBoxLetterQ.AccessibleDescription = "Wählt die Art des Buchstabens Q";
+			kryptonComboBoxLetterQ.AccessibleName = "Art des Buchstabens Q";
+			kryptonComboBoxLetterQ.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterQ.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterQ.DropDownWidth = 75;
+			kryptonComboBoxLetterQ.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterQ.Location = new Point(208, 204);
+			kryptonComboBoxLetterQ.Name = "kryptonComboBoxLetterQ";
+			kryptonComboBoxLetterQ.Size = new Size(35, 22);
+			kryptonComboBoxLetterQ.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterQ.TabIndex = 65;
+			kryptonComboBoxLetterQ.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterQ.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterQ.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterQ.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterQPercent
+			// 
+			kryptonLabelLetterQPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben Q an";
+			kryptonLabelLetterQPercent.AccessibleName = "Prozentzeichen für den Buchstabe Q";
+			kryptonLabelLetterQPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterQPercent.Location = new Point(318, 206);
+			kryptonLabelLetterQPercent.Name = "kryptonLabelLetterQPercent";
+			kryptonLabelLetterQPercent.Size = new Size(21, 20);
+			kryptonLabelLetterQPercent.TabIndex = 67;
+			kryptonLabelLetterQPercent.Values.Text = "%";
+			kryptonLabelLetterQPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterQPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterQPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterQPercent.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonNumericUpDownLetterQ
+			// 
+			kryptonNumericUpDownLetterQ.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben Q";
+			kryptonNumericUpDownLetterQ.AccessibleName = "Relative Häufigkeit für den Buchstaben Q";
+			kryptonNumericUpDownLetterQ.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterQ.AllowDecimals = true;
+			kryptonNumericUpDownLetterQ.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterQ.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterQ.Location = new Point(249, 204);
+			kryptonNumericUpDownLetterQ.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterQ.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterQ.Name = "kryptonNumericUpDownLetterQ";
+			kryptonNumericUpDownLetterQ.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterQ.TabIndex = 66;
+			kryptonNumericUpDownLetterQ.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterQ.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterQ.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterQ.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterQ.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterQ.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterQ
+			// 
+			kryptonLabelLetterQ.AccessibleDescription = "Zeigt den Buchstabe Q an";
+			kryptonLabelLetterQ.AccessibleName = "Buchstabe Q";
+			kryptonLabelLetterQ.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterQ.Location = new Point(181, 206);
+			kryptonLabelLetterQ.Name = "kryptonLabelLetterQ";
+			kryptonLabelLetterQ.Size = new Size(22, 20);
+			kryptonLabelLetterQ.TabIndex = 64;
+			kryptonLabelLetterQ.Values.Text = "&Q:";
+			kryptonLabelLetterQ.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterQ.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterQ.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterQ.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonComboBoxLetterP
+			// 
+			kryptonComboBoxLetterP.AccessibleDescription = "Wählt die Art des Buchstabens P";
+			kryptonComboBoxLetterP.AccessibleName = "Art des Buchstabens P";
+			kryptonComboBoxLetterP.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterP.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterP.DropDownWidth = 75;
+			kryptonComboBoxLetterP.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterP.Location = new Point(208, 176);
+			kryptonComboBoxLetterP.Name = "kryptonComboBoxLetterP";
+			kryptonComboBoxLetterP.Size = new Size(35, 22);
+			kryptonComboBoxLetterP.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterP.TabIndex = 61;
+			kryptonComboBoxLetterP.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterP.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterP.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterP.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterPPercent
+			// 
+			kryptonLabelLetterPPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben P an";
+			kryptonLabelLetterPPercent.AccessibleName = "Prozentzeichen für den Buchstabe P";
+			kryptonLabelLetterPPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterPPercent.Location = new Point(318, 178);
+			kryptonLabelLetterPPercent.Name = "kryptonLabelLetterPPercent";
+			kryptonLabelLetterPPercent.Size = new Size(21, 20);
+			kryptonLabelLetterPPercent.TabIndex = 63;
+			kryptonLabelLetterPPercent.Values.Text = "%";
+			kryptonLabelLetterPPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterPPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterPPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterPPercent.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonNumericUpDownP
+			// 
+			kryptonNumericUpDownP.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben P";
+			kryptonNumericUpDownP.AccessibleName = "Relative Häufigkeit für den Buchstaben P";
+			kryptonNumericUpDownP.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownP.AllowDecimals = true;
+			kryptonNumericUpDownP.DecimalPlaces = 2;
+			kryptonNumericUpDownP.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownP.Location = new Point(249, 176);
+			kryptonNumericUpDownP.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownP.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownP.Name = "kryptonNumericUpDownP";
+			kryptonNumericUpDownP.Size = new Size(63, 22);
+			kryptonNumericUpDownP.TabIndex = 62;
+			kryptonNumericUpDownP.ThousandsSeparator = true;
+			kryptonNumericUpDownP.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownP.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownP.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownP.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownP.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterP
+			// 
+			kryptonLabelLetterP.AccessibleDescription = "Zeigt den Buchstabe P an";
+			kryptonLabelLetterP.AccessibleName = "Buchstabe P";
+			kryptonLabelLetterP.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterP.Location = new Point(181, 178);
+			kryptonLabelLetterP.Name = "kryptonLabelLetterP";
+			kryptonLabelLetterP.Size = new Size(20, 20);
+			kryptonLabelLetterP.TabIndex = 60;
+			kryptonLabelLetterP.Values.Text = "&P:";
+			kryptonLabelLetterP.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterP.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterP.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterP.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// OLetter
+			// 
+			OLetter.AccessibleDescription = "Wählt die Art des Buchstabens O";
+			OLetter.AccessibleName = "Art des Buchstabens O";
+			OLetter.AccessibleRole = AccessibleRole.DropList;
+			OLetter.DropDownStyle = ComboBoxStyle.DropDownList;
+			OLetter.DropDownWidth = 75;
+			OLetter.Items.AddRange(new object[] { "C", "V" });
+			OLetter.Location = new Point(208, 148);
+			OLetter.Name = "OLetter";
+			OLetter.Size = new Size(35, 22);
+			OLetter.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			OLetter.TabIndex = 57;
+			OLetter.Enter += SetStatusBar_Enter;
+			OLetter.Leave += ClearStatusBar_Leave;
+			OLetter.MouseEnter += SetStatusBar_Enter;
+			OLetter.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterOPercent
+			// 
+			kryptonLabelLetterOPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben O an";
+			kryptonLabelLetterOPercent.AccessibleName = "Prozentzeichen für den Buchstabe O";
+			kryptonLabelLetterOPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterOPercent.Location = new Point(318, 150);
+			kryptonLabelLetterOPercent.Name = "kryptonLabelLetterOPercent";
+			kryptonLabelLetterOPercent.Size = new Size(21, 20);
+			kryptonLabelLetterOPercent.TabIndex = 59;
+			kryptonLabelLetterOPercent.Values.Text = "%";
+			kryptonLabelLetterOPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterOPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterOPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterOPercent.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonNumericUpDownLetterO
+			// 
+			kryptonNumericUpDownLetterO.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben O";
+			kryptonNumericUpDownLetterO.AccessibleName = "Relative Häufigkeit für den Buchstaben O";
+			kryptonNumericUpDownLetterO.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterO.AllowDecimals = true;
+			kryptonNumericUpDownLetterO.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterO.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterO.Location = new Point(249, 148);
+			kryptonNumericUpDownLetterO.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterO.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterO.Name = "kryptonNumericUpDownLetterO";
+			kryptonNumericUpDownLetterO.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterO.TabIndex = 58;
+			kryptonNumericUpDownLetterO.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterO.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterO.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterO.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterO.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterO.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelO
+			// 
+			kryptonLabelO.AccessibleDescription = "Zeigt den Buchstabe O an";
+			kryptonLabelO.AccessibleName = "Buchstabe O";
+			kryptonLabelO.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelO.Location = new Point(181, 150);
+			kryptonLabelO.Name = "kryptonLabelO";
+			kryptonLabelO.Size = new Size(22, 20);
+			kryptonLabelO.TabIndex = 56;
+			kryptonLabelO.Values.Text = "&O:";
+			kryptonLabelO.Enter += SetStatusBar_Enter;
+			kryptonLabelO.Leave += ClearStatusBar_Leave;
+			kryptonLabelO.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelO.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonComboBoxLetterN
+			// 
+			kryptonComboBoxLetterN.AccessibleDescription = "Wählt die Art des Buchstabens N";
+			kryptonComboBoxLetterN.AccessibleName = "Art des Buchstabens N";
+			kryptonComboBoxLetterN.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterN.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterN.DropDownWidth = 75;
+			kryptonComboBoxLetterN.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterN.Location = new Point(208, 120);
+			kryptonComboBoxLetterN.Name = "kryptonComboBoxLetterN";
+			kryptonComboBoxLetterN.Size = new Size(35, 22);
+			kryptonComboBoxLetterN.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterN.TabIndex = 53;
+			kryptonComboBoxLetterN.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterN.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterN.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterN.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterNPercent
+			// 
+			kryptonLabelLetterNPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben N an";
+			kryptonLabelLetterNPercent.AccessibleName = "Prozentzeichen für den Buchstabe N";
+			kryptonLabelLetterNPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterNPercent.Location = new Point(318, 122);
+			kryptonLabelLetterNPercent.Name = "kryptonLabelLetterNPercent";
+			kryptonLabelLetterNPercent.Size = new Size(21, 20);
+			kryptonLabelLetterNPercent.TabIndex = 55;
+			kryptonLabelLetterNPercent.Values.Text = "%";
+			kryptonLabelLetterNPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterNPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterNPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterNPercent.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonNumericUpDownLetterN
+			// 
+			kryptonNumericUpDownLetterN.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben N";
+			kryptonNumericUpDownLetterN.AccessibleName = "Relative Häufigkeit für den Buchstaben N";
+			kryptonNumericUpDownLetterN.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterN.AllowDecimals = true;
+			kryptonNumericUpDownLetterN.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterN.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterN.Location = new Point(249, 120);
+			kryptonNumericUpDownLetterN.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterN.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterN.Name = "kryptonNumericUpDownLetterN";
+			kryptonNumericUpDownLetterN.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterN.TabIndex = 54;
+			kryptonNumericUpDownLetterN.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterN.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterN.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterN.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterN.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterN.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterN
+			// 
+			kryptonLabelLetterN.AccessibleDescription = "Zeigt den Buchstabe N an";
+			kryptonLabelLetterN.AccessibleName = "Buchstabe N";
+			kryptonLabelLetterN.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterN.Location = new Point(181, 122);
+			kryptonLabelLetterN.Name = "kryptonLabelLetterN";
+			kryptonLabelLetterN.Size = new Size(22, 20);
+			kryptonLabelLetterN.TabIndex = 52;
+			kryptonLabelLetterN.Values.Text = "&N:";
+			kryptonLabelLetterN.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterN.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterN.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterN.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonComboBoxLetterM
+			// 
+			kryptonComboBoxLetterM.AccessibleDescription = "Wählt die Art des Buchstabens M";
+			kryptonComboBoxLetterM.AccessibleName = "Art des Buchstabens M";
+			kryptonComboBoxLetterM.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterM.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterM.DropDownWidth = 75;
+			kryptonComboBoxLetterM.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterM.Location = new Point(208, 92);
+			kryptonComboBoxLetterM.Name = "kryptonComboBoxLetterM";
+			kryptonComboBoxLetterM.Size = new Size(35, 22);
+			kryptonComboBoxLetterM.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterM.TabIndex = 49;
+			kryptonComboBoxLetterM.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterM.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterM.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterM.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterMPercent
+			// 
+			kryptonLabelLetterMPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben M an";
+			kryptonLabelLetterMPercent.AccessibleName = "Prozentzeichen für den Buchstabe M";
+			kryptonLabelLetterMPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterMPercent.Location = new Point(318, 94);
+			kryptonLabelLetterMPercent.Name = "kryptonLabelLetterMPercent";
+			kryptonLabelLetterMPercent.Size = new Size(21, 20);
+			kryptonLabelLetterMPercent.TabIndex = 51;
+			kryptonLabelLetterMPercent.Values.Text = "%";
+			kryptonLabelLetterMPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterMPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterMPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterMPercent.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonNumericUpDownLetterM
+			// 
+			kryptonNumericUpDownLetterM.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben M";
+			kryptonNumericUpDownLetterM.AccessibleName = "Relative Häufigkeit für den Buchstaben M";
+			kryptonNumericUpDownLetterM.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterM.AllowDecimals = true;
+			kryptonNumericUpDownLetterM.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterM.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterM.Location = new Point(249, 92);
+			kryptonNumericUpDownLetterM.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterM.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterM.Name = "kryptonNumericUpDownLetterM";
+			kryptonNumericUpDownLetterM.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterM.TabIndex = 50;
+			kryptonNumericUpDownLetterM.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterM.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterM.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterM.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterM.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterM.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterM
+			// 
+			kryptonLabelLetterM.AccessibleDescription = "Zeigt den Buchstabe M an";
+			kryptonLabelLetterM.AccessibleName = "Buchstabe M";
+			kryptonLabelLetterM.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterM.Location = new Point(181, 94);
+			kryptonLabelLetterM.Name = "kryptonLabelLetterM";
+			kryptonLabelLetterM.Size = new Size(24, 20);
+			kryptonLabelLetterM.TabIndex = 48;
+			kryptonLabelLetterM.Values.Text = "&M:";
+			kryptonLabelLetterM.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterM.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterM.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterM.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonComboBoxLetterL
+			// 
+			kryptonComboBoxLetterL.AccessibleDescription = "Wählt die Art des Buchstabens L";
+			kryptonComboBoxLetterL.AccessibleName = "Art des Buchstabens L";
+			kryptonComboBoxLetterL.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterL.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterL.DropDownWidth = 75;
+			kryptonComboBoxLetterL.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterL.Location = new Point(208, 66);
+			kryptonComboBoxLetterL.Name = "kryptonComboBoxLetterL";
+			kryptonComboBoxLetterL.Size = new Size(35, 22);
+			kryptonComboBoxLetterL.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterL.TabIndex = 45;
+			kryptonComboBoxLetterL.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterL.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterL.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterL.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterLPercent
+			// 
+			kryptonLabelLetterLPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben L an";
+			kryptonLabelLetterLPercent.AccessibleName = "Prozentzeichen für den Buchstabe L";
+			kryptonLabelLetterLPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterLPercent.Location = new Point(318, 68);
+			kryptonLabelLetterLPercent.Name = "kryptonLabelLetterLPercent";
+			kryptonLabelLetterLPercent.Size = new Size(21, 20);
+			kryptonLabelLetterLPercent.TabIndex = 47;
+			kryptonLabelLetterLPercent.Values.Text = "%";
+			kryptonLabelLetterLPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterLPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterLPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterLPercent.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonNumericUpDownLetterL
+			// 
+			kryptonNumericUpDownLetterL.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben L";
+			kryptonNumericUpDownLetterL.AccessibleName = "Relative Häufigkeit für den Buchstaben L";
+			kryptonNumericUpDownLetterL.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterL.AllowDecimals = true;
+			kryptonNumericUpDownLetterL.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterL.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterL.Location = new Point(249, 66);
+			kryptonNumericUpDownLetterL.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterL.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterL.Name = "kryptonNumericUpDownLetterL";
+			kryptonNumericUpDownLetterL.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterL.TabIndex = 46;
+			kryptonNumericUpDownLetterL.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterL.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterL.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterL.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterL.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterL.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterL
+			// 
+			kryptonLabelLetterL.AccessibleDescription = "Zeigt den Buchstabe L an";
+			kryptonLabelLetterL.AccessibleName = "Buchstabe L";
+			kryptonLabelLetterL.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterL.Location = new Point(181, 68);
+			kryptonLabelLetterL.Name = "kryptonLabelLetterL";
+			kryptonLabelLetterL.Size = new Size(19, 20);
+			kryptonLabelLetterL.TabIndex = 44;
+			kryptonLabelLetterL.Values.Text = "&L:";
+			kryptonLabelLetterL.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterL.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterL.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterL.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonComboBoxLetterK
+			// 
+			kryptonComboBoxLetterK.AccessibleDescription = "Wählt die Art des Buchstabens K";
+			kryptonComboBoxLetterK.AccessibleName = "Art des Buchstabens K";
+			kryptonComboBoxLetterK.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterK.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterK.DropDownWidth = 75;
+			kryptonComboBoxLetterK.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterK.Location = new Point(208, 38);
+			kryptonComboBoxLetterK.Name = "kryptonComboBoxLetterK";
+			kryptonComboBoxLetterK.Size = new Size(35, 22);
+			kryptonComboBoxLetterK.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterK.TabIndex = 41;
+			kryptonComboBoxLetterK.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterK.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterK.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterK.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterKPercent
+			// 
+			kryptonLabelLetterKPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben K an";
+			kryptonLabelLetterKPercent.AccessibleName = "Prozentzeichen für den Buchstabe K";
+			kryptonLabelLetterKPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterKPercent.Location = new Point(318, 40);
+			kryptonLabelLetterKPercent.Name = "kryptonLabelLetterKPercent";
+			kryptonLabelLetterKPercent.Size = new Size(21, 20);
+			kryptonLabelLetterKPercent.TabIndex = 43;
+			kryptonLabelLetterKPercent.Values.Text = "%";
+			kryptonLabelLetterKPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterKPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterKPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterKPercent.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonNumericUpDownLetterK
+			// 
+			kryptonNumericUpDownLetterK.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben K";
+			kryptonNumericUpDownLetterK.AccessibleName = "Relative Häufigkeit für den Buchstaben K";
+			kryptonNumericUpDownLetterK.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterK.AllowDecimals = true;
+			kryptonNumericUpDownLetterK.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterK.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterK.Location = new Point(249, 38);
+			kryptonNumericUpDownLetterK.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterK.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterK.Name = "kryptonNumericUpDownLetterK";
+			kryptonNumericUpDownLetterK.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterK.TabIndex = 42;
+			kryptonNumericUpDownLetterK.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterK.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterK.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterK.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterK.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterK.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// KLetter
+			// 
+			KLetter.AccessibleDescription = "Zeigt den Buchstabe K an";
+			KLetter.AccessibleName = "Buchstabe K";
+			KLetter.AccessibleRole = AccessibleRole.StaticText;
+			KLetter.Location = new Point(181, 40);
+			KLetter.Name = "KLetter";
+			KLetter.Size = new Size(20, 20);
+			KLetter.TabIndex = 40;
+			KLetter.Values.Text = "&K:";
+			KLetter.Enter += SetStatusBar_Enter;
+			KLetter.Leave += ClearStatusBar_Leave;
+			KLetter.MouseEnter += SetStatusBar_Enter;
+			KLetter.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonComboBoxLetterJ
+			// 
+			kryptonComboBoxLetterJ.AccessibleDescription = "Wählt die Art des Buchstabens J";
+			kryptonComboBoxLetterJ.AccessibleName = "Art des Buchstabens J";
+			kryptonComboBoxLetterJ.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterJ.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterJ.DropDownWidth = 75;
+			kryptonComboBoxLetterJ.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterJ.Location = new Point(208, 10);
+			kryptonComboBoxLetterJ.Name = "kryptonComboBoxLetterJ";
+			kryptonComboBoxLetterJ.Size = new Size(35, 22);
+			kryptonComboBoxLetterJ.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterJ.TabIndex = 37;
+			kryptonComboBoxLetterJ.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterJ.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterJ.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterJ.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterJPercent
+			// 
+			kryptonLabelLetterJPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben J an";
+			kryptonLabelLetterJPercent.AccessibleName = "Prozentzeichen für den Buchstabe J";
+			kryptonLabelLetterJPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterJPercent.Location = new Point(318, 12);
+			kryptonLabelLetterJPercent.Name = "kryptonLabelLetterJPercent";
+			kryptonLabelLetterJPercent.Size = new Size(21, 20);
+			kryptonLabelLetterJPercent.TabIndex = 39;
+			kryptonLabelLetterJPercent.Values.Text = "%";
+			kryptonLabelLetterJPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterJPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterJPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterJPercent.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonNumericUpDownLetterJ
+			// 
+			kryptonNumericUpDownLetterJ.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben J";
+			kryptonNumericUpDownLetterJ.AccessibleName = "Relative Häufigkeit für den Buchstaben J";
+			kryptonNumericUpDownLetterJ.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterJ.AllowDecimals = true;
+			kryptonNumericUpDownLetterJ.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterJ.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterJ.Location = new Point(249, 10);
+			kryptonNumericUpDownLetterJ.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterJ.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterJ.Name = "kryptonNumericUpDownLetterJ";
+			kryptonNumericUpDownLetterJ.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterJ.TabIndex = 38;
+			kryptonNumericUpDownLetterJ.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterJ.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterJ.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterJ.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterJ.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterJ.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterJ
+			// 
+			kryptonLabelLetterJ.AccessibleDescription = "Zeigt den Buchstabe J an";
+			kryptonLabelLetterJ.AccessibleName = "Buchstabe J";
+			kryptonLabelLetterJ.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterJ.Location = new Point(181, 12);
+			kryptonLabelLetterJ.Name = "kryptonLabelLetterJ";
+			kryptonLabelLetterJ.Size = new Size(18, 20);
+			kryptonLabelLetterJ.TabIndex = 36;
+			kryptonLabelLetterJ.Values.Text = "&J:";
+			kryptonLabelLetterJ.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterJ.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterJ.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterJ.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonComboBoxLetterI
+			// 
+			kryptonComboBoxLetterI.AccessibleDescription = "Wählt die Art des Buchstabens I";
+			kryptonComboBoxLetterI.AccessibleName = "Art des Buchstabens I";
+			kryptonComboBoxLetterI.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterI.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterI.DropDownWidth = 75;
+			kryptonComboBoxLetterI.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterI.Location = new Point(39, 234);
+			kryptonComboBoxLetterI.Name = "kryptonComboBoxLetterI";
+			kryptonComboBoxLetterI.Size = new Size(35, 22);
+			kryptonComboBoxLetterI.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterI.TabIndex = 33;
+			kryptonComboBoxLetterI.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterI.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterI.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterI.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterIPercent
+			// 
+			kryptonLabelLetterIPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben I an";
+			kryptonLabelLetterIPercent.AccessibleName = "Prozentzeichen für den Buchstabe I";
+			kryptonLabelLetterIPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterIPercent.Location = new Point(149, 236);
+			kryptonLabelLetterIPercent.Name = "kryptonLabelLetterIPercent";
+			kryptonLabelLetterIPercent.Size = new Size(21, 20);
+			kryptonLabelLetterIPercent.TabIndex = 35;
+			kryptonLabelLetterIPercent.Values.Text = "%";
+			kryptonLabelLetterIPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterIPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterIPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterIPercent.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonNumericUpDownLetterI
+			// 
+			kryptonNumericUpDownLetterI.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben I";
+			kryptonNumericUpDownLetterI.AccessibleName = "Relative Häufigkeit für den Buchstaben I";
+			kryptonNumericUpDownLetterI.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterI.AllowDecimals = true;
+			kryptonNumericUpDownLetterI.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterI.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterI.Location = new Point(80, 234);
+			kryptonNumericUpDownLetterI.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterI.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterI.Name = "kryptonNumericUpDownLetterI";
+			kryptonNumericUpDownLetterI.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterI.TabIndex = 34;
+			kryptonNumericUpDownLetterI.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterI.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterI.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterI.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterI.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterI.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelI
+			// 
+			kryptonLabelI.AccessibleDescription = "Zeigt den Buchstabe I an";
+			kryptonLabelI.AccessibleName = "Buchstabe I";
+			kryptonLabelI.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelI.Location = new Point(12, 236);
+			kryptonLabelI.Name = "kryptonLabelI";
+			kryptonLabelI.Size = new Size(16, 20);
+			kryptonLabelI.TabIndex = 32;
+			kryptonLabelI.Values.Text = "&I:";
+			kryptonLabelI.Enter += SetStatusBar_Enter;
+			kryptonLabelI.Leave += ClearStatusBar_Leave;
+			kryptonLabelI.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelI.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonComboBoxLetterH
+			// 
+			kryptonComboBoxLetterH.AccessibleDescription = "Wählt die Art des Buchstabens H";
+			kryptonComboBoxLetterH.AccessibleName = "Art des Buchstabens H";
+			kryptonComboBoxLetterH.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterH.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterH.DropDownWidth = 75;
+			kryptonComboBoxLetterH.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterH.Location = new Point(39, 206);
+			kryptonComboBoxLetterH.Name = "kryptonComboBoxLetterH";
+			kryptonComboBoxLetterH.Size = new Size(35, 22);
+			kryptonComboBoxLetterH.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterH.TabIndex = 29;
+			kryptonComboBoxLetterH.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterH.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterH.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterH.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterHPercent
+			// 
+			kryptonLabelLetterHPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben H an";
+			kryptonLabelLetterHPercent.AccessibleName = "Prozentzeichen für den Buchstabe H";
+			kryptonLabelLetterHPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterHPercent.Location = new Point(149, 208);
+			kryptonLabelLetterHPercent.Name = "kryptonLabelLetterHPercent";
+			kryptonLabelLetterHPercent.Size = new Size(21, 20);
+			kryptonLabelLetterHPercent.TabIndex = 31;
+			kryptonLabelLetterHPercent.Values.Text = "%";
+			kryptonLabelLetterHPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterHPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterHPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterHPercent.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonNumericUpDownLetterH
+			// 
+			kryptonNumericUpDownLetterH.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben H";
+			kryptonNumericUpDownLetterH.AccessibleName = "Relative Häufigkeit für den Buchstaben H";
+			kryptonNumericUpDownLetterH.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterH.AllowDecimals = true;
+			kryptonNumericUpDownLetterH.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterH.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterH.Location = new Point(80, 206);
+			kryptonNumericUpDownLetterH.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterH.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterH.Name = "kryptonNumericUpDownLetterH";
+			kryptonNumericUpDownLetterH.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterH.TabIndex = 30;
+			kryptonNumericUpDownLetterH.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterH.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterH.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterH.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterH.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterH.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterH
+			// 
+			kryptonLabelLetterH.AccessibleDescription = "Zeigt den Buchstabe H an";
+			kryptonLabelLetterH.AccessibleName = "Buchstabe H";
+			kryptonLabelLetterH.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterH.Location = new Point(12, 208);
+			kryptonLabelLetterH.Name = "kryptonLabelLetterH";
+			kryptonLabelLetterH.Size = new Size(22, 20);
+			kryptonLabelLetterH.TabIndex = 28;
+			kryptonLabelLetterH.Values.Text = "&H:";
+			kryptonLabelLetterH.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterH.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterH.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterH.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonComboBoxLetterG
+			// 
+			kryptonComboBoxLetterG.AccessibleDescription = "Wählt die Art des Buchstabens G";
+			kryptonComboBoxLetterG.AccessibleName = "Art des Buchstabens G";
+			kryptonComboBoxLetterG.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterG.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterG.DropDownWidth = 75;
+			kryptonComboBoxLetterG.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterG.Location = new Point(39, 178);
+			kryptonComboBoxLetterG.Name = "kryptonComboBoxLetterG";
+			kryptonComboBoxLetterG.Size = new Size(35, 22);
+			kryptonComboBoxLetterG.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterG.TabIndex = 25;
+			kryptonComboBoxLetterG.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterG.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterG.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterG.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterGPercent
+			// 
+			kryptonLabelLetterGPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben G an";
+			kryptonLabelLetterGPercent.AccessibleName = "Prozentzeichen für den Buchstabe G";
+			kryptonLabelLetterGPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterGPercent.Location = new Point(149, 180);
+			kryptonLabelLetterGPercent.Name = "kryptonLabelLetterGPercent";
+			kryptonLabelLetterGPercent.Size = new Size(21, 20);
+			kryptonLabelLetterGPercent.TabIndex = 27;
+			kryptonLabelLetterGPercent.Values.Text = "%";
+			kryptonLabelLetterGPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterGPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterGPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterGPercent.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonNumericUpDownLetterG
+			// 
+			kryptonNumericUpDownLetterG.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben G";
+			kryptonNumericUpDownLetterG.AccessibleName = "Relative Häufigkeit für den Buchstaben G";
+			kryptonNumericUpDownLetterG.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterG.AllowDecimals = true;
+			kryptonNumericUpDownLetterG.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterG.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterG.Location = new Point(80, 178);
+			kryptonNumericUpDownLetterG.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterG.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterG.Name = "kryptonNumericUpDownLetterG";
+			kryptonNumericUpDownLetterG.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterG.TabIndex = 26;
+			kryptonNumericUpDownLetterG.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterG.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterG.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterG.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterG.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterG.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterG
+			// 
+			kryptonLabelLetterG.AccessibleDescription = "Zeigt den Buchstabe G an";
+			kryptonLabelLetterG.AccessibleName = "Buchstabe G";
+			kryptonLabelLetterG.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterG.Location = new Point(12, 180);
+			kryptonLabelLetterG.Name = "kryptonLabelLetterG";
+			kryptonLabelLetterG.Size = new Size(22, 20);
+			kryptonLabelLetterG.TabIndex = 24;
+			kryptonLabelLetterG.Values.Text = "&G:";
+			kryptonLabelLetterG.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterG.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterG.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterG.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonComboBoxLetterF
+			// 
+			kryptonComboBoxLetterF.AccessibleDescription = "Wählt die Art des Buchstabens F";
+			kryptonComboBoxLetterF.AccessibleName = "Art des Buchstabens F";
+			kryptonComboBoxLetterF.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterF.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterF.DropDownWidth = 75;
+			kryptonComboBoxLetterF.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterF.Location = new Point(39, 150);
+			kryptonComboBoxLetterF.Name = "kryptonComboBoxLetterF";
+			kryptonComboBoxLetterF.Size = new Size(35, 22);
+			kryptonComboBoxLetterF.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterF.TabIndex = 21;
+			kryptonComboBoxLetterF.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterF.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterF.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterF.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterFPercent
+			// 
+			kryptonLabelLetterFPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben F an";
+			kryptonLabelLetterFPercent.AccessibleName = "Prozentzeichen für den Buchstabe F";
+			kryptonLabelLetterFPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterFPercent.Location = new Point(149, 152);
+			kryptonLabelLetterFPercent.Name = "kryptonLabelLetterFPercent";
+			kryptonLabelLetterFPercent.Size = new Size(21, 20);
+			kryptonLabelLetterFPercent.TabIndex = 23;
+			kryptonLabelLetterFPercent.Values.Text = "%";
+			kryptonLabelLetterFPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterFPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterFPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterFPercent.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonNumericUpDownLetterF
+			// 
+			kryptonNumericUpDownLetterF.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben F";
+			kryptonNumericUpDownLetterF.AccessibleName = "Relative Häufigkeit für den Buchstaben F";
+			kryptonNumericUpDownLetterF.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterF.AllowDecimals = true;
+			kryptonNumericUpDownLetterF.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterF.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterF.Location = new Point(80, 150);
+			kryptonNumericUpDownLetterF.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterF.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterF.Name = "kryptonNumericUpDownLetterF";
+			kryptonNumericUpDownLetterF.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterF.TabIndex = 22;
+			kryptonNumericUpDownLetterF.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterF.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterF.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterF.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterF.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterF.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterF
+			// 
+			kryptonLabelLetterF.AccessibleDescription = "Zeigt den Buchstabe F an";
+			kryptonLabelLetterF.AccessibleName = "Buchstabe F";
+			kryptonLabelLetterF.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterF.Location = new Point(12, 152);
+			kryptonLabelLetterF.Name = "kryptonLabelLetterF";
+			kryptonLabelLetterF.Size = new Size(19, 20);
+			kryptonLabelLetterF.TabIndex = 20;
+			kryptonLabelLetterF.Values.Text = "&F:";
+			kryptonLabelLetterF.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterF.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterF.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterF.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonComboBoxLetterE
+			// 
+			kryptonComboBoxLetterE.AccessibleDescription = "Wählt die Art des Buchstabens E";
+			kryptonComboBoxLetterE.AccessibleName = "Art des Buchstabens E";
+			kryptonComboBoxLetterE.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterE.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterE.DropDownWidth = 75;
+			kryptonComboBoxLetterE.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterE.Location = new Point(39, 122);
+			kryptonComboBoxLetterE.Name = "kryptonComboBoxLetterE";
+			kryptonComboBoxLetterE.Size = new Size(35, 22);
+			kryptonComboBoxLetterE.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterE.TabIndex = 17;
+			kryptonComboBoxLetterE.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterE.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterE.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterE.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterEPercent
+			// 
+			kryptonLabelLetterEPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben E an";
+			kryptonLabelLetterEPercent.AccessibleName = "Prozentzeichen für den Buchstabe E";
+			kryptonLabelLetterEPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterEPercent.Location = new Point(149, 124);
+			kryptonLabelLetterEPercent.Name = "kryptonLabelLetterEPercent";
+			kryptonLabelLetterEPercent.Size = new Size(21, 20);
+			kryptonLabelLetterEPercent.TabIndex = 19;
+			kryptonLabelLetterEPercent.Values.Text = "%";
+			kryptonLabelLetterEPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterEPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterEPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterEPercent.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonNumericUpDownLetterE
+			// 
+			kryptonNumericUpDownLetterE.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben E";
+			kryptonNumericUpDownLetterE.AccessibleName = "Relative Häufigkeit für den Buchstaben E";
+			kryptonNumericUpDownLetterE.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterE.AllowDecimals = true;
+			kryptonNumericUpDownLetterE.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterE.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterE.Location = new Point(80, 122);
+			kryptonNumericUpDownLetterE.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterE.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterE.Name = "kryptonNumericUpDownLetterE";
+			kryptonNumericUpDownLetterE.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterE.TabIndex = 18;
+			kryptonNumericUpDownLetterE.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterE.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterE.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterE.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterE.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterE.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterE
+			// 
+			kryptonLabelLetterE.AccessibleDescription = "Zeigt den Buchstabe E an";
+			kryptonLabelLetterE.AccessibleName = "Buchstabe E";
+			kryptonLabelLetterE.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterE.Location = new Point(12, 124);
+			kryptonLabelLetterE.Name = "kryptonLabelLetterE";
+			kryptonLabelLetterE.Size = new Size(19, 20);
+			kryptonLabelLetterE.TabIndex = 16;
+			kryptonLabelLetterE.Values.Text = "&E:";
+			kryptonLabelLetterE.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterE.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterE.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterE.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonComboBoxLetterD
+			// 
+			kryptonComboBoxLetterD.AccessibleDescription = "Wählt die Art des Buchstabens D";
+			kryptonComboBoxLetterD.AccessibleName = "Art des Buchstabens D";
+			kryptonComboBoxLetterD.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterD.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterD.DropDownWidth = 75;
+			kryptonComboBoxLetterD.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterD.Location = new Point(39, 94);
+			kryptonComboBoxLetterD.Name = "kryptonComboBoxLetterD";
+			kryptonComboBoxLetterD.Size = new Size(35, 22);
+			kryptonComboBoxLetterD.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterD.TabIndex = 13;
+			kryptonComboBoxLetterD.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterD.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterD.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterD.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterDPercent
+			// 
+			kryptonLabelLetterDPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben D an";
+			kryptonLabelLetterDPercent.AccessibleName = "Prozentzeichen für den Buchstabe D";
+			kryptonLabelLetterDPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterDPercent.Location = new Point(149, 96);
+			kryptonLabelLetterDPercent.Name = "kryptonLabelLetterDPercent";
+			kryptonLabelLetterDPercent.Size = new Size(21, 20);
+			kryptonLabelLetterDPercent.TabIndex = 15;
+			kryptonLabelLetterDPercent.Values.Text = "%";
+			kryptonLabelLetterDPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterDPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterDPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterDPercent.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonNumericUpDownLetterD
+			// 
+			kryptonNumericUpDownLetterD.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben D";
+			kryptonNumericUpDownLetterD.AccessibleName = "Relative Häufigkeit für den Buchstaben D";
+			kryptonNumericUpDownLetterD.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterD.AllowDecimals = true;
+			kryptonNumericUpDownLetterD.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterD.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterD.Location = new Point(80, 94);
+			kryptonNumericUpDownLetterD.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterD.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterD.Name = "kryptonNumericUpDownLetterD";
+			kryptonNumericUpDownLetterD.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterD.TabIndex = 14;
+			kryptonNumericUpDownLetterD.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterD.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterD.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterD.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterD.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterD.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterD
+			// 
+			kryptonLabelLetterD.AccessibleDescription = "Zeigt den Buchstabe D an";
+			kryptonLabelLetterD.AccessibleName = "Buchstabe D";
+			kryptonLabelLetterD.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterD.Location = new Point(12, 96);
+			kryptonLabelLetterD.Name = "kryptonLabelLetterD";
+			kryptonLabelLetterD.Size = new Size(22, 20);
+			kryptonLabelLetterD.TabIndex = 12;
+			kryptonLabelLetterD.Values.Text = "&D:";
+			kryptonLabelLetterD.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterD.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterD.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterD.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonComboBoxLetterC
+			// 
+			kryptonComboBoxLetterC.AccessibleDescription = "Wählt die Art des Buchstabens C";
+			kryptonComboBoxLetterC.AccessibleName = "Art des Buchstabens C";
+			kryptonComboBoxLetterC.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterC.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterC.DropDownWidth = 75;
+			kryptonComboBoxLetterC.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterC.Location = new Point(39, 66);
+			kryptonComboBoxLetterC.Name = "kryptonComboBoxLetterC";
+			kryptonComboBoxLetterC.Size = new Size(35, 22);
+			kryptonComboBoxLetterC.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterC.TabIndex = 9;
+			kryptonComboBoxLetterC.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterC.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterC.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterC.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterCPercent
+			// 
+			kryptonLabelLetterCPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben C an";
+			kryptonLabelLetterCPercent.AccessibleName = "Prozentzeichen für den Buchstabe C";
+			kryptonLabelLetterCPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterCPercent.Location = new Point(149, 68);
+			kryptonLabelLetterCPercent.Name = "kryptonLabelLetterCPercent";
+			kryptonLabelLetterCPercent.Size = new Size(21, 20);
+			kryptonLabelLetterCPercent.TabIndex = 11;
+			kryptonLabelLetterCPercent.Values.Text = "%";
+			kryptonLabelLetterCPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterCPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterCPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterCPercent.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonNumericUpDownLetterC
+			// 
+			kryptonNumericUpDownLetterC.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben C";
+			kryptonNumericUpDownLetterC.AccessibleName = "Relative Häufigkeit für den Buchstaben C";
+			kryptonNumericUpDownLetterC.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterC.AllowDecimals = true;
+			kryptonNumericUpDownLetterC.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterC.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterC.Location = new Point(80, 66);
+			kryptonNumericUpDownLetterC.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterC.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterC.Name = "kryptonNumericUpDownLetterC";
+			kryptonNumericUpDownLetterC.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterC.TabIndex = 10;
+			kryptonNumericUpDownLetterC.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterC.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterC.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterC.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterC.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterC.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterC
+			// 
+			kryptonLabelLetterC.AccessibleDescription = "Zeigt den Buchstabe C an";
+			kryptonLabelLetterC.AccessibleName = "Buchstabe C";
+			kryptonLabelLetterC.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterC.Location = new Point(12, 68);
+			kryptonLabelLetterC.Name = "kryptonLabelLetterC";
+			kryptonLabelLetterC.Size = new Size(21, 20);
+			kryptonLabelLetterC.TabIndex = 8;
+			kryptonLabelLetterC.Values.Text = "&C:";
+			kryptonLabelLetterC.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterC.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterC.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterC.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonComboBoxLetterB
+			// 
+			kryptonComboBoxLetterB.AccessibleDescription = "Wählt die Art des Buchstabens B";
+			kryptonComboBoxLetterB.AccessibleName = "Art des Buchstabens B";
+			kryptonComboBoxLetterB.AccessibleRole = AccessibleRole.DropList;
+			kryptonComboBoxLetterB.DropDownStyle = ComboBoxStyle.DropDownList;
+			kryptonComboBoxLetterB.DropDownWidth = 75;
+			kryptonComboBoxLetterB.Items.AddRange(new object[] { "C", "V" });
+			kryptonComboBoxLetterB.Location = new Point(39, 38);
+			kryptonComboBoxLetterB.Name = "kryptonComboBoxLetterB";
+			kryptonComboBoxLetterB.Size = new Size(35, 22);
+			kryptonComboBoxLetterB.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+			kryptonComboBoxLetterB.TabIndex = 5;
+			kryptonComboBoxLetterB.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterB.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterB.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterB.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterBPercent
+			// 
+			kryptonLabelLetterBPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben B an";
+			kryptonLabelLetterBPercent.AccessibleName = "Prozentzeichen für Buchstabe B";
+			kryptonLabelLetterBPercent.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterBPercent.Location = new Point(149, 40);
+			kryptonLabelLetterBPercent.Name = "kryptonLabelLetterBPercent";
+			kryptonLabelLetterBPercent.Size = new Size(21, 20);
+			kryptonLabelLetterBPercent.TabIndex = 7;
+			kryptonLabelLetterBPercent.Values.Text = "%";
+			kryptonLabelLetterBPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterBPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterBPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterBPercent.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonNumericUpDownLetterB
+			// 
+			kryptonNumericUpDownLetterB.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben B";
+			kryptonNumericUpDownLetterB.AccessibleName = "Relative Häufigkeit für den Buchstaben B";
+			kryptonNumericUpDownLetterB.AccessibleRole = AccessibleRole.SpinButton;
+			kryptonNumericUpDownLetterB.AllowDecimals = true;
+			kryptonNumericUpDownLetterB.DecimalPlaces = 2;
+			kryptonNumericUpDownLetterB.Increment = new decimal(new int[] { 1, 0, 0, 0 });
+			kryptonNumericUpDownLetterB.Location = new Point(80, 38);
+			kryptonNumericUpDownLetterB.Maximum = new decimal(new int[] { 100, 0, 0, 0 });
+			kryptonNumericUpDownLetterB.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+			kryptonNumericUpDownLetterB.Name = "kryptonNumericUpDownLetterB";
+			kryptonNumericUpDownLetterB.Size = new Size(63, 22);
+			kryptonNumericUpDownLetterB.TabIndex = 6;
+			kryptonNumericUpDownLetterB.ThousandsSeparator = true;
+			kryptonNumericUpDownLetterB.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterB.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterB.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterB.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterB.MouseLeave += ClearStatusBar_Leave;
+			// 
+			// kryptonLabelLetterB
+			// 
+			kryptonLabelLetterB.AccessibleDescription = "Zeigt den Buchstabe B an";
+			kryptonLabelLetterB.AccessibleName = "Buchstabe B";
+			kryptonLabelLetterB.AccessibleRole = AccessibleRole.StaticText;
+			kryptonLabelLetterB.Location = new Point(12, 40);
+			kryptonLabelLetterB.Name = "kryptonLabelLetterB";
+			kryptonLabelLetterB.Size = new Size(20, 20);
+			kryptonLabelLetterB.TabIndex = 4;
+			kryptonLabelLetterB.Values.Text = "&B:";
+			kryptonLabelLetterB.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterB.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterB.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterB.MouseLeave += ClearStatusBar_Leave;
 			// 
 			// kryptonComboBoxLetterA
 			// 
+			kryptonComboBoxLetterA.AccessibleDescription = "Wählt die Art des Buchstabens A";
+			kryptonComboBoxLetterA.AccessibleName = "Art des Buchstabens A";
 			kryptonComboBoxLetterA.AccessibleRole = AccessibleRole.DropList;
 			kryptonComboBoxLetterA.DropDownStyle = ComboBoxStyle.DropDownList;
 			kryptonComboBoxLetterA.DropDownWidth = 75;
@@ -1633,10 +2085,14 @@
 			kryptonComboBoxLetterA.Size = new Size(35, 22);
 			kryptonComboBoxLetterA.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
 			kryptonComboBoxLetterA.TabIndex = 1;
+			kryptonComboBoxLetterA.Enter += SetStatusBar_Enter;
+			kryptonComboBoxLetterA.Leave += ClearStatusBar_Leave;
+			kryptonComboBoxLetterA.MouseEnter += SetStatusBar_Enter;
+			kryptonComboBoxLetterA.MouseLeave += ClearStatusBar_Leave;
 			// 
 			// kryptonLabelLetterAPercent
 			// 
-			kryptonLabelLetterAPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstabe A an";
+			kryptonLabelLetterAPercent.AccessibleDescription = "Zeigt das Prozentzeichen der relativen Häufigkeit für den Buchstaben A an";
 			kryptonLabelLetterAPercent.AccessibleName = "Prozentzeichen für Buchstabe A";
 			kryptonLabelLetterAPercent.AccessibleRole = AccessibleRole.StaticText;
 			kryptonLabelLetterAPercent.Location = new Point(149, 12);
@@ -1644,11 +2100,15 @@
 			kryptonLabelLetterAPercent.Size = new Size(21, 20);
 			kryptonLabelLetterAPercent.TabIndex = 3;
 			kryptonLabelLetterAPercent.Values.Text = "%";
+			kryptonLabelLetterAPercent.Enter += SetStatusBar_Enter;
+			kryptonLabelLetterAPercent.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetterAPercent.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetterAPercent.MouseLeave += ClearStatusBar_Leave;
 			// 
 			// kryptonNumericUpDownLetterA
 			// 
 			kryptonNumericUpDownLetterA.AccessibleDescription = "Zeigt/Ändert die relative Häufigkeit für den Buchstaben A";
-			kryptonNumericUpDownLetterA.AccessibleName = "Relative Häufigkeit für den Buchstabens A";
+			kryptonNumericUpDownLetterA.AccessibleName = "Relative Häufigkeit für den Buchstaben A";
 			kryptonNumericUpDownLetterA.AccessibleRole = AccessibleRole.SpinButton;
 			kryptonNumericUpDownLetterA.AllowDecimals = true;
 			kryptonNumericUpDownLetterA.DecimalPlaces = 2;
@@ -1661,6 +2121,10 @@
 			kryptonNumericUpDownLetterA.TabIndex = 2;
 			kryptonNumericUpDownLetterA.ThousandsSeparator = true;
 			kryptonNumericUpDownLetterA.Value = new decimal(new int[] { 384615385, 0, 0, 655360 });
+			kryptonNumericUpDownLetterA.Enter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterA.Leave += ClearStatusBar_Leave;
+			kryptonNumericUpDownLetterA.MouseEnter += SetStatusBar_Enter;
+			kryptonNumericUpDownLetterA.MouseLeave += ClearStatusBar_Leave;
 			// 
 			// kryptonLabelLetteA
 			// 
@@ -1672,6 +2136,10 @@
 			kryptonLabelLetteA.Size = new Size(21, 20);
 			kryptonLabelLetteA.TabIndex = 0;
 			kryptonLabelLetteA.Values.Text = "&A:";
+			kryptonLabelLetteA.Enter += SetStatusBar_Enter;
+			kryptonLabelLetteA.Leave += ClearStatusBar_Leave;
+			kryptonLabelLetteA.MouseEnter += SetStatusBar_Enter;
+			kryptonLabelLetteA.MouseLeave += ClearStatusBar_Leave;
 			// 
 			// kryptonToolStrip
 			// 
@@ -1683,7 +2151,7 @@
 			kryptonToolStrip.Location = new Point(0, 0);
 			kryptonToolStrip.Name = "kryptonToolStrip";
 			kryptonToolStrip.Padding = new Padding(0);
-			kryptonToolStrip.Size = new Size(528, 25);
+			kryptonToolStrip.Size = new Size(518, 25);
 			kryptonToolStrip.Stretch = true;
 			kryptonToolStrip.TabIndex = 0;
 			kryptonToolStrip.TabStop = true;
@@ -1699,6 +2167,8 @@
 			toolStripButtonApply.Name = "toolStripButtonApply";
 			toolStripButtonApply.Size = new Size(84, 22);
 			toolStripButtonApply.Text = "Anwenden";
+			toolStripButtonApply.MouseEnter += SetStatusBar_Enter;
+			toolStripButtonApply.MouseLeave += ClearStatusBar_Leave;
 			// 
 			// toolStripButtonCancel
 			// 
@@ -1710,15 +2180,25 @@
 			toolStripButtonCancel.Name = "toolStripButtonCancel";
 			toolStripButtonCancel.Size = new Size(85, 22);
 			toolStripButtonCancel.Text = "Abbrechen";
+			toolStripButtonCancel.MouseEnter += SetStatusBar_Enter;
+			toolStripButtonCancel.MouseLeave += ClearStatusBar_Leave;
 			// 
 			// EsseDuForm
 			// 
+			AccessibleRole = AccessibleRole.Window;
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
-			ClientSize = new Size(528, 314);
+			ClientSize = new Size(518, 314);
 			Controls.Add(toolStripContainer);
+			FormBorderStyle = FormBorderStyle.FixedSingle;
+			HelpButton = true;
+			Icon = (Icon)resources.GetObject("$this.Icon");
+			MaximizeBox = false;
 			Name = "EsseDuForm";
+			ShowInTaskbar = false;
+			StartPosition = FormStartPosition.CenterParent;
 			Text = "Essë dû - Gewichtete Häufigkeit der Buchstaben";
+			Load += EsseDuForm_Load;
 			kryptonStatusStrip.ResumeLayout(false);
 			kryptonStatusStrip.PerformLayout();
 			toolStripContainer.BottomToolStripPanel.ResumeLayout(false);
@@ -1731,31 +2211,31 @@
 			((System.ComponentModel.ISupportInitialize)kryptonPanel).EndInit();
 			kryptonPanel.ResumeLayout(false);
 			kryptonPanel.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox24).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox25).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox12).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox13).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox14).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox15).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox16).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox17).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox18).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox19).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox20).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox21).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox22).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox23).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox11).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox10).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox9).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox8).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox7).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox6).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox5).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox4).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox3).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox2).EndInit();
-			((System.ComponentModel.ISupportInitialize)kryptonComboBox1).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterZ).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterY).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterX).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterW).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterV).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterU).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterT).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterS).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterR).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterQ).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterP).EndInit();
+			((System.ComponentModel.ISupportInitialize)OLetter).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterN).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterM).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterL).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterK).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterJ).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterI).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterH).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterG).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterF).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterE).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterD).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterC).EndInit();
+			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterB).EndInit();
 			((System.ComponentModel.ISupportInitialize)kryptonComboBoxLetterA).EndInit();
 			kryptonToolStrip.ResumeLayout(false);
 			kryptonToolStrip.PerformLayout();
@@ -1772,106 +2252,106 @@
 		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterA;
 		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterAPercent;
 		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterA;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox7;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel13;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown7;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel14;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox6;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel11;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown6;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel12;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox5;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel9;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown5;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel10;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox4;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel7;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown4;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel8;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox3;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel5;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown3;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel6;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox2;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel3;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown2;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel4;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox1;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel1;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown1;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel2;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox24;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel47;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown24;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel48;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox25;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel49;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown25;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel50;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox12;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel23;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown12;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel24;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox13;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel25;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown13;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel26;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox14;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel27;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown14;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel28;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox15;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel29;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown15;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel30;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox16;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel31;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown16;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel32;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox17;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel33;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterH;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterHPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterH;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterH;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterG;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterGPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterG;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterG;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterF;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterFPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterF;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterF;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterE;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterEPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterE;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterE;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterD;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterDPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterD;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterD;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterC;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterCPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterC;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterC;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterB;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterBPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterB;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterB;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterZ;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterZPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterZ;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterZ;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterY;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterYPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterY;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterY;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterX;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterXPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterX;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterX;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterW;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterWPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterW;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterW;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterV;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterVPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterV;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterV;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterU;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterUPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterU;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterU;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterT;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterTPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterT;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterT;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterS;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterSPercent;
 		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown17;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel34;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox18;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel35;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterS;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterR;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterRPercent;
 		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown18;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel36;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox19;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel37;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown19;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel38;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox20;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel39;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown20;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel40;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox21;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel41;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown21;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel42;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox22;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel43;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown22;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel44;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox23;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel45;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown23;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel46;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox11;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel21;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown11;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel22;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox10;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel19;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown10;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel20;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox9;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel17;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown9;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel18;
-		private Krypton.Toolkit.KryptonComboBox kryptonComboBox8;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel15;
-		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDown8;
-		private Krypton.Toolkit.KryptonLabel kryptonLabel16;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterR;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterQ;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterQPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterQ;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterQ;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterP;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterPPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownP;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterP;
+		private Krypton.Toolkit.KryptonComboBox OLetter;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterOPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterO;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelO;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterN;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterNPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterN;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterN;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterM;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterMPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterM;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterM;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterL;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterLPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterL;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterL;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterK;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterKPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterK;
+		private Krypton.Toolkit.KryptonLabel KLetter;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterJ;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterJPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterJ;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterJ;
+		private Krypton.Toolkit.KryptonComboBox kryptonComboBoxLetterI;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelLetterIPercent;
+		private Krypton.Toolkit.KryptonNumericUpDown kryptonNumericUpDownLetterI;
+		private Krypton.Toolkit.KryptonLabel kryptonLabelI;
 		private Krypton.Toolkit.KryptonToolStrip kryptonToolStrip;
 		private ToolStripButton toolStripButtonApply;
 		private ToolStripButton toolStripButtonCancel;
