@@ -33,13 +33,13 @@ namespace Narthalas
 		/// The default vowel set used for letter-based name generation.
 		/// This string is initialized from the <see cref="vowels"/> character array.
 		/// </summary>
-		private readonly string DefaultVowelSet = new(value: vowels); // Default vowel set for letter-based name generation
+		private readonly string DefaultVowelSet = new(value: vowels);
 
 		/// <summary>
 		/// The default consonant set used for letter-based name generation.
 		/// This string is initialized from the <see cref="consonants"/> character array.
 		/// </summary>
-		private readonly string DefaultConsonantSet = new(value: consonants); // Default consonant set for letter-based name generation
+		private readonly string DefaultConsonantSet = new(value: consonants);
 
 		/// <summary>
 		/// Array of possible syllable beginnings for syllable-based name generation.
@@ -1380,5 +1380,11 @@ namespace Narthalas
 		}
 
 		#endregion
+
+		private void KryptonButtonLetterTable_Click(object sender, EventArgs e)
+		{
+			using EsseDuForm letterTable = new();
+			_ = letterTable.ShowDialog();
+		}
 	}
 }
