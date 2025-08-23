@@ -2191,7 +2191,6 @@
 			ClientSize = new Size(518, 314);
 			Controls.Add(toolStripContainer);
 			FormBorderStyle = FormBorderStyle.FixedSingle;
-			HelpButton = true;
 			Icon = (Icon)resources.GetObject("$this.Icon");
 			MaximizeBox = false;
 			Name = "EsseDuForm";

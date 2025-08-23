@@ -1,16 +1,16 @@
 namespace Narthalas
 {
-    /// <summary>
-    /// Represents the main form of the Narthalas application.
-    /// Provides navigation to various name generator modules and utility dialogs.
-    /// </summary>
-    public partial class NarthalasForm : Form
+	/// <summary>
+	/// Represents the main form of the Narthalas application.
+	/// Provides navigation to various name generator modules and utility dialogs.
+	/// </summary>
+	public partial class NarthalasForm : Form
 	{
-        /// <summary>
-        /// Initializes a new instance of the <see cref="NarthalasForm"/> class.
-        /// Sets up the main form and its components.
-        /// </summary>
-        public NarthalasForm()
+		/// <summary>
+		/// Initializes a new instance of the <see cref="NarthalasForm"/> class.
+		/// Sets up the main form and its components.
+		/// </summary>
+		public NarthalasForm()
 		{
 			InitializeComponent();
 		}
@@ -114,7 +114,7 @@ namespace Narthalas
 		/// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
 		private void KryptonButtonGilathar_Click(object sender, EventArgs e)
 		{
-            using GilatharForm formGilathar = new();
+			using GilatharForm formGilathar = new();
 			_ = formGilathar.ShowDialog();
 		}
 
@@ -260,7 +260,7 @@ namespace Narthalas
 			_ = helpForm.ShowDialog();
 		}
 
-        #endregion
+		#endregion
 
-    }
+	}
 }

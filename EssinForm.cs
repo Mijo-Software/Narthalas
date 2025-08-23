@@ -101,7 +101,7 @@ namespace Narthalas
 		/// </summary>
 		private string separator = " "; // Default separator for output, can be changed based on user selection
 
-		private SpeechSynthesizer synthesizer;
+		private readonly SpeechSynthesizer synthesizer;
 
 		#endregion
 
