@@ -139,6 +139,7 @@
 			kryptonCheckButton3 = new Krypton.Toolkit.KryptonCheckButton();
 			backgroundWorkerLetterNames = new System.ComponentModel.BackgroundWorker();
 			backgroundWorkerSyllableName = new System.ComponentModel.BackgroundWorker();
+			kryptonButtonLetterTable = new Krypton.Toolkit.KryptonButton();
 			toolStripContainer.BottomToolStripPanel.SuspendLayout();
 			toolStripContainer.ContentPanel.SuspendLayout();
 			toolStripContainer.SuspendLayout();
@@ -254,6 +255,7 @@
 			// 
 			resources.ApplyResources(groupBoxLettersLanguageStyles, "groupBoxLettersLanguageStyles");
 			groupBoxLettersLanguageStyles.AccessibleRole = AccessibleRole.Grouping;
+			groupBoxLettersLanguageStyles.Controls.Add(kryptonButtonLetterTable);
 			groupBoxLettersLanguageStyles.Controls.Add(kryptonListBoxLettersLanguageStyles);
 			groupBoxLettersLanguageStyles.Controls.Add(kryptonButtonApplyLettersLanguageStyle);
 			groupBoxLettersLanguageStyles.Controls.Add(kryptonTextBoxLettersLanguageStyleConsonants);
@@ -272,9 +274,9 @@
 			kryptonListBoxLettersLanguageStyles.Items.AddRange(new object[] { resources.GetString("kryptonListBoxLettersLanguageStyles.Items"), resources.GetString("kryptonListBoxLettersLanguageStyles.Items1"), resources.GetString("kryptonListBoxLettersLanguageStyles.Items2"), resources.GetString("kryptonListBoxLettersLanguageStyles.Items3") });
 			kryptonListBoxLettersLanguageStyles.Name = "kryptonListBoxLettersLanguageStyles";
 			kryptonListBoxLettersLanguageStyles.Sorted = true;
-			kryptonListBoxLettersLanguageStyles.ToolTipValues.Description = resources.GetString("resource.Description");
+			kryptonListBoxLettersLanguageStyles.ToolTipValues.Description = resources.GetString("resource.Description1");
 			kryptonListBoxLettersLanguageStyles.ToolTipValues.EnableToolTips = true;
-			kryptonListBoxLettersLanguageStyles.ToolTipValues.Heading = resources.GetString("resource.Heading");
+			kryptonListBoxLettersLanguageStyles.ToolTipValues.Heading = resources.GetString("resource.Heading1");
 			kryptonListBoxLettersLanguageStyles.Enter += SetStatusBar_Enter;
 			kryptonListBoxLettersLanguageStyles.Leave += SetStatusBar_Enter;
 			kryptonListBoxLettersLanguageStyles.MouseEnter += SetStatusBar_Enter;
@@ -285,9 +287,9 @@
 			resources.ApplyResources(kryptonButtonApplyLettersLanguageStyle, "kryptonButtonApplyLettersLanguageStyle");
 			kryptonButtonApplyLettersLanguageStyle.AccessibleRole = AccessibleRole.PushButton;
 			kryptonButtonApplyLettersLanguageStyle.Name = "kryptonButtonApplyLettersLanguageStyle";
-			kryptonButtonApplyLettersLanguageStyle.ToolTipValues.Description = resources.GetString("resource.Description1");
+			kryptonButtonApplyLettersLanguageStyle.ToolTipValues.Description = resources.GetString("resource.Description2");
 			kryptonButtonApplyLettersLanguageStyle.ToolTipValues.EnableToolTips = true;
-			kryptonButtonApplyLettersLanguageStyle.ToolTipValues.Heading = resources.GetString("resource.Heading1");
+			kryptonButtonApplyLettersLanguageStyle.ToolTipValues.Heading = resources.GetString("resource.Heading2");
 			kryptonButtonApplyLettersLanguageStyle.ToolTipValues.Image = Properties.Resources.o_collection_office_ok_16;
 			kryptonButtonApplyLettersLanguageStyle.Values.DropDownArrowColor = Color.Empty;
 			kryptonButtonApplyLettersLanguageStyle.Values.Image = Properties.Resources.o_collection_office_ok_16;
@@ -303,9 +305,9 @@
 			resources.ApplyResources(kryptonTextBoxLettersLanguageStyleConsonants, "kryptonTextBoxLettersLanguageStyleConsonants");
 			kryptonTextBoxLettersLanguageStyleConsonants.AccessibleRole = AccessibleRole.Text;
 			kryptonTextBoxLettersLanguageStyleConsonants.Name = "kryptonTextBoxLettersLanguageStyleConsonants";
-			kryptonTextBoxLettersLanguageStyleConsonants.ToolTipValues.Description = resources.GetString("resource.Description2");
+			kryptonTextBoxLettersLanguageStyleConsonants.ToolTipValues.Description = resources.GetString("resource.Description3");
 			kryptonTextBoxLettersLanguageStyleConsonants.ToolTipValues.EnableToolTips = true;
-			kryptonTextBoxLettersLanguageStyleConsonants.ToolTipValues.Heading = resources.GetString("resource.Heading2");
+			kryptonTextBoxLettersLanguageStyleConsonants.ToolTipValues.Heading = resources.GetString("resource.Heading3");
 			kryptonTextBoxLettersLanguageStyleConsonants.Enter += SetStatusBar_Enter;
 			kryptonTextBoxLettersLanguageStyleConsonants.Leave += SetStatusBar_Enter;
 			kryptonTextBoxLettersLanguageStyleConsonants.MouseEnter += SetStatusBar_Enter;
@@ -316,9 +318,9 @@
 			resources.ApplyResources(kryptonLabelLettersLanguageStyleConsonants, "kryptonLabelLettersLanguageStyleConsonants");
 			kryptonLabelLettersLanguageStyleConsonants.AccessibleRole = AccessibleRole.StaticText;
 			kryptonLabelLettersLanguageStyleConsonants.Name = "kryptonLabelLettersLanguageStyleConsonants";
-			kryptonLabelLettersLanguageStyleConsonants.ToolTipValues.Description = resources.GetString("resource.Description3");
+			kryptonLabelLettersLanguageStyleConsonants.ToolTipValues.Description = resources.GetString("resource.Description4");
 			kryptonLabelLettersLanguageStyleConsonants.ToolTipValues.EnableToolTips = true;
-			kryptonLabelLettersLanguageStyleConsonants.ToolTipValues.Heading = resources.GetString("resource.Heading3");
+			kryptonLabelLettersLanguageStyleConsonants.ToolTipValues.Heading = resources.GetString("resource.Heading4");
 			kryptonLabelLettersLanguageStyleConsonants.Values.Text = resources.GetString("kryptonLabelLettersLanguageStyleConsonants.Values.Text");
 			kryptonLabelLettersLanguageStyleConsonants.Enter += SetStatusBar_Enter;
 			kryptonLabelLettersLanguageStyleConsonants.Leave += SetStatusBar_Enter;
@@ -330,9 +332,9 @@
 			resources.ApplyResources(kryptonLabelLettersLanguageStyleVowels, "kryptonLabelLettersLanguageStyleVowels");
 			kryptonLabelLettersLanguageStyleVowels.AccessibleRole = AccessibleRole.StaticText;
 			kryptonLabelLettersLanguageStyleVowels.Name = "kryptonLabelLettersLanguageStyleVowels";
-			kryptonLabelLettersLanguageStyleVowels.ToolTipValues.Description = resources.GetString("resource.Description4");
+			kryptonLabelLettersLanguageStyleVowels.ToolTipValues.Description = resources.GetString("resource.Description5");
 			kryptonLabelLettersLanguageStyleVowels.ToolTipValues.EnableToolTips = true;
-			kryptonLabelLettersLanguageStyleVowels.ToolTipValues.Heading = resources.GetString("resource.Heading4");
+			kryptonLabelLettersLanguageStyleVowels.ToolTipValues.Heading = resources.GetString("resource.Heading5");
 			kryptonLabelLettersLanguageStyleVowels.Values.Text = resources.GetString("kryptonLabelLettersLanguageStyleVowels.Values.Text");
 			kryptonLabelLettersLanguageStyleVowels.Enter += SetStatusBar_Enter;
 			kryptonLabelLettersLanguageStyleVowels.Leave += SetStatusBar_Enter;
@@ -344,9 +346,9 @@
 			resources.ApplyResources(kryptonTextBoxLettersLanguageStyleVowels, "kryptonTextBoxLettersLanguageStyleVowels");
 			kryptonTextBoxLettersLanguageStyleVowels.AccessibleRole = AccessibleRole.Text;
 			kryptonTextBoxLettersLanguageStyleVowels.Name = "kryptonTextBoxLettersLanguageStyleVowels";
-			kryptonTextBoxLettersLanguageStyleVowels.ToolTipValues.Description = resources.GetString("resource.Description5");
+			kryptonTextBoxLettersLanguageStyleVowels.ToolTipValues.Description = resources.GetString("resource.Description6");
 			kryptonTextBoxLettersLanguageStyleVowels.ToolTipValues.EnableToolTips = true;
-			kryptonTextBoxLettersLanguageStyleVowels.ToolTipValues.Heading = resources.GetString("resource.Heading5");
+			kryptonTextBoxLettersLanguageStyleVowels.ToolTipValues.Heading = resources.GetString("resource.Heading6");
 			kryptonTextBoxLettersLanguageStyleVowels.Enter += SetStatusBar_Enter;
 			kryptonTextBoxLettersLanguageStyleVowels.Leave += SetStatusBar_Enter;
 			kryptonTextBoxLettersLanguageStyleVowels.MouseEnter += SetStatusBar_Enter;
@@ -657,9 +659,9 @@
 			resources.ApplyResources(kryptonButtonSaveLettersResultsToClipboard, "kryptonButtonSaveLettersResultsToClipboard");
 			kryptonButtonSaveLettersResultsToClipboard.AccessibleRole = AccessibleRole.PushButton;
 			kryptonButtonSaveLettersResultsToClipboard.Name = "kryptonButtonSaveLettersResultsToClipboard";
-			kryptonButtonSaveLettersResultsToClipboard.ToolTipValues.Description = resources.GetString("resource.Description6");
+			kryptonButtonSaveLettersResultsToClipboard.ToolTipValues.Description = resources.GetString("resource.Description7");
 			kryptonButtonSaveLettersResultsToClipboard.ToolTipValues.EnableToolTips = true;
-			kryptonButtonSaveLettersResultsToClipboard.ToolTipValues.Heading = resources.GetString("resource.Heading6");
+			kryptonButtonSaveLettersResultsToClipboard.ToolTipValues.Heading = resources.GetString("resource.Heading7");
 			kryptonButtonSaveLettersResultsToClipboard.ToolTipValues.Image = Properties.Resources.o_collection_office_floppy_disk_16;
 			kryptonButtonSaveLettersResultsToClipboard.Values.DropDownArrowColor = Color.Empty;
 			kryptonButtonSaveLettersResultsToClipboard.Values.Image = Properties.Resources.o_collection_office_floppy_disk_16;
@@ -675,9 +677,9 @@
 			resources.ApplyResources(kryptonLabelSetLettersNumberNames, "kryptonLabelSetLettersNumberNames");
 			kryptonLabelSetLettersNumberNames.AccessibleRole = AccessibleRole.StaticText;
 			kryptonLabelSetLettersNumberNames.Name = "kryptonLabelSetLettersNumberNames";
-			kryptonLabelSetLettersNumberNames.ToolTipValues.Description = resources.GetString("resource.Description7");
+			kryptonLabelSetLettersNumberNames.ToolTipValues.Description = resources.GetString("resource.Description8");
 			kryptonLabelSetLettersNumberNames.ToolTipValues.EnableToolTips = true;
-			kryptonLabelSetLettersNumberNames.ToolTipValues.Heading = resources.GetString("resource.Heading7");
+			kryptonLabelSetLettersNumberNames.ToolTipValues.Heading = resources.GetString("resource.Heading8");
 			kryptonLabelSetLettersNumberNames.Values.Text = resources.GetString("kryptonLabelSetLettersNumberNames.Values.Text");
 			kryptonLabelSetLettersNumberNames.Enter += SetStatusBar_Enter;
 			kryptonLabelSetLettersNumberNames.Leave += SetStatusBar_Enter;
@@ -689,9 +691,9 @@
 			resources.ApplyResources(kryptonButtonDeleteLettersResultsToClipboard, "kryptonButtonDeleteLettersResultsToClipboard");
 			kryptonButtonDeleteLettersResultsToClipboard.AccessibleRole = AccessibleRole.PushButton;
 			kryptonButtonDeleteLettersResultsToClipboard.Name = "kryptonButtonDeleteLettersResultsToClipboard";
-			kryptonButtonDeleteLettersResultsToClipboard.ToolTipValues.Description = resources.GetString("resource.Description8");
+			kryptonButtonDeleteLettersResultsToClipboard.ToolTipValues.Description = resources.GetString("resource.Description9");
 			kryptonButtonDeleteLettersResultsToClipboard.ToolTipValues.EnableToolTips = true;
-			kryptonButtonDeleteLettersResultsToClipboard.ToolTipValues.Heading = resources.GetString("resource.Heading8");
+			kryptonButtonDeleteLettersResultsToClipboard.ToolTipValues.Heading = resources.GetString("resource.Heading9");
 			kryptonButtonDeleteLettersResultsToClipboard.ToolTipValues.Image = Properties.Resources.o_collection_office_delete_16;
 			kryptonButtonDeleteLettersResultsToClipboard.Values.DropDownArrowColor = Color.Empty;
 			kryptonButtonDeleteLettersResultsToClipboard.Values.Image = Properties.Resources.o_collection_office_delete_16;
@@ -708,9 +710,9 @@
 			kryptonButtonLettersOutputOptions.AccessibleRole = AccessibleRole.PushButton;
 			kryptonButtonLettersOutputOptions.ContextMenuStrip = contextMenuStripResultOptions;
 			kryptonButtonLettersOutputOptions.Name = "kryptonButtonLettersOutputOptions";
-			kryptonButtonLettersOutputOptions.ToolTipValues.Description = resources.GetString("resource.Description9");
+			kryptonButtonLettersOutputOptions.ToolTipValues.Description = resources.GetString("resource.Description10");
 			kryptonButtonLettersOutputOptions.ToolTipValues.EnableToolTips = true;
-			kryptonButtonLettersOutputOptions.ToolTipValues.Heading = resources.GetString("resource.Heading9");
+			kryptonButtonLettersOutputOptions.ToolTipValues.Heading = resources.GetString("resource.Heading10");
 			kryptonButtonLettersOutputOptions.ToolTipValues.Image = Properties.Resources.o_collection_office_wrench_16;
 			kryptonButtonLettersOutputOptions.Values.DropDownArrowColor = Color.Empty;
 			kryptonButtonLettersOutputOptions.Values.Image = Properties.Resources.o_collection_office_wrench_16;
@@ -830,9 +832,9 @@
 			kryptonTextBoxLettersResults.AccessibleRole = AccessibleRole.Text;
 			kryptonTextBoxLettersResults.Name = "kryptonTextBoxLettersResults";
 			kryptonTextBoxLettersResults.ReadOnly = true;
-			kryptonTextBoxLettersResults.ToolTipValues.Description = resources.GetString("resource.Description10");
+			kryptonTextBoxLettersResults.ToolTipValues.Description = resources.GetString("resource.Description11");
 			kryptonTextBoxLettersResults.ToolTipValues.EnableToolTips = true;
-			kryptonTextBoxLettersResults.ToolTipValues.Heading = resources.GetString("resource.Heading10");
+			kryptonTextBoxLettersResults.ToolTipValues.Heading = resources.GetString("resource.Heading11");
 			kryptonTextBoxLettersResults.ToolTipValues.Image = Properties.Resources.o_collection_office_text_16;
 			kryptonTextBoxLettersResults.Enter += SetStatusBar_Enter;
 			kryptonTextBoxLettersResults.Leave += SetStatusBar_Enter;
@@ -847,9 +849,9 @@
 			kryptonNumericUpDownSetLettersNumberNames.Maximum = new decimal(new int[] { 9999, 0, 0, 0 });
 			kryptonNumericUpDownSetLettersNumberNames.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
 			kryptonNumericUpDownSetLettersNumberNames.Name = "kryptonNumericUpDownSetLettersNumberNames";
-			kryptonNumericUpDownSetLettersNumberNames.ToolTipValues.Description = resources.GetString("resource.Description11");
+			kryptonNumericUpDownSetLettersNumberNames.ToolTipValues.Description = resources.GetString("resource.Description12");
 			kryptonNumericUpDownSetLettersNumberNames.ToolTipValues.EnableToolTips = true;
-			kryptonNumericUpDownSetLettersNumberNames.ToolTipValues.Heading = resources.GetString("resource.Heading11");
+			kryptonNumericUpDownSetLettersNumberNames.ToolTipValues.Heading = resources.GetString("resource.Heading12");
 			kryptonNumericUpDownSetLettersNumberNames.Value = new decimal(new int[] { 1, 0, 0, 0 });
 			kryptonNumericUpDownSetLettersNumberNames.Enter += SetStatusBar_Enter;
 			kryptonNumericUpDownSetLettersNumberNames.Leave += SetStatusBar_Enter;
@@ -861,9 +863,9 @@
 			resources.ApplyResources(kryptonButtonCopyLettersResultsToClipboard, "kryptonButtonCopyLettersResultsToClipboard");
 			kryptonButtonCopyLettersResultsToClipboard.AccessibleRole = AccessibleRole.PushButton;
 			kryptonButtonCopyLettersResultsToClipboard.Name = "kryptonButtonCopyLettersResultsToClipboard";
-			kryptonButtonCopyLettersResultsToClipboard.ToolTipValues.Description = resources.GetString("resource.Description12");
+			kryptonButtonCopyLettersResultsToClipboard.ToolTipValues.Description = resources.GetString("resource.Description13");
 			kryptonButtonCopyLettersResultsToClipboard.ToolTipValues.EnableToolTips = true;
-			kryptonButtonCopyLettersResultsToClipboard.ToolTipValues.Heading = resources.GetString("resource.Heading12");
+			kryptonButtonCopyLettersResultsToClipboard.ToolTipValues.Heading = resources.GetString("resource.Heading13");
 			kryptonButtonCopyLettersResultsToClipboard.ToolTipValues.Image = Properties.Resources.o_collection_office_copy_16;
 			kryptonButtonCopyLettersResultsToClipboard.Values.DropDownArrowColor = Color.Empty;
 			kryptonButtonCopyLettersResultsToClipboard.Values.Image = Properties.Resources.o_collection_office_copy_16;
@@ -879,9 +881,9 @@
 			resources.ApplyResources(kryptonButtonStartLettersOutput, "kryptonButtonStartLettersOutput");
 			kryptonButtonStartLettersOutput.AccessibleRole = AccessibleRole.PushButton;
 			kryptonButtonStartLettersOutput.Name = "kryptonButtonStartLettersOutput";
-			kryptonButtonStartLettersOutput.ToolTipValues.Description = resources.GetString("resource.Description13");
+			kryptonButtonStartLettersOutput.ToolTipValues.Description = resources.GetString("resource.Description14");
 			kryptonButtonStartLettersOutput.ToolTipValues.EnableToolTips = true;
-			kryptonButtonStartLettersOutput.ToolTipValues.Heading = resources.GetString("resource.Heading13");
+			kryptonButtonStartLettersOutput.ToolTipValues.Heading = resources.GetString("resource.Heading14");
 			kryptonButtonStartLettersOutput.ToolTipValues.Image = Properties.Resources.o_collection_office_gearwheels_16;
 			kryptonButtonStartLettersOutput.Values.DropDownArrowColor = Color.Empty;
 			kryptonButtonStartLettersOutput.Values.Image = Properties.Resources.o_collection_office_gearwheels_16;
@@ -1539,6 +1541,20 @@
 			backgroundWorkerSyllableName.WorkerSupportsCancellation = true;
 			backgroundWorkerSyllableName.DoWork += BackgroundWorkerSyllableName_DoWork;
 			// 
+			// kryptonButtonLetterTable
+			// 
+			resources.ApplyResources(kryptonButtonLetterTable, "kryptonButtonLetterTable");
+			kryptonButtonLetterTable.AccessibleRole = AccessibleRole.PushButton;
+			kryptonButtonLetterTable.Name = "kryptonButtonLetterTable";
+			kryptonButtonLetterTable.ToolTipValues.Description = resources.GetString("resource.Description");
+			kryptonButtonLetterTable.ToolTipValues.EnableToolTips = true;
+			kryptonButtonLetterTable.ToolTipValues.Heading = resources.GetString("resource.Heading");
+			kryptonButtonLetterTable.ToolTipValues.Image = Properties.Resources.o_collection_office_ok_16;
+			kryptonButtonLetterTable.Values.DropDownArrowColor = Color.Empty;
+			kryptonButtonLetterTable.Values.Image = Properties.Resources.o_collection_office_table_16;
+			kryptonButtonLetterTable.Values.Text = resources.GetString("kryptonButton10.Values.Text");
+			kryptonButtonLetterTable.Click += KryptonButtonLetterTable_Click;
+			// 
 			// EssinForm
 			// 
 			AccessibleRole = AccessibleRole.Window;
@@ -1703,5 +1719,6 @@
 		private System.ComponentModel.BackgroundWorker backgroundWorkerSyllableName;
         private Krypton.Toolkit.KryptonButton kryptonButtonClearTextBoxIndividualPattern;
 		private Krypton.Toolkit.KryptonButton kryptonButtonLettersResetDefault;
+		private Krypton.Toolkit.KryptonButton kryptonButtonLetterTable;
 	}
 }
